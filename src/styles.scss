@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primary: #06EEFF;
+    --secondary: #943DFF;
+    --font: #3D3C3A;
+    --secondary-font: var(--primary);
+    --header-height: 58px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "Be Vietnam Pro", sans-serif; }
+
+*:not(button) > {
+    h1, h2, h3, h4, h5, h6, p, span, small {
+        color: var(--font);
+    }
+}
