@@ -1,0 +1,61 @@
+.home {
+    &__gameweek {
+        font-weight: 600;
+        font-size: 45px;
+        margin: 10px 0 30px;
+    }
+}
+
+.league {
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+    th {
+        background-color: var(--secondary);
+        color: white;
+        font-weight: 600;
+        border-bottom: 1px solid #ddd;
+        height: 30px;
+    }
+
+    th, td {
+        padding: 6px;
+        text-align: center;
+    }
+
+    &__rank {
+        font-weight: 600;
+    }
+
+    &__row-gold {
+        background-color: #FFD70060 !important;
+    }
+    &__row-silver {
+        background-color: #C0C0C060 !important;
+    }
+    &__row-bronze {
+        background-color: #CD7F3260 !important;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #943DFF20;
+    }
+
+    &__team-manager {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__team {
+        font-weight: 600;
+        text-align: left;
+    }
+
+    &__manager {
+        font-size: 0.85rem;
+        opacity: 0.6;
+        text-align: left;
+    }
+}

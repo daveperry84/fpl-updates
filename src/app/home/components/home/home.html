@@ -1,0 +1,52 @@
+@let data = latestData();
+<div class="home">
+    <h1 class="home__gameweek">Update for GW{{data.gameweek}}</h1>
+
+    <table class="league">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>+/-</th>
+                <th>Team & Manager</th>
+                <th>GW{{data.gameweek}}</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (team of data.league; track team) {
+                <tr class="
+                league__team-row 
+                {{team.rank === 1 ? 'league__row-gold' : ''}}
+                {{team.rank === 2 ? 'league__row-silver' : ''}}
+                {{team.rank === 3 ? 'league__row-bronze' : ''}}
+                ">
+                    <td class="league__rank">{{team.rank === 1 ? '' : team.rank}}</td>
+                    <td></td>
+                    <td class="league__team-manager">
+                        <span class="league__team">{{team.team}}</span>
+                        <span class="league__manager">{{team.manager}}</span>
+                    </td>
+                    <td>{{team.gw}}</td>
+                    <td>{{team.total}}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+    <div [innerHTML]="data.overview"></div>
+
+    <div class="home__totw">
+        <h2>⭐ Team of the Week</h2>
+        <div [innerHTML]="data.totw"></div>
+    </div>
+
+    <div class="home__potw">
+        <h2>👌🏻 Player of the Week</h2>
+        <div [innerHTML]="data.potw"></div>
+    </div>
+
+    <div class="home__sacked">
+        <h2>😱 Sacked in the morning</h2>
+        <div [innerHTML]="data.sacked"></div>
+    </div>
+</div>
