@@ -1,0 +1,43 @@
+<div class="league-container 
+    {{enableExpandCollapse() && !displayExpanded() ? 'league-container--collapsed' : ''}}">
+    @if (enableExpandCollapse() && !displayExpanded()) {
+        <div class="league-overlay">
+            <button class="league-overlay__button" (click)="displayExpanded.set(true)">Show full league</button>
+        </div>
+    }
+    <table class="league">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>+/-</th>
+                <th>Team & Manager</th>
+                <th>GW</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (team of data(); track team) {
+                <tr class="
+                league__team-row 
+                {{team.rank === 1 ? 'league__row-gold' : ''}}
+                {{team.rank === 2 ? 'league__row-silver' : ''}}
+                {{team.rank === 3 ? 'league__row-bronze' : ''}}
+                ">
+                    <td class="league__rank">{{team.rank === 1 ? '' : team.rank}}</td>
+                    <td></td>
+                    <td class="league__team-manager">
+                        <span class="league__team">{{team.team}}</span>
+                        <span class="league__manager">{{team.manager}}</span>
+                    </td>
+                    <td>{{team.gw}}</td>
+                    <td>{{team.total}}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @if (enableExpandCollapse() && displayExpanded()) {
+        <div class="league__collapse">
+            <button class="league__collapse-button" (click)="displayExpanded.set(false)">Collapse league</button>
+        </div>
+    }
+</div>

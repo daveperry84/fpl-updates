@@ -1,0 +1,99 @@
+.league-container {
+    position: relative;
+    overflow: hidden;
+
+    &--collapsed {
+        max-height: 275px;
+    }
+}
+
+.league-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 275px;
+    background: linear-gradient(rgba(255, 255, 255, 0) 50%, #FFF 80%);
+    z-index: 10;
+
+    &__button {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        border: none;
+        cursor: pointer;
+        background: none;
+        font-size: 1rem;
+    }
+}
+
+.league {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+    th {
+        background-color: var(--secondary);
+        color: white;
+        font-weight: 600;
+        border-bottom: 1px solid #ddd;
+        height: 30px;
+    }
+
+    th, td {
+        padding: 6px;
+        text-align: center;
+    }
+
+    &__rank {
+        font-weight: 600;
+    }
+
+    &__row-gold {
+        background-color: #FFD70060 !important;
+    }
+    &__row-silver {
+        background-color: #C0C0C060 !important;
+    }
+    &__row-bronze {
+        background-color: #CD7F3260 !important;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #943DFF20;
+    }
+
+    &__team-manager {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__team {
+        font-weight: 600;
+        text-align: left;
+    }
+
+    &__manager {
+        font-size: 0.85rem;
+        opacity: 0.6;
+        text-align: left;
+    }
+
+    &__collapse {
+        position: relative;
+        height: 30px;
+        margin: 10px;
+
+    }
+
+    &__collapse-button {
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        border: none;
+        cursor: pointer;
+        background: none;
+        font-size: 1rem;
+    }
+}
