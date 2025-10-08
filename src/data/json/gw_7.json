@@ -2,9 +2,21 @@
 {
     "gameweek": 7,
     "overview": "<p>No change at the top again this week as <b>Try Hard FC</b>, <b>Stranger Mings</b> and <b>Shadechester FC</b> continue to maintain their hold on the top 3. <b>Try Hard FC</b> we're able to increase their lead to 32pts mainly thanks to a poor week for 2nd placed <b>Stranger Mings</b>.</p><p>In fact, the order of the top 6 teams remained the same as last week as most teams at the top cancelled each other out with the same team base of Guéhi, Semenyo and Haaland as captain. Seven of the top 10 teams all scored point totals this week that were within 6pts of each other.</p><p>It's becoming clear that if teams in the chasing pack want to catch the top 3, they will need to be braver and take more risks when choosing players and captains.</p>",
-    "totw": "<p><b>Yorkshire Lass UTD</b> edged out a very slight advantage over everyone else and picked up their second TOTW award, achieving the highest points total of GW7 with 79pts. Semenyo and captain Haaland provided the bulk of the points for the team, but the differential points came from the likes of Timber, Truffert and Mbeumo who all chipped in with assists. Well done Claire, and I thought you knew nothing about football 😉</p>",
-    "potw": "<p><b>Antoine Semenyo</b> (BOU 🔴⚫ - £7.9m) has obviously been one of the best players of the season so far and picks up his second POTW award. Two goals and an assist saw Semenyo scoring 18pts for 11 of the 20 teams in the league, and 36pts for *Brian Munich* who were the only team to captain the Bournemouth forward.</p>",
-    "sacked": "<p><b>Wards Wanderers</b> and their manager Scott have had a week to forget, scoring the lowest amount of points this week with 27pts and are currently rooted to the bottom of the table. A total of 4 injuries plus a player no longer in the Premier League has hindered progress for the team somewhat.</p><p>In the top half of the table, <b>Stranger Mings</b> will be cursing their inability to capitalise on their recent high-scoring performances in the last few weeks, dropping valuable points this week against the teams around them.</p>",
+    "totw": [{ "team": "Yorkshire Lass UTD", "manager": "Claire Perry" }],
+    "totwDescription": "<p><b>Yorkshire Lass UTD</b> edged out a very slight advantage over everyone else and picked up their second TOTW award, achieving the highest points total of GW7 with 79pts. Semenyo and captain Haaland provided the bulk of the points for the team, but the differential points came from the likes of Timber, Truffert and Mbeumo who all chipped in with assists. Well done Claire, and I thought you knew nothing about football 😉</p>",
+    "sacked": [{ "team": "Wards Wanderers", "manager": "Scott Ward" }],
+    "sackedDescription": "<p><b>Wards Wanderers</b> and their manager Scott have had a week to forget, scoring the lowest amount of points this week with 27pts and are currently rooted to the bottom of the table. A total of 4 injuries plus a player no longer in the Premier League has hindered progress for the team somewhat.</p><p>In the top half of the table, <b>Stranger Mings</b> will be cursing their inability to capitalise on their recent high-scoring performances in the last few weeks, dropping valuable points this week against the teams around them.</p>",
+    "otherUpdates": [
+        {
+            "title": "👌🏻 Player of the Week",
+            "content": "<p><b>Antoine Semenyo</b> (BOU 🔴⚫ - £7.9m) has obviously been one of the best players of the season so far and picks up his second POTW award. Two goals and an assist saw Semenyo scoring 18pts for 11 of the 20 teams in the league, and 36pts for *Brian Munich* who were the only team to captain the Bournemouth forward.</p>"
+        },
+        {
+            "title": "⏭️ Next Gameweek",
+            "content": "It's International break again next weekend (unfortunately) and so the deadline for locking in teams, transfers and chips for GW8 is Saturday 18th October at 11am.",
+            "currentOnly": true
+        }
+    ],
     "league": [
         {
             "rank": 1,

@@ -1,11 +1,18 @@
 export interface GameWeek {
   gameweek: number;
   overview: string;
-  totw: string;
-  potw: string;
-  sacked: string;
+  totw: TeamData[];
+  totwDescription: string;
+  sacked: TeamData[];
+  sackedDescription: string;
+  otherUpdates: Update[];
   league: TeamEntry[];
 };
+
+export interface TeamData {
+  team: string;
+  manager: string;
+}
 
 export interface TeamEntry {
   rank: number;
@@ -14,3 +21,9 @@ export interface TeamEntry {
   gw: number;
   total: number;
 };
+
+export interface Update {
+  title: string;
+  content: string;
+  currentOnly?: boolean;
+}

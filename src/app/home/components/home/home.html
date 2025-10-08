@@ -8,16 +8,18 @@
 
     <div class="home__totw">
         <h2>⭐ Team of the Week</h2>
-        <div [innerHTML]="data.totw"></div>
-    </div>
-
-    <div class="home__potw">
-        <h2>👌🏻 Player of the Week</h2>
-        <div [innerHTML]="data.potw"></div>
+        <div [innerHTML]="data.totwDescription"></div>
     </div>
 
     <div class="home__sacked">
         <h2>😱 Sacked in the morning</h2>
-        <div [innerHTML]="data.sacked"></div>
+        <div [innerHTML]="data.sackedDescription"></div>
+    </div>
+
+    <div class="home__other-updates">
+        @for (update of data.otherUpdates; track update) {
+            <h2>{{update.title}}</h2>
+            <div [innerHTML]="update.content"></div>
+        }
     </div>
 </div>

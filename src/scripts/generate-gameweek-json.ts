@@ -8,9 +8,18 @@ const output = `
 {
     "gameweek": ${gwNumber},
     "overview": "",
-    "totw": "",
-    "potw": "",
-    "sacked": "",
+    "totw": [
+        { "team": "", "manager": "" }
+    ],
+    "totwDescription": "",
+    "sacked": [
+        { "team": "", "manager": "" }
+    ],
+    "sackedDescription": "",
+    "otherUpdates": [
+        { "title": "👌🏻 Player of the Week", "content": "" },
+        { "title": "⏭️ Next Gameweek", "content": "" }
+    ],
     "league": []
 }
 `;
