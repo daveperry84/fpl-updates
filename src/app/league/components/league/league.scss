@@ -55,6 +55,14 @@
         font-weight: 600;
     }
 
+    &__rank-first {
+        font-size: 1.5rem;
+
+        @media (max-width: 768px) {
+            font-size: 1.2rem;
+        }
+    }
+
     &__row-gold {
         background-color: #FFD70060 !important;
     }

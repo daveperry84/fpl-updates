@@ -23,7 +23,13 @@
                 {{team.rank === 2 ? 'league__row-silver' : ''}}
                 {{team.rank === 3 ? 'league__row-bronze' : ''}}
                 ">
-                    <td class="league__rank">{{team.rank === 1 ? '' : team.rank}}</td>
+                    <td class="league__rank">
+                        @if (team.rank === 1) {
+                            <ng-icon class="league__rank-first" name="ionTrophySharp" />
+                        } @else {
+                            <span>{{team.rank}}</span>
+                        }
+                    </td>
                     <td></td>
                     <td class="league__team-manager">
                         <span class="league__team">{{team.team}}</span>

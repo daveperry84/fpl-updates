@@ -1,11 +1,14 @@
 import { Component, effect, input, signal, WritableSignal } from '@angular/core';
 import { TeamEntry } from '../../../core/types/game-week.type';
+import { NgIcon, provideIcons } from '@ng-icons/core';
+import { ionTrophySharp } from '@ng-icons/ionicons';
 
 @Component({
   selector: 'app-league',
-  imports: [],
+  imports: [NgIcon],
   templateUrl: './league.html',
-  styleUrl: './league.scss'
+  styleUrl: './league.scss',
+  viewProviders: [provideIcons({ ionTrophySharp })]
 })
 export class League {
   public data = input<TeamEntry[]>([]);
