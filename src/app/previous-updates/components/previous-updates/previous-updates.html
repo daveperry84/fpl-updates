@@ -1,0 +1,18 @@
+<div class="previous-updates page-content">
+    <h2 class="previous-updates__title">Previous Gameweeks</h2>
+
+    <div class="previous-updates__gw-list">
+        @for (gw of allData; track gw.gameweek) {
+            <div class="
+                previous-updates__gw-btn 
+                {{gw.gameweek === selectedGameweek() ? 'selected' : ''}}
+                " 
+                (click)="selectGameweek(gw.gameweek)">
+                GW {{gw.gameweek}}
+            </div>
+        }
+    </div>
+    <div class="previous-updates__hr"></div>
+
+    <app-updates #updates [data]="data()" [isCurrent]="false" />
+</div>

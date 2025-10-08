@@ -15,6 +15,15 @@ export class League {
   protected displayExpanded: WritableSignal<boolean> = signal<boolean>(false);
 
   constructor() {
-    effect(() => this.displayExpanded.set(this.expanded()));
+    effect(() => {
+      const expanded = this.expanded();
+      this.displayExpanded.set(expanded);
+    });
+  }
+
+  public setExpanded(state: boolean) {
+    if (this.enableExpandCollapse()) {
+      this.displayExpanded.set(state);
+    }
   }
 }

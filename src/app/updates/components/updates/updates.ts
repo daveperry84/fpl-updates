@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, effect, input, signal, viewChild, WritableSignal } from '@angular/core';
 import { GameWeek } from '../../../core/types/game-week.type';
 import { League } from '../../../league/components/league/league';
 
@@ -11,4 +11,11 @@ import { League } from '../../../league/components/league/league';
 export class Updates {
   public data = input<GameWeek>();
   public isCurrent = input<boolean>(false);
+  protected leagueCompRef = viewChild<League>('league');
+
+  public setLeagueExpanded(state: boolean) {
+    if (this.leagueCompRef()) {
+      this.leagueCompRef()?.setExpanded(state);
+    }
+  }
 }

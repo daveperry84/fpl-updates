@@ -4,7 +4,7 @@
     @if (_data) {
         <h1 class="updates__title">Update for GW{{_data.gameweek}}</h1>
         <div class="updates__content">
-            <app-league [data]="_data.league" [enableExpandCollapse]="true" [expanded]="false"></app-league>
+            <app-league #league [data]="_data.league" [enableExpandCollapse]="true" [expanded]="false" />
             
             <div [innerHTML]="_data.overview"></div>
         
