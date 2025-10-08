@@ -1,0 +1,19 @@
+.updates {
+    &__title {
+        font-weight: 600;
+        font-size: 45px;
+        margin: 10px 0 30px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__other {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}

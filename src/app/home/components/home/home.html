@@ -1,25 +1,8 @@
 @let data = latestData();
-<div class="home">
-    <h1 class="home__gameweek">Update for GW{{data.gameweek}}</h1>
-
-    <app-league [data]="data.league" [enableExpandCollapse]="true" [expanded]="false"></app-league>
-    
-    <div [innerHTML]="data.overview"></div>
-
-    <div class="home__totw">
-        <h2>⭐ Team of the Week</h2>
-        <div [innerHTML]="data.totwDescription"></div>
-    </div>
-
-    <div class="home__sacked">
-        <h2>😱 Sacked in the morning</h2>
-        <div [innerHTML]="data.sackedDescription"></div>
-    </div>
-
-    <div class="home__other-updates">
-        @for (update of data.otherUpdates; track update) {
-            <h2>{{update.title}}</h2>
-            <div [innerHTML]="update.content"></div>
-        }
-    </div>
+<div class="home page-content">
+    @if (data) {
+        <app-updates [data]="data" [isCurrent]="true"></app-updates>
+    } @else {
+        <p>No data available</p>
+    }
 </div>

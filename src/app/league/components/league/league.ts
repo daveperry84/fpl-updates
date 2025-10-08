@@ -17,6 +17,4 @@ export class League {
   constructor() {
     effect(() => this.displayExpanded.set(this.expanded()));
   }
-
-
 }

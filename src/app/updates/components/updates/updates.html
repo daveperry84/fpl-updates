@@ -1,0 +1,33 @@
+@let _data = data();
+
+<div class="updates">    
+    @if (_data) {
+        <h1 class="updates__title">Update for GW{{_data.gameweek}}</h1>
+        <div class="updates__content">
+            <app-league [data]="_data.league" [enableExpandCollapse]="true" [expanded]="false"></app-league>
+            
+            <div [innerHTML]="_data.overview"></div>
+        
+            <div class="updates__totw">
+                <h2>⭐ Team of the Week</h2>
+                <div [innerHTML]="_data.totwDescription"></div>
+            </div>
+        
+            <div class="updates__sacked">
+                <h2>😱 Sacked in the morning</h2>
+                <div [innerHTML]="_data.sackedDescription"></div>
+            </div>
+        
+            <div class="updates__other">
+                @for (update of _data.otherUpdates; track update) {
+                    @if (!update.currentOnly || (update.currentOnly && isCurrent())) {
+                        <div class="updates__other-item">
+                            <h2>{{update.title}}</h2>
+                            <div [innerHTML]="update.content"></div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    }
+</div>
