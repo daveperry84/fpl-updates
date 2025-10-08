@@ -3,6 +3,10 @@
         font-weight: 600;
         font-size: 45px;
         margin: 10px 0 30px;
+
+        @media (max-width: 768px) {
+            font-size: 36px;
+        }
     }
 
     &__content {

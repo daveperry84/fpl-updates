@@ -44,6 +44,11 @@
     th, td {
         padding: 6px;
         text-align: center;
+
+        @media (max-width: 768px) {
+            padding: 4px;
+            font-size: 0.8rem;
+        }
     }
 
     &__rank {
