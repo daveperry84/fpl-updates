@@ -17,8 +17,14 @@ const output = `
     ],
     "sackedDescription": "",
     "otherUpdates": [
-        { "title": "👌🏻 Player of the Week", "content": "" },
-        { "title": "⏭️ Next Gameweek", "content": "" }
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "" 
+        },
+        { 
+            "title": "⏭️ Next Gameweek", 
+            "content": "" 
+        }
     ],
     "league": []
 }
