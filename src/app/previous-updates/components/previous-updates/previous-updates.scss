@@ -8,6 +8,7 @@
 
     &__gw-list {
         display: flex;
+        flex-wrap: wrap;
         gap: 10px;
         margin: 30px 0;
     }
@@ -29,7 +30,7 @@
         &.selected {
             background-color: var(--secondary);
             color: white;
-            border: none;
+            border: 1px solid var(--secondary);
         }
     }
 }

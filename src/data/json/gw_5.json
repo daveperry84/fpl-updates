@@ -1,0 +1,41 @@
+
+{
+    "gameweek": 5,
+    "overview": "<p><b>Try Hard FC</b> continued to consolidate their lead at the top of the table with yet another good gameweek, increasing their lead at the top to 45pts. <b>Stranger Mings</b> have moved up into 2nd place, replacing <b>Shadechester FC</b> who have moved down to 3rd place.</p><p>Other big movers in the top 10 include <b>Redder's Rejects</b> who moved up 4 places to 4th and <b>Change Name</b> moved up 5 places to 6th. It's still relatively close at the top of the table with only 41pts separating 2nd to 10th place.</p><p>It was a relatively low scoring week all round in comparison to previous weeks as some of the top PL teams and highest selected players came up against difficult opposition and Bournemouth and Newcastle were the only teams to keep a clean sheet.</p>",
+    "totw": [
+        { "team": "Try Hard FC", "manager": "Matthew Ashley" }
+    ],
+    "totwDescription": "<p>In what has become something of a tradition, <b>Try Hard FC</b> are once again the highest scoring team of GW5 with 64pts, winning their third TOTW award of the season. Matthew opted to play the Triple Captain chip on Bruno Fernandes who inevitably scored a huge 30pts and provided almost half of the teams total for the week. We continue to bow down to your superior technical know-how Matthew 🙌🏻</p><p>Josh and his team <b>Johnmcginnsthegoat</b> deserve an honourable mention. Josh decided to play his wildcard this week and achieved the second highest score of the week with 59pts after being the lowest scoring team last week 👏🏻</p>",
+    "sacked": [
+        { "team": "SmallTalkWithaSwede", "manager": "Stuart Jackson" }
+    ],
+    "sackedDescription": "<p>Stuart may wish to avert his eyes as his team <b>SmallTalkWithaSwede</b> are the lowest scoring team of the week, with a meagre 23pts. Robert Sanchez's red card madness against Man United meant a -3pts score (despite actually keeping a clean sheet for the whole 5 minutes he was on the pitch). Wirtz and Isak continuing to blank added to the teams woes. Keep heart Jack, it's a marathon not a sprint 🏃🏻‍♂️</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "<p><b>Ryan Gravenberch</b> (LIV 🔴 - £5.5m) and <b>Anton Stach</b> (LEE ⚪ - £5.0m) share the player of the week award for GW5, both achieving 15pts. Gravenberch chipped in with a goal, an assist and 14 defensive contributions whilst Stach also scored a goal and assist plus 15 defensive contributions. It was a very good week for defensive midfielders!</p>" 
+        }
+    ],
+    "league": [
+        { "rank": 1, "team": "Try hard FC", "manager": "Matthew Ashley", "gw": 64, "total": 339 },
+        { "rank": 2, "team": "stranger Mings", "manager": "Gareth Taylor", "gw": 55, "total": 294 },
+        { "rank": 3, "team": "Shadechester FC", "manager": "Jade Dixon Bowers", "gw": 48, "total": 289 },
+        { "rank": 4, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 57, "total": 273 },
+        { "rank": 5, "team": "Yorkshire Lass UTD", "manager": "Claire Perry", "gw": 38, "total": 268 },
+        { "rank": 6, "team": "Change Name", "manager": "Alex Burney", "gw": 57, "total": 266 },
+        { "rank": 7, "team": "Under my Cucurella", "manager": "Dave Perry", "gw": 53, "total": 265 },
+        { "rank": 8, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 50, "total": 261 },
+        { "rank": 9, "team": "Norfolk N Chance", "manager": "James Swain", "gw": 36, "total": 258 },
+        { "rank": 10, "team": "chicken caesar salah", "manager": "Dan Zreika", "gw": 31, "total": 253 },
+        { "rank": 11, "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson", "gw": 23, "total": 249 },
+        { "rank": 12, "team": "Pure Worship", "manager": "Matthew Doyle", "gw": 43, "total": 237 },
+        { "rank": 13, "team": "Kpnuts", "manager": "Katie Perry", "gw": 31, "total": 236 },
+        { "rank": 14, "team": "Brian Munich", "manager": "Brian Perry", "gw": 44, "total": 231 },
+        { "rank": 15, "team": "PurpleReina", "manager": "Liam Duncan", "gw": 44, "total": 230 },
+        { "rank": 16, "team": "Johnmcginnsthegoat", "manager": "Josh Swain", "gw": 59, "total": 228 },
+        { "rank": 17, "team": "I don't know", "manager": "Charlie Swain", "gw": 30, "total": 222 },
+        { "rank": 18, "team": "What's for pud ..", "manager": "Sharon Perry", "gw": 40, "total": 214 },
+        { "rank": 19, "team": "Doggers FC", "manager": "Paul Harris", "gw": 43, "total": 213 },
+        { "rank": 19, "team": "Wards Wanderers", "manager": "Scott Ward", "gw": 30, "total": 213 }
+    ]
+}

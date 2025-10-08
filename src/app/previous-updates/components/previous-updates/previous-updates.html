@@ -2,13 +2,13 @@
     <h2 class="previous-updates__title">Previous Gameweeks</h2>
 
     <div class="previous-updates__gw-list">
-        @for (gw of allData; track gw.gameweek) {
+        @for (gw of gameweekButtons(); track gw) {
             <div class="
                 previous-updates__gw-btn 
-                {{gw.gameweek === selectedGameweek() ? 'selected' : ''}}
+                {{gw === selectedGameweek() ? 'selected' : ''}}
                 " 
-                (click)="selectGameweek(gw.gameweek)">
-                GW {{gw.gameweek}}
+                (click)="selectGameweek(gw)">
+                GW {{gw}}
             </div>
         }
     </div>
