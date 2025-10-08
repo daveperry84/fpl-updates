@@ -12,11 +12,8 @@ import { Updates } from '../../../updates/components/updates/updates';
   styleUrl: './home.scss'
 })
 export class Home {
-  public latestData = computed<GameWeek>(() => {
-    // Find the latest gameweek data based on the highest gameweek number
-    return allGWData.reduce((prev, current) => {
-      return (prev && prev.gameweek > current.gameweek) ? prev : current
-    });
+  public latestGameweek = computed<number>(() => {
+    return Math.max(...allGWData.map(gw => gw.gameweek));
   });
 
   constructor() {}

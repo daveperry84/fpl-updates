@@ -30,7 +30,34 @@
                             <span>{{team.rank}}</span>
                         }
                     </td>
-                    <td></td>
+                    <td>
+                        @if (previousData()) {
+                            @let prevWeekRank = getPreviousRank(team);
+                            @if (prevWeekRank) {
+                                @let rankChange = prevWeekRank - team.rank;
+                                @if (rankChange > 0) {
+                                    <div class="league__rank-change league__rank-change--up">
+                                        <ng-icon name="ionChevronUp" />
+                                    </div>
+                                } @else if (rankChange < 0) {
+                                    <div class="league__rank-change league__rank-change--down">
+                                        <ng-icon name="ionChevronDown" />
+                                    </div>
+                                } @else {
+                                    <div class="league__rank-change league__rank-change--same">
+                                        <ng-icon name="heroEquals" />
+                                    </div>
+                                }
+                            }
+                        } @else {
+                            <span class="league__rank-change league__rank-change--no-data">
+                                <ng-icon name="ionHelpCircleSharp" />
+                            </span>
+                        }
+                        <div>
+
+                        </div>
+                    </td>
                     <td class="league__team-manager">
                         <span class="league__team">{{team.team}}</span>
                         <span class="league__manager">{{team.manager}}</span>

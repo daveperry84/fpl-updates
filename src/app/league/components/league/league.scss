@@ -63,6 +63,31 @@
         }
     }
 
+    &__rank-change {
+        width: 26px;
+        height: 26px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin: auto;
+
+        ng-icon {
+            font-size: 1.2rem;
+        }
+
+        &--up {
+            background-color: #4CAF50;
+        }
+        &--down {
+            background-color: #F44336;
+        }
+        &--same {
+            background-color: #9E9E9E;
+        }
+    }
+
     &__row-gold {
         background-color: #FFD70060 !important;
     }
