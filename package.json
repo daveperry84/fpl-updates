@@ -1,13 +1,16 @@
 {
   "name": "fpl-updates",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "ng": "ng",
-    "start": "npm run generate:league-data && ng serve",
+    "start": "npm run concat:gw-json && npm run generate:league-data && ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "concat:gw-json": "ts-node src/scripts/concat-gameweek-json.ts",
     "generate:league-data": "ts-node src/scripts/generate-league-data.ts",
+    "generate:gw-json": "ts-node src/scripts/generate-gameweek-json.ts",
     "serve:ssr:fpl-updates": "node dist/fpl-updates/server/server.mjs"
   },
   "prettier": {

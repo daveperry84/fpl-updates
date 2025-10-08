@@ -1,6 +1,6 @@
 import { Component, computed } from '@angular/core';
-import { gameweek6 } from '../../../../data/ts/gw_6';
 import { League } from "../../../league/components/league/league";
+import { allGWData } from '../../../../data/gameweeks';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +11,10 @@ import { League } from "../../../league/components/league/league";
 })
 export class Home {
   public latestData = computed(() => {
-    return gameweek6;
+    // Find the latest gameweek data based on the highest gameweek number
+    return allGWData.reduce((prev, current) => {
+      return (prev && prev.gameweek > current.gameweek) ? prev : current
+    });
   });
 
   constructor() {}

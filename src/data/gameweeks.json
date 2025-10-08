@@ -1,0 +1,300 @@
+[
+  {
+    "gameweek": 6,
+    "overview": "<p>The top 3 remains unchanged this week, however <b>Stranger Mings</b> had an excellent week which saw them gain ground on first place <b>Try Hard FC</b>, reducing the gap to 13pts. <b>Shadechester FC</b> remain in 3rd place, 28pts off 2nd place.</p><p>8 of the 20 teams used a chip in GW6, with 5 teams opting to use their wildcard. The silver bullet this week however seemed to be Triple Captain'ing Haaland, who scored 2 injury time goals, bagging him 16pts - or a massive 48pts for the 3 teams that did just that and ended up as the 3 highest scoring teams of the week.</p><p>Two of those teams were <b>Norfolk N Chance</b> and <b>Doggers FC</b> (who we have previously berated on multiple occasions for their player selections). Both teams moved up 5 places in the league, to 4th and 14th respectively.</p>",
+    "totw": "<p><b>Norfolk N Chance</b> had an excellent week this week, scoring 81pts and netting their first TOTW award of the season. As mentioned above, playing the Triple Captain chip on Haaland netted James' team 48pts. Keeping faith in Ollie Watkins whilst many other teams offloaded him some time ago also paid off as he netted his first goal of the season against Fulham. Nice work James 🕺🏻</p><p><b>Doggers FC</b> specifically asked for a mention here for being the third highest scoring team of the week. So here you go Paul, well done for not being as shit this week 💩</p>",
+    "potw": "<p><b>Omar Alderete</b> (SUN 🔴⚪ - £4.0m) is player of the week for GW6, scoring 17pts. For a player with such a low price tag and only owned by 4.1% of teams, Alderete had an incredible match where he was involved in everything - scoring a defenders goal against Forest, keeping a clean sheet and providing 11 defensive contributions.</p>",
+    "sacked": "<p><b>Pure Worship</b> had a pretty disastrous week, only scoring 20pts and dropping down 6 places to 18th. With Salah, Isak and João Pedro blanking and no goals, assists or clean sheets across the whole team, it meant that not one fielded player managed to score more than 3 points. Hoping for a better week next time Doyle 🤞🏻</p>",
+    "league": [
+      {
+        "rank": 1,
+        "team": "Try hard FC",
+        "manager": "Matthew Ashley",
+        "gw": 47,
+        "total": 386
+      },
+      {
+        "rank": 2,
+        "team": "stranger Mings",
+        "manager": "Gareth Taylor",
+        "gw": 79,
+        "total": 373
+      },
+      {
+        "rank": 3,
+        "team": "Shadechester FC",
+        "manager": "Jade Dixon Bowers",
+        "gw": 56,
+        "total": 345
+      },
+      {
+        "rank": 4,
+        "team": "Norfolk N Chance",
+        "manager": "James Swain",
+        "gw": 81,
+        "total": 339
+      },
+      {
+        "rank": 5,
+        "team": "Yorkshire Lass UTD",
+        "manager": "Claire Perry",
+        "gw": 53,
+        "total": 321
+      },
+      {
+        "rank": 6,
+        "team": "Change Name",
+        "manager": "Alex Burney",
+        "gw": 54,
+        "total": 320
+      },
+      {
+        "rank": 7,
+        "team": "Livesdownthelaine",
+        "manager": "Elaine Redfern",
+        "gw": 67,
+        "total": 320
+      },
+      {
+        "rank": 8,
+        "team": "Under my Cucurella",
+        "manager": "Dave Perry",
+        "gw": 53,
+        "total": 318
+      },
+      {
+        "rank": 9,
+        "team": "SmallTalkwithaSwede",
+        "manager": "Stuart Jackson",
+        "gw": 63,
+        "total": 308
+      },
+      {
+        "rank": 10,
+        "team": "Redder’s Rejects",
+        "manager": "David Redfern",
+        "gw": 28,
+        "total": 301
+      },
+      {
+        "rank": 11,
+        "team": "chicken caesar salah",
+        "manager": "Dan Zreika",
+        "gw": 40,
+        "total": 293
+      },
+      {
+        "rank": 12,
+        "team": "PurpleReina",
+        "manager": "Liam Duncan",
+        "gw": 61,
+        "total": 291
+      },
+      {
+        "rank": 13,
+        "team": "Johnmcginnsthegoat",
+        "manager": "Josh Swain",
+        "gw": 61,
+        "total": 289
+      },
+      {
+        "rank": 14,
+        "team": "Doggers FC",
+        "manager": "Paul Harris",
+        "gw": 70,
+        "total": 283
+      },
+      {
+        "rank": 15,
+        "team": "Brian Munich",
+        "manager": "Brian Perry",
+        "gw": 40,
+        "total": 271
+      },
+      {
+        "rank": 16,
+        "team": "Kpnuts",
+        "manager": "Katie Perry",
+        "gw": 28,
+        "total": 264
+      },
+      {
+        "rank": 17,
+        "team": "What’s for pud..",
+        "manager": "Sharon Perry",
+        "gw": 47,
+        "total": 261
+      },
+      {
+        "rank": 18,
+        "team": "Pure Worship",
+        "manager": "Matthew Doyle",
+        "gw": 20,
+        "total": 257
+      },
+      {
+        "rank": 19,
+        "team": "I don’t know",
+        "manager": "Charlie Swain",
+        "gw": 25,
+        "total": 247
+      },
+      {
+        "rank": 20,
+        "team": "Wards Wanderers",
+        "manager": "Scott Ward",
+        "gw": 25,
+        "total": 238
+      }
+    ]
+  },
+  {
+    "gameweek": 7,
+    "overview": "<p>No change at the top again this week as <b>Try Hard FC</b>, <b>Stranger Mings</b> and <b>Shadechester FC</b> continue to maintain their hold on the top 3. <b>Try Hard FC</b> we're able to increase their lead to 32pts mainly thanks to a poor week for 2nd placed <b>Stranger Mings</b>.</p><p>In fact, the order of the top 6 teams remained the same as last week as most teams at the top cancelled each other out with the same team base of Guéhi, Semenyo and Haaland as captain. Seven of the top 10 teams all scored point totals this week that were within 6pts of each other.</p><p>It's becoming clear that if teams in the chasing pack want to catch the top 3, they will need to be braver and take more risks when choosing players and captains.</p>",
+    "totw": "<p><b>Yorkshire Lass UTD</b> edged out a very slight advantage over everyone else and picked up their second TOTW award, achieving the highest points total of GW7 with 79pts. Semenyo and captain Haaland provided the bulk of the points for the team, but the differential points came from the likes of Timber, Truffert and Mbeumo who all chipped in with assists. Well done Claire, and I thought you knew nothing about football 😉</p>",
+    "potw": "<p><b>Antoine Semenyo</b> (BOU 🔴⚫ - £7.9m) has obviously been one of the best players of the season so far and picks up his second POTW award. Two goals and an assist saw Semenyo scoring 18pts for 11 of the 20 teams in the league, and 36pts for *Brian Munich* who were the only team to captain the Bournemouth forward.</p>",
+    "sacked": "<p><b>Wards Wanderers</b> and their manager Scott have had a week to forget, scoring the lowest amount of points this week with 27pts and are currently rooted to the bottom of the table. A total of 4 injuries plus a player no longer in the Premier League has hindered progress for the team somewhat.</p><p>In the top half of the table, <b>Stranger Mings</b> will be cursing their inability to capitalise on their recent high-scoring performances in the last few weeks, dropping valuable points this week against the teams around them.</p>",
+    "league": [
+      {
+        "rank": 1,
+        "team": "Try hard FC",
+        "manager": "Matthew Ashley",
+        "gw": 73,
+        "total": 459
+      },
+      {
+        "rank": 2,
+        "team": "stranger Mings",
+        "manager": "Gareth Taylor",
+        "gw": 54,
+        "total": 427
+      },
+      {
+        "rank": 3,
+        "team": "Shadechester FC",
+        "manager": "Jade Dixon Bowers",
+        "gw": 76,
+        "total": 421
+      },
+      {
+        "rank": 4,
+        "team": "Norfolk N Chance",
+        "manager": "James Swain",
+        "gw": 77,
+        "total": 416
+      },
+      {
+        "rank": 5,
+        "team": "Yorkshire Lass UTD",
+        "manager": "Claire Perry",
+        "gw": 79,
+        "total": 400
+      },
+      {
+        "rank": 6,
+        "team": "Change Name",
+        "manager": "Alex Burney",
+        "gw": 77,
+        "total": 397
+      },
+      {
+        "rank": 7,
+        "team": "Under my Cucurella",
+        "manager": "Dave Perry",
+        "gw": 75,
+        "total": 389
+      },
+      {
+        "rank": 8,
+        "team": "Livesdownthelaine",
+        "manager": "Elaine Redfern",
+        "gw": 62,
+        "total": 382
+      },
+      {
+        "rank": 9,
+        "team": "Redder’s Rejects",
+        "manager": "David Redfern",
+        "gw": 77,
+        "total": 378
+      },
+      {
+        "rank": 10,
+        "team": "SmallTalkwithaSwede",
+        "manager": "Stuart Jackson",
+        "gw": 68,
+        "total": 376
+      },
+      {
+        "rank": 11,
+        "team": "PurpleReina",
+        "manager": "Liam Duncan",
+        "gw": 69,
+        "total": 360
+      },
+      {
+        "rank": 12,
+        "team": "chicken caesar salah",
+        "manager": "Dan Zreika",
+        "gw": 56,
+        "total": 349
+      },
+      {
+        "rank": 13,
+        "team": "Brian Munich",
+        "manager": "Brian Perry",
+        "gw": 70,
+        "total": 341
+      },
+      {
+        "rank": 14,
+        "team": "Johnmcginnsthegoat",
+        "manager": "Josh Swain",
+        "gw": 50,
+        "total": 339
+      },
+      {
+        "rank": 15,
+        "team": "What’s for pud..",
+        "manager": "Sharon Perry",
+        "gw": 66,
+        "total": 327
+      },
+      {
+        "rank": 16,
+        "team": "Kpnuts",
+        "manager": "Katie Perry",
+        "gw": 51,
+        "total": 315
+      },
+      {
+        "rank": 17,
+        "team": "Doggers FC",
+        "manager": "Paul Harris",
+        "gw": 46,
+        "total": 313
+      },
+      {
+        "rank": 18,
+        "team": "Pure Worship",
+        "manager": "Matthew Doyle",
+        "gw": 30,
+        "total": 287
+      },
+      {
+        "rank": 19,
+        "team": "I don’t know",
+        "manager": "Charlie Swain",
+        "gw": 38,
+        "total": 285
+      },
+      {
+        "rank": 20,
+        "team": "Wards Wanderers",
+        "manager": "Scott Ward",
+        "gw": 27,
+        "total": 265
+      }
+    ]
+  }
+]

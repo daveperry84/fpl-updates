@@ -1,10 +1,21 @@
 import { writeFileSync } from "fs";
 
 // Import your JSON data
-import data from "../data/json/gw_6.json" with { type: "json" };
+import data from "../data/gameweeks.json" with { type: "json" };
 
-// Type the imported data
-const gwData = data;
+const tsLiteral = toTsLiteral(data, 2);
+
+// Generate the output TypeScript file contents
+const output = `// Auto-generated file. Do not edit manually.
+import { GameWeek } from "../app/core/types/game-week.type";
+
+export const allGWData: GameWeek[] = ${tsLiteral};
+`;
+
+// Write the .ts file
+writeFileSync(`src/data/gameweeks.ts`, output, "utf-8");
+
+console.log(`✅ gameweeks.ts file generated successfully!`);
 
 // Helper to convert JSON to valid TypeScript object syntax
 function toTsLiteral(obj: any, indent = 2): string {
@@ -21,17 +32,3 @@ function toTsLiteral(obj: any, indent = 2): string {
   }
   return String(obj);
 };
-
-const tsLiteral = toTsLiteral(data, 2);
-
-// Generate the output TypeScript file contents
-const output = `// Auto-generated file. Do not edit manually.
-import { GameWeek } from "../../app/core/types/game-week.type";
-
-export const gameweek${gwData.gameweek}: GameWeek = ${tsLiteral};
-`;
-
-// Write the .ts file
-writeFileSync(`src/data/ts/gw_${gwData.gameweek}.ts`, output, "utf-8");
-
-console.log(`✅ gw_${gwData.gameweek}.ts file generated successfully!`);
