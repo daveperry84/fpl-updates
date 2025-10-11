@@ -1,7 +1,5 @@
 <div class="previous-updates page-content">
-    <div class="previous-updates__panel">
-        <h2 class="previous-updates__title">Previous Gameweeks</h2>
-
+    <app-panel title="Previous Gameweeks">
         <div class="previous-updates__gw-list">
             @for (gw of gameweekButtons(); track gw) {
                 <div class="
@@ -13,7 +11,7 @@
                 </div>
             }
         </div>
-    </div>
+    </app-panel>
     
     <app-updates #updates [gameweek]="selectedGameweek()" [isCurrent]="false" />
 </div>

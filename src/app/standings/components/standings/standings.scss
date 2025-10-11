@@ -7,6 +7,12 @@
         margin-bottom: 30px;
     }
 
+    &__panel-title {
+        margin: 0 0 20px;
+        color: #FFF;
+        font-size: 1.2rem;
+    }
+
     &__view-list {
         display: flex;
         gap: 12px;
@@ -30,13 +36,14 @@
             background-color: #FFF;
             color: var(--secondary);
             font-weight: 600;
+
+            span {
+                color: var(--secondary);
+            }
         }
 
         span {
             color: #FFF;
-            @media (max-width: 768px) {
-                display: none;
-            }
         }
     }
 

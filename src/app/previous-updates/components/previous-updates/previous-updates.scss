@@ -1,17 +1,4 @@
 .previous-updates {
-    &__title {
-        color: #FFF;
-        margin: 0 0 20px;
-    }
-
-    &__panel {
-        background-color: var(--secondary);
-        color: white;
-        padding: 15px 20px;
-        border-radius: 8px;
-        margin-bottom: 30px;
-    }
-
     &__gw-list {
         display: flex;
         flex-wrap: wrap;

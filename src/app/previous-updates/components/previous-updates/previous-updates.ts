@@ -2,10 +2,11 @@ import { Component, computed, signal, viewChild } from '@angular/core';
 import { allGWData } from '../../../../data/gameweeks';
 import { Updates } from "../../../updates/components/updates/updates";
 import { GameWeek } from '../../../core/types/game-week.type';
+import { Panel } from "../../../panel/components/panel/panel";
 
 @Component({
   selector: 'app-previous-updates',
-  imports: [Updates],
+  imports: [Updates, Panel],
   templateUrl: './previous-updates.html',
   styleUrl: './previous-updates.scss'
 })

@@ -30,3 +30,9 @@ h1 {
         font-size: 36px;
     }
 }
+
+.sm-hide {
+    @media (max-width: 768px) {
+        display: none;
+    }
+}

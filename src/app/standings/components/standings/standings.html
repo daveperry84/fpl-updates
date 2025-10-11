@@ -1,6 +1,6 @@
 <div class="standings page-content">
     <h1>League of Leg Ends</h1>
-    <div class="standings__panel">
+    <app-panel title="Select a table to view">
         <div class="standings__view-list">
             <div class="standings__view-btn {{selectedView() === standingsView.LEAGUE ? 'selected' : ''}}" 
                 (click)="selectStandingsView(standingsView.LEAGUE)">
@@ -8,14 +8,15 @@
             </div>
             <div class="standings__view-btn {{selectedView() === standingsView.TOTW ? 'selected' : ''}}" 
                 (click)="selectStandingsView(standingsView.TOTW)">
-                TOTW<span> Awards</span>
+                TOTW<span class="sm-hide"> Awards</span>
             </div>
             <div class="standings__view-btn {{selectedView() === standingsView.SACKED ? 'selected' : ''}}" 
                 (click)="selectStandingsView(standingsView.SACKED)">
-                Sacked<span> Awards</span>
+                Sacked<span class="sm-hide"> Awards</span>
             </div>
         </div>
-    </div>
+    </app-panel>
+
     <div class="standings__content"> 
         <div class="standings__header">
             @switch (selectedView()) {

@@ -2,6 +2,7 @@ import { Component, computed, signal } from '@angular/core';
 import { League } from "../../../league/components/league/league";
 import { GameWeek } from '../../../core/types/game-week.type';
 import { allGWData } from '../../../../data/gameweeks';
+import { Panel } from "../../../panel/components/panel/panel";
 
 export enum StandingsView {
   LEAGUE = 'league',
@@ -11,7 +12,7 @@ export enum StandingsView {
 
 @Component({
   selector: 'app-standings',
-  imports: [League],
+  imports: [League, Panel],
   templateUrl: './standings.html',
   styleUrl: './standings.scss'
 })
