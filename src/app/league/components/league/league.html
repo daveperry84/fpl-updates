@@ -2,7 +2,10 @@
     {{enableExpandCollapse() && !displayExpanded() ? 'league-container--collapsed' : ''}}">
     @if (enableExpandCollapse() && !displayExpanded()) {
         <div class="league-overlay">
-            <button class="league-overlay__button" (click)="displayExpanded.set(true)">Show full league</button>
+            <button class="link-button league-button league-overlay__button" (click)="displayExpanded.set(true)">
+                <span>Show full league</span>
+                <ng-icon name="ionChevronDown" />
+            </button>
         </div>
     }
     <table class="league">
@@ -70,7 +73,10 @@
     </table>
     @if (enableExpandCollapse() && displayExpanded()) {
         <div class="league__collapse">
-            <button class="league__collapse-button" (click)="displayExpanded.set(false)">Collapse league</button>
+            <button class="link-button league-button league__collapse-button" (click)="displayExpanded.set(false)">
+                <span>Collapse league</span>
+                <ng-icon name="ionChevronUp" />
+            </button>
         </div>
     }
 </div>

@@ -5,6 +5,20 @@
     &--collapsed {
         max-height: 275px;
     }
+
+    .link-button {
+        border: none;
+        cursor: pointer;
+        background: none;
+        font-size: 1rem;
+        padding: 8px 12px;
+        border-radius: 6px;
+
+        &:hover {
+            background-color: #943DFF20;
+            transition: background-color 0.3s;
+        }
+    }
 }
 
 .league-overlay {
@@ -20,12 +34,14 @@
     &__button {
         position: absolute;
         bottom: 10px;
-        right: 10px;
-        border: none;
-        cursor: pointer;
-        background: none;
-        font-size: 1rem;
+        right: 0;
     }
+}
+
+.league-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .league {
@@ -47,7 +63,7 @@
 
         @media (max-width: 768px) {
             padding: 4px;
-            font-size: 0.8rem;
+            font-size: 0.75rem;
         }
     }
 
@@ -86,6 +102,15 @@
         &--same {
             background-color: #9E9E9E;
         }
+
+        @media (max-width: 768px) {
+            width: 20px;
+            height: 20px;
+
+            ng-icon {
+                font-size: 1rem;
+            }
+        }
     }
 
     &__row-gold {
@@ -116,22 +141,21 @@
         font-size: 0.85rem;
         opacity: 0.6;
         text-align: left;
+
+        @media (max-width: 768px) {
+            font-size: 0.65rem;
+        }
     }
 
     &__collapse {
         position: relative;
         height: 30px;
-        margin: 10px;
-
+        margin-top: 10px;
     }
 
     &__collapse-button {
         position: absolute;
         bottom: 0;
-        right: 10px;
-        border: none;
-        cursor: pointer;
-        background: none;
-        font-size: 1rem;
+        right: 0;
     }
 }
