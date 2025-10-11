@@ -20,3 +20,13 @@ body, button { margin: 0; font-family: "Be Vietnam Pro", sans-serif; color: #222
         color: var(--font);
     }
 }
+
+h1 {
+    font-weight: 600;
+    font-size: 45px;
+    margin: 10px 0 30px;
+
+    @media (max-width: 768px) {
+        font-size: 36px;
+    }
+}

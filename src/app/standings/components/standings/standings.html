@@ -1,0 +1,10 @@
+<div class="standings page-content">
+    <h1>League of Leg Ends</h1>
+    <div class="standings__content"> 
+        <div class="standings__header">
+            <h2>Current league standings</h2>
+            <span>Last updated: <b>End of GW{{latestGameweek()}}</b></span>
+        </div>       
+        <app-league [data]="data().league" [previousData]="previousData()?.league"></app-league>
+    </div>
+</div>
