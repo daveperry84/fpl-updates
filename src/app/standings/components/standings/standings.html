@@ -1,10 +1,47 @@
 <div class="standings page-content">
     <h1>League of Leg Ends</h1>
+    <div class="standings__panel">
+        <div class="standings__view-list">
+            <div class="standings__view-btn {{selectedView() === standingsView.LEAGUE ? 'selected' : ''}}" 
+                (click)="selectStandingsView(standingsView.LEAGUE)">
+                League
+            </div>
+            <div class="standings__view-btn {{selectedView() === standingsView.TOTW ? 'selected' : ''}}" 
+                (click)="selectStandingsView(standingsView.TOTW)">
+                TOTW<span> Awards</span>
+            </div>
+            <div class="standings__view-btn {{selectedView() === standingsView.SACKED ? 'selected' : ''}}" 
+                (click)="selectStandingsView(standingsView.SACKED)">
+                Sacked<span> Awards</span>
+            </div>
+        </div>
+    </div>
     <div class="standings__content"> 
         <div class="standings__header">
-            <h2>Current league standings</h2>
+            @switch (selectedView()) {
+                @case (standingsView.LEAGUE) {
+                    <h2>Current league standings</h2>
+                }
+                @case (standingsView.TOTW) {
+                    <h2>Team of the Week Awards</h2>
+                }
+                @case (standingsView.SACKED) {
+                    <h2>"Sacked in the morning" Awards</h2>
+                }
+            }
             <span>Last updated: <b>End of GW{{latestGameweek()}}</b></span>
-        </div>       
-        <app-league [data]="data().league" [previousData]="previousData()?.league"></app-league>
+        </div>      
+        
+        @switch (selectedView()) {
+            @case (standingsView.LEAGUE) {
+                <app-league [data]="data().league" [previousData]="previousData()?.league"></app-league>
+            }
+            @case (standingsView.TOTW) {
+                <div>Totw view - TODO</div>
+            }
+            @case (standingsView.SACKED) {
+                <div>Sacked view - TODO</div>
+            }
+        }
     </div>
 </div>

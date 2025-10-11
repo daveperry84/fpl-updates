@@ -1,4 +1,45 @@
 .standings {
+    &__panel {
+        background-color: var(--secondary);
+        color: white;
+        padding: 15px 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+
+    &__view-list {
+        display: flex;
+        gap: 12px;
+    }
+
+    &__view-btn {
+        padding: 8px 12px;
+        border: 1px solid #FFF;
+        border-radius: 5px;
+        font-weight: 500;
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+
+        &:hover {
+            background-color: #5A3AAF;
+            transition: background-color 0.3s;
+        }
+
+        &.selected {
+            background-color: #FFF;
+            color: var(--secondary);
+            font-weight: 600;
+        }
+
+        span {
+            color: #FFF;
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
+
     &__header {
         display: flex;
         flex-direction: column;
