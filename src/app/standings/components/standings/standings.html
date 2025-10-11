@@ -38,10 +38,10 @@
                 <app-league [data]="data().league" [previousData]="previousData()?.league"></app-league>
             }
             @case (standingsView.TOTW) {
-                <div>Totw view - TODO</div>
+                <app-manager-league [data]="totwData()" type="totw"></app-manager-league>
             }
             @case (standingsView.SACKED) {
-                <div>Sacked view - TODO</div>
+                <app-manager-league [data]="sackedData()" type="sacked"></app-manager-league>
             }
         }
     </div>
