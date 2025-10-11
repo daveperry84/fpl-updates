@@ -41,4 +41,8 @@ export class League {
     return previousEntry ? previousEntry.rank : null;
   }
 
+  public hasSharedRank(rank: number): boolean {
+    const count = this.data().filter(team => team.rank === rank).length;
+    return count > 1;
+  }
 }

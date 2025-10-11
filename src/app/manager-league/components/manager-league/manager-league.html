@@ -19,6 +19,9 @@
                         <ng-icon class="man-league__rank-first" name="hugeSpoon" />
                     } @else {
                         <span>{{entry.rank}}</span>
+                        @if (hasSharedRank(entry.rank)) {
+                            <span>=</span>
+                        }
                     }
                 </td>
                 <td class="man-league__team-manager">

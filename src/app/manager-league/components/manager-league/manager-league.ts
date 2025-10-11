@@ -17,4 +17,9 @@ export class ManagerLeague {
   public winsColumnTitle = computed<string>(() => {
     return this.type() === 'totw' ? '⭐ Awards' : '😱 Awards';
   });
+
+  public hasSharedRank(rank: number): boolean {
+    const count = this.data().filter(team => team.rank === rank).length;
+    return count > 1;
+  }
 }
