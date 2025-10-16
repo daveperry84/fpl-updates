@@ -1,18 +1,4 @@
 .standings {
-    &__panel {
-        background-color: var(--secondary);
-        color: white;
-        padding: 15px 20px;
-        border-radius: 8px;
-        margin-bottom: 30px;
-    }
-
-    &__panel-title {
-        margin: 0 0 20px;
-        color: #FFF;
-        font-size: 1.2rem;
-    }
-
     &__view-list {
         display: flex;
         gap: 12px;
@@ -34,11 +20,11 @@
 
         &.selected {
             background-color: #FFF;
-            color: var(--secondary);
+            color: #502054;
             font-weight: 600;
 
             span {
-                color: var(--secondary);
+                color: #502054;
             }
         }
 
