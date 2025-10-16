@@ -72,7 +72,7 @@
     </table>
     @if (enableExpandCollapse() && displayExpanded()) {
         <div class="league__collapse">
-            <button class="link-button league-button league__collapse-button" (click)="displayExpanded.set(false)">
+            <button class="link-button league-button league__collapse-button" (click)="collapseLeague()">
                 <span>Collapse league</span>
                 <ng-icon name="ionChevronUp" />
             </button>

@@ -45,4 +45,17 @@ export class League {
     const count = this.data().filter(team => team.rank === rank).length;
     return count > 1;
   }
+
+  protected collapseLeague() {
+    this.displayExpanded.set(false);
+    setTimeout(() => this.scrollLeague(), 100);
+  }
+
+  protected scrollLeague() {
+    const leagueRef = document.querySelector('.league-container');
+
+    if (leagueRef) {
+      leagueRef.scrollIntoView({ behavior: 'smooth'})
+    }
+  }
 }
