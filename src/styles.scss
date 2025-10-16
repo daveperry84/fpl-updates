@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --primary: #06EEFF;
+    --secondary: #943DFF;
+    --font: #3D3C3A;
+    --secondary-font: var(--primary);
+    --header-height: 100px;
+    --footer-height: 150px;
+}
+
+html, body { height: 100%; }
+body, button { margin: 0; font-family: "Be Vietnam Pro", sans-serif; color: #222 }
+
+.page-content {
+    width: 65dvw;
+    max-width: 65dvw;
+    padding: 24px 12px 50px;
+    margin: auto;
+    min-height: calc(100dvh - 364px);
+
+    @media (max-width: 768px) {
+        width: calc(100dvw - 48px);
+        max-width: calc(100dvw - 48px);
+        padding: 24px 24px 50px;
+    }
+}
+
+*:not(button) > {
+    h1, h2, h3, h4, h5, h6, p, span, small {
+        color: var(--font);
+    }
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 45px;
+    margin: 10px 0 30px;
+
+    @media (max-width: 768px) {
+        font-size: 36px;
+    }
+}
+
+.sm-hide {
+    @media (max-width: 768px) {
+        display: none;
+    }
+}

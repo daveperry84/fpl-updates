@@ -1,0 +1,161 @@
+
+{
+    "gameweek": 2,
+    "overview": "<p><b>Norfolk N Chance</b> are the only team to maintain their position in the top 3 and currently share joint 1st place with <b>KPnuts</b>. <b>Under My Cucurella</b> round out the top 3 positions.</p><p>It's a little too early in the season to give league position any credence however, and there are currently only 20pts separating 1st to 13th place.</p><p>A lot of teams will be cursing Cole Palmer this week who picked up an injury right before kick-off against a poor West Ham team they ended up putting 5 goals past. I wonder how many teams will look to offload Palmer before GW3 🤔</p>",
+    "totw": [
+        { "team": "Yorkshire Lass UTD", "manager": "Claire Perry" }
+    ],
+    "totwDescription": "<p>Great turnaround of fortunes for last week's lowest scoring team, <b>Yorkshire Lass UTD</b>. With players such as Pickford, João Pedro and Semenyo scoring high, they are GW2's highest scoring team with 69pts and have moved up a whole 10 places in the league. Well done Claire!</p>",
+    "sacked": [
+        { "team": "Doggers FC", "manager": "Paul Harris" }
+    ],
+    "sackedDescription": "<p><b>Doggers FC</b> continued to place their faith in Burnley and Brighton youngsters who didn't even get on the bench and ended up being the lowest scoring team of GW2 with 18pts. Better luck next week Paul!</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Best differential", 
+            "content": "<p><b>Jurriën Timber</b> (ARS 🔴⚪ - £5.5m) with 2 defender goals, one assist, a clean sheet and MOTM scored a massive 24pts and is only owned by 3.1% of all teams (albeit no teams in our league). There were 15 teams that triple-captained Timber and earned a huge 72pts from one player, how do you even compete with that!!</p>" 
+        }
+    ],
+    "league": [
+        {
+            "rank": 1,
+            "team": "Kpnuts",
+            "manager": "Katie Perry",
+            "gw": 59,
+            "total": 119
+        },
+        {
+            "rank": 1,
+            "team": "Norfolk N Chance",
+            "manager": "James Swain",
+            "gw": 45,
+            "total": 119
+        },
+        {
+            "rank": 3,
+            "team": "Under my Cucurella",
+            "manager": "Dave Perry",
+            "gw": 52,
+            "total": 116
+        },
+        {
+            "rank": 4,
+            "team": "SmallTalkwithaSwede",
+            "manager": "Stuart Jackson",
+            "gw": 53,
+            "total": 114
+        },
+        {
+            "rank": 5,
+            "team": "Try hard FC",
+            "manager": "Matthew Ashley",
+            "gw": 42,
+            "total": 114
+        },
+        {
+            "rank": 6,
+            "team": "Shadechester FC",
+            "manager": "Jade Dixon Bowers",
+            "gw": 46,
+            "total": 112
+        },
+        {
+            "rank": 7,
+            "team": "Livesdownthelaine",
+            "manager": "Elaine Redfern",
+            "gw": 54,
+            "total": 110
+        },
+        {
+            "rank": 8,
+            "team": "Pure Worship",
+            "manager": "Matthew Doyle",
+            "gw": 50,
+            "total": 105
+        },
+        {
+            "rank": 9,
+            "team": "stranger Mings",
+            "manager": "Gareth Taylor",
+            "gw": 43,
+            "total": 104
+        },
+        {
+            "rank": 10,
+            "team": "Yorkshire Lass UTD",
+            "manager": "Claire Perry",
+            "gw": 69,
+            "total": 103
+        },
+        {
+            "rank": 11,
+            "team": "Redder’s Rejects",
+            "manager": "David Redfern",
+            "gw": 50,
+            "total": 101
+        },
+        {
+            "rank": 12,
+            "team": "chicken caesar salah",
+            "manager": "Dan Zreika",
+            "gw": 55,
+            "total": 100
+        },
+        {
+            "rank": 13,
+            "team": "Change Name",
+            "manager": "Alex Burney",
+            "gw": 63,
+            "total": 99
+        },
+        {
+            "rank": 14,
+            "team": "PurpleReina",
+            "manager": "Liam Duncan",
+            "gw": 43,
+            "total": 95
+        },
+        {
+            "rank": 15,
+            "team": "Wards Wanderers",
+            "manager": "Scott Ward",
+            "gw": 35,
+            "total": 94
+        },
+        {
+            "rank": 16,
+            "team": "I don’t know",
+            "manager": "Charlie Swain",
+            "gw": 49,
+            "total": 92
+        },
+        {
+            "rank": 17,
+            "team": "Brian Munich",
+            "manager": "Brian Perry",
+            "gw": 54,
+            "total": 87
+        },
+        {
+            "rank": 17,
+            "team": "What’s for pud..",
+            "manager": "Sharon Perry",
+            "gw": 48,
+            "total": 87
+        },
+        {
+            "rank": 19,
+            "team": "Johnmcginnsthegoat",
+            "manager": "Josh Swain",
+            "gw": 37,
+            "total": 84
+        },
+        {
+            "rank": 20,
+            "team": "Doggers FC",
+            "manager": "Paul Harris",
+            "gw": 18,
+            "total": 54
+        }
+]
+}

@@ -1,0 +1,81 @@
+<div class="league-container 
+    {{enableExpandCollapse() && !displayExpanded() ? 'league-container--collapsed' : ''}}">
+    @if (enableExpandCollapse() && !displayExpanded()) {
+        <div class="league-overlay">
+            <button class="link-button league-button league-overlay__button" (click)="displayExpanded.set(true)">
+                <span>Show full league</span>
+                <ng-icon name="ionChevronDown" />
+            </button>
+        </div>
+    }
+    <table class="league">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>+/-</th>
+                <th>Team & Manager</th>
+                <th>GW</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (team of data(); track team) {
+                <tr class="
+                league__team-row 
+                {{team.rank === 1 ? 'league__row-gold' : ''}}
+                {{team.rank === 2 ? 'league__row-silver' : ''}}
+                {{team.rank === 3 ? 'league__row-bronze' : ''}}
+                ">
+                    <td class="league__rank">
+                        @if (team.rank === 1) {
+                            <ng-icon class="league__rank-first" name="ionTrophySharp" />
+                        } @else {
+                            <span>{{team.rank}}</span>
+                            @if (hasSharedRank(team.rank)) {
+                                <span>=</span>
+                            }
+                        }
+                    </td>
+                    <td>
+                        @if (previousData()) {
+                            @let prevWeekRank = getPreviousRank(team);
+                            @if (prevWeekRank) {
+                                @let rankChange = prevWeekRank - team.rank;
+                                @if (rankChange > 0) {
+                                    <div class="league__rank-change league__rank-change--up">
+                                        <ng-icon name="ionChevronUp" />
+                                    </div>
+                                } @else if (rankChange < 0) {
+                                    <div class="league__rank-change league__rank-change--down">
+                                        <ng-icon name="ionChevronDown" />
+                                    </div>
+                                } @else {
+                                    <div class="league__rank-change league__rank-change--same">
+                                        <ng-icon name="heroEquals" />
+                                    </div>
+                                }
+                            }
+                        }
+                        <div>
+
+                        </div>
+                    </td>
+                    <td class="league__team-manager">
+                        <span class="league__team">{{team.team}}</span>
+                        <span class="league__manager">{{team.manager}}</span>
+                    </td>
+                    <td>{{team.gw}}</td>
+                    <td>{{team.total}}</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @if (enableExpandCollapse() && displayExpanded()) {
+        <div class="league__collapse">
+            <button class="link-button league-button league__collapse-button" (click)="collapseLeague()">
+                <span>Collapse league</span>
+                <ng-icon name="ionChevronUp" />
+            </button>
+        </div>
+    }
+</div>

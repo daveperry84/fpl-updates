@@ -1,0 +1,49 @@
+.standings {
+    &__view-list {
+        display: flex;
+        gap: 12px;
+    }
+
+    &__view-btn {
+        padding: 8px 12px;
+        border: 1px solid #FFF;
+        border-radius: 5px;
+        font-weight: 500;
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+
+        &:hover {
+            background-color: #5A3AAF;
+            transition: background-color 0.3s;
+        }
+
+        &.selected {
+            background-color: #FFF;
+            color: #502054;
+            font-weight: 600;
+
+            span {
+                color: #502054;
+            }
+        }
+
+        span {
+            color: #FFF;
+        }
+    }
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        gap: 4px;
+
+        h2 {
+            margin: 0;
+        }
+        span {
+            opacity: 0.6;
+        }
+    }
+}

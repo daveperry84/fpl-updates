@@ -1,0 +1,41 @@
+
+{
+    "gameweek": 3,
+    "overview": "<p>All change at the top again as we have a new top 3 of <b>Try Hard FC</b>, <b>SmallTalkwithaSwede</b> and <b>Yorkshire Lass UTD</b>. <b>Try Hard FC</b> had a particularly good week (see TOTW) and they currently have a 27pt lead over 2nd place. It's still close as we go into the International break however, as 2nd through to 12th place are only separated by 28pts.</p><p>It was a week of surprises and upsets where player points were concerned, as players who previously were doing well, or who were expected to do well this week just didn't show up (looking at you, Chris Wood and Brennan Johnson). It was a relatively low scoring week as a result, with only 8 of the 20 teams scoring over 50pts and only 2 scoring over 60.</p>",
+    "totw": [
+        { "team": "Try Hard FC", "manager": "Matthew Ashley" }
+    ],
+    "totwDescription": "<p><b>Try Hard FC</b> receive their second TOTW award, scoring an impressive 84pts this week. With a trio of Crystal Palace players (Guéhi, Sarr and Mateta) making up the spine of their team, all of who scored one each against Aston Villa, plus captaining Bruno Fernandes who scored against Burnley, you can't help but admire the foresight and planning that I personally seem incapable of (looking at you again Chris Wood 😡). Well done Matthew 👏🏻</p>",
+    "sacked": [
+        { "team": "Wards Wanderers", "manager": "Scott Ward" }
+    ],
+    "sackedDescription": "<p><b>Wards Wanderers</b> are the lowest scoring team this week, with 29pts. With 5 onfield players scoring 0pts through either not playing or conceding goals, Scott will be glad he at least had the foresight to captain Haaland who picked up 18 of those 29pts for his team.</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Best differential", 
+            "content": "<p><b>Marcos Senesi</b> (BOU ⚫🔴 - £4.5m) scored 14pts and is only selected by 3.5% of all teams.</p><p><b>Kieran Dewsbury-Hall</b> (EVE 🔵 - £5.0m) was probably the best differential in our league. He scored 12pts and is only selected by one team - <b>Norfolk N Chance</b>.</p>" 
+        }
+    ],
+    "league": [
+        { "rank": 1, "team": "Try hard FC", "manager": "Matthew Ashley", "gw": 84, "total": 198 },
+        { "rank": 2, "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson", "gw": 57, "total": 171 },
+        { "rank": 3, "team": "Yorkshire Lass UTD", "manager": "Claire Perry", "gw": 61, "total": 164 },
+        { "rank": 4, "team": "Norfolk N Chance", "manager": "James Swain", "gw": 44, "total": 163 },
+        { "rank": 5, "team": "Kpnuts", "manager": "Katie Perry", "gw": 43, "total": 162 },
+        { "rank": 6, "team": "chicken caesar salah", "manager": "Dan Zreika", "gw": 59, "total": 159 },
+        { "rank": 7, "team": "Shadechester FC", "manager": "Jade Dixon Bowers", "gw": 46, "total": 158 },
+        { "rank": 8, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 56, "total": 157 },
+        { "rank": 9, "team": "stranger Mings", "manager": "Gareth Taylor", "gw": 50, "total": 154 },
+        { "rank": 10, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 36, "total": 146 },
+        { "rank": 11, "team": "Change Name", "manager": "Alex Burney", "gw": 44, "total": 143 },
+        { "rank": 12, "team": "Under my Cucurella", "manager": "Dave Perry", "gw": 31, "total": 143 },
+        { "rank": 13, "team": "I don't know", "manager": "Charlie Swain", "gw": 46, "total": 138 },
+        { "rank": 14, "team": "Brian Munich", "manager": "Brian Perry", "gw": 55, "total": 138 },
+        { "rank": 15, "team": "PurpleReina", "manager": "Liam Duncan", "gw": 42, "total": 137 },
+        { "rank": 16, "team": "Pure Worship", "manager": "Matthew Doyle", "gw": 30, "total": 135 },
+        { "rank": 17, "team": "What's for pud ..", "manager": "Sharon Perry", "gw": 42, "total": 129 },
+        { "rank": 18, "team": "Wards Wanderers", "manager": "Scott Ward", "gw": 29, "total": 123 },
+        { "rank": 18, "team": "Johnmcginnsthegoat", "manager": "josh swain", "gw": 39, "total": 123 },
+        { "rank": 20, "team": "Doggers FC", "manager": "Paul Harris", "gw": 58, "total": 112 }
+    ]
+}

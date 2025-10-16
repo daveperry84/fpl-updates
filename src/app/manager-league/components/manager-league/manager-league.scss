@@ -1,0 +1,109 @@
+.man-league {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+    th {
+        background-color: #502054;
+        color: white;
+        font-weight: 600;
+        border-bottom: 1px solid #ddd;
+        height: 30px;
+    }
+
+    th, td {
+        padding: 6px;
+        text-align: center;
+
+        @media (max-width: 768px) {
+            padding: 4px;
+            font-size: 0.75rem;
+        }
+    }
+
+    &__rank {
+        font-weight: 600;
+    }
+
+    &__rank-first {
+        font-size: 1.5rem;
+
+        @media (max-width: 768px) {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__rank-change {
+        width: 26px;
+        height: 26px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin: auto;
+
+        ng-icon {
+            font-size: 1.2rem;
+        }
+
+        &--up {
+            background-color: #4CAF50;
+        }
+        &--down {
+            background-color: #F44336;
+        }
+        &--same {
+            background-color: #9E9E9E;
+        }
+
+        @media (max-width: 768px) {
+            width: 20px;
+            height: 20px;
+
+            ng-icon {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    &__row-gold {
+        background-color: #FFD70060 !important;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #943DFF20;
+    }
+
+    &__team-manager {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__manager {
+        font-weight: 600;
+        text-align: left;
+    }
+
+    &__team {
+        font-size: 0.85rem;
+        opacity: 0.6;
+        text-align: left;
+
+        @media (max-width: 768px) {
+            font-size: 0.65rem;
+        }
+    }
+
+    &__collapse {
+        position: relative;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    &__collapse-button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

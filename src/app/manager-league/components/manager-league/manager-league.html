@@ -1,0 +1,35 @@
+<table class="man-league">
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Manager & Team</th>
+            <th>{{winsColumnTitle()}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (entry of data(); track entry) {
+            <tr class="
+            man-league__team-row 
+            {{entry.rank === 1 ? 'man-league__row-gold' : ''}}
+            ">
+                <td class="man-league__rank">
+                    @if (entry.rank === 1 && type() === 'totw') {
+                        <ng-icon class="man-league__rank-first" name="ionTrophySharp" />
+                    } @else if (entry.rank === 1 && type() === 'sacked') {
+                        <ng-icon class="man-league__rank-first" name="hugeSpoon" />
+                    } @else {
+                        <span>{{entry.rank}}</span>
+                        @if (hasSharedRank(entry.rank)) {
+                            <span>=</span>
+                        }
+                    }
+                </td>
+                <td class="man-league__team-manager">
+                    <span class="man-league__manager">{{entry.manager}}</span>
+                    <span class="man-league__team">{{entry.team}}</span>
+                </td>
+                <td>{{entry.wins}}</td>
+            </tr>
+        }
+    </tbody>
+</table>

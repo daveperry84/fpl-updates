@@ -1,0 +1,48 @@
+<div class="standings page-content">
+    <h1>League of Leg Ends</h1>
+    <app-panel title="Select a table to view">
+        <div class="standings__view-list">
+            <div class="standings__view-btn {{selectedView() === standingsView.LEAGUE ? 'selected' : ''}}" 
+                (click)="selectStandingsView(standingsView.LEAGUE)">
+                League
+            </div>
+            <div class="standings__view-btn {{selectedView() === standingsView.TOTW ? 'selected' : ''}}" 
+                (click)="selectStandingsView(standingsView.TOTW)">
+                TOTW<span class="sm-hide"> Awards</span>
+            </div>
+            <div class="standings__view-btn {{selectedView() === standingsView.SACKED ? 'selected' : ''}}" 
+                (click)="selectStandingsView(standingsView.SACKED)">
+                Sacked<span class="sm-hide"> Awards</span>
+            </div>
+        </div>
+    </app-panel>
+
+    <div class="standings__content"> 
+        <div class="standings__header">
+            @switch (selectedView()) {
+                @case (standingsView.LEAGUE) {
+                    <h2>Current league standings</h2>
+                }
+                @case (standingsView.TOTW) {
+                    <h2>Team of the Week Awards</h2>
+                }
+                @case (standingsView.SACKED) {
+                    <h2>"Sacked in the morning" Awards</h2>
+                }
+            }
+            <span>Last updated: <b>End of GW{{latestGameweek()}}</b></span>
+        </div>      
+        
+        @switch (selectedView()) {
+            @case (standingsView.LEAGUE) {
+                <app-league [data]="data().league" [previousData]="previousData()?.league"></app-league>
+            }
+            @case (standingsView.TOTW) {
+                <app-manager-league [data]="totwData()" type="totw"></app-manager-league>
+            }
+            @case (standingsView.SACKED) {
+                <app-manager-league [data]="sackedData()" type="sacked"></app-manager-league>
+            }
+        }
+    </div>
+</div>

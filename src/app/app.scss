@@ -1,0 +1,11 @@
+.main {
+    height: calc(100% - var(--header-height));
+    min-height: calc(100vh - var(--header-height));
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+
+    &__content {
+        width: 100%;
+    }
+}

@@ -1,0 +1,28 @@
+.previous-updates {
+    &__gw-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    &__gw-btn {
+        width: 50px;
+        text-align: center;
+        padding: 8px 10px;
+        border: 1px solid #FFF;
+        border-radius: 5px;
+        font-weight: 500;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #5A3AAF;
+            transition: background-color 0.3s;
+        }
+
+        &.selected {
+            background-color: #FFF;
+            color: #502054;
+            font-weight: 600;
+        }
+    }
+}

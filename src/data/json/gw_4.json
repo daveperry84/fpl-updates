@@ -1,0 +1,41 @@
+
+{
+    "gameweek": 4,
+    "overview": "<p><b>Try Hard FC</b> have had another good gameweek and have increased their lead at the top to 34pts. <b>Shadechester FC</b> and <b>Stranger Mings</b> have moved up into 2nd and 3rd places respectively in a week where the top 3 teams in the league were also the top 3 scoring teams for the week.</p><p>There was movement at the bottom of the table too as <b>Doggers FC</b>, who have been pretty much rooted to the bottom of the table since GW1 have since been displaced by <b>Johnmcginnsthegoat</b> who had a poor scoring week (see below).</p><p>After winning PL Player of the Month for August and scoring 22pts in the first 3 game weeks, 5 teams opted to transfer in Jack Grealish who, of course, ended up blanking in GW4.</p>",
+    "totw": [
+        { "team": "Stranger Mings", "manager": "Gareth Taylor" }
+    ],
+    "totwDescription": "<p><b>Stranger Mings</b> are the highest scoring team of GW4 with 85pts. Good game weeks for attacking players Salah (C), Haaland and João Pedro contributed but it was the defensive choices that gave the team the edge - clean sheets for all 3 defenders and goalkeeper plus a goal for Van de ven meant a decent haul of 37pts for all 4 defensive players. Nice one Gareth 👏🏻</p>",
+    "sacked": [
+        { "team": "Johnmcginnsthegoat", "manager": "Josh Swain" }
+    ],
+    "sackedDescription": "<p><b>Johnmcginnsthegoat</b> may wish to rethink their choice of Watkins as captain after another week with no goals. With a \"not completely disastrous\" score of 46pts, it was a poor gameweek for both strikers and defenders that ultimately saw them achieve the lowest score of the week. Better luck next week Josh 🙏🏻</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "<p><b>Martin Zubimendi</b> (ARS 🔴⚪ - £5.4m) is player of the week with 16pts, 2 goals and a clean sheet, yet is only selected by 2.4% of teams. Unfortunately (or fortunately depending on how you look at it) no teams in our league opted to select Zubimendi in their squad.</p>" 
+        }
+    ],
+    "league": [
+        { "rank": 1, "team": "Try hard FC", "manager": "Matthew Ashley", "gw": 77, "total": 275 },
+        { "rank": 2, "team": "Shadechester FC", "manager": "Jade Dixon Bowers", "gw": 83, "total": 241 },
+        { "rank": 3, "team": "stranger Mings", "manager": "Gareth Taylor", "gw": 85, "total": 239 },
+        { "rank": 4, "team": "Yorkshire Lass UTD", "manager": "Claire Perry", "gw": 74, "total": 234 },
+        { "rank": 5, "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson", "gw": 59, "total": 230 },
+        { "rank": 6, "team": "Norfolk N Chance", "manager": "James Swain", "gw": 59, "total": 222 },
+        { "rank": 7, "team": "chicken caesar salah", "manager": "Dan Zreika", "gw": 63, "total": 222 },
+        { "rank": 8, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 59, "total": 216 },
+        { "rank": 9, "team": "Under my Cucurella", "manager": "Dave Perry", "gw": 69, "total": 212 },
+        { "rank": 10, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 77, "total": 211 },
+        { "rank": 11, "team": "Change Name", "manager": "Alex Burney", "gw": 66, "total": 209 },
+        { "rank": 12, "team": "Kpnuts", "manager": "Katie Perry", "gw": 51, "total": 209 },
+        { "rank": 13, "team": "Pure Worship", "manager": "Matthew Doyle", "gw": 59, "total": 194 },
+        { "rank": 14, "team": "I don't know", "manager": "Charlie Swain", "gw": 54, "total": 192 },
+        { "rank": 15, "team": "Brian Munich", "manager": "Brian Perry", "gw": 53, "total": 187 },
+        { "rank": 16, "team": "PurpleReina", "manager": "Liam Duncan", "gw": 49, "total": 186 },
+        { "rank": 17, "team": "Wards Wanderers", "manager": "Scott Ward", "gw": 60, "total": 183 },
+        { "rank": 18, "team": "What's for pud ..", "manager": "Sharon Perry", "gw": 53, "total": 178 },
+        { "rank": 19, "team": "Doggers FC", "manager": "Paul Harris", "gw": 58, "total": 170 },
+        { "rank": 20, "team": "Johnmcginnsthegoat", "manager": "Josh Swain", "gw": 46, "total": 169 }
+    ]
+}
