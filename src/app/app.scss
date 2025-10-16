@@ -94,14 +94,6 @@
     justify-content: center;
 
     &__content {
-        width: 65dvw;
-        max-width: 65dvw;
-        padding: 24px 12px;
-
-        @media (max-width: 768px) {
-            width: 100dvw;
-            max-width: 100dvw;
-            padding: 24px;
-        }
+        width: 100%;
     }
 }
