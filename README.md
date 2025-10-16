@@ -1,4 +1,28 @@
-# FplUpdates
+# FPL - League of Leg Ends
+
+FPL - League of Leg Ends is a web application for tracking and analyzing our Fantasy Premier League (FPL) "League of Leg Ends" league and teams.
+
+## Features
+
+- View and compare FPL league standings
+- Read the latest and all previous GW updates
+- Responsive, accessible UI
+- Fast, scalable architecture using Angular standalone components and signals
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [Angular CLI](https://angular.dev/tools/cli)
+
+## Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/fpl-updates.git
+cd fpl-updates
+npm install
+```
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.3.
 
