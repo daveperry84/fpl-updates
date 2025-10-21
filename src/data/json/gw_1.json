@@ -1,11 +1,11 @@
 
 {
     "gameweek": 1,
-    "overview": "The first gameweek of the 2024/25 season saw some high scores across the league, with <b>Try Hard FC</b> topping the table with an impressive 76 points. <b>Norfolk N Chance</b> and <b>Shadechester FC</b> are the other 2 teams who make up the top 3, scoring 74 and 66 points respectively.</p><p>At the other end of the table, <b>Yorkshire Lass UTD</b>, <b>Change Name</b> and <b>Doggers FC</b> all struggled for points and find themselves in the bottom 3 at this early stage in the season.</p>",
+    "overview": "The first gameweek of the 2024/25 season saw some high scores across the league, with <b>Try hard FC</b> topping the table with an impressive 76 points. <b>Norfolk N Chance</b> and <b>Shadechester FC</b> are the other 2 teams who make up the top 3, scoring 74 and 66 points respectively.</p><p>At the other end of the table, <b>Yorkshire Lass UTD</b>, <b>Change Name</b> and <b>Doggers FC</b> all struggled for points and find themselves in the bottom 3 at this early stage in the season.</p>",
     "totw": [
-        { "team": "Try Hard FC", "manager": "Matthew Ashley" }
+        { "team": "Try hard FC", "manager": "Matthew Ashley" }
     ],
-    "totwDescription": "<p>Matthew Ashley's <b>Try Hard FC</b> were the highest scoring team of the week, with a total of 76pts. Matthew made some good choices in captaining Haaland and also fielding Semenyo and Raya - 4 goals and 4 defensive clean sheets has given his team an advantage going into GW2.</p>",
+    "totwDescription": "<p>Matthew Ashley's <b>Try hard FC</b> were the highest scoring team of the week, with a total of 76pts. Matthew made some good choices in captaining Haaland and also fielding Semenyo and Raya - 4 goals and 4 defensive clean sheets has given his team an advantage going into GW2.</p>",
     "sacked": [
         { "team": "Yorkshire Lass UTD", "manager": "Claire Perry" }
     ],

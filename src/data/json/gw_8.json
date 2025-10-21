@@ -1,0 +1,166 @@
+
+{
+    "gameweek": 8,
+    "overview": "<p>Another sterling performance from <b>Try hard FC</b> this week (see TOTW) sees the leaders extend their lead to a formidable 66pts. The top 3 has changed for the first time in 4 weeks as another high scoring week for <b>Norfolk N Chance</b> has seen them move up 2 places to 2nd, displacing <b>Stranger Mings</b> who have moved down to 5th. <b>Shadechester FC</b> remain 3rd, although with a fragile 4pt advantage over 4th.</p><p>There was also change at the bottom of the table as <b>Wards Wanderers</b>, who had previously been bottom of the table for the last 3 weeks, scored a solid 61pts this week moving them off the bottom of the table. Going in the opposite direction, <b>Pure Worship</b> had a dismal week and are now the team in the unenviable position of last place.</p><p>I commented last week that teams need to be braver and take more risks in order to catch the top 3 and it seems some teams put this into practice this week, with varying degrees of success. Mind games? Perhaps, however I maintain that this game is won in the differentials, it is not won by making the easy and obvious choices. If it didn't quite work out for you this week then bad luck but also well done for playing the game.</p>",
+    "totw": [
+        { "team": "Try hard FC", "manager": "Matthew Ashley" }
+    ],
+    "totwDescription": "<p><b>Try hard FC</b> are this week's TOTW with an impressive 96pts. They expertly deployed their Bench Boost chip this week to maximum effect - their bench achieving a massive 33pts thanks to a hattrick from the previously ineffective Mateta and a goal for Mbeumo. This is Matthew's 4th TOTW award in only 8 weeks which is quite a feat, well done Matthew. They have such a remarkable lead right now but it's still so early in the season so don't despair - there is still plenty to play for.</p>",
+    "sacked": [
+        { "team": "Pure Worship", "manager": "Matthew Doyle" }
+    ],
+    "sackedDescription": "<p><b>Pure Worship</b> achieved the worst score of GW8 with 34pts. The only player of note was Mbeumo with a goal and 9pts, all other selected players struggled to achieve more than 4pts. In fact, their sub bench had a better week, scoring 24pts for 4 players, only 10pts less than the 11 first team players - if only you had played your Bench Boost chip Doylie 😔</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "<p><b>Reece James</b> (CHE 🔵 - £5.4m) was POTW for GW8 with 18pts - managing a goal, an assist and a clean sheet against this seasons whipping boys, Nottingham Forest. He has a great differential and is only selected by 5.4% of all teams, unfortunately that doesn't include any teams in our league.</p>" 
+        },
+        { 
+            "title": "⏭️ Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW9 is Friday 24th October at 6:30pm.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        {
+            "rank": 1,
+            "team": "Try hard FC",
+            "manager": "Matthew Ashley",
+            "gw": 96,
+            "total": 555
+        },
+        {
+            "rank": 2,
+            "team": "Norfolk N Chance",
+            "manager": "James Swain",
+            "gw": 73,
+            "total": 489
+        },
+        {
+            "rank": 3,
+            "team": "Shadechester FC",
+            "manager": "Jade Dixon Bowers",
+            "gw": 53,
+            "total": 474
+        },
+        {
+            "rank": 4,
+            "team": "Yorkshire Lass UTD",
+            "manager": "Claire Perry",
+            "gw": 74,
+            "total": 470
+        },
+        {
+            "rank": 5,
+            "team": "stranger Mings",
+            "manager": "Gareth Taylor",
+            "gw": 39,
+            "total": 466
+        },
+        {
+            "rank": 6,
+            "team": "Change Name",
+            "manager": "Alex Burney",
+            "gw": 61,
+            "total": 458
+        },
+        {
+            "rank": 7,
+            "team": "Under my Cucurella",
+            "manager": "Dave Perry",
+            "gw": 69,
+            "total": 458
+        },
+        {
+            "rank": 8,
+            "team": "Redder’s Rejects",
+            "manager": "David Redfern",
+            "gw": 71,
+            "total": 449
+        },
+        {
+            "rank": 9,
+            "team": "Livesdownthelaine",
+            "manager": "Elaine Redfern",
+            "gw": 55,
+            "total": 437
+        },
+        {
+            "rank": 10,
+            "team": "SmallTalkwithaSwede",
+            "manager": "Stuart Jackson",
+            "gw": 39,
+            "total": 415
+        },
+        {
+            "rank": 11,
+            "team": "Johnmcginnsthegoat",
+            "manager": "Josh Swain",
+            "gw": 72,
+            "total": 411
+        },
+        {
+            "rank": 12,
+            "team": "chicken caesar salah",
+            "manager": "Dan Zreika",
+            "gw": 57,
+            "total": 406
+        },
+        {
+            "rank": 13,
+            "team": "PurpleReina",
+            "manager": "Liam Duncan",
+            "gw": 40,
+            "total": 400
+        },
+        {
+            "rank": 14,
+            "team": "Brian Munich",
+            "manager": "Brian Perry",
+            "gw": 53,
+            "total": 394
+        },
+        {
+            "rank": 15,
+            "team": "What,s for pud..",
+            "manager": "Sharon Perry",
+            "gw": 63,
+            "total": 390
+        },
+        {
+            "rank": 16,
+            "team": "Doggers FC",
+            "manager": "Paul Harris",
+            "gw": 72,
+            "total": 381
+        },
+        {
+            "rank": 17,
+            "team": "Kpnuts",
+            "manager": "Katie Perry",
+            "gw": 41,
+            "total": 356
+        },
+        {
+            "rank": 18,
+            "team": "I don’t know",
+            "manager": "Charlie Swain",
+            "gw": 43,
+            "total": 328
+        },
+        {
+            "rank": 19,
+            "team": "Wards Wanderers",
+            "manager": "Scott Ward",
+            "gw": 61,
+            "total": 326
+        },
+        {
+            "rank": 20,
+            "team": "Pure Worship",
+            "manager": "Matthew Doyle",
+            "gw": 34,
+            "total": 321
+        }
+    ]
+}

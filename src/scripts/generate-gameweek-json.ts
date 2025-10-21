@@ -23,7 +23,8 @@ const output = `
         },
         { 
             "title": "⏭️ Next Gameweek", 
-            "content": "" 
+            "content": "",
+            "currentOnly": true
         }
     ],
     "league": []
