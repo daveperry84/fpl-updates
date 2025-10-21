@@ -4,14 +4,14 @@ import { GameWeek } from "../app/core/types/game-week.type";
 export const allGWData: GameWeek[] = [
   {
     gameweek: 1,
-    overview: "The first gameweek of the 2024/25 season saw some high scores across the league, with <b>Try Hard FC</b> topping the table with an impressive 76 points. <b>Norfolk N Chance</b> and <b>Shadechester FC</b> are the other 2 teams who make up the top 3, scoring 74 and 66 points respectively.</p><p>At the other end of the table, <b>Yorkshire Lass UTD</b>, <b>Change Name</b> and <b>Doggers FC</b> all struggled for points and find themselves in the bottom 3 at this early stage in the season.</p>",
+    overview: "The first gameweek of the 2024/25 season saw some high scores across the league, with <b>Try hard FC</b> topping the table with an impressive 76 points. <b>Norfolk N Chance</b> and <b>Shadechester FC</b> are the other 2 teams who make up the top 3, scoring 74 and 66 points respectively.</p><p>At the other end of the table, <b>Yorkshire Lass UTD</b>, <b>Change Name</b> and <b>Doggers FC</b> all struggled for points and find themselves in the bottom 3 at this early stage in the season.</p>",
     totw: [
       {
-        team: "Try Hard FC",
+        team: "Try hard FC",
         manager: "Matthew Ashley"
       }
     ],
-    totwDescription: "<p>Matthew Ashley's <b>Try Hard FC</b> were the highest scoring team of the week, with a total of 76pts. Matthew made some good choices in captaining Haaland and also fielding Semenyo and Raya - 4 goals and 4 defensive clean sheets has given his team an advantage going into GW2.</p>",
+    totwDescription: "<p>Matthew Ashley's <b>Try hard FC</b> were the highest scoring team of the week, with a total of 76pts. Matthew made some good choices in captaining Haaland and also fielding Semenyo and Raya - 4 goals and 4 defensive clean sheets has given his team an advantage going into GW2.</p>",
     sacked: [
       {
         team: "Yorkshire Lass UTD",
@@ -336,14 +336,14 @@ export const allGWData: GameWeek[] = [
   },
   {
     gameweek: 3,
-    overview: "<p>All change at the top again as we have a new top 3 of <b>Try Hard FC</b>, <b>SmallTalkwithaSwede</b> and <b>Yorkshire Lass UTD</b>. <b>Try Hard FC</b> had a particularly good week (see TOTW) and they currently have a 27pt lead over 2nd place. It's still close as we go into the International break however, as 2nd through to 12th place are only separated by 28pts.</p><p>It was a week of surprises and upsets where player points were concerned, as players who previously were doing well, or who were expected to do well this week just didn't show up (looking at you, Chris Wood and Brennan Johnson). It was a relatively low scoring week as a result, with only 8 of the 20 teams scoring over 50pts and only 2 scoring over 60.</p>",
+    overview: "<p>All change at the top again as we have a new top 3 of <b>Try hard FC</b>, <b>SmallTalkwithaSwede</b> and <b>Yorkshire Lass UTD</b>. <b>Try hard FC</b> had a particularly good week (see TOTW) and they currently have a 27pt lead over 2nd place. It's still close as we go into the International break however, as 2nd through to 12th place are only separated by 28pts.</p><p>It was a week of surprises and upsets where player points were concerned, as players who previously were doing well, or who were expected to do well this week just didn't show up (looking at you, Chris Wood and Brennan Johnson). It was a relatively low scoring week as a result, with only 8 of the 20 teams scoring over 50pts and only 2 scoring over 60.</p>",
     totw: [
       {
-        team: "Try Hard FC",
+        team: "Try hard FC",
         manager: "Matthew Ashley"
       }
     ],
-    totwDescription: "<p><b>Try Hard FC</b> receive their second TOTW award, scoring an impressive 84pts this week. With a trio of Crystal Palace players (Guéhi, Sarr and Mateta) making up the spine of their team, all of who scored one each against Aston Villa, plus captaining Bruno Fernandes who scored against Burnley, you can't help but admire the foresight and planning that I personally seem incapable of (looking at you again Chris Wood 😡). Well done Matthew 👏🏻</p>",
+    totwDescription: "<p><b>Try hard FC</b> receive their second TOTW award, scoring an impressive 84pts this week. With a trio of Crystal Palace players (Guéhi, Sarr and Mateta) making up the spine of their team, all of who scored one each against Aston Villa, plus captaining Bruno Fernandes who scored against Burnley, you can't help but admire the foresight and planning that I personally seem incapable of (looking at you again Chris Wood 😡). Well done Matthew 👏🏻</p>",
     sacked: [
       {
         team: "Wards Wanderers",
@@ -502,7 +502,7 @@ export const allGWData: GameWeek[] = [
   },
   {
     gameweek: 4,
-    overview: "<p><b>Try Hard FC</b> have had another good gameweek and have increased their lead at the top to 34pts. <b>Shadechester FC</b> and <b>Stranger Mings</b> have moved up into 2nd and 3rd places respectively in a week where the top 3 teams in the league were also the top 3 scoring teams for the week.</p><p>There was movement at the bottom of the table too as <b>Doggers FC</b>, who have been pretty much rooted to the bottom of the table since GW1 have since been displaced by <b>Johnmcginnsthegoat</b> who had a poor scoring week (see below).</p><p>After winning PL Player of the Month for August and scoring 22pts in the first 3 game weeks, 5 teams opted to transfer in Jack Grealish who, of course, ended up blanking in GW4.</p>",
+    overview: "<p><b>Try hard FC</b> have had another good gameweek and have increased their lead at the top to 34pts. <b>Shadechester FC</b> and <b>Stranger Mings</b> have moved up into 2nd and 3rd places respectively in a week where the top 3 teams in the league were also the top 3 scoring teams for the week.</p><p>There was movement at the bottom of the table too as <b>Doggers FC</b>, who have been pretty much rooted to the bottom of the table since GW1 have since been displaced by <b>Johnmcginnsthegoat</b> who had a poor scoring week (see below).</p><p>After winning PL Player of the Month for August and scoring 22pts in the first 3 game weeks, 5 teams opted to transfer in Jack Grealish who, of course, ended up blanking in GW4.</p>",
     totw: [
       {
         team: "Stranger Mings",
@@ -668,14 +668,14 @@ export const allGWData: GameWeek[] = [
   },
   {
     gameweek: 5,
-    overview: "<p><b>Try Hard FC</b> continued to consolidate their lead at the top of the table with yet another good gameweek, increasing their lead at the top to 45pts. <b>Stranger Mings</b> have moved up into 2nd place, replacing <b>Shadechester FC</b> who have moved down to 3rd place.</p><p>Other big movers in the top 10 include <b>Redder's Rejects</b> who moved up 4 places to 4th and <b>Change Name</b> moved up 5 places to 6th. It's still relatively close at the top of the table with only 41pts separating 2nd to 10th place.</p><p>It was a relatively low scoring week all round in comparison to previous weeks as some of the top PL teams and highest selected players came up against difficult opposition and Bournemouth and Newcastle were the only teams to keep a clean sheet.</p>",
+    overview: "<p><b>Try hard FC</b> continued to consolidate their lead at the top of the table with yet another good gameweek, increasing their lead at the top to 45pts. <b>Stranger Mings</b> have moved up into 2nd place, replacing <b>Shadechester FC</b> who have moved down to 3rd place.</p><p>Other big movers in the top 10 include <b>Redder's Rejects</b> who moved up 4 places to 4th and <b>Change Name</b> moved up 5 places to 6th. It's still relatively close at the top of the table with only 41pts separating 2nd to 10th place.</p><p>It was a relatively low scoring week all round in comparison to previous weeks as some of the top PL teams and highest selected players came up against difficult opposition and Bournemouth and Newcastle were the only teams to keep a clean sheet.</p>",
     totw: [
       {
-        team: "Try Hard FC",
+        team: "Try hard FC",
         manager: "Matthew Ashley"
       }
     ],
-    totwDescription: "<p>In what has become something of a tradition, <b>Try Hard FC</b> are once again the highest scoring team of GW5 with 64pts, winning their third TOTW award of the season. Matthew opted to play the Triple Captain chip on Bruno Fernandes who inevitably scored a huge 30pts and provided almost half of the teams total for the week. We continue to bow down to your superior technical know-how Matthew 🙌🏻</p><p>Josh and his team <b>Johnmcginnsthegoat</b> deserve an honourable mention. Josh decided to play his wildcard this week and achieved the second highest score of the week with 59pts after being the lowest scoring team last week 👏🏻</p>",
+    totwDescription: "<p>In what has become something of a tradition, <b>Try hard FC</b> are once again the highest scoring team of GW5 with 64pts, winning their third TOTW award of the season. Matthew opted to play the Triple Captain chip on Bruno Fernandes who inevitably scored a huge 30pts and provided almost half of the teams total for the week. We continue to bow down to your superior technical know-how Matthew 🙌🏻</p><p>Josh and his team <b>Johnmcginnsthegoat</b> deserve an honourable mention. Josh decided to play his wildcard this week and achieved the second highest score of the week with 59pts after being the lowest scoring team last week 👏🏻</p>",
     sacked: [
       {
         team: "SmallTalkWithaSwede",
@@ -834,7 +834,7 @@ export const allGWData: GameWeek[] = [
   },
   {
     gameweek: 6,
-    overview: "<p>The top 3 remains unchanged this week, however <b>Stranger Mings</b> had an excellent week which saw them gain ground on first place <b>Try Hard FC</b>, reducing the gap to 13pts. <b>Shadechester FC</b> remain in 3rd place, 28pts off 2nd place.</p><p>8 of the 20 teams used a chip in GW6, with 5 teams opting to use their wildcard. The silver bullet this week however seemed to be Triple Captain'ing Haaland, who scored 2 injury time goals, bagging him 16pts - or a massive 48pts for the 3 teams that did just that and ended up as the 3 highest scoring teams of the week.</p><p>Two of those teams were <b>Norfolk N Chance</b> and <b>Doggers FC</b> (who we have previously berated on multiple occasions for their player selections). Both teams moved up 5 places in the league, to 4th and 14th respectively.</p>",
+    overview: "<p>The top 3 remains unchanged this week, however <b>Stranger Mings</b> had an excellent week which saw them gain ground on first place <b>Try hard FC</b>, reducing the gap to 13pts. <b>Shadechester FC</b> remain in 3rd place, 28pts off 2nd place.</p><p>8 of the 20 teams used a chip in GW6, with 5 teams opting to use their wildcard. The silver bullet this week however seemed to be Triple Captain'ing Haaland, who scored 2 injury time goals, bagging him 16pts - or a massive 48pts for the 3 teams that did just that and ended up as the 3 highest scoring teams of the week.</p><p>Two of those teams were <b>Norfolk N Chance</b> and <b>Doggers FC</b> (who we have previously berated on multiple occasions for their player selections). Both teams moved up 5 places in the league, to 4th and 14th respectively.</p>",
     totw: [
       {
         team: "Norfolk N Chance",
@@ -1005,7 +1005,7 @@ export const allGWData: GameWeek[] = [
   },
   {
     gameweek: 7,
-    overview: "<p>No change at the top again this week as <b>Try Hard FC</b>, <b>Stranger Mings</b> and <b>Shadechester FC</b> continue to maintain their hold on the top 3. <b>Try Hard FC</b> we're able to increase their lead to 32pts mainly thanks to a poor week for 2nd placed <b>Stranger Mings</b>.</p><p>In fact, the order of the top 6 teams remained the same as last week as most teams at the top cancelled each other out with the same team base of Guéhi, Semenyo and Haaland as captain. Seven of the top 10 teams all scored point totals this week that were within 6pts of each other.</p><p>It's becoming clear that if teams in the chasing pack want to catch the top 3, they will need to be braver and take more risks when choosing players and captains.</p>",
+    overview: "<p>No change at the top again this week as <b>Try hard FC</b>, <b>Stranger Mings</b> and <b>Shadechester FC</b> continue to maintain their hold on the top 3. <b>Try hard FC</b> we're able to increase their lead to 32pts mainly thanks to a poor week for 2nd placed <b>Stranger Mings</b>.</p><p>In fact, the order of the top 6 teams remained the same as last week as most teams at the top cancelled each other out with the same team base of Guéhi, Semenyo and Haaland as captain. Seven of the top 10 teams all scored point totals this week that were within 6pts of each other.</p><p>It's becoming clear that if teams in the chasing pack want to catch the top 3, they will need to be braver and take more risks when choosing players and captains.</p>",
     totw: [
       {
         team: "Yorkshire Lass UTD",
@@ -1171,6 +1171,177 @@ export const allGWData: GameWeek[] = [
         manager: "Scott Ward",
         gw: 27,
         total: 265
+      }
+    ]
+  },
+  {
+    gameweek: 8,
+    overview: "<p>Another sterling performance from <b>Try hard FC</b> this week (see TOTW) sees the leaders extend their lead to a formidable 66pts. The top 3 has changed for the first time in 4 weeks as another high scoring week for <b>Norfolk N Chance</b> has seen them move up 2 places to 2nd, displacing <b>Stranger Mings</b> who have moved down to 5th. <b>Shadechester FC</b> remain 3rd, although with a fragile 4pt advantage over 4th.</p><p>There was also change at the bottom of the table as <b>Wards Wanderers</b>, who had previously been bottom of the table for the last 3 weeks, scored a solid 61pts this week moving them off the bottom of the table. Going in the opposite direction, <b>Pure Worship</b> had a dismal week and are now the team in the unenviable position of last place.</p><p>I commented last week that teams need to be braver and take more risks in order to catch the top 3 and it seems some teams put this into practice this week, with varying degrees of success. Mind games? Perhaps, however I maintain that this game is won in the differentials, it is not won by making the easy and obvious choices. If it didn't quite work out for you this week then bad luck but also well done for playing the game.</p>",
+    totw: [
+      {
+        team: "Try hard FC",
+        manager: "Matthew Ashley"
+      }
+    ],
+    totwDescription: "<p><b>Try hard FC</b> are this week's TOTW with an impressive 96pts. They expertly deployed their Bench Boost chip this week to maximum effect - their bench achieving a massive 33pts thanks to a hattrick from the previously ineffective Mateta and a goal for Mbeumo. This is Matthew's 4th TOTW award in only 8 weeks which is quite a feat, well done Matthew. They have such a remarkable lead right now but it's still so early in the season so don't despair - there is still plenty to play for.</p>",
+    sacked: [
+      {
+        team: "Pure Worship",
+        manager: "Matthew Doyle"
+      }
+    ],
+    sackedDescription: "<p><b>Pure Worship</b> achieved the worst score of GW8 with 34pts. The only player of note was Mbeumo with a goal and 9pts, all other selected players struggled to achieve more than 4pts. In fact, their sub bench had a better week, scoring 24pts for 4 players, only 10pts less than the 11 first team players - if only you had played your Bench Boost chip Doylie 😔</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Reece James</b> (CHE 🔵 - £5.4m) was POTW for GW8 with 18pts - managing a goal, an assist and a clean sheet against this seasons whipping boys, Nottingham Forest. He has a great differential and is only selected by 5.4% of all teams, unfortunately that doesn't include any teams in our league.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW9 is Friday 24th October at 6:30pm.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 96,
+        total: 555
+      },
+      {
+        rank: 2,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 73,
+        total: 489
+      },
+      {
+        rank: 3,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 53,
+        total: 474
+      },
+      {
+        rank: 4,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 74,
+        total: 470
+      },
+      {
+        rank: 5,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 39,
+        total: 466
+      },
+      {
+        rank: 6,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 61,
+        total: 458
+      },
+      {
+        rank: 7,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 69,
+        total: 458
+      },
+      {
+        rank: 8,
+        team: "Redder’s Rejects",
+        manager: "David Redfern",
+        gw: 71,
+        total: 449
+      },
+      {
+        rank: 9,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 55,
+        total: 437
+      },
+      {
+        rank: 10,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 39,
+        total: 415
+      },
+      {
+        rank: 11,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 72,
+        total: 411
+      },
+      {
+        rank: 12,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 57,
+        total: 406
+      },
+      {
+        rank: 13,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 40,
+        total: 400
+      },
+      {
+        rank: 14,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 53,
+        total: 394
+      },
+      {
+        rank: 15,
+        team: "What,s for pud..",
+        manager: "Sharon Perry",
+        gw: 63,
+        total: 390
+      },
+      {
+        rank: 16,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 72,
+        total: 381
+      },
+      {
+        rank: 17,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 41,
+        total: 356
+      },
+      {
+        rank: 18,
+        team: "I don’t know",
+        manager: "Charlie Swain",
+        gw: 43,
+        total: 328
+      },
+      {
+        rank: 19,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 61,
+        total: 326
+      },
+      {
+        rank: 20,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 34,
+        total: 321
       }
     ]
   }
