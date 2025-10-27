@@ -1344,5 +1344,176 @@ export const allGWData: GameWeek[] = [
         total: 321
       }
     ]
+  },
+  {
+    gameweek: 9,
+    overview: "<p>It was a fairly low scoring week this game week, as popular player picks from Man City, Chelsea and Liverpool all lost their respective games.</p><p><b>Try Hard FC</b> maintain their lead at the top of the table, with second place <b>Norfolk N Chance</b> unable to capitalise on a low scoring week for the leaders. <b>Yorkshire Lass UTD</b> had a marginally better week and was able to displace <b>Shadechester FC</b> from 3rd place. We're talking about very tight margins in the fight for top 3 right now - with only 14pts separating places 2nd to 5th.</p><p>With everyone's perennial captain Haaland facing a rejuvenated Villa side this week, many managers didn't fancy him to do well this week - and rightly so as he blanked for the first time in 13 matches for club and country [UTV 💜🩵 - Ed.]. The most popular captain selections this week seemed to be Salah, Semenyo and Fernandes, however all 3 players failed to score particularly highly this week either. Dammit, should have captained Micky van de Ven, Joe Rodon or Zian Flemming of course 🤦🏻‍♂️</p><p>With 9 games played, we're roughly a quarter of the way through the season already 😱</p>",
+    totw: [
+      {
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson"
+      }
+    ],
+    totwDescription: "<p>It was a great week for <b>SmallTalkwithaSwede</b>, achieving their first TOTW of the season with 74pts. I imagine Jack will be both delighted and relieved he played his Bench Boost chip this week after relegating this week's POTW van de Ven to the bench. In fact, his starting 11 only scored 2 more points than the 4 player sub bench, which makes the timing of the chip even more impressive. Bravo Jack, loving your work 🔥</p>",
+    sacked: [
+      {
+        team: "I don't know",
+        manager: "Charlie Swain"
+      }
+    ],
+    sackedDescription: "<p><b>I don't know</b> with a very appropriate team name this week as they were the lowest scoring team of GW9, with 27pts. Ezri Konsa was the outlier in the team, with a clean sheet and 8pts. However, with no other clean sheets, goals and assists across the rest of the team and captain Thierno Barry blanking, it was a tough game week for Charlie's team. Better luck next week 🤞🏻</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Micky van de Ven</b> (TOT ⚪🔵 - £4.7m) had a brilliant game against Everton, with 2 goals, a clean sheet plus 3 bonus points and is POTW for GW9 with 23pts. He proved to be the difference for some teams in the league this week, with the top 3 scoring teams of the week all having him selected.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW10 is Saturday 1st November at 1:30pm.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 50,
+        total: 605
+      },
+      {
+        rank: 2,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 43,
+        total: 532
+      },
+      {
+        rank: 3,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 58,
+        total: 528
+      },
+      {
+        rank: 4,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 45,
+        total: 519
+      },
+      {
+        rank: 5,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 52,
+        total: 518
+      },
+      {
+        rank: 6,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 55,
+        total: 513
+      },
+      {
+        rank: 7,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 51,
+        total: 509
+      },
+      {
+        rank: 8,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 64,
+        total: 501
+      },
+      {
+        rank: 9,
+        team: "Redder’s Rejects",
+        manager: "David Redfern",
+        gw: 42,
+        total: 491
+      },
+      {
+        rank: 10,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 74,
+        total: 485
+      },
+      {
+        rank: 11,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 63,
+        total: 463
+      },
+      {
+        rank: 12,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 51,
+        total: 457
+      },
+      {
+        rank: 13,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 47,
+        total: 454
+      },
+      {
+        rank: 14,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 47,
+        total: 441
+      },
+      {
+        rank: 15,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 45,
+        total: 426
+      },
+      {
+        rank: 16,
+        team: "What's for pud..",
+        manager: "Sharon Perry",
+        gw: 35,
+        total: 425
+      },
+      {
+        rank: 17,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 56,
+        total: 412
+      },
+      {
+        rank: 18,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 50,
+        total: 371
+      },
+      {
+        rank: 19,
+        team: "I don’t know",
+        manager: "Charlie Swain",
+        gw: 27,
+        total: 355
+      },
+      {
+        rank: 20,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 29,
+        total: 355
+      }
+    ]
   }
 ];
