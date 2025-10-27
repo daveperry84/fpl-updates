@@ -126,7 +126,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
-        team: "What,s for pud..",
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 43,
         total: 43
@@ -1023,7 +1023,7 @@ export const allGWData: GameWeek[] = [
     otherUpdates: [
       {
         title: "👌🏻 Player of the Week",
-        content: "<p><b>Antoine Semenyo</b> (BOU 🔴⚫ - £7.9m) has obviously been one of the best players of the season so far and picks up his second POTW award. Two goals and an assist saw Semenyo scoring 18pts for 11 of the 20 teams in the league, and 36pts for *Brian Munich* who were the only team to captain the Bournemouth forward.</p>"
+        content: "<p><b>Antoine Semenyo</b> (BOU 🔴⚫ - £7.9m) has obviously been one of the best players of the season so far and picks up his second POTW award. Two goals and an assist saw Semenyo scoring 18pts for 11 of the 20 teams in the league, and 36pts for <b>Brian Munich</b> who were the only team to captain the Bournemouth forward.</p>"
       },
       {
         title: "⏭️ Next Gameweek",
@@ -1303,7 +1303,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
-        team: "What,s for pud..",
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 63,
         total: 390
