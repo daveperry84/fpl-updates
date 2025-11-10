@@ -340,6 +340,181 @@ export const allGWData: GameWeek[] = [
     ]
   },
   {
+    gameweek: 11,
+    overview: "<p>Points were hard to come by this week as we saw the lowest average score of the season so far - if your team scored around or above the 38pt average you did well this week. This meant there were no huge changes in the table and where teams did move up or down, it was by a handful of points and there were no huge advantages gained by any team.</p><p>Towards the top of the table, <b>Norfolk N Chance</b> had a marginally better week than those around them, scoring 56pts and moving up to 2nd place which meant <b>Shadechester FC</b> moved down to third. <b>Try Hard FC</b> maintain top spot, although a couple of average scoring game weeks have meant their advantage has dropped from a 73pts high a couple of weeks ago down to 55pts currently.</p><p>Another difficulty this week was selecting a captain - particularly with everyone's favourite captain Haaland facing a tough match against Liverpool. Some opted to keep him, which didn't work out too well with him only scoring 4pts due to a missed penalty. Other popular captain choices such as Semenyo, Woltemade and João Pedro also had poor to average performances this week.</p><p>There are still only 36pts separating 2nd to 8th place and as teams become stretched with injuries, few available transfers and no remaining chips it will be interesting to see how teams perform in the upcoming challenging period.</p>",
+    totw: [
+      {
+        team: "chicken caesar salah",
+        manager: "Dan Zreika"
+      }
+    ],
+    totwDescription: "<p><b>chicken caesar salah</b> will be the happiest team and manager this week as they achieved the highest score of GW11, with 61pts. It is the first time this season that a team outside the top 10 has been awarded TOTW. It was the midfield that won it for Dan's team, with Saka, Neto and Mbeumo all hitting the back of the net plus clean sheets for Maguire and Sanchez rounded off a superb performance for the team. Congratulations Dan 👏🏻</p>",
+    sacked: [
+      {
+        team: "Doggers FC",
+        manager: "Paul Harris"
+      }
+    ],
+    sackedDescription: "<p><b>Doggers FC</b> had a week to forget, only scoring 23pts in GW11 which was the lowest score of the week. The key to their poor performance was selecting 3 Arsenal defensive players, which on paper looked like a solid choice, however they ended up conceding 2 goals against this season's surprise package, Sunderland. With only captain Haaland scoring and no other goals, assists or clean sheets, their manager Paul will be hoping for a better performance next time.</p>",
+    otherUpdates: [
+      {
+        title: "☯️ Genius and madness",
+        content: "<p><b>PurpleReina</b> arguably made the best tactical decision of the week by captaining Bukayo Saka, who scored 24pts (12pts x 2). Saka hasn't scored particularly highly in FPL recently and no other team thought to captain the Arsenal winger so it was some great insight from Liam.</p><p><b>Try Hard FC</b> will be ruing their decision to captain Bournemouth's Antoine Semenyo after a 4-0 drubbing away to Aston Villa. A missed penalty added salt to the wound and meant zero points for the Bournemouth forward.</p>"
+      },
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Malo Gusto</b> (CHE 🔵 - £4.9m) is POTW for GW11 after scoring a goal and keeping a clean sheet against a poor Wolves side, achieving 15pts in FPL this week. Yet again, he is another player who has a low TSB% gets POTW, with only 1.1% of all teams selecting Gusto.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>It's Internationals next weekend (boo!) so the deadline for locking in teams, transfers and chips for GW12 is Saturday 22nd November at 11am.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 43,
+        total: 712
+      },
+      {
+        rank: 2,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 56,
+        total: 657
+      },
+      {
+        rank: 3,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 43,
+        total: 646
+      },
+      {
+        rank: 4,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 53,
+        total: 646
+      },
+      {
+        rank: 5,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 38,
+        total: 628
+      },
+      {
+        rank: 6,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 48,
+        total: 624
+      },
+      {
+        rank: 7,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 51,
+        total: 622
+      },
+      {
+        rank: 8,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 41,
+        total: 621
+      },
+      {
+        rank: 9,
+        team: "Redder’s Rejects",
+        manager: "David Redfern",
+        gw: 32,
+        total: 605
+      },
+      {
+        rank: 10,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 32,
+        total: 597
+      },
+      {
+        rank: 11,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 61,
+        total: 589
+      },
+      {
+        rank: 12,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 59,
+        total: 577
+      },
+      {
+        rank: 13,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 39,
+        total: 570
+      },
+      {
+        rank: 14,
+        team: "What,s for pud..",
+        manager: "Sharon Perry",
+        gw: 31,
+        total: 539
+      },
+      {
+        rank: 15,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 27,
+        total: 515
+      },
+      {
+        rank: 16,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 23,
+        total: 495
+      },
+      {
+        rank: 17,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 27,
+        total: 490
+      },
+      {
+        rank: 18,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 40,
+        total: 477
+      },
+      {
+        rank: 19,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 25,
+        total: 446
+      },
+      {
+        rank: 20,
+        team: "I don’t know",
+        manager: "Charlie Swain",
+        gw: 44,
+        total: 441
+      }
+    ]
+  },
+  {
     gameweek: 2,
     overview: "<p><b>Norfolk N Chance</b> are the only team to maintain their position in the top 3 and currently share joint 1st place with <b>KPnuts</b>. <b>Under My Cucurella</b> round out the top 3 positions.</p><p>It's a little too early in the season to give league position any credence however, and there are currently only 20pts separating 1st to 13th place.</p><p>A lot of teams will be cursing Cole Palmer this week who picked up an injury right before kick-off against a poor West Ham team they ended up putting 5 goals past. I wonder how many teams will look to offload Palmer before GW3 🤔</p>",
     totw: [
