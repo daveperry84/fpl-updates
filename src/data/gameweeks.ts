@@ -587,7 +587,7 @@ export const allGWData: GameWeek[] = [
         team: "Change Name",
         manager: "Alex Burney",
         gw: 36,
-        total: 644
+        total: 664
       },
       {
         rank: 7,
