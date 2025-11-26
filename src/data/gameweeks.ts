@@ -515,6 +515,181 @@ export const allGWData: GameWeek[] = [
     ]
   },
   {
+    gameweek: 12,
+    overview: "<p><b>Shadechester FC</b>, with a TOTW performance this week, saw them move back up to 2nd place and close the gap on eternal leaders <b>Try hard FC</b>, whose lead has been reduced to a 'still not insignificant' 45pts. <b>Yorkshire Lass UTD</b> also had an impressive week and have moved up to 3rd place, leapfrogging <b>Norfolk N Chance</b>.</p><p>There were also a bunch of movements in the top half of the table, however no single team gained a clear and meaningful points advantage. <b>chicken caesar salah</b> had another good week after their TOTW performance last week, scoring 47pts and moving into the top half of the table for the first time since GW5.</p><p>It still remains close in the top half of the table, with only 11 points separating 2nd to 4th places and only 29 points separating 5th to 10th places.</p><p>Many teams were blindsided this week by the fact that highly selected midfielders Semenyo and Caicedo didn't play due to injury and rotation respectively. This meant many teams this week had to rely on their subs for points and it probably explains what has been a fairly low scoring week.</p>",
+    totw: [
+      {
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers"
+      }
+    ],
+    totwDescription: "<p><b>Shadechester FC</b> are the highest point scorers of GW12, with 59pts and pick up their second TOTW in 3 weeks. Player of the Week Eze provided a big chunk of the points for Jade's team this week, but decent scores across their defence plus a goal for Danny Welbeck also contributed to their points total. Nice one Jade 🙌🏻</p>",
+    sacked: [
+      {
+        team: "Stranger Mings",
+        manager: "Gareth Taylor"
+      }
+    ],
+    sackedDescription: "<p><b>Stranger Mings</b> receive the wooden spoon of doom this week, having scored the lowest score of 24pts. It marks a continued decline in form for Gaz's team as they have dropped from 2nd to 9th in 5 game weeks. No goals or assists and only one clean sheet from Guéhi meant low scores across the whole team this week. Better luck next week Gaz 🙏🏻</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Eberechi Eze</b> (ARS 🔴⚪ - £7.7m) is this week's POTW with 20pts after scoring a hat-trick against local rivals Spurs. He has a TSB% of 15.1% but is only selected by 2 of the 20 teams in our league, <b>Shadechester FC</b> and <b>Under my Cucurella</b> who both had 2 of the highest point scores this week mostly thanks to Eze.</p>"
+      },
+      {
+        title: "🤔 Feedback",
+        content: "<p>I would love your feedback on these updates - anything you like, dislike or would like to see more of? Maybe you've got a shout out, a grudge you want to air or something else you would like included in the update - just let me know via the WhatsApp group and I'll add it to the update for the following week.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW13 is Saturday 29th November at 1:30pm.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 38,
+        total: 750
+      },
+      {
+        rank: 2,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 59,
+        total: 705
+      },
+      {
+        rank: 3,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 49,
+        total: 695
+      },
+      {
+        rank: 4,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 37,
+        total: 694
+      },
+      {
+        rank: 5,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 47,
+        total: 665
+      },
+      {
+        rank: 6,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 36,
+        total: 644
+      },
+      {
+        rank: 7,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 41,
+        total: 658
+      },
+      {
+        rank: 8,
+        team: "Redder’s Rejects",
+        manager: "David Redfern",
+        gw: 46,
+        total: 651
+      },
+      {
+        rank: 9,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 24,
+        total: 648
+      },
+      {
+        rank: 10,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 47,
+        total: 636
+      },
+      {
+        rank: 11,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 31,
+        total: 628
+      },
+      {
+        rank: 12,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 29,
+        total: 606
+      },
+      {
+        rank: 13,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 34,
+        total: 604
+      },
+      {
+        rank: 14,
+        team: "What,s for pud..",
+        manager: "Sharon Perry",
+        gw: 38,
+        total: 577
+      },
+      {
+        rank: 15,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 42,
+        total: 557
+      },
+      {
+        rank: 16,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 33,
+        total: 528
+      },
+      {
+        rank: 17,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 37,
+        total: 527
+      },
+      {
+        rank: 18,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 39,
+        total: 516
+      },
+      {
+        rank: 19,
+        team: "I don’t know",
+        manager: "Charlie Swain",
+        gw: 44,
+        total: 485
+      },
+      {
+        rank: 20,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 37,
+        total: 483
+      }
+    ]
+  },
+  {
     gameweek: 2,
     overview: "<p><b>Norfolk N Chance</b> are the only team to maintain their position in the top 3 and currently share joint 1st place with <b>KPnuts</b>. <b>Under My Cucurella</b> round out the top 3 positions.</p><p>It's a little too early in the season to give league position any credence however, and there are currently only 20pts separating 1st to 13th place.</p><p>A lot of teams will be cursing Cole Palmer this week who picked up an injury right before kick-off against a poor West Ham team they ended up putting 5 goals past. I wonder how many teams will look to offload Palmer before GW3 🤔</p>",
     totw: [
