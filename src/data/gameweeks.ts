@@ -690,6 +690,177 @@ export const allGWData: GameWeek[] = [
     ]
   },
   {
+    gameweek: 13,
+    overview: "<p>I feel like I say this every week, but it has been a low scoring week this game week - in fact the average overall score of 35pts is the lowest average of the season so far. I think a lack of clean sheets this weekend plus captain favourite Haaland blanking were the contributing factors.</p><p>I'm not sure if we have a TOTW curse but it's been a bad GW for last week's TOTW <b>Shadechester FC</b>. They scored a miserable 23pts and move out of the top 3 as a result of slightly better than average scores from the likes of <b>Yorkshire Lass UTD</b> and <b>Norfolk N Chance</b> who have moved into 2nd and 3rd places respectively.</p><p>We are now over a 3rd of the way through the 25/26 season so wanted to throw some stats at you. <b>Try Hard FC</b> are the current leaders with 795pts and have a 54pt advantage over 2nd place. <b>I don't know</b> are in bottom place currently, and there are 285pts separating 1st and last place - the mean average GW score so far this season is 49pts so that is roughly 6 GW's worth of points for last place to catch up with first (rooting for you Charlie ✊🏻). Globally, the highest team score is 915pts - so we're all a little off the pace with the rest of the world.</p><p>Good luck to all teams for the second 3rd of the season - it's going to be an interesting part of the season as we will see The African Cup of Nations and the additional transfers that will bring plus the Christmas period and the rush to use up chips before they reset around GW19.</p>",
+    totw: [
+      {
+        team: "Under my Cucurella",
+        manager: "Dave Perry"
+      }
+    ],
+    totwDescription: "<p>Well, well, well...after 12 weeks of mediocrity, my own team <b>Under my Cucurella</b> pick up their first TOTW, with a score of 48pts. I'd like to say I provided a tactical masterclass the likes of Emery and Guardiola would be proud of, but honestly, it's mostly dumb luck. While using my triple captain chip on Haaland proved completely and annoyingly fruitless, the likes of Chalobah, Fernandes and Thiago all chipped in with goals, assists and bonus points. Well done...me 🕺🏻</p>",
+    sacked: [
+      {
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson"
+      }
+    ],
+    sackedDescription: "<p>In what was a low scoring week all round, <b>SmallTalkwithaSwede</b> came out on bottom this week with 15pts. A decent looking team on paper however nothing went right for Jacko's team with captain Haaland blanking against Leeds and no goals, assists or clean sheets across the rest of the team. We go again next week, Jack 🫡</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Malick Thiaw</b> (NEW ⚫⚪ - £4.9m) is the highest points scorer this week, with 16pts, after scoring 2 defender goals in Newcastle's 4-1 thumping of Everton. Thiaw is a rare pick, with only 0.8% of all teams selecting him - unfortunately (or perhaps fortunately depending on how you look at it) no teams in our own league had the foresight to select him.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>Quick turnaround this time as the deadline for locking in teams, transfers and chips for GW14 is Tuesday 2nd December at 6pm.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 45,
+        total: 795
+      },
+      {
+        rank: 2,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 46,
+        total: 741
+      },
+      {
+        rank: 3,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 43,
+        total: 737
+      },
+      {
+        rank: 4,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 23,
+        total: 728
+      },
+      {
+        rank: 5,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 48,
+        total: 713
+      },
+      {
+        rank: 6,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 34,
+        total: 698
+      },
+      {
+        rank: 7,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 25,
+        total: 683
+      },
+      {
+        rank: 8,
+        team: "Redder’s Rejects",
+        manager: "David Redfern",
+        gw: 31,
+        total: 682
+      },
+      {
+        rank: 9,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 26,
+        total: 674
+      },
+      {
+        rank: 10,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 31,
+        total: 667
+      },
+      {
+        rank: 11,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 45,
+        total: 651
+      },
+      {
+        rank: 12,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 41,
+        total: 645
+      },
+      {
+        rank: 13,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 15,
+        total: 643
+      },
+      {
+        rank: 14,
+        team: "What,s for pud..",
+        manager: "Sharon Perry",
+        gw: 41,
+        total: 618
+      },
+      {
+        rank: 15,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 30,
+        total: 587
+      },
+      {
+        rank: 16,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 40,
+        total: 567
+      },
+      {
+        rank: 17,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 23,
+        total: 551
+      },
+      {
+        rank: 18,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 29,
+        total: 545
+      },
+      {
+        rank: 19,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 33,
+        total: 516
+      },
+      {
+        rank: 20,
+        team: "I don’t know",
+        manager: "Charlie Swain",
+        gw: 25,
+        total: 510
+      }
+    ]
+  },
+  {
     gameweek: 2,
     overview: "<p><b>Norfolk N Chance</b> are the only team to maintain their position in the top 3 and currently share joint 1st place with <b>KPnuts</b>. <b>Under My Cucurella</b> round out the top 3 positions.</p><p>It's a little too early in the season to give league position any credence however, and there are currently only 20pts separating 1st to 13th place.</p><p>A lot of teams will be cursing Cole Palmer this week who picked up an injury right before kick-off against a poor West Ham team they ended up putting 5 goals past. I wonder how many teams will look to offload Palmer before GW3 🤔</p>",
     totw: [
@@ -1199,11 +1370,11 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p>In what has become something of a tradition, <b>Try hard FC</b> are once again the highest scoring team of GW5 with 64pts, winning their third TOTW award of the season. Matthew opted to play the Triple Captain chip on Bruno Fernandes who inevitably scored a huge 30pts and provided almost half of the teams total for the week. We continue to bow down to your superior technical know-how Matthew 🙌🏻</p><p>Josh and his team <b>Johnmcginnsthegoat</b> deserve an honourable mention. Josh decided to play his wildcard this week and achieved the second highest score of the week with 59pts after being the lowest scoring team last week 👏🏻</p>",
     sacked: [
       {
-        team: "SmallTalkWithaSwede",
+        team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson"
       }
     ],
-    sackedDescription: "<p>Stuart may wish to avert his eyes as his team <b>SmallTalkWithaSwede</b> are the lowest scoring team of the week, with a meagre 23pts. Robert Sanchez's red card madness against Man United meant a -3pts score (despite actually keeping a clean sheet for the whole 5 minutes he was on the pitch). Wirtz and Isak continuing to blank added to the teams woes. Keep heart Jack, it's a marathon not a sprint 🏃🏻‍♂️</p>",
+    sackedDescription: "<p>Stuart may wish to avert his eyes as his team <b>SmallTalkwithaSwede</b> are the lowest scoring team of the week, with a meagre 23pts. Robert Sanchez's red card madness against Man United meant a -3pts score (despite actually keeping a clean sheet for the whole 5 minutes he was on the pitch). Wirtz and Isak continuing to blank added to the teams woes. Keep heart Jack, it's a marathon not a sprint 🏃🏻‍♂️</p>",
     otherUpdates: [
       {
         title: "👌🏻 Player of the Week",
