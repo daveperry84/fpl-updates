@@ -526,7 +526,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Shadechester FC</b> are the highest point scorers of GW12, with 59pts and pick up their second TOTW in 3 weeks. Player of the Week Eze provided a big chunk of the points for Jade's team this week, but decent scores across their defence plus a goal for Danny Welbeck also contributed to their points total. Nice one Jade 🙌🏻</p>",
     sacked: [
       {
-        team: "Stranger Mings",
+        team: "stranger Mings",
         manager: "Gareth Taylor"
       }
     ],
@@ -857,6 +857,177 @@ export const allGWData: GameWeek[] = [
         manager: "Charlie Swain",
         gw: 25,
         total: 510
+      }
+    ]
+  },
+  {
+    gameweek: 14,
+    overview: "<p>After a low scoring GW last time, GW14 ended up being one of the highest scoring weeks. There was no changes at the top this week as all teams in the top 5 had fairly average scoring weeks. In fact the highest scores this week came from teams in the middle of the table, with 3 mid-table teams scoring 87pts or more.</p><p>The biggest winner this week was <b>stranger Mings</b> who scored a massive 96pts and moved up 3 places to 6th, putting pressure on the teams above. <b>I don't know</b> who were previously bottom scored an impressive 72pts this week, moving them off the bottom of the table.</p><p>The key to doing well in GW14 was captaining Haaland who scored 14pts after notching a goal and 2 assists in a 9-goal thriller against Fulham. Only 2 teams took the decision not to captain Haaland and there is only one single team in the league who haven't even selected Haaland at all (bold strategy Doyle).</p>",
+    totw: [
+      {
+        team: "stranger Mings",
+        manager: "Gareth Taylor"
+      }
+    ],
+    totwDescription: "<p><b>stranger Mings</b> are this week's TOTW with a huge 96pts and grab their second TOTW of the season. Captain Haaland contributed 28pts to the team, but there were decent performances across the whole team as Grealish, Doku, Guéhi, Woltemade and Burn all chipping in with goals and assists and clean sheets across the whole defence. Loving your work, Gaz 🥳</p>",
+    sacked: [
+      {
+        team: "Pure Worship",
+        manager: "Matthew Doyle"
+      }
+    ],
+    sackedDescription: "<p><b>Pure Worship</b> are the only team in the league who haven't selected Haaland so it probably comes as no surprise that they are the lowest scoring team of GW14 with 39pts. Goals from Gordon and Watkins helped prevent a complete disaster but no clean sheets and captain Salah blanking meant another week in the trenches for Doyle's team.</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Phil Foden</b> (MCI 🩵 - £8.4m) is this week's POTW with 2 goals against Fulham, scoring 17pts. That's 4 goals in 2 games for Foden, who is starting to find form again after a number of injuries. He is obviously a high profile player and has a high TSB% of 19.9% but isn't selected by any teams in the League of Leg Ends - perhaps something teams will re-evaluate for GW15.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW15 is Saturday 6th December at 11am.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 58,
+        total: 853
+      },
+      {
+        rank: 2,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 65,
+        total: 806
+      },
+      {
+        rank: 3,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 67,
+        total: 804
+      },
+      {
+        rank: 4,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 65,
+        total: 793
+      },
+      {
+        rank: 5,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 63,
+        total: 776
+      },
+      {
+        rank: 6,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 96,
+        total: 770
+      },
+      {
+        rank: 7,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 64,
+        total: 762
+      },
+      {
+        rank: 8,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 77,
+        total: 760
+      },
+      {
+        rank: 9,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 89,
+        total: 756
+      },
+      {
+        rank: 10,
+        team: "Redder’s Rejects",
+        manager: "David Redfern",
+        gw: 64,
+        total: 746
+      },
+      {
+        rank: 11,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 70,
+        total: 721
+      },
+      {
+        rank: 12,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 69,
+        total: 712
+      },
+      {
+        rank: 13,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 63,
+        total: 708
+      },
+      {
+        rank: 14,
+        team: "What,s for pud..",
+        manager: "Sharon Perry",
+        gw: 87,
+        total: 705
+      },
+      {
+        rank: 15,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 70,
+        total: 657
+      },
+      {
+        rank: 16,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 69,
+        total: 636
+      },
+      {
+        rank: 17,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 62,
+        total: 613
+      },
+      {
+        rank: 18,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 39,
+        total: 584
+      },
+      {
+        rank: 19,
+        team: "I don’t know",
+        manager: "Charlie Swain",
+        gw: 72,
+        total: 582
+      },
+      {
+        rank: 20,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 55,
+        total: 571
       }
     ]
   },
@@ -1197,7 +1368,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p><b>Try hard FC</b> have had another good gameweek and have increased their lead at the top to 34pts. <b>Shadechester FC</b> and <b>Stranger Mings</b> have moved up into 2nd and 3rd places respectively in a week where the top 3 teams in the league were also the top 3 scoring teams for the week.</p><p>There was movement at the bottom of the table too as <b>Doggers FC</b>, who have been pretty much rooted to the bottom of the table since GW1 have since been displaced by <b>Johnmcginnsthegoat</b> who had a poor scoring week (see below).</p><p>After winning PL Player of the Month for August and scoring 22pts in the first 3 game weeks, 5 teams opted to transfer in Jack Grealish who, of course, ended up blanking in GW4.</p>",
     totw: [
       {
-        team: "Stranger Mings",
+        team: "stranger Mings",
         manager: "Gareth Taylor"
       }
     ],
