@@ -526,7 +526,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Shadechester FC</b> are the highest point scorers of GW12, with 59pts and pick up their second TOTW in 3 weeks. Player of the Week Eze provided a big chunk of the points for Jade's team this week, but decent scores across their defence plus a goal for Danny Welbeck also contributed to their points total. Nice one Jade 🙌🏻</p>",
     sacked: [
       {
-        team: "Stranger Mings",
+        team: "stranger Mings",
         manager: "Gareth Taylor"
       }
     ],
@@ -1368,7 +1368,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p><b>Try hard FC</b> have had another good gameweek and have increased their lead at the top to 34pts. <b>Shadechester FC</b> and <b>Stranger Mings</b> have moved up into 2nd and 3rd places respectively in a week where the top 3 teams in the league were also the top 3 scoring teams for the week.</p><p>There was movement at the bottom of the table too as <b>Doggers FC</b>, who have been pretty much rooted to the bottom of the table since GW1 have since been displaced by <b>Johnmcginnsthegoat</b> who had a poor scoring week (see below).</p><p>After winning PL Player of the Month for August and scoring 22pts in the first 3 game weeks, 5 teams opted to transfer in Jack Grealish who, of course, ended up blanking in GW4.</p>",
     totw: [
       {
-        team: "Stranger Mings",
+        team: "stranger Mings",
         manager: "Gareth Taylor"
       }
     ],
