@@ -170,7 +170,7 @@ export const allGWData: GameWeek[] = [
   },
   {
     gameweek: 10,
-    overview: "<p><b>Shadechester FC</b> will be the happiest team and manager this week as they scored an impressive 84pts and moved up 2 places to 2nd place. They displaced <b>Norfolk N Chance</b> and <b>Yorkshire Lass UTD</b> who have moved down into 3rd and 4th respectively.</p><p><b>Try Hard FC</b> continue to maintain their lead, however they will be disappointed with their fairly average score of 64pts this week, giving some hope to the chasing pack.</p><p>The teams that performed well this week were the ones who gave the captains armband to Erling Haaland - scoring 2 goals against Bournemouth and picking up 13pts, or 26pts as captain. Some teams didn't fancy Haaland to do well against high-flying Bournemouth after blanking last week and opted for Newcastle's Woltemade and Bruno G who were playing a poor West Ham side - the risk didn't pay off however as the Toon went down 3-1 to the Hammers and Woltemade was subbed at half time.</p><p>It will be interesting to see what captain choices teams make next week with Man City facing their title rivals, Liverpool.</p>",
+    overview: "<p><b>Shadechester FC</b> will be the happiest team and manager this week as they scored an impressive 84pts and moved up 2 places to 2nd place. They displaced <b>Norfolk N Chance</b> and <b>Yorkshire Lass UTD</b> who have moved down into 3rd and 4th respectively.</p><p><b>Try hard FC</b> continue to maintain their lead, however they will be disappointed with their fairly average score of 64pts this week, giving some hope to the chasing pack.</p><p>The teams that performed well this week were the ones who gave the captains armband to Erling Haaland - scoring 2 goals against Bournemouth and picking up 13pts, or 26pts as captain. Some teams didn't fancy Haaland to do well against high-flying Bournemouth after blanking last week and opted for Newcastle's Woltemade and Bruno G who were playing a poor West Ham side - the risk didn't pay off however as the Toon went down 3-1 to the Hammers and Woltemade was subbed at half time.</p><p>It will be interesting to see what captain choices teams make next week with Man City facing their title rivals, Liverpool.</p>",
     totw: [
       {
         team: "Shadechester FC",
@@ -341,7 +341,7 @@ export const allGWData: GameWeek[] = [
   },
   {
     gameweek: 11,
-    overview: "<p>Points were hard to come by this week as we saw the lowest average score of the season so far - if your team scored around or above the 38pt average you did well this week. This meant there were no huge changes in the table and where teams did move up or down, it was by a handful of points and there were no huge advantages gained by any team.</p><p>Towards the top of the table, <b>Norfolk N Chance</b> had a marginally better week than those around them, scoring 56pts and moving up to 2nd place which meant <b>Shadechester FC</b> moved down to third. <b>Try Hard FC</b> maintain top spot, although a couple of average scoring game weeks have meant their advantage has dropped from a 73pts high a couple of weeks ago down to 55pts currently.</p><p>Another difficulty this week was selecting a captain - particularly with everyone's favourite captain Haaland facing a tough match against Liverpool. Some opted to keep him, which didn't work out too well with him only scoring 4pts due to a missed penalty. Other popular captain choices such as Semenyo, Woltemade and João Pedro also had poor to average performances this week.</p><p>There are still only 36pts separating 2nd to 8th place and as teams become stretched with injuries, few available transfers and no remaining chips it will be interesting to see how teams perform in the upcoming challenging period.</p>",
+    overview: "<p>Points were hard to come by this week as we saw the lowest average score of the season so far - if your team scored around or above the 38pt average you did well this week. This meant there were no huge changes in the table and where teams did move up or down, it was by a handful of points and there were no huge advantages gained by any team.</p><p>Towards the top of the table, <b>Norfolk N Chance</b> had a marginally better week than those around them, scoring 56pts and moving up to 2nd place which meant <b>Shadechester FC</b> moved down to third. <b>Try hard FC</b> maintain top spot, although a couple of average scoring game weeks have meant their advantage has dropped from a 73pts high a couple of weeks ago down to 55pts currently.</p><p>Another difficulty this week was selecting a captain - particularly with everyone's favourite captain Haaland facing a tough match against Liverpool. Some opted to keep him, which didn't work out too well with him only scoring 4pts due to a missed penalty. Other popular captain choices such as Semenyo, Woltemade and João Pedro also had poor to average performances this week.</p><p>There are still only 36pts separating 2nd to 8th place and as teams become stretched with injuries, few available transfers and no remaining chips it will be interesting to see how teams perform in the upcoming challenging period.</p>",
     totw: [
       {
         team: "chicken caesar salah",
@@ -359,7 +359,7 @@ export const allGWData: GameWeek[] = [
     otherUpdates: [
       {
         title: "☯️ Genius and madness",
-        content: "<p><b>PurpleReina</b> arguably made the best tactical decision of the week by captaining Bukayo Saka, who scored 24pts (12pts x 2). Saka hasn't scored particularly highly in FPL recently and no other team thought to captain the Arsenal winger so it was some great insight from Liam.</p><p><b>Try Hard FC</b> will be ruing their decision to captain Bournemouth's Antoine Semenyo after a 4-0 drubbing away to Aston Villa. A missed penalty added salt to the wound and meant zero points for the Bournemouth forward.</p>"
+        content: "<p><b>PurpleReina</b> arguably made the best tactical decision of the week by captaining Bukayo Saka, who scored 24pts (12pts x 2). Saka hasn't scored particularly highly in FPL recently and no other team thought to captain the Arsenal winger so it was some great insight from Liam.</p><p><b>Try hard FC</b> will be ruing their decision to captain Bournemouth's Antoine Semenyo after a 4-0 drubbing away to Aston Villa. A missed penalty added salt to the wound and meant zero points for the Bournemouth forward.</p>"
       },
       {
         title: "👌🏻 Player of the Week",
@@ -691,7 +691,7 @@ export const allGWData: GameWeek[] = [
   },
   {
     gameweek: 13,
-    overview: "<p>I feel like I say this every week, but it has been a low scoring week this game week - in fact the average overall score of 35pts is the lowest average of the season so far. I think a lack of clean sheets this weekend plus captain favourite Haaland blanking were the contributing factors.</p><p>I'm not sure if we have a TOTW curse but it's been a bad GW for last week's TOTW <b>Shadechester FC</b>. They scored a miserable 23pts and move out of the top 3 as a result of slightly better than average scores from the likes of <b>Yorkshire Lass UTD</b> and <b>Norfolk N Chance</b> who have moved into 2nd and 3rd places respectively.</p><p>We are now over a 3rd of the way through the 25/26 season so wanted to throw some stats at you. <b>Try Hard FC</b> are the current leaders with 795pts and have a 54pt advantage over 2nd place. <b>I don't know</b> are in bottom place currently, and there are 285pts separating 1st and last place - the mean average GW score so far this season is 49pts so that is roughly 6 GW's worth of points for last place to catch up with first (rooting for you Charlie ✊🏻). Globally, the highest team score is 915pts - so we're all a little off the pace with the rest of the world.</p><p>Good luck to all teams for the second 3rd of the season - it's going to be an interesting part of the season as we will see The African Cup of Nations and the additional transfers that will bring plus the Christmas period and the rush to use up chips before they reset around GW19.</p>",
+    overview: "<p>I feel like I say this every week, but it has been a low scoring week this game week - in fact the average overall score of 35pts is the lowest average of the season so far. I think a lack of clean sheets this weekend plus captain favourite Haaland blanking were the contributing factors.</p><p>I'm not sure if we have a TOTW curse but it's been a bad GW for last week's TOTW <b>Shadechester FC</b>. They scored a miserable 23pts and move out of the top 3 as a result of slightly better than average scores from the likes of <b>Yorkshire Lass UTD</b> and <b>Norfolk N Chance</b> who have moved into 2nd and 3rd places respectively.</p><p>We are now over a 3rd of the way through the 25/26 season so wanted to throw some stats at you. <b>Try hard FC</b> are the current leaders with 795pts and have a 54pt advantage over 2nd place. <b>I don't know</b> are in bottom place currently, and there are 285pts separating 1st and last place - the mean average GW score so far this season is 49pts so that is roughly 6 GW's worth of points for last place to catch up with first (rooting for you Charlie ✊🏻). Globally, the highest team score is 915pts - so we're all a little off the pace with the rest of the world.</p><p>Good luck to all teams for the second 3rd of the season - it's going to be an interesting part of the season as we will see The African Cup of Nations and the additional transfers that will bring plus the Christmas period and the rush to use up chips before they reset around GW19.</p>",
     totw: [
       {
         team: "Under my Cucurella",
@@ -1028,6 +1028,177 @@ export const allGWData: GameWeek[] = [
         manager: "Scott Ward",
         gw: 55,
         total: 571
+      }
+    ]
+  },
+  {
+    gameweek: 15,
+    overview: "<p>Another TOTW performance from <b>Try hard FC</b> has seen them increase their lead at the top to 71pts, after it fell to 47pts last week. <b>Yorkshire Lass UTD</b> and <b>Norfolk N Chance</b> stay in 2nd and 3rd respectively whilst a decent scoring week for <b>Under my Cucurella</b> see them move up one place to 4th.</p><p>The global average score of 38pts was quite low this week however 18 of the 20 teams in the league managed to score higher than the average - that's impressive! Give yourself a part on the back of you were one of those teams.</p><p>I guess the story of the week was high scoring midfielders and low scoring strikers. Popular midfield picks such as Fernandes, Guimarães, Dewsbury-Hall and Foden all chipped in with goals and assists and scored double figures in FPL, whilst popular striker picks like Haaland, Thiago, Mateta and <s>Voldemort</s> Woltemade all blanked.</p><p>If you read down this far, well done! Don't forget, the African Cup of Nations begins this week, which means a number of players will be out for about a month. It also means we get 5 free transfers to use from GW16 onwards - use them wisely!</p>",
+    totw: [
+      {
+        team: "Try hard FC",
+        manager: "Matthew Ashley"
+      }
+    ],
+    totwDescription: "<p>After weeks of bang average scores that saw their lead at the top diminish, <b>Try hard FC</b> have come out fighting for GW15 and secure their 5th TOTW of the season after scoring 77pts in GW15. It wasn't looking that way for a while, but with the last game of the weekend, captain Fernandes pulled out a POTW performance and scored 36pts for Matthew's team. Additional goals for Guéhi and Mbeumo helped secure TOTW, well done Matthew 👌🏻</p>",
+    sacked: [
+      {
+        team: "Wards Wanderers",
+        manager: "Scott Ward"
+      }
+    ],
+    sackedDescription: "<p><b>Wards Wanderers</b> had a terrible week, even with their Bench Boost chip deployed they still ended up as the lowest scoring team of GW15, with 32pts. No game time for Aït-Nouri and Nyoni, plus a yellow card for Walker meant zero points for all 3 players. Cucurella was their highest scoring player with 6pts, which tells it's own story about the teams overall performance. Better luck next week, Scott 💪🏻</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Bruno Fernandes</b> (MUN 🔴⚫ - £9.0m) with 2 goals and one assist against Wolves is this week's POTW, scoring 18pts. He is a popular player of course and is selected by 20.6% of all teams, including 3 of the 20 teams in the League of Leg Ends.</p><p>Shout out of course to <b>Emi Buendia</b> after scoring that last minute goal against Arsenal that saw me scare the shit out of my dog and celebrate a goal like I've never celebrated before - Absolute limbs! Am I supposed to be impartial here - oh well, UTFV 💜🩵</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW16 is Saturday 13th December at 1:30pm.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 77,
+        total: 930
+      },
+      {
+        rank: 2,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 53,
+        total: 859
+      },
+      {
+        rank: 3,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 53,
+        total: 857
+      },
+      {
+        rank: 4,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 73,
+        total: 849
+      },
+      {
+        rank: 5,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 46,
+        total: 839
+      },
+      {
+        rank: 6,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 65,
+        total: 827
+      },
+      {
+        rank: 7,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 42,
+        total: 812
+      },
+      {
+        rank: 8,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 50,
+        total: 810
+      },
+      {
+        rank: 9,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 50,
+        total: 806
+      },
+      {
+        rank: 10,
+        team: "Redder’s Rejects",
+        manager: "David Redfern",
+        gw: 50,
+        total: 796
+      },
+      {
+        rank: 11,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 56,
+        total: 777
+      },
+      {
+        rank: 12,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 65,
+        total: 769
+      },
+      {
+        rank: 13,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 59,
+        total: 767
+      },
+      {
+        rank: 14,
+        team: "What,s for pud..",
+        manager: "Sharon Perry",
+        gw: 35,
+        total: 740
+      },
+      {
+        rank: 15,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 39,
+        total: 696
+      },
+      {
+        rank: 16,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 58,
+        total: 694
+      },
+      {
+        rank: 17,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 39,
+        total: 652
+      },
+      {
+        rank: 18,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 60,
+        total: 644
+      },
+      {
+        rank: 19,
+        team: "I don’t know",
+        manager: "Charlie Swain",
+        gw: 47,
+        total: 629
+      },
+      {
+        rank: 20,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 32,
+        total: 603
       }
     ]
   },
@@ -2210,7 +2381,7 @@ export const allGWData: GameWeek[] = [
   },
   {
     gameweek: 9,
-    overview: "<p>It was a fairly low scoring week this game week, as popular player picks from Man City, Chelsea and Liverpool all lost their respective games.</p><p><b>Try Hard FC</b> maintain their lead at the top of the table, with second place <b>Norfolk N Chance</b> unable to capitalise on a low scoring week for the leaders. <b>Yorkshire Lass UTD</b> had a marginally better week and was able to displace <b>Shadechester FC</b> from 3rd place. We're talking about very tight margins in the fight for top 3 right now - with only 14pts separating places 2nd to 5th.</p><p>With everyone's perennial captain Haaland facing a rejuvenated Villa side this week, many managers didn't fancy him to do well this week - and rightly so as he blanked for the first time in 13 matches for club and country [UTV 💜🩵 - Ed.]. The most popular captain selections this week seemed to be Salah, Semenyo and Fernandes, however all 3 players failed to score particularly highly this week either. Dammit, should have captained Micky van de Ven, Joe Rodon or Zian Flemming of course 🤦🏻‍♂️</p><p>With 9 games played, we're roughly a quarter of the way through the season already 😱</p>",
+    overview: "<p>It was a fairly low scoring week this game week, as popular player picks from Man City, Chelsea and Liverpool all lost their respective games.</p><p><b>Try hard FC</b> maintain their lead at the top of the table, with second place <b>Norfolk N Chance</b> unable to capitalise on a low scoring week for the leaders. <b>Yorkshire Lass UTD</b> had a marginally better week and was able to displace <b>Shadechester FC</b> from 3rd place. We're talking about very tight margins in the fight for top 3 right now - with only 14pts separating places 2nd to 5th.</p><p>With everyone's perennial captain Haaland facing a rejuvenated Villa side this week, many managers didn't fancy him to do well this week - and rightly so as he blanked for the first time in 13 matches for club and country [UTV 💜🩵 - Ed.]. The most popular captain selections this week seemed to be Salah, Semenyo and Fernandes, however all 3 players failed to score particularly highly this week either. Dammit, should have captained Micky van de Ven, Joe Rodon or Zian Flemming of course 🤦🏻‍♂️</p><p>With 9 games played, we're roughly a quarter of the way through the season already 😱</p>",
     totw: [
       {
         team: "SmallTalkwithaSwede",

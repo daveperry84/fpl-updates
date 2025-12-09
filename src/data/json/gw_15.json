@@ -1,0 +1,166 @@
+
+{
+    "gameweek": 15,
+    "overview": "<p>Another TOTW performance from <b>Try hard FC</b> has seen them increase their lead at the top to 71pts, after it fell to 47pts last week. <b>Yorkshire Lass UTD</b> and <b>Norfolk N Chance</b> stay in 2nd and 3rd respectively whilst a decent scoring week for <b>Under my Cucurella</b> see them move up one place to 4th.</p><p>The global average score of 38pts was quite low this week however 18 of the 20 teams in the league managed to score higher than the average - that's impressive! Give yourself a part on the back of you were one of those teams.</p><p>I guess the story of the week was high scoring midfielders and low scoring strikers. Popular midfield picks such as Fernandes, Guimarães, Dewsbury-Hall and Foden all chipped in with goals and assists and scored double figures in FPL, whilst popular striker picks like Haaland, Thiago, Mateta and <s>Voldemort</s> Woltemade all blanked.</p><p>If you read down this far, well done! Don't forget, the African Cup of Nations begins this week, which means a number of players will be out for about a month. It also means we get 5 free transfers to use from GW16 onwards - use them wisely!</p>",
+    "totw": [
+        { "team": "Try hard FC", "manager": "Matthew Ashley" }
+    ],
+    "totwDescription": "<p>After weeks of bang average scores that saw their lead at the top diminish, <b>Try hard FC</b> have come out fighting for GW15 and secure their 5th TOTW of the season after scoring 77pts in GW15. It wasn't looking that way for a while, but with the last game of the weekend, captain Fernandes pulled out a POTW performance and scored 36pts for Matthew's team. Additional goals for Guéhi and Mbeumo helped secure TOTW, well done Matthew 👌🏻</p>",
+    "sacked": [
+        { "team": "Wards Wanderers", "manager": "Scott Ward" }
+    ],
+    "sackedDescription": "<p><b>Wards Wanderers</b> had a terrible week, even with their Bench Boost chip deployed they still ended up as the lowest scoring team of GW15, with 32pts. No game time for Aït-Nouri and Nyoni, plus a yellow card for Walker meant zero points for all 3 players. Cucurella was their highest scoring player with 6pts, which tells it's own story about the teams overall performance. Better luck next week, Scott 💪🏻</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "<p><b>Bruno Fernandes</b> (MUN 🔴⚫ - £9.0m) with 2 goals and one assist against Wolves is this week's POTW, scoring 18pts. He is a popular player of course and is selected by 20.6% of all teams, including 3 of the 20 teams in the League of Leg Ends.</p><p>Shout out of course to <b>Emi Buendia</b> after scoring that last minute goal against Arsenal that saw me scare the shit out of my dog and celebrate a goal like I've never celebrated before - Absolute limbs! Am I supposed to be impartial here - oh well, UTFV 💜🩵</p>" 
+        },
+        { 
+            "title": "⏭️ Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW16 is Saturday 13th December at 1:30pm.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        {
+            "rank": 1,
+            "team": "Try hard FC",
+            "manager": "Matthew Ashley",
+            "gw": 77,
+            "total": 930
+        },
+        {
+            "rank": 2,
+            "team": "Yorkshire Lass UTD",
+            "manager": "Claire Perry",
+            "gw": 53,
+            "total": 859
+        },
+        {
+            "rank": 3,
+            "team": "Norfolk N Chance",
+            "manager": "James Swain",
+            "gw": 53,
+            "total": 857
+        },
+        {
+            "rank": 4,
+            "team": "Under my Cucurella",
+            "manager": "Dave Perry",
+            "gw": 73,
+            "total": 849
+        },
+        {
+            "rank": 5,
+            "team": "Shadechester FC",
+            "manager": "Jade Dixon Bowers",
+            "gw": 46,
+            "total": 839
+        },
+        {
+            "rank": 6,
+            "team": "Change Name",
+            "manager": "Alex Burney",
+            "gw": 65,
+            "total": 827
+        },
+        {
+            "rank": 7,
+            "team": "stranger Mings",
+            "manager": "Gareth Taylor",
+            "gw": 42,
+            "total": 812
+        },
+        {
+            "rank": 8,
+            "team": "Livesdownthelaine",
+            "manager": "Elaine Redfern",
+            "gw": 50,
+            "total": 810
+        },
+        {
+            "rank": 9,
+            "team": "chicken caesar salah",
+            "manager": "Dan Zreika",
+            "gw": 50,
+            "total": 806
+        },
+        {
+            "rank": 10,
+            "team": "Redder’s Rejects",
+            "manager": "David Redfern",
+            "gw": 50,
+            "total": 796
+        },
+        {
+            "rank": 11,
+            "team": "PurpleReina",
+            "manager": "Liam Duncan",
+            "gw": 56,
+            "total": 777
+        },
+        {
+            "rank": 12,
+            "team": "SmallTalkwithaSwede",
+            "manager": "Stuart Jackson",
+            "gw": 65,
+            "total": 769
+        },
+        {
+            "rank": 13,
+            "team": "Johnmcginnsthegoat",
+            "manager": "Josh Swain",
+            "gw": 59,
+            "total": 767
+        },
+        {
+            "rank": 14,
+            "team": "What,s for pud..",
+            "manager": "Sharon Perry",
+            "gw": 35,
+            "total": 740
+        },
+        {
+            "rank": 15,
+            "team": "Brian Munich",
+            "manager": "Brian Perry",
+            "gw": 39,
+            "total": 696
+        },
+        {
+            "rank": 16,
+            "team": "Kpnuts",
+            "manager": "Katie Perry",
+            "gw": 58,
+            "total": 694
+        },
+        {
+            "rank": 17,
+            "team": "Doggers FC",
+            "manager": "Paul Harris",
+            "gw": 39,
+            "total": 652
+        },
+        {
+            "rank": 18,
+            "team": "Pure Worship",
+            "manager": "Matthew Doyle",
+            "gw": 60,
+            "total": 644
+        },
+        {
+            "rank": 19,
+            "team": "I don’t know",
+            "manager": "Charlie Swain",
+            "gw": 47,
+            "total": 629
+        },
+        {
+            "rank": 20,
+            "team": "Wards Wanderers",
+            "manager": "Scott Ward",
+            "gw": 32,
+            "total": 603
+        }
+    ]
+}
