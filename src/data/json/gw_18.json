@@ -1,0 +1,50 @@
+
+{
+    "gameweek": 18,
+    "overview": "<p>The top 3 of <b>Try Hard FC</b>, <b>Yorkshire Lass UTD</b> and <b>Shadechester FC</b> remain unchanged this week, with none of the 3 teams being able to capitalise on the other teams low scores.</p><p>In a reversal of last week's events, Haaland drew a blank this week against Nottingham Forest and it was the team's that held their nerve and decided to captain other players that did particularly well in GW18, despite the Man City strikers high scoring round last week.</p><p>Champions Liverpool have seen a resurgence recently and Ekitiké was a popular alternative captain for those that didn't fancy Haaland - he provided an assist against Wolves and scored 10pts for those teams that decided to captain him.</p><p>Some big matches coming up in GW19, with 1st facing 3rd as Aston Villa travel to the Emirates to face Arsenal, captain fantastic Haaland and Man City are away to 7th place Sunderland, and Liverpool face Leeds who are on a good run of form.</p>",
+    "totw": [
+        { "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson" }
+    ],
+    "totwDescription": "<p><b>SmallTalkwithaSwede</b> have narrowly beaten a handful of other teams this week to pick up their second TOTW award of the season, scoring 56pts in GW18. Deciding to captain Ekitiké over Haaland was a wise choice, after he provided an assist against Wolves and Haaland came up blank. The other key players for Jacko's team this week were Semenyo and João Pedro who scored goals against Brentford and Aston Villa respectively plus Everton's Michael Keane with a clean sheet against Burnley. Well done Jack 🙌🏻</p><p>A team worth a consolatory mention this week are <b>Pure Worship</b>. Doyle's team are more used to being mentioned in the \"Sacked\" section and have the most low scores of any team so far this season. However, they turned it around this week, scoring an impressive 55pts and narrowly missing out on TOTW by one point.</p>",
+    "sacked": [
+        { "team": "Johnmcginnsthegoat", "manager": "Josh Swain" }
+    ],
+    "sackedDescription": "<p><b>Johnmcginnsthegoat</b> are the lowest scoring team of GW18, with 26pts. With captain Haaland blanking, no clean sheets or assists and only one goal for Calvert-Lewin - it was a poor performing week for the team. Josh will probably be regretting some of his player choices as his 4 man subs bench almost scored as many points as all 11 onfield players. Better luck next week Josh 🤞🏻</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "<p><b>Kevin Schade</b> (BRE 🔴⚪ - £7.0m) makes it consecutive POTW's for Brentford players. Schade scored a hat-trick against Bournemouth and is this week's highest scoring player, with 20pts. He is only selected by 1.3% of all teams, but his high price point might have something to do with that. With easier games coming up against Everton and home to Sunderland, he might be worth a punt.</p>" 
+        },
+        {
+            "title": "🎇 Happy New Year",
+            "content": "<p>This will be the last update of 2025, so I wish you all a Happy New Year and all the best for 2026. And remember, with the new year comes new opportunities for your team as the game chips will be reset after GW19 - so be sure to use any of your remaining chips before the end of GW19.</p>"
+        },
+        { 
+            "title": "⏭️ Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW19 is Tuesday 30th December at 6pm.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        { "rank": 1, "team": "Try hard FC", "manager": "Matthew Ashley", "gw": 31, "total": 1072 },
+        { "rank": 2, "team": "Yorkshire Lass UTD", "manager": "Claire Perry", "gw": 27, "total": 1040 },
+        { "rank": 3, "team": "Shadechester FC", "manager": "Jade Dixon Bowers", "gw": 35, "total": 1016 },
+        { "rank": 4, "team": "Under my Cucurella", "manager": "Dave Perry", "gw": 40, "total": 1015 },
+        { "rank": 5, "team": "Norfolk N Chance", "manager": "James Swain", "gw": 33, "total": 1005 },
+        { "rank": 6, "team": "Change Name", "manager": "Alex Burney", "gw": 27, "total": 993 },
+        { "rank": 7, "team": "Redder’s Rejects", "manager": "David Redfern", "gw": 36, "total": 991 },
+        { "rank": 8, "team": "PurpleReina", "manager": "Liam Duncan", "gw": 52, "total": 991 },
+        { "rank": 9, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 55, "total": 983 },
+        { "rank": 10, "team": "chicken caesar salah", "manager": "Dan Zreika", "gw": 40, "total": 976 },
+        { "rank": 11, "team": "stranger Mings", "manager": "Gareth Taylor", "gw": 43, "total": 964 },
+        { "rank": 12, "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson", "gw": 56, "total": 947 },
+        { "rank": 13, "team": "Johnmcginnsthegoat", "manager": "Josh Swain", "gw": 26, "total": 941 },
+        { "rank": 14, "team": "What,s for pud..", "manager": "Sharon Perry", "gw": 37, "total": 924 },
+        { "rank": 15, "team": "Brian Munich", "manager": "Brian Perry", "gw": 54, "total": 905 },
+        { "rank": 16, "team": "Kpnuts", "manager": "Katie Perry", "gw": 52, "total": 885 },
+        { "rank": 17, "team": "Doggers FC", "manager": "Paul Harris", "gw": 27, "total": 812 },
+        { "rank": 18, "team": "I don't know", "manager": "Charlie Swain", "gw": 43, "total": 795 },
+        { "rank": 19, "team": "Pure Worship", "manager": "Matthew Doyle", "gw": 55, "total": 778 },
+        { "rank": 20, "team": "Wards Wanderers", "manager": "Scott Ward", "gw": 42, "total": 760 }
+    ]
+}

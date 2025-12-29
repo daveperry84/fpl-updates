@@ -3,12 +3,15 @@ import { allGWData } from '../../../../data/gameweeks';
 import { Updates } from "../../../updates/components/updates/updates";
 import { GameWeek } from '../../../core/types/game-week.type';
 import { Panel } from "../../../panel/components/panel/panel";
+import { NgIcon, provideIcons } from '@ng-icons/core';
+import { ionChevronDown } from '@ng-icons/ionicons';
 
 @Component({
   selector: 'app-previous-updates',
-  imports: [Updates, Panel],
+  imports: [Updates, Panel, NgIcon],
   templateUrl: './previous-updates.html',
-  styleUrl: './previous-updates.scss'
+  styleUrl: './previous-updates.scss',
+  viewProviders: [provideIcons({ ionChevronDown })]
 })
 export class PreviousUpdates {
   public allData = computed(() => {
@@ -16,6 +19,7 @@ export class PreviousUpdates {
     return allGWData.filter(gw => gw.gameweek !== maxGameweek);
   });
   public selectedGameweek = signal<number>(1);
+  public isListOpen = signal<boolean>(false);
   protected updatesCompRef = viewChild<Updates>('updates');
 
   public data = computed<GameWeek | undefined>(() => {
@@ -29,5 +33,6 @@ export class PreviousUpdates {
 
   protected selectGameweek(gw: number) {
     this.selectedGameweek.set(gw);
+    this.isListOpen.set(false);
   }
 }

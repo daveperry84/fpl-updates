@@ -1,12 +1,44 @@
 .previous-updates {
+    &__gw-select {
+        position: relative;
+    }
+
     &__gw-list {
+        position: absolute;
+        right: 0;
         display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
+        flex-direction: column;
+        color: black;
+        background-color: #FFF;
+        width: 140px;
+        height: 216px;
+        overflow: auto;
+        z-index: 99;
+        border: 1px solid black;
+    }
+
+    &__gw-list-item {
+        padding: 8px 10px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #F0F0F0;
+            transition: background-color 0.3s;
+        }
+
+        &.selected {
+            color: #FFF;
+            background-color: #502054;
+            font-weight: 600;
+        }
     }
 
     &__gw-btn {
-        width: 52px;
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+        width: 82px;
         text-align: center;
         padding: 8px;
         border: 1px solid #FFF;
@@ -14,15 +46,13 @@
         font-weight: 500;
         cursor: pointer;
 
+        span {
+            color: #FFF;
+        }
+
         &:hover {
             background-color: #752F7A;
             transition: background-color 0.3s;
-        }
-
-        &.selected {
-            background-color: #FFF;
-            color: #502054;
-            font-weight: 600;
         }
     }
 }
