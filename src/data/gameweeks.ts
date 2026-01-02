@@ -1724,6 +1724,181 @@ export const allGWData: GameWeek[] = [
     ]
   },
   {
+    gameweek: 19,
+    overview: "<p>For the second consecutive week the top 5 remains unchanged. <b>Try Hard FC</b> are still sitting pretty at the top of the table as we enter the second half of the season, with <b>Yorkshire Lass UTD</b> 27pts behind them. <b>Shadechester FC</b> are still in 3rd place, 28pts behind the top 2.</p><p>It was another fairly low scoring week as popular captain choices Haaland and Ekitiké blanked against Sunderland and Leeds respectively. It was players who were previously in bad form that scored well this week as Mateta, Bruno Guimarães and Enzo Fernández all found the back of the net.</p><p>We are officially half way through the season so I thought I would provide you with some more statistics for the season so far. <b>Try Hard FC</b> are the current leaders with 1118pts and have been the league leaders for all but one game week, in GW2 when <b>Kpnuts</b> were briefly top dogs. The highest global team score is 1323pts, so we are at least 205pts off the pace, or ~11pts per GW.</p><p><b>Try Hard FC</b> have had the most update mentions with a total of 5 (all TOTW awards). There are only 4 \"unpredictable\" teams that have won both TOTW's and \"Sacked\" awards - <b>Yorkshire Lass UTD</b>, <b>SmallTalkwithaSwede</b>, <b>I don't know</b> and <b>stranger Mings</b>. There are still 5 \"off-radar\" teams that haven't won either award and haven't been mentioned in these updates at all.</p><p>Some interesting things to be aware of for the second half of the season. Firstly, all chips have now reset and you should have a full list of chips available to use from GW20 onwards. Also, the League of Leg Ends Cup will be starting in GW34, like the FA Cup but with more upsets and less cream suits (only real football fans will know that reference). I will post more about the cup nearer the time.</p>",
+    totw: [
+      {
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry"
+      },
+      {
+        team: "I don't know",
+        manager: "Charlie Swain"
+      }
+    ],
+    totwDescription: "<p>For the first time this season we have joint TOTW's who both scored a game week high of 51pts, so strap in.</p><p><b>Yorkshire Lass UTD</b> grab their third TOTW award of the season and close the gap on first place thanks to goals from Bruno Guimarães and Mateta and clean sheets for Konaté and Donnarumma. Well done Claire 👌🏻</p><p>Despite being in 17th place in the league, it was a great week for <b>I don't know</b> who secure their first TOTW of the season. Arsenal's Gabriel was the big scorer for Charlie's team, with 15pts after a goal and clean sheet against Aston Villa. Nice work Charlie 🙌🏻</p>",
+    sacked: [
+      {
+        team: "Doggers FC",
+        manager: "Paul Harris"
+      }
+    ],
+    sackedDescription: "<p>It's been a bad week for <b>Doggers FC</b> who are the lowest scoring team of GW19 with a miserable 20pts. I imagine having 6 players out of 15 not playing (one of which has been in AFCON since GW17) and 2 other players who weren't on the pitch long enough to score any points had something to do with it. Of the players that did play, Leeds Bijol with a clean sheet and Semenyo with an assist were the highest scoring players, but it wasn't enough to save Paul's team from humiliation this week.</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>James Garner</b> (EVE 🔵 - £5.0m) is POTW for GW19 after scoring a goal, providing an assist and keeping a clean sheet against Nottingham Forest and scoring 16pts in FPL. Garner has started every game for Everton this season and this is his second goal of the season. He has a relatively low TSB% of 1.5% despite being the highest scoring Everton midfielder and tenth highest scoring FPL midfielder.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW20 is Saturday 3rd January at 11am.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 46,
+        total: 1118
+      },
+      {
+        rank: 2,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 51,
+        total: 1091
+      },
+      {
+        rank: 3,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 47,
+        total: 1063
+      },
+      {
+        rank: 4,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 46,
+        total: 1061
+      },
+      {
+        rank: 5,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 40,
+        total: 1045
+      },
+      {
+        rank: 6,
+        team: "Redder's Rejects",
+        manager: "David Redfern",
+        gw: 41,
+        total: 1032
+      },
+      {
+        rank: 7,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 37,
+        total: 1028
+      },
+      {
+        rank: 8,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 30,
+        total: 1023
+      },
+      {
+        rank: 9,
+        team: "Livesdowntheline",
+        manager: "Elaine Redfern",
+        gw: 41,
+        total: 1020
+      },
+      {
+        rank: 10,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 31,
+        total: 1007
+      },
+      {
+        rank: 11,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 33,
+        total: 997
+      },
+      {
+        rank: 12,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 39,
+        total: 986
+      },
+      {
+        rank: 13,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 37,
+        total: 978
+      },
+      {
+        rank: 14,
+        team: "What's for pud..",
+        manager: "Sharon Perry",
+        gw: 30,
+        total: 954
+      },
+      {
+        rank: 15,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 41,
+        total: 946
+      },
+      {
+        rank: 16,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 40,
+        total: 925
+      },
+      {
+        rank: 17,
+        team: "I don't know",
+        manager: "Charlie Swain",
+        gw: 51,
+        total: 846
+      },
+      {
+        rank: 18,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 20,
+        total: 832
+      },
+      {
+        rank: 19,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 50,
+        total: 828
+      },
+      {
+        rank: 20,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 29,
+        total: 789
+      }
+    ]
+  },
+  {
     gameweek: 2,
     overview: "<p><b>Norfolk N Chance</b> are the only team to maintain their position in the top 3 and currently share joint 1st place with <b>KPnuts</b>. <b>Under My Cucurella</b> round out the top 3 positions.</p><p>It's a little too early in the season to give league position any credence however, and there are currently only 20pts separating 1st to 13th place.</p><p>A lot of teams will be cursing Cole Palmer this week who picked up an injury right before kick-off against a poor West Ham team they ended up putting 5 goals past. I wonder how many teams will look to offload Palmer before GW3 🤔</p>",
     totw: [
