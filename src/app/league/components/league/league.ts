@@ -3,6 +3,7 @@ import { TeamEntry } from '../../../core/types/game-week.type';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { ionChevronDown, ionChevronUp, ionTrophySharp } from '@ng-icons/ionicons';
 import { heroEquals } from '@ng-icons/heroicons/outline';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-league',
@@ -19,7 +20,7 @@ export class League {
 
   protected displayExpanded: WritableSignal<boolean> = signal<boolean>(false);
 
-  constructor() {
+  constructor(private _router: Router) {
     effect(() => {
       const expanded = this.expanded();
       this.displayExpanded.set(expanded);
@@ -44,6 +45,14 @@ export class League {
   public hasSharedRank(rank: number): boolean {
     const count = this.data().filter(team => team.rank === rank).length;
     return count > 1;
+  }
+
+  public onTeamClick(team: TeamEntry): void {
+    if (!team.teamId) {
+      return;
+    }
+
+    this._router.navigate(['/team', team.teamId]);
   }
 
   protected collapseLeague() {

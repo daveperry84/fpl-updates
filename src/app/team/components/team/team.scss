@@ -1,0 +1,26 @@
+.team {
+    &__details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__detail {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        b {
+            margin-left: 0.5rem;
+        }
+    }
+
+    h3 {
+        color: #FFF;
+        font-weight: 400;
+    }
+}

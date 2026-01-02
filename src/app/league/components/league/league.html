@@ -25,7 +25,8 @@
                 {{team.rank === 1 ? 'league__row-gold' : ''}}
                 {{team.rank === 2 ? 'league__row-silver' : ''}}
                 {{team.rank === 3 ? 'league__row-bronze' : ''}}
-                ">
+                "
+                (click)="onTeamClick(team)">
                     <td class="league__rank">
                         @if (team.rank === 1) {
                             <ng-icon class="league__rank-first" name="ionTrophySharp" />

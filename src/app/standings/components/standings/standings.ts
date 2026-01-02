@@ -43,14 +43,14 @@ export class Standings {
   }
 
   private _getAwardData(award: 'totw' | 'sacked'): ManagerEntry[] {
-    const entries: { team: string; manager: string; wins: number }[] = [];
+    const entries: { team: string; manager: string; teamId: number; wins: number }[] = [];
     allGWData.forEach(gw => {
       gw[award].forEach((team) => {
         const existingEntry = entries.find(entry => entry.team === team.team && entry.manager === team.manager);
         if (existingEntry) {
           existingEntry.wins += 1;
         } else {
-          entries.push({ team: team.team, manager: team.manager, wins: 1 });
+          entries.push({ team: team.team, manager: team.manager, teamId: team.teamId, wins: 1 });
         }
       });
     });

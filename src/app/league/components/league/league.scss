@@ -158,4 +158,19 @@
         bottom: 0;
         right: 0;
     }
+
+    &__team-row {
+        cursor: pointer;
+
+        &:hover {
+            background-color: #752F7A !important;
+            color: #FFF !important;
+            transition: background-color 0.3s, color 0.3s;
+
+            td span {
+                color: #FFF !important;
+                transition: color 0.3s;
+            }
+        }
+    }
 }

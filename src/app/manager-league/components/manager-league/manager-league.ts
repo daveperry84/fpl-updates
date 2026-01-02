@@ -3,6 +3,7 @@ import { NgIcon, provideIcons } from '@ng-icons/core';
 import { ionTrophySharp } from '@ng-icons/ionicons';
 import { hugeSpoon } from '@ng-icons/huge-icons';
 import { ManagerEntry } from '../../types/manager-entry.type';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-manager-league',
@@ -18,8 +19,18 @@ export class ManagerLeague {
     return this.type() === 'totw' ? '⭐ Awards' : '😱 Awards';
   });
 
+  constructor(private _router: Router) {}
+
   public hasSharedRank(rank: number): boolean {
     const count = this.data().filter(team => team.rank === rank).length;
     return count > 1;
+  }
+
+  public onTeamClick(manager: ManagerEntry): void {
+    if (!manager.teamId) {
+      return;
+    }
+
+    this._router.navigate(['/team', manager.teamId]);
   }
 }
