@@ -11,11 +11,13 @@ export interface GameWeek {
 
 export interface TeamData {
   team: string;
+  teamId: number;
   manager: string;
 }
 
 export interface TeamEntry {
   rank: number;
+  teamId: number;
   team: string;
   manager: string;
   gw: number;

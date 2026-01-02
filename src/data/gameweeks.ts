@@ -7,6 +7,7 @@ export const allGWData: GameWeek[] = [
     overview: "The first gameweek of the 2024/25 season saw some high scores across the league, with <b>Try hard FC</b> topping the table with an impressive 76 points. <b>Norfolk N Chance</b> and <b>Shadechester FC</b> are the other 2 teams who make up the top 3, scoring 74 and 66 points respectively.</p><p>At the other end of the table, <b>Yorkshire Lass UTD</b>, <b>Change Name</b> and <b>Doggers FC</b> all struggled for points and find themselves in the bottom 3 at this early stage in the season.</p>",
     totw: [
       {
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley"
       }
@@ -14,6 +15,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p>Matthew Ashley's <b>Try hard FC</b> were the highest scoring team of the week, with a total of 76pts. Matthew made some good choices in captaining Haaland and also fielding Semenyo and Raya - 4 goals and 4 defensive clean sheets has given his team an advantage going into GW2.</p>",
     sacked: [
       {
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry"
       }
@@ -28,6 +30,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 76,
@@ -35,6 +38,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 74,
@@ -42,6 +46,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 66,
@@ -49,6 +54,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 64,
@@ -56,6 +62,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 61,
@@ -63,6 +70,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 61,
@@ -70,6 +78,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 60,
@@ -77,6 +86,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 59,
@@ -84,6 +94,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 56,
@@ -91,6 +102,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 55,
@@ -98,6 +110,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 52,
@@ -105,13 +118,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 51,
         total: 51
       },
       {
         rank: 13,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 47,
@@ -119,6 +134,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 45,
@@ -126,6 +142,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 16,
         team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 43,
@@ -133,13 +150,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 43,
         total: 43
       },
       {
         rank: 17,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 37,
@@ -147,6 +166,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 36,
@@ -154,6 +174,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 36,
@@ -161,6 +182,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 34,
@@ -173,6 +195,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p><b>Shadechester FC</b> will be the happiest team and manager this week as they scored an impressive 84pts and moved up 2 places to 2nd place. They displaced <b>Norfolk N Chance</b> and <b>Yorkshire Lass UTD</b> who have moved down into 3rd and 4th respectively.</p><p><b>Try hard FC</b> continue to maintain their lead, however they will be disappointed with their fairly average score of 64pts this week, giving some hope to the chasing pack.</p><p>The teams that performed well this week were the ones who gave the captains armband to Erling Haaland - scoring 2 goals against Bournemouth and picking up 13pts, or 26pts as captain. Some teams didn't fancy Haaland to do well against high-flying Bournemouth after blanking last week and opted for Newcastle's Woltemade and Bruno G who were playing a poor West Ham side - the risk didn't pay off however as the Toon went down 3-1 to the Hammers and Woltemade was subbed at half time.</p><p>It will be interesting to see what captain choices teams make next week with Man City facing their title rivals, Liverpool.</p>",
     totw: [
       {
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers"
       }
@@ -180,6 +203,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Shadechester FC</b> are the highest scoring team of GW10, with 84pts. It is their first TOTW award of the season which is surprising considering they've been in and around the top 3 since the start. Goals for all 3 strikers and assists for Gabriel and Caicedo helped Jade's team move up to 2nd place. Well done Jade 👏🏻</p><p>Small shout out to <b>What's for pud..</b> who we're 16th at the start of GW10 and scored 83pts this week - more weeks like that and you'll soon be in the top 10.</p>",
     sacked: [
       {
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain"
       }
@@ -199,6 +223,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 64,
@@ -206,6 +231,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 84,
@@ -213,6 +239,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 69,
@@ -220,6 +247,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 69,
@@ -227,6 +255,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 77,
@@ -234,6 +263,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 79,
@@ -241,6 +271,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 58,
@@ -248,13 +279,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 82,
         total: 573
       },
       {
         rank: 9,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 66,
@@ -262,6 +295,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 80,
@@ -269,6 +303,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 77,
@@ -276,6 +311,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 71,
@@ -283,6 +319,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 55,
@@ -290,13 +327,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
-        team: "What,s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 83,
         total: 508
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 47,
@@ -304,6 +343,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 66,
@@ -311,6 +351,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 51,
@@ -318,6 +359,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 66,
@@ -325,6 +367,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 66,
@@ -332,7 +375,8 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 42,
         total: 397
@@ -344,6 +388,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>Points were hard to come by this week as we saw the lowest average score of the season so far - if your team scored around or above the 38pt average you did well this week. This meant there were no huge changes in the table and where teams did move up or down, it was by a handful of points and there were no huge advantages gained by any team.</p><p>Towards the top of the table, <b>Norfolk N Chance</b> had a marginally better week than those around them, scoring 56pts and moving up to 2nd place which meant <b>Shadechester FC</b> moved down to third. <b>Try hard FC</b> maintain top spot, although a couple of average scoring game weeks have meant their advantage has dropped from a 73pts high a couple of weeks ago down to 55pts currently.</p><p>Another difficulty this week was selecting a captain - particularly with everyone's favourite captain Haaland facing a tough match against Liverpool. Some opted to keep him, which didn't work out too well with him only scoring 4pts due to a missed penalty. Other popular captain choices such as Semenyo, Woltemade and João Pedro also had poor to average performances this week.</p><p>There are still only 36pts separating 2nd to 8th place and as teams become stretched with injuries, few available transfers and no remaining chips it will be interesting to see how teams perform in the upcoming challenging period.</p>",
     totw: [
       {
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika"
       }
@@ -351,6 +396,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>chicken caesar salah</b> will be the happiest team and manager this week as they achieved the highest score of GW11, with 61pts. It is the first time this season that a team outside the top 10 has been awarded TOTW. It was the midfield that won it for Dan's team, with Saka, Neto and Mbeumo all hitting the back of the net plus clean sheets for Maguire and Sanchez rounded off a superb performance for the team. Congratulations Dan 👏🏻</p>",
     sacked: [
       {
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris"
       }
@@ -374,6 +420,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 43,
@@ -381,6 +428,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 56,
@@ -388,6 +436,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 43,
@@ -395,6 +444,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 53,
@@ -402,6 +452,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 38,
@@ -409,6 +460,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 48,
@@ -416,6 +468,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 51,
@@ -423,6 +476,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 41,
@@ -430,13 +484,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 32,
         total: 605
       },
       {
         rank: 10,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 32,
@@ -444,6 +500,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 61,
@@ -451,6 +508,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 59,
@@ -458,6 +516,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 39,
@@ -465,13 +524,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
-        team: "What,s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 31,
         total: 539
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 27,
@@ -479,6 +540,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 23,
@@ -486,6 +548,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 27,
@@ -493,6 +556,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 40,
@@ -500,6 +564,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 25,
@@ -507,7 +572,8 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 44,
         total: 441
@@ -519,6 +585,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p><b>Shadechester FC</b>, with a TOTW performance this week, saw them move back up to 2nd place and close the gap on eternal leaders <b>Try hard FC</b>, whose lead has been reduced to a 'still not insignificant' 45pts. <b>Yorkshire Lass UTD</b> also had an impressive week and have moved up to 3rd place, leapfrogging <b>Norfolk N Chance</b>.</p><p>There were also a bunch of movements in the top half of the table, however no single team gained a clear and meaningful points advantage. <b>chicken caesar salah</b> had another good week after their TOTW performance last week, scoring 47pts and moving into the top half of the table for the first time since GW5.</p><p>It still remains close in the top half of the table, with only 11 points separating 2nd to 4th places and only 29 points separating 5th to 10th places.</p><p>Many teams were blindsided this week by the fact that highly selected midfielders Semenyo and Caicedo didn't play due to injury and rotation respectively. This meant many teams this week had to rely on their subs for points and it probably explains what has been a fairly low scoring week.</p>",
     totw: [
       {
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers"
       }
@@ -526,6 +593,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Shadechester FC</b> are the highest point scorers of GW12, with 59pts and pick up their second TOTW in 3 weeks. Player of the Week Eze provided a big chunk of the points for Jade's team this week, but decent scores across their defence plus a goal for Danny Welbeck also contributed to their points total. Nice one Jade 🙌🏻</p>",
     sacked: [
       {
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor"
       }
@@ -549,6 +617,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 38,
@@ -556,6 +625,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 59,
@@ -563,6 +633,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 49,
@@ -570,6 +641,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 37,
@@ -577,6 +649,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 47,
@@ -584,6 +657,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 36,
@@ -591,6 +665,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 41,
@@ -598,13 +673,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 46,
         total: 651
       },
       {
         rank: 9,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 24,
@@ -612,6 +689,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 47,
@@ -619,6 +697,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 31,
@@ -626,6 +705,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 29,
@@ -633,6 +713,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 34,
@@ -640,13 +721,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
-        team: "What,s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 38,
         total: 577
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 42,
@@ -654,6 +737,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 33,
@@ -661,6 +745,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 37,
@@ -668,6 +753,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 39,
@@ -675,13 +761,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 44,
         total: 485
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 37,
@@ -694,6 +782,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>I feel like I say this every week, but it has been a low scoring week this game week - in fact the average overall score of 35pts is the lowest average of the season so far. I think a lack of clean sheets this weekend plus captain favourite Haaland blanking were the contributing factors.</p><p>I'm not sure if we have a TOTW curse but it's been a bad GW for last week's TOTW <b>Shadechester FC</b>. They scored a miserable 23pts and move out of the top 3 as a result of slightly better than average scores from the likes of <b>Yorkshire Lass UTD</b> and <b>Norfolk N Chance</b> who have moved into 2nd and 3rd places respectively.</p><p>We are now over a 3rd of the way through the 25/26 season so wanted to throw some stats at you. <b>Try hard FC</b> are the current leaders with 795pts and have a 54pt advantage over 2nd place. <b>I don't know</b> are in bottom place currently, and there are 285pts separating 1st and last place - the mean average GW score so far this season is 49pts so that is roughly 6 GW's worth of points for last place to catch up with first (rooting for you Charlie ✊🏻). Globally, the highest team score is 915pts - so we're all a little off the pace with the rest of the world.</p><p>Good luck to all teams for the second 3rd of the season - it's going to be an interesting part of the season as we will see The African Cup of Nations and the additional transfers that will bring plus the Christmas period and the rush to use up chips before they reset around GW19.</p>",
     totw: [
       {
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry"
       }
@@ -701,6 +790,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p>Well, well, well...after 12 weeks of mediocrity, my own team <b>Under my Cucurella</b> pick up their first TOTW, with a score of 48pts. I'd like to say I provided a tactical masterclass the likes of Emery and Guardiola would be proud of, but honestly, it's mostly dumb luck. While using my triple captain chip on Haaland proved completely and annoyingly fruitless, the likes of Chalobah, Fernandes and Thiago all chipped in with goals, assists and bonus points. Well done...me 🕺🏻</p>",
     sacked: [
       {
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson"
       }
@@ -720,6 +810,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 45,
@@ -727,6 +818,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 46,
@@ -734,6 +826,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 43,
@@ -741,6 +834,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 23,
@@ -748,6 +842,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 48,
@@ -755,6 +850,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 34,
@@ -762,6 +858,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 25,
@@ -769,13 +866,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 31,
         total: 682
       },
       {
         rank: 9,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 26,
@@ -783,6 +882,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 31,
@@ -790,6 +890,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 45,
@@ -797,6 +898,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 41,
@@ -804,6 +906,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 15,
@@ -811,13 +914,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
-        team: "What,s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 41,
         total: 618
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 30,
@@ -825,6 +930,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 40,
@@ -832,6 +938,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 23,
@@ -839,6 +946,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 29,
@@ -846,6 +954,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 33,
@@ -853,7 +962,8 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 25,
         total: 510
@@ -865,6 +975,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>After a low scoring GW last time, GW14 ended up being one of the highest scoring weeks. There was no changes at the top this week as all teams in the top 5 had fairly average scoring weeks. In fact the highest scores this week came from teams in the middle of the table, with 3 mid-table teams scoring 87pts or more.</p><p>The biggest winner this week was <b>stranger Mings</b> who scored a massive 96pts and moved up 3 places to 6th, putting pressure on the teams above. <b>I don't know</b> who were previously bottom scored an impressive 72pts this week, moving them off the bottom of the table.</p><p>The key to doing well in GW14 was captaining Haaland who scored 14pts after notching a goal and 2 assists in a 9-goal thriller against Fulham. Only 2 teams took the decision not to captain Haaland and there is only one single team in the league who haven't even selected Haaland at all (bold strategy Doyle).</p>",
     totw: [
       {
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor"
       }
@@ -872,6 +983,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>stranger Mings</b> are this week's TOTW with a huge 96pts and grab their second TOTW of the season. Captain Haaland contributed 28pts to the team, but there were decent performances across the whole team as Grealish, Doku, Guéhi, Woltemade and Burn all chipping in with goals and assists and clean sheets across the whole defence. Loving your work, Gaz 🥳</p>",
     sacked: [
       {
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle"
       }
@@ -891,6 +1003,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 58,
@@ -898,6 +1011,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 65,
@@ -905,6 +1019,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 67,
@@ -912,6 +1027,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 65,
@@ -919,6 +1035,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 63,
@@ -926,6 +1043,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 96,
@@ -933,6 +1051,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 64,
@@ -940,6 +1059,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 77,
@@ -947,6 +1067,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 89,
@@ -954,13 +1075,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 64,
         total: 746
       },
       {
         rank: 11,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 70,
@@ -968,6 +1091,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 69,
@@ -975,6 +1099,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 63,
@@ -982,13 +1107,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
-        team: "What,s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 87,
         total: 705
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 70,
@@ -996,6 +1123,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 69,
@@ -1003,6 +1131,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 62,
@@ -1010,6 +1139,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 39,
@@ -1017,13 +1147,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 72,
         total: 582
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 55,
@@ -1036,6 +1168,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>Another TOTW performance from <b>Try hard FC</b> has seen them increase their lead at the top to 71pts, after it fell to 47pts last week. <b>Yorkshire Lass UTD</b> and <b>Norfolk N Chance</b> stay in 2nd and 3rd respectively whilst a decent scoring week for <b>Under my Cucurella</b> see them move up one place to 4th.</p><p>The global average score of 38pts was quite low this week however 18 of the 20 teams in the league managed to score higher than the average - that's impressive! Give yourself a pat on the back if you were one of those teams.</p><p>I guess the story of the week was high scoring midfielders and low scoring strikers. Popular midfield picks such as Fernandes, Guimarães, Dewsbury-Hall and Foden all chipped in with goals and assists and scored double figures in FPL, whilst popular striker picks like Haaland, Thiago, Mateta and <s>Voldemort</s> Woltemade all blanked.</p><p>If you read down this far, well done! Don't forget, the African Cup of Nations begins this week, which means a number of players will be out for about a month. It also means we get 5 free transfers to use from GW16 onwards - use them wisely!</p>",
     totw: [
       {
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley"
       }
@@ -1043,6 +1176,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p>After weeks of bang average scores that saw their lead at the top diminish, <b>Try hard FC</b> have come out fighting for GW15 and secure their 5th TOTW of the season after scoring 77pts in GW15. It wasn't looking that way for a while, but with the last game of the weekend, captain Fernandes pulled out a POTW performance and scored 36pts for Matthew's team. Additional goals for Guéhi and Mbeumo helped secure TOTW, well done Matthew 👌🏻</p>",
     sacked: [
       {
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward"
       }
@@ -1062,6 +1196,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 77,
@@ -1069,6 +1204,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 53,
@@ -1076,6 +1212,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 53,
@@ -1083,6 +1220,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 73,
@@ -1090,6 +1228,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 46,
@@ -1097,6 +1236,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 65,
@@ -1104,6 +1244,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 42,
@@ -1111,6 +1252,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 50,
@@ -1118,6 +1260,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 50,
@@ -1125,13 +1268,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 50,
         total: 796
       },
       {
         rank: 11,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 56,
@@ -1139,6 +1284,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 65,
@@ -1146,6 +1292,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 59,
@@ -1153,13 +1300,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
-        team: "What,s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 35,
         total: 740
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 39,
@@ -1167,6 +1316,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 58,
@@ -1174,6 +1324,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 39,
@@ -1181,6 +1332,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 60,
@@ -1188,13 +1340,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 47,
         total: 629
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 32,
@@ -1207,6 +1361,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>It was a weekend full of goals this GW, including 4 own goals, as we saw 34 goals over the whole weekend (or 3.4 goals per game if you prefer). So there was plenty of opportunity for scoring points this week.</p><p>Another good week for <b>Under my Cucurella</b> sees them move into the top 3, pushing <b>Norfolk N Chance</b> back into 4th place, albeit by only one point. <b>Try Hard FC</b> and <b>Yorkshire Lass UTD</b> remain in 1st and 2nd respectively, although a marginally better week for the latter has seen them close the gap slightly on the league leaders.</p><p>Some teams struggled with their captain selections this week - with popular choices Haaland and Foden facing in-form Crystal Palace and Fernandes having a tough match against Bournemouth, it seemed a no-brainer for some to switch their captains over to an Arsenal player, who were playing against bottom of the table Wolves. Spare a thought for those teams that captained Rice and Eze 🫡</p><p>We're going to see some crucial and popular players missing from GW17 as they join their national team for the AFCON - the likes of Salah, Mbeumo, Ouattara, Ndiaye and Aït-Nouri are all expected to be missing for the next few weeks.</p>",
     totw: [
       {
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry"
       }
@@ -1214,6 +1369,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Brian Munich</b> lived up to the successes of their namesakes this week - scoring a very decent 79pts which secures them their first TOTW award of the season. Their success was mostly thanks to the midfield 3 of Rogers, Foden and Saka, all of whom chipped in with goals and assists. A clean sheet for Sunderland keeper Roefs and a brace for captain Haaland solidified their high score this week. While it hasn't affected the teams position in the league, they will certainly have their eyes on the top 10 if they continue in this form. Well done 👌🏻</p>",
     sacked: [
       {
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor"
       }
@@ -1233,6 +1389,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 54,
@@ -1240,6 +1397,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 77,
@@ -1247,6 +1405,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 68,
@@ -1254,6 +1413,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 59,
@@ -1261,6 +1421,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 71,
@@ -1268,6 +1429,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 65,
@@ -1275,6 +1437,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 66,
@@ -1282,6 +1445,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 56,
@@ -1289,6 +1453,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 9,
         team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 65,
@@ -1296,6 +1461,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 77,
@@ -1303,6 +1469,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 40,
@@ -1310,6 +1477,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 77,
@@ -1317,6 +1485,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 46,
@@ -1324,6 +1493,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 16,
         team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 68,
@@ -1331,6 +1501,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 79,
@@ -1338,6 +1509,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 69,
@@ -1345,6 +1517,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 71,
@@ -1352,6 +1525,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain",
         gw: 60,
@@ -1359,6 +1533,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 41,
@@ -1366,6 +1541,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 54,
@@ -1378,13 +1554,15 @@ export const allGWData: GameWeek[] = [
     overview: "<p>It was a high scoring week this game week, as we saw the highest average score of the season so far (66pts).</p><p>One of the main reasons for the high scoring week was the heavily selected and captained Haaland who scored a brace and provided an assist against West Ham. Captaining Haaland was definitely the key to performing well this week.</p><p><b>Try Hard FC</b> remain in top spot but similar to last week, 2nd place <b>Yorkshire Lass UTD</b> had a marginally better week and have closed the gap on the league leaders to 28pts. A decent week for <b>Shadechester FC</b> sees them move up 2 places to 3rd, displacing <b>Under my Cucurella</b> who moved down to 4th.</p><p>The game weeks are coming thick and fast over the festive period, with 2 game weeks before the New Year. So whilst you're eating Brussel sprouts, watching Mrs. Browns Boys and arguing with the family, don't forget to update your team 🎄</p>",
     totw: [
       {
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern"
       }
     ],
     totwDescription: "<p><b>Redder's Rejects</b> will be having a very Merry Christmas after scoring a huge 94pts this week. Some astute management from Dave as his decision to triple captain Haaland paid off handsomely - his 2 goals and assist meant he contributed a massive individual 48pts to the teams total. Rice, Raya and Semenyo also had good weeks, helping the team secure their first TOTW award. Nice work Dave 👏🏻</p>",
     sacked: [
       {
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle"
       }
@@ -1408,6 +1586,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 57,
@@ -1415,6 +1594,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 77,
@@ -1422,6 +1602,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 71,
@@ -1429,6 +1610,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 58,
@@ -1436,6 +1618,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 56,
@@ -1443,6 +1626,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 74,
@@ -1450,13 +1634,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 94,
         total: 955
       },
       {
         rank: 8,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 89,
@@ -1464,6 +1650,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 64,
@@ -1471,6 +1658,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 62,
@@ -1478,6 +1666,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 69,
@@ -1485,6 +1674,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 71,
@@ -1492,6 +1682,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 76,
@@ -1499,13 +1690,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
-        team: "What,s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 79,
         total: 887
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 76,
@@ -1513,6 +1706,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 70,
@@ -1520,6 +1714,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 62,
@@ -1527,6 +1722,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain",
         gw: 63,
@@ -1534,6 +1730,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 38,
@@ -1541,6 +1738,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 61,
@@ -1553,6 +1751,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>The top 3 of <b>Try Hard FC</b>, <b>Yorkshire Lass UTD</b> and <b>Shadechester FC</b> remain unchanged this week, with none of the 3 teams being able to capitalise on the other teams low scores.</p><p>In a reversal of last week's events, Haaland drew a blank this week against Nottingham Forest and it was the team's that held their nerve and decided to captain other players that did particularly well in GW18, despite the Man City strikers high scoring round last week.</p><p>Champions Liverpool have seen a resurgence recently and Ekitiké was a popular alternative captain for those that didn't fancy Haaland - he provided an assist against Wolves and scored 10pts for those teams that decided to captain him.</p><p>Some big matches coming up in GW19, with 1st facing 3rd as Aston Villa travel to the Emirates to face Arsenal, captain fantastic Haaland and Man City are away to 7th place Sunderland, and Liverpool face Leeds who are on a good run of form.</p>",
     totw: [
       {
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson"
       }
@@ -1560,6 +1759,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>SmallTalkwithaSwede</b> have narrowly beaten a handful of other teams this week to pick up their second TOTW award of the season, scoring 56pts in GW18. Deciding to captain Ekitiké over Haaland was a wise choice, after he provided an assist against Wolves and Haaland came up blank. The other key players for Jacko's team this week were Semenyo and João Pedro who scored goals against Brentford and Aston Villa respectively plus Everton's Michael Keane with a clean sheet against Burnley. Well done Jack 🙌🏻</p><p>A team worth a consolatory mention this week are <b>Pure Worship</b>. Doyle's team are more used to being mentioned in the \"Sacked\" section and have the most low scores of any team so far this season. However, they turned it around this week, scoring an impressive 55pts and narrowly missing out on TOTW by one point.</p>",
     sacked: [
       {
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain"
       }
@@ -1583,6 +1783,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 31,
@@ -1590,6 +1791,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 27,
@@ -1597,6 +1799,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 35,
@@ -1604,6 +1807,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 40,
@@ -1611,6 +1815,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 33,
@@ -1618,6 +1823,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 27,
@@ -1625,13 +1831,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 36,
         total: 991
       },
       {
         rank: 8,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 52,
@@ -1639,6 +1847,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 55,
@@ -1646,6 +1855,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 40,
@@ -1653,6 +1863,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 43,
@@ -1660,6 +1871,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 56,
@@ -1667,6 +1879,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 26,
@@ -1674,13 +1887,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
-        team: "What,s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 37,
         total: 924
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 54,
@@ -1688,6 +1903,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 52,
@@ -1695,6 +1911,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 27,
@@ -1702,6 +1919,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain",
         gw: 43,
@@ -1709,6 +1927,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 55,
@@ -1716,6 +1935,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 42,
@@ -1728,10 +1948,12 @@ export const allGWData: GameWeek[] = [
     overview: "<p>For the second consecutive week the top 5 remains unchanged. <b>Try Hard FC</b> are still sitting pretty at the top of the table as we enter the second half of the season, with <b>Yorkshire Lass UTD</b> 27pts behind them. <b>Shadechester FC</b> are still in 3rd place, 28pts behind the top 2.</p><p>It was another fairly low scoring week as popular captain choices Haaland and Ekitiké blanked against Sunderland and Leeds respectively. It was players who were previously in bad form that scored well this week as Mateta, Bruno Guimarães and Enzo Fernández all found the back of the net.</p><p>We are officially half way through the season so I thought I would provide you with some more statistics for the season so far. <b>Try Hard FC</b> are the current leaders with 1118pts and have been the league leaders for all but one game week, in GW2 when <b>Kpnuts</b> were briefly top dogs. The highest global team score is 1323pts, so we are at least 205pts off the pace, or ~11pts per GW.</p><p><b>Try Hard FC</b> have had the most update mentions with a total of 5 (all TOTW awards). There are only 4 \"unpredictable\" teams that have won both TOTW's and \"Sacked\" awards - <b>Yorkshire Lass UTD</b>, <b>SmallTalkwithaSwede</b>, <b>I don't know</b> and <b>stranger Mings</b>. There are still 5 \"off-radar\" teams that haven't won either award and haven't been mentioned in these updates at all.</p><p>Some interesting things to be aware of for the second half of the season. Firstly, all chips have now reset and you should have a full list of chips available to use from GW20 onwards. Also, the League of Leg Ends Cup will be starting in GW34, like the FA Cup but with more upsets and less cream suits (only real football fans will know that reference). I will post more about the cup nearer the time.</p>",
     totw: [
       {
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry"
       },
       {
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain"
       }
@@ -1739,6 +1961,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p>For the first time this season we have joint TOTW's who both scored a game week high of 51pts, so strap in.</p><p><b>Yorkshire Lass UTD</b> grab their third TOTW award of the season and close the gap on first place thanks to goals from Bruno Guimarães and Mateta and clean sheets for Konaté and Donnarumma. Well done Claire 👌🏻</p><p>Despite being in 17th place in the league, it was a great week for <b>I don't know</b> who secure their first TOTW of the season. Arsenal's Gabriel was the big scorer for Charlie's team, with 15pts after a goal and clean sheet against Aston Villa. Nice work Charlie 🙌🏻</p>",
     sacked: [
       {
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris"
       }
@@ -1758,6 +1981,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 46,
@@ -1765,6 +1989,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 51,
@@ -1772,6 +1997,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 47,
@@ -1779,6 +2005,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 46,
@@ -1786,6 +2013,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 40,
@@ -1793,6 +2021,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 9,
         team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 41,
@@ -1800,6 +2029,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 37,
@@ -1807,6 +2037,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 30,
@@ -1814,13 +2045,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
-        team: "Livesdowntheline",
+        teamId: 8,
+        team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 41,
         total: 1020
       },
       {
         rank: 10,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 31,
@@ -1828,6 +2061,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 33,
@@ -1835,6 +2069,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 39,
@@ -1842,6 +2077,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 37,
@@ -1849,6 +2085,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 16,
         team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 30,
@@ -1856,6 +2093,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 41,
@@ -1863,6 +2101,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 40,
@@ -1870,6 +2109,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain",
         gw: 51,
@@ -1877,6 +2117,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 20,
@@ -1884,6 +2125,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 50,
@@ -1891,6 +2133,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 29,
@@ -1903,6 +2146,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p><b>Norfolk N Chance</b> are the only team to maintain their position in the top 3 and currently share joint 1st place with <b>KPnuts</b>. <b>Under My Cucurella</b> round out the top 3 positions.</p><p>It's a little too early in the season to give league position any credence however, and there are currently only 20pts separating 1st to 13th place.</p><p>A lot of teams will be cursing Cole Palmer this week who picked up an injury right before kick-off against a poor West Ham team they ended up putting 5 goals past. I wonder how many teams will look to offload Palmer before GW3 🤔</p>",
     totw: [
       {
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry"
       }
@@ -1910,6 +2154,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p>Great turnaround of fortunes for last week's lowest scoring team, <b>Yorkshire Lass UTD</b>. With players such as Pickford, João Pedro and Semenyo scoring high, they are GW2's highest scoring team with 69pts and have moved up a whole 10 places in the league. Well done Claire!</p>",
     sacked: [
       {
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris"
       }
@@ -1924,6 +2169,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 59,
@@ -1931,6 +2177,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 1,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 45,
@@ -1938,6 +2185,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 52,
@@ -1945,6 +2193,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 53,
@@ -1952,6 +2201,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 42,
@@ -1959,6 +2209,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 46,
@@ -1966,6 +2217,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 54,
@@ -1973,6 +2225,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 50,
@@ -1980,6 +2233,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 43,
@@ -1987,6 +2241,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 69,
@@ -1994,13 +2249,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 50,
         total: 101
       },
       {
         rank: 12,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 55,
@@ -2008,6 +2265,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 63,
@@ -2015,6 +2273,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 43,
@@ -2022,6 +2281,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 35,
@@ -2029,13 +2289,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 49,
         total: 92
       },
       {
         rank: 17,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 54,
@@ -2043,13 +2305,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
-        team: "What’s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 48,
         total: 87
       },
       {
         rank: 19,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 37,
@@ -2057,6 +2321,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 18,
@@ -2069,6 +2334,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>All change at the top again as we have a new top 3 of <b>Try hard FC</b>, <b>SmallTalkwithaSwede</b> and <b>Yorkshire Lass UTD</b>. <b>Try hard FC</b> had a particularly good week (see TOTW) and they currently have a 27pt lead over 2nd place. It's still close as we go into the International break however, as 2nd through to 12th place are only separated by 28pts.</p><p>It was a week of surprises and upsets where player points were concerned, as players who previously were doing well, or who were expected to do well this week just didn't show up (looking at you, Chris Wood and Brennan Johnson). It was a relatively low scoring week as a result, with only 8 of the 20 teams scoring over 50pts and only 2 scoring over 60.</p>",
     totw: [
       {
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley"
       }
@@ -2076,6 +2342,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Try hard FC</b> receive their second TOTW award, scoring an impressive 84pts this week. With a trio of Crystal Palace players (Guéhi, Sarr and Mateta) making up the spine of their team, all of who scored one each against Aston Villa, plus captaining Bruno Fernandes who scored against Burnley, you can't help but admire the foresight and planning that I personally seem incapable of (looking at you again Chris Wood 😡). Well done Matthew 👏🏻</p>",
     sacked: [
       {
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward"
       }
@@ -2090,6 +2357,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 84,
@@ -2097,6 +2365,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 57,
@@ -2104,6 +2373,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 61,
@@ -2111,6 +2381,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 44,
@@ -2118,6 +2389,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 43,
@@ -2125,6 +2397,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 59,
@@ -2132,6 +2405,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 46,
@@ -2139,6 +2413,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 9,
         team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 56,
@@ -2146,6 +2421,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 50,
@@ -2153,6 +2429,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 36,
@@ -2160,6 +2437,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 44,
@@ -2167,6 +2445,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 31,
@@ -2174,6 +2453,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain",
         gw: 46,
@@ -2181,6 +2461,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 55,
@@ -2188,6 +2469,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 42,
@@ -2195,6 +2477,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 30,
@@ -2202,13 +2485,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
-        team: "What's for pud ..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 42,
         total: 129
       },
       {
         rank: 18,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 29,
@@ -2216,6 +2501,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 39,
@@ -2223,6 +2509,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 58,
@@ -2235,6 +2522,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p><b>Try hard FC</b> have had another good gameweek and have increased their lead at the top to 34pts. <b>Shadechester FC</b> and <b>Stranger Mings</b> have moved up into 2nd and 3rd places respectively in a week where the top 3 teams in the league were also the top 3 scoring teams for the week.</p><p>There was movement at the bottom of the table too as <b>Doggers FC</b>, who have been pretty much rooted to the bottom of the table since GW1 have since been displaced by <b>Johnmcginnsthegoat</b> who had a poor scoring week (see below).</p><p>After winning PL Player of the Month for August and scoring 22pts in the first 3 game weeks, 5 teams opted to transfer in Jack Grealish who, of course, ended up blanking in GW4.</p>",
     totw: [
       {
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor"
       }
@@ -2242,6 +2530,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Stranger Mings</b> are the highest scoring team of GW4 with 85pts. Good game weeks for attacking players Salah (C), Haaland and João Pedro contributed but it was the defensive choices that gave the team the edge - clean sheets for all 3 defenders and goalkeeper plus a goal for Van de ven meant a decent haul of 37pts for all 4 defensive players. Nice one Gareth 👏🏻</p>",
     sacked: [
       {
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain"
       }
@@ -2256,6 +2545,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 77,
@@ -2263,6 +2553,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 83,
@@ -2270,6 +2561,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 85,
@@ -2277,6 +2569,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 74,
@@ -2284,6 +2577,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 59,
@@ -2291,6 +2585,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 59,
@@ -2298,6 +2593,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 63,
@@ -2305,6 +2601,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 9,
         team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 59,
@@ -2312,6 +2609,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 69,
@@ -2319,6 +2617,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 77,
@@ -2326,6 +2625,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 66,
@@ -2333,6 +2633,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 51,
@@ -2340,6 +2641,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 59,
@@ -2347,6 +2649,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain",
         gw: 54,
@@ -2354,6 +2657,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 53,
@@ -2361,6 +2665,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 49,
@@ -2368,6 +2673,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 60,
@@ -2375,13 +2681,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
-        team: "What's for pud ..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 53,
         total: 178
       },
       {
         rank: 19,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 58,
@@ -2389,6 +2697,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 46,
@@ -2401,6 +2710,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p><b>Try hard FC</b> continued to consolidate their lead at the top of the table with yet another good gameweek, increasing their lead at the top to 45pts. <b>Stranger Mings</b> have moved up into 2nd place, replacing <b>Shadechester FC</b> who have moved down to 3rd place.</p><p>Other big movers in the top 10 include <b>Redder's Rejects</b> who moved up 4 places to 4th and <b>Change Name</b> moved up 5 places to 6th. It's still relatively close at the top of the table with only 41pts separating 2nd to 10th place.</p><p>It was a relatively low scoring week all round in comparison to previous weeks as some of the top PL teams and highest selected players came up against difficult opposition and Bournemouth and Newcastle were the only teams to keep a clean sheet.</p>",
     totw: [
       {
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley"
       }
@@ -2408,6 +2718,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p>In what has become something of a tradition, <b>Try hard FC</b> are once again the highest scoring team of GW5 with 64pts, winning their third TOTW award of the season. Matthew opted to play the Triple Captain chip on Bruno Fernandes who inevitably scored a huge 30pts and provided almost half of the teams total for the week. We continue to bow down to your superior technical know-how Matthew 🙌🏻</p><p>Josh and his team <b>Johnmcginnsthegoat</b> deserve an honourable mention. Josh decided to play his wildcard this week and achieved the second highest score of the week with 59pts after being the lowest scoring team last week 👏🏻</p>",
     sacked: [
       {
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson"
       }
@@ -2422,6 +2733,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 64,
@@ -2429,6 +2741,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 55,
@@ -2436,6 +2749,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 48,
@@ -2443,6 +2757,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 9,
         team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 57,
@@ -2450,6 +2765,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 38,
@@ -2457,6 +2773,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 57,
@@ -2464,6 +2781,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 53,
@@ -2471,6 +2789,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 50,
@@ -2478,6 +2797,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 36,
@@ -2485,6 +2805,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 31,
@@ -2492,6 +2813,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 23,
@@ -2499,6 +2821,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 43,
@@ -2506,6 +2829,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 31,
@@ -2513,6 +2837,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 44,
@@ -2520,6 +2845,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 44,
@@ -2527,6 +2853,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 59,
@@ -2534,6 +2861,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain",
         gw: 30,
@@ -2541,13 +2869,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
-        team: "What's for pud ..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 40,
         total: 214
       },
       {
         rank: 19,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 43,
@@ -2555,6 +2885,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 30,
@@ -2567,6 +2898,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>The top 3 remains unchanged this week, however <b>Stranger Mings</b> had an excellent week which saw them gain ground on first place <b>Try hard FC</b>, reducing the gap to 13pts. <b>Shadechester FC</b> remain in 3rd place, 28pts off 2nd place.</p><p>8 of the 20 teams used a chip in GW6, with 5 teams opting to use their wildcard. The silver bullet this week however seemed to be Triple Captain'ing Haaland, who scored 2 injury time goals, bagging him 16pts - or a massive 48pts for the 3 teams that did just that and ended up as the 3 highest scoring teams of the week.</p><p>Two of those teams were <b>Norfolk N Chance</b> and <b>Doggers FC</b> (who we have previously berated on multiple occasions for their player selections). Both teams moved up 5 places in the league, to 4th and 14th respectively.</p>",
     totw: [
       {
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain"
       }
@@ -2574,6 +2906,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Norfolk N Chance</b> had an excellent week this week, scoring 81pts and netting their first TOTW award of the season. As mentioned above, playing the Triple Captain chip on Haaland netted James' team 48pts. Keeping faith in Ollie Watkins whilst many other teams offloaded him some time ago also paid off as he netted his first goal of the season against Fulham. Nice work James 🕺🏻</p><p><b>Doggers FC</b> specifically asked for a mention here for being the third highest scoring team of the week. So here you go Paul, well done for not being as shit this week 💩</p>",
     sacked: [
       {
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle"
       }
@@ -2593,6 +2926,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 47,
@@ -2600,6 +2934,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 79,
@@ -2607,6 +2942,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 56,
@@ -2614,6 +2950,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 81,
@@ -2621,6 +2958,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 53,
@@ -2628,6 +2966,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 54,
@@ -2635,6 +2974,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 67,
@@ -2642,6 +2982,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 53,
@@ -2649,6 +2990,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 63,
@@ -2656,13 +2998,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 28,
         total: 301
       },
       {
         rank: 11,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 40,
@@ -2670,6 +3014,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 61,
@@ -2677,6 +3022,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 61,
@@ -2684,6 +3030,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 70,
@@ -2691,6 +3038,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 40,
@@ -2698,6 +3046,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 28,
@@ -2705,13 +3054,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
-        team: "What’s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 47,
         total: 261
       },
       {
         rank: 18,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 20,
@@ -2719,13 +3070,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 25,
         total: 247
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 25,
@@ -2738,6 +3091,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>No change at the top again this week as <b>Try hard FC</b>, <b>Stranger Mings</b> and <b>Shadechester FC</b> continue to maintain their hold on the top 3. <b>Try hard FC</b> we're able to increase their lead to 32pts mainly thanks to a poor week for 2nd placed <b>Stranger Mings</b>.</p><p>In fact, the order of the top 6 teams remained the same as last week as most teams at the top cancelled each other out with the same team base of Guéhi, Semenyo and Haaland as captain. Seven of the top 10 teams all scored point totals this week that were within 6pts of each other.</p><p>It's becoming clear that if teams in the chasing pack want to catch the top 3, they will need to be braver and take more risks when choosing players and captains.</p>",
     totw: [
       {
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry"
       }
@@ -2745,6 +3099,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Yorkshire Lass UTD</b> edged out a very slight advantage over everyone else and picked up their second TOTW award, achieving the highest points total of GW7 with 79pts. Semenyo and captain Haaland provided the bulk of the points for the team, but the differential points came from the likes of Timber, Truffert and Mbeumo who all chipped in with assists. Well done Claire, and I thought you knew nothing about football 😉</p>",
     sacked: [
       {
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward"
       }
@@ -2764,6 +3119,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 73,
@@ -2771,6 +3127,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 54,
@@ -2778,6 +3135,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 76,
@@ -2785,6 +3143,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 77,
@@ -2792,6 +3151,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 79,
@@ -2799,6 +3159,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 77,
@@ -2806,6 +3167,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 75,
@@ -2813,6 +3175,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 62,
@@ -2820,13 +3183,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 77,
         total: 378
       },
       {
         rank: 10,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 68,
@@ -2834,6 +3199,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 69,
@@ -2841,6 +3207,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 56,
@@ -2848,6 +3215,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 70,
@@ -2855,6 +3223,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 50,
@@ -2862,13 +3231,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
-        team: "What’s for pud..",
+        teamId: 16,
+        team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 66,
         total: 327
       },
       {
         rank: 16,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 51,
@@ -2876,6 +3247,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 46,
@@ -2883,6 +3255,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 30,
@@ -2890,13 +3263,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 38,
         total: 285
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 27,
@@ -2909,6 +3284,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>Another sterling performance from <b>Try hard FC</b> this week (see TOTW) sees the leaders extend their lead to a formidable 66pts. The top 3 has changed for the first time in 4 weeks as another high scoring week for <b>Norfolk N Chance</b> has seen them move up 2 places to 2nd, displacing <b>Stranger Mings</b> who have moved down to 5th. <b>Shadechester FC</b> remain 3rd, although with a fragile 4pt advantage over 4th.</p><p>There was also change at the bottom of the table as <b>Wards Wanderers</b>, who had previously been bottom of the table for the last 3 weeks, scored a solid 61pts this week moving them off the bottom of the table. Going in the opposite direction, <b>Pure Worship</b> had a dismal week and are now the team in the unenviable position of last place.</p><p>I commented last week that teams need to be braver and take more risks in order to catch the top 3 and it seems some teams put this into practice this week, with varying degrees of success. Mind games? Perhaps, however I maintain that this game is won in the differentials, it is not won by making the easy and obvious choices. If it didn't quite work out for you this week then bad luck but also well done for playing the game.</p>",
     totw: [
       {
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley"
       }
@@ -2916,6 +3292,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p><b>Try hard FC</b> are this week's TOTW with an impressive 96pts. They expertly deployed their Bench Boost chip this week to maximum effect - their bench achieving a massive 33pts thanks to a hattrick from the previously ineffective Mateta and a goal for Mbeumo. This is Matthew's 4th TOTW award in only 8 weeks which is quite a feat, well done Matthew. They have such a remarkable lead right now but it's still so early in the season so don't despair - there is still plenty to play for.</p>",
     sacked: [
       {
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle"
       }
@@ -2935,6 +3312,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 96,
@@ -2942,6 +3320,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 73,
@@ -2949,6 +3328,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 53,
@@ -2956,6 +3336,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 74,
@@ -2963,6 +3344,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 39,
@@ -2970,6 +3352,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 61,
@@ -2977,6 +3360,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 69,
@@ -2984,13 +3368,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 71,
         total: 449
       },
       {
         rank: 9,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 55,
@@ -2998,6 +3384,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 10,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 39,
@@ -3005,6 +3392,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 72,
@@ -3012,6 +3400,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 57,
@@ -3019,6 +3408,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 40,
@@ -3026,6 +3416,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 53,
@@ -3033,6 +3424,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 16,
         team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 63,
@@ -3040,6 +3432,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 72,
@@ -3047,6 +3440,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 41,
@@ -3054,13 +3448,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 43,
         total: 328
       },
       {
         rank: 19,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 61,
@@ -3068,6 +3464,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 20,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 34,
@@ -3080,6 +3477,7 @@ export const allGWData: GameWeek[] = [
     overview: "<p>It was a fairly low scoring week this game week, as popular player picks from Man City, Chelsea and Liverpool all lost their respective games.</p><p><b>Try hard FC</b> maintain their lead at the top of the table, with second place <b>Norfolk N Chance</b> unable to capitalise on a low scoring week for the leaders. <b>Yorkshire Lass UTD</b> had a marginally better week and was able to displace <b>Shadechester FC</b> from 3rd place. We're talking about very tight margins in the fight for top 3 right now - with only 14pts separating places 2nd to 5th.</p><p>With everyone's perennial captain Haaland facing a rejuvenated Villa side this week, many managers didn't fancy him to do well this week - and rightly so as he blanked for the first time in 13 matches for club and country [UTV 💜🩵 - Ed.]. The most popular captain selections this week seemed to be Salah, Semenyo and Fernandes, however all 3 players failed to score particularly highly this week either. Dammit, should have captained Micky van de Ven, Joe Rodon or Zian Flemming of course 🤦🏻‍♂️</p><p>With 9 games played, we're roughly a quarter of the way through the season already 😱</p>",
     totw: [
       {
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson"
       }
@@ -3087,6 +3485,7 @@ export const allGWData: GameWeek[] = [
     totwDescription: "<p>It was a great week for <b>SmallTalkwithaSwede</b>, achieving their first TOTW of the season with 74pts. I imagine Jack will be both delighted and relieved he played his Bench Boost chip this week after relegating this week's POTW van de Ven to the bench. In fact, his starting 11 only scored 2 more points than the 4 player sub bench, which makes the timing of the chip even more impressive. Bravo Jack, loving your work 🔥</p>",
     sacked: [
       {
+        teamId: 19,
         team: "I don't know",
         manager: "Charlie Swain"
       }
@@ -3106,6 +3505,7 @@ export const allGWData: GameWeek[] = [
     league: [
       {
         rank: 1,
+        teamId: 3,
         team: "Try hard FC",
         manager: "Matthew Ashley",
         gw: 50,
@@ -3113,6 +3513,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 2,
+        teamId: 4,
         team: "Norfolk N Chance",
         manager: "James Swain",
         gw: 43,
@@ -3120,6 +3521,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 3,
+        teamId: 2,
         team: "Yorkshire Lass UTD",
         manager: "Claire Perry",
         gw: 58,
@@ -3127,6 +3529,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 4,
+        teamId: 5,
         team: "Shadechester FC",
         manager: "Jade Dixon Bowers",
         gw: 45,
@@ -3134,6 +3537,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
+        teamId: 6,
         team: "stranger Mings",
         manager: "Gareth Taylor",
         gw: 52,
@@ -3141,6 +3545,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 6,
+        teamId: 7,
         team: "Change Name",
         manager: "Alex Burney",
         gw: 55,
@@ -3148,6 +3553,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 7,
+        teamId: 1,
         team: "Under my Cucurella",
         manager: "Dave Perry",
         gw: 51,
@@ -3155,6 +3561,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 8,
+        teamId: 8,
         team: "Livesdownthelaine",
         manager: "Elaine Redfern",
         gw: 64,
@@ -3162,13 +3569,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 9,
-        team: "Redder’s Rejects",
+        teamId: 9,
+        team: "Redder's Rejects",
         manager: "David Redfern",
         gw: 42,
         total: 491
       },
       {
         rank: 10,
+        teamId: 10,
         team: "SmallTalkwithaSwede",
         manager: "Stuart Jackson",
         gw: 74,
@@ -3176,6 +3585,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 11,
+        teamId: 11,
         team: "PurpleReina",
         manager: "Liam Duncan",
         gw: 63,
@@ -3183,6 +3593,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 12,
+        teamId: 12,
         team: "chicken caesar salah",
         manager: "Dan Zreika",
         gw: 51,
@@ -3190,6 +3601,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 13,
+        teamId: 13,
         team: "Johnmcginnsthegoat",
         manager: "Josh Swain",
         gw: 47,
@@ -3197,6 +3609,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 14,
+        teamId: 14,
         team: "Brian Munich",
         manager: "Brian Perry",
         gw: 47,
@@ -3204,6 +3617,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 15,
+        teamId: 15,
         team: "Doggers FC",
         manager: "Paul Harris",
         gw: 45,
@@ -3211,6 +3625,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 16,
+        teamId: 16,
         team: "What's for pud..",
         manager: "Sharon Perry",
         gw: 35,
@@ -3218,6 +3633,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 17,
+        teamId: 17,
         team: "Kpnuts",
         manager: "Katie Perry",
         gw: 56,
@@ -3225,6 +3641,7 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 18,
+        teamId: 18,
         team: "Pure Worship",
         manager: "Matthew Doyle",
         gw: 50,
@@ -3232,13 +3649,15 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 19,
-        team: "I don’t know",
+        teamId: 19,
+        team: "I don't know",
         manager: "Charlie Swain",
         gw: 27,
         total: 355
       },
       {
         rank: 20,
+        teamId: 20,
         team: "Wards Wanderers",
         manager: "Scott Ward",
         gw: 29,
