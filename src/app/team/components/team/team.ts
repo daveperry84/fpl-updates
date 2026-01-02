@@ -31,13 +31,14 @@ export class Team {
     });
   }
 
-  public getTeamPosition(teamId: number | null): number | null {
+  public getTeamPosition(teamId: number | null): string | null {
     if (teamId === null) return null;
 
     const latestGW = Math.max(...allGWData.map(gw => gw.gameweek));
     const latestGWData = allGWData.find(gw => gw.gameweek === latestGW);
     const rank = latestGWData?.league.find(entry => entry.teamId === teamId)?.rank || null;
-    return rank;
+    const suffix = rank === 1 ? 'st' : rank === 2 ? 'nd' : rank === 3 ? 'rd' : 'th';
+    return rank !== null ? `${rank}${suffix}` : null;
   }
 
   public getPointsBehindLeader(teamId: number | null): number | null {
@@ -101,7 +102,9 @@ export class Team {
     });
 
     if (highestRank === null) return null;
-    return `${highestRank} (GW${gameweek})`;
+
+    const suffix = highestRank === 1 ? 'st' : highestRank === 2 ? 'nd' : highestRank === 3 ? 'rd' : 'th';
+    return `${highestRank}${suffix} (GW${gameweek})`;
   }
 
   public getLowestRank(teamId: number | null): string | null {
@@ -117,6 +120,8 @@ export class Team {
       }
     });
     if (lowestRank === null) return null;
-    return `${lowestRank} (GW${gameweek})`;
+
+    const suffix = lowestRank === 1 ? 'st' : lowestRank === 2 ? 'nd' : lowestRank === 3 ? 'rd' : 'th';
+    return `${lowestRank}${suffix} (GW${gameweek})`;
   }
 }
