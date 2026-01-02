@@ -1,5 +1,5 @@
-import { Component, computed, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, computed, effect } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { TEAMS } from '../../../core/data/teams.data';
 import { Panel } from '../../../panel/components/panel/panel';
 import { allGWData } from '../../../../data/gameweeks';
@@ -21,7 +21,15 @@ export class Team {
     return TEAMS.find(team => team.id === id) || null;
   });
 
-  constructor(private _route: ActivatedRoute) {}
+  constructor(private _route: ActivatedRoute, private _router: Router) {
+    effect(() => {
+      const data = this.teamData();
+
+      if (!data) {
+        this._router.navigate(['/']);
+      }
+    });
+  }
 
   public getTeamPosition(teamId: number | null): number | null {
     if (teamId === null) return null;
