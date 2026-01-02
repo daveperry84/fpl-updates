@@ -1,3 +1,23 @@
 <div class="team page-content">
-    <h2>Team Details</h2>
+    <h1>{{ teamData()?.name }}</h1>
+    <app-panel title="Team Details">
+        <div class="team__details">
+            <div class="team__detail">Manager <b>{{ teamData()?.manager }}</b></div>
+            <div class="team__detail">Current Position <b>{{ getTeamPosition(teamId()) }}</b></div>
+            <div class="team__detail">Current Points <b>{{ getTeamPoints(teamId()) }}</b></div>
+            <div class="team__detail">Points Behind Leader <b>{{ getPointsBehindLeader(teamId()) || 'N/A' }}</b></div>
+        </div>
+        <hr />
+        <h3>Awards</h3>
+        <div class="team__details">
+            <div class="team__detail">TOTW Awards <b>{{ getTOTWWins(teamId()) }}</b></div>
+            <div class="team__detail">Sacked Awards <b>{{ getSackedWins(teamId()) }}</b></div>
+        </div>
+        <hr />
+        <h3>Records</h3>
+        <div class="team__details">
+            <div class="team__detail">Highest Rank <b>{{ getHighestRank(teamId()) }}</b></div>
+            <div class="team__detail">Lowest Rank <b>{{ getLowestRank(teamId()) }}</b></div>
+        </div>
+    </app-panel>
 </div>
