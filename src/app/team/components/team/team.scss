@@ -1,4 +1,23 @@
 .team {
+    h1 {
+        @media (max-width: 768px) {
+            font-size: 28px;
+        }
+
+        margin-bottom: 0;
+    }
+
+    h2 {
+        margin: 0 0 30px;
+        font-size: 24px;
+        font-weight: 400;
+        opacity: 0.6;
+
+        @media (max-width: 768px) {
+            font-size: 16px;
+        }
+    }
+
     &__details {
         display: flex;
         flex-direction: column;
