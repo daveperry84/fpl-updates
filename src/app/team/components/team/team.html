@@ -1,8 +1,8 @@
 <div class="team page-content">
     <h1>{{ teamData()?.name }}</h1>
+    <h2>Managed by <b>{{ teamData()?.manager }}</b></h2>
     <app-panel title="Team Details">
         <div class="team__details">
-            <div class="team__detail">Manager <b>{{ teamData()?.manager }}</b></div>
             <div class="team__detail">Current Position <b>{{ getTeamPosition(teamId()) }}</b></div>
             <div class="team__detail">Current Points <b>{{ getTeamPoints(teamId()) }}</b></div>
             <div class="team__detail">Points Behind Leader <b>{{ getPointsBehindLeader(teamId()) || 'N/A' }}</b></div>
