@@ -2716,6 +2716,199 @@ export const allGWData: GameWeek[] = [
     ]
   },
   {
+    gameweek: 22,
+    overview: "<p>The top 3 of <b>Try Hard FC</b>, <b>Yorkshire Lass UTD</b> and <b>Under my Cucurella</b> remains the same as last week, with only the latter being able to make any kind of headway, reducing the top 2 teams advantage by 11 points.</p><p><b>Change Name</b> had another TOTW performance this week which sees them move up into 4th place, their highest placing of the season so far. It put a halt to <b>PurpleReina</b>'s recent climb up the table as they move down one place into 5th.</p><p>Captains were a problem for everyone this week. The usual choices of Haaland, Ekitiké, Semenyo and Saka all blanked this week meaning it was a fairly low scoring week all round. In fact, no team were able to produce a score of more than 6pts from their captains, the 6pts coming courtesy of <b>Doggers FC</b> using their triple captain chip on Haaland.</p><p>There were more transfers this week, the big one being Guéhi joining Man City from Crystal Palace. This means teams could legitimately have half their team made up of City players if both Semenyo and Guéhi were in your team pre-transfer. A couple of other transfers to keep an eye on are Conor Gallagher moving to Spurs and Kaye Furo to Brentford.</p>",
+    totw: [
+      {
+        teamId: 7,
+        team: "Change Name",
+        manager: "Alex Burney"
+      }
+    ],
+    totwDescription: "<p><b>Change Name</b> are TOTW for the second consecutive week after scoring 52pts this week. Whilst captain Haaland only picked up a meagre 4pts, it was the players from their opponents Man United that provided the bulk of the points for Alex's team - A goal for the returning Mbeumo and an assist for Fernandes. Arsenal's Gabriel and Timber also chipped in with clean sheets for the team. Congratulations Alex 🎉</p>",
+    sacked: [
+      {
+        teamId: 10,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson"
+      }
+    ],
+    sackedDescription: "<p><b>SmallTalkwithaSwede</b> are the team with this week's lowest points score of 23pts. There were no goals or assists for Jacko's team this week, just a single clean sheet for Arsenal's Timber who was the highest scorer in the team with 5pts. With some players out injured or suspended and Guéhi on the bus to Manchester, it was a fairly limited team to choose from this week. Better luck next week Jack 👍🏻</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Patrick Dorgu</b> (MUN 🔴⚫ - £4.3m) is POTW for GW22 with 15pts, after scoring a goal and keeping a clean sheet against local rivals Man City. Dorgu only scored 18pts last season and is currently valued at a modest £4.3m, however, despite his low price tag, he has the best form of any PL defender right now, he has scored 66pts so far this season and started 13 out of 22 matches for Man United this season. His moderate TSB% of 8% reflects this.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW23 is Saturday 24th January at 11am.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        teamId: 3,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 34,
+        total: 1276
+      },
+      {
+        rank: 2,
+        teamId: 2,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 35,
+        total: 1243
+      },
+      {
+        rank: 3,
+        teamId: 1,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 46,
+        total: 1223
+      },
+      {
+        rank: 4,
+        teamId: 7,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 52,
+        total: 1200
+      },
+      {
+        rank: 5,
+        teamId: 11,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 33,
+        total: 1194
+      },
+      {
+        rank: 6,
+        teamId: 9,
+        team: "Redder's Rejects",
+        manager: "David Redfern",
+        gw: 44,
+        total: 1186
+      },
+      {
+        rank: 7,
+        teamId: 5,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 32,
+        total: 1182
+      },
+      {
+        rank: 8,
+        teamId: 4,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 34,
+        total: 1161
+      },
+      {
+        rank: 9,
+        teamId: 8,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 30,
+        total: 1145
+      },
+      {
+        rank: 10,
+        teamId: 12,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 31,
+        total: 1144
+      },
+      {
+        rank: 11,
+        teamId: 6,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 27,
+        total: 1110
+      },
+      {
+        rank: 12,
+        teamId: 10,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 23,
+        total: 1106
+      },
+      {
+        rank: 13,
+        teamId: 13,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 32,
+        total: 1102
+      },
+      {
+        rank: 14,
+        teamId: 16,
+        team: "What's for pud..",
+        manager: "Sharon Perry",
+        gw: 34,
+        total: 1097
+      },
+      {
+        rank: 15,
+        teamId: 14,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 26,
+        total: 1065
+      },
+      {
+        rank: 16,
+        teamId: 17,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 40,
+        total: 1043
+      },
+      {
+        rank: 17,
+        teamId: 19,
+        team: "I don't know",
+        manager: "Charlie Swain",
+        gw: 40,
+        total: 987
+      },
+      {
+        rank: 18,
+        teamId: 15,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 44,
+        total: 946
+      },
+      {
+        rank: 19,
+        teamId: 20,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 50,
+        total: 942
+      },
+      {
+        rank: 20,
+        teamId: 18,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 46,
+        total: 937
+      }
+    ]
+  },
+  {
     gameweek: 3,
     overview: "<p>All change at the top again as we have a new top 3 of <b>Try hard FC</b>, <b>SmallTalkwithaSwede</b> and <b>Yorkshire Lass UTD</b>. <b>Try hard FC</b> had a particularly good week (see TOTW) and they currently have a 27pt lead over 2nd place. It's still close as we go into the International break however, as 2nd through to 12th place are only separated by 28pts.</p><p>It was a week of surprises and upsets where player points were concerned, as players who previously were doing well, or who were expected to do well this week just didn't show up (looking at you, Chris Wood and Brennan Johnson). It was a relatively low scoring week as a result, with only 8 of the 20 teams scoring over 50pts and only 2 scoring over 60.</p>",
     totw: [
