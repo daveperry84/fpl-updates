@@ -1,0 +1,47 @@
+
+{
+    "gameweek": 23,
+    "overview": "<p>No changes in the top 5 this week. <b>Try Hard FC</b> still leads the pack and will be the happiest of the teams in the top 5 this week as they scored slightly higher than the other teams in the chasing pack, increasing their advantage.</p><p>In fact, the best scores this week came from teams outside of the top 10. Most noticeable was a TOTW performance from <b>Johnmcginnsthegoat</b> which sees them move up 2 places into 11th.</p><p>Scores higher than 50pts were difficult to come by this week, with only 3 teams achieving this score. It's been a similar story the last few weeks with strikers underperforming - in particular, popular player picks Haaland and Ekitiké have been very goal shy in recent games and it will be interesting to see at what point teams are still willing to stick with the pair.</p><p>A few more transfers to report on this week. Aston Villa are getting the band back together as both Tammy Abraham and Douglas Luiz have rejoined the team and Leon Bailey has been recalled from his loan to AS Roma. Some other noticeable transfers are James Ward-Prowse signing for Burnley on loan and it looks like Oscar Bobb has agreed terms with Fulham. The transfer window closes next Monday, 2nd February.</p>",
+    "totw": [
+        { "team": "Johnmcginnsthegoat", "manager": "Josh Swain" },
+        { "team": "Kpnuts", "manager": "Katie Perry" }
+    ],
+    "totwDescription": "<p>We have joint TOTW winners this week, both teams scoring a game week high of 55pts.</p><p><b>Johnmcginnsthegoat</b> have secured their first TOTW of the season, mainly thanks to the trio Bowen (12pts), Rogers (8pts) and Van Dijk (9pts). A clean sheet for both Man City defenders O'Reilly and Guéhi helped push Josh's team to the front of the pack this week. Nice work Josh 👏🏻</p><p>I'm not really in the habit of praising my sister, but her team <b>Kpnuts</b> have also bagged their first TOTW award of the season, so I have no choice. It was the midfield and defence that won it for Kate's team. There were clean sheets for the van men -Van Dijk and Van de Ven and goals for Mbeumo and Semenyo. Well done Kate, I guess 😂💩</p>",
+    "sacked": [
+        { "team": "Yorkshire Lass UTD", "manager": "Claire Perry" }
+    ],
+    "sackedDescription": "<p>For a team who are currently 2nd in the league, <b>Yorkshire Lass UTD</b> had an uncharacteristically bad week this week, scoring the lowest point score of GW23 with 31pts. All 3 of the team's strikers (Haaland, Thiago and Calvert-Lewin) blanked this week and all but 2 players failed to score more than 5pts. The only player who had a decent score this week was Morgan Rogers with 8pts after an assist and clean sheet against Newcastle. Bad times for Claire 🫣</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "<p><b>Dominik Szoboszlai</b> (LIV 🔴 - £6.6m) is this week's POTW, scoring 13pts after chipping in with a goal and an assist in their 3-2 loss to Bournemouth. This is actually the first time this season the the POTW has been on the losing side. When you think about Liverpool midfielders, Szobosszlai probably isn't an obvious choice and that is reflected in his low TSB% of 5.8%, however he is the second highest scoring Liverpool midfielder so far this season, with 84pts.</p>" 
+        },
+        { 
+            "title": "⏭️ Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW24 is Saturday 31st January at 1:30pm.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        { "rank": 1, "team": "Try hard FC", "manager": "Matthew Ashley", "gw": 43, "total": 1319 },
+        { "rank": 2, "team": "Yorkshire Lass UTD", "manager": "Claire Perry", "gw": 31, "total": 1274 },
+        { "rank": 3, "team": "Under my Cucurella", "manager": "Dave Perry", "gw": 40, "total": 1259 },
+        { "rank": 4, "team": "Change Name", "manager": "Alex Burney", "gw": 40, "total": 1240 },
+        { "rank": 5, "team": "PurpleReina", "manager": "Liam Duncan", "gw": 37, "total": 1231 },
+        { "rank": 6, "team": "Shadechester FC", "manager": "Jade Dixon Bowers", "gw": 46, "total": 1228 },
+        { "rank": 7, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 40, "total": 1226 },
+        { "rank": 8, "team": "Norfolk N Chance", "manager": "James Swain", "gw": 37, "total": 1198 },
+        { "rank": 9, "team": "chicken caesar salah", "manager": "Dan Zreika", "gw": 42, "total": 1186 },
+        { "rank": 10, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 40, "total": 1181 },
+        { "rank": 11, "team": "Johnmcginnsthegoat", "manager": "Josh Swain", "gw": 55, "total": 1157 },
+        { "rank": 12, "team": "stranger Mings", "manager": "Gareth Taylor", "gw": 36, "total": 1146 },
+        { "rank": 13, "team": "What's for pud..", "manager": "Sharon Perry", "gw": 49, "total": 1146 },
+        { "rank": 14, "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson", "gw": 34, "total": 1140 },
+        { "rank": 15, "team": "Brian Munich", "manager": "Brian Perry", "gw": 50, "total": 1115 },
+        { "rank": 16, "team": "Kpnuts", "manager": "Katie Perry", "gw": 55, "total": 1098 },
+        { "rank": 17, "team": "I don't know", "manager": "Charlie Swain", "gw": 46, "total": 1033 },
+        { "rank": 18, "team": "Doggers FC", "manager": "Paul Harris", "gw": 33, "total": 979 },
+        { "rank": 19, "team": "Wards Wanderers", "manager": "Scott Ward", "gw": 35, "total": 977 },
+        { "rank": 20, "team": "Pure Worship", "manager": "Matthew Doyle", "gw": 32, "total": 969 }
+    ]
+}
