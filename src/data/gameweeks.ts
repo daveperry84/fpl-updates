@@ -3107,6 +3107,204 @@ export const allGWData: GameWeek[] = [
     ]
   },
   {
+    gameweek: 24,
+    overview: "<p>A TOTW performance from <b>Under my Cucurella</b> saw them move up one place into 2nd and reduce the gap to league leaders <b>Try Hard FC</b> to 49pts. A fairly average scoring week for <b>Yorkshire Lass UTD</b> has seen them slip down one place to 3rd.</p><p>The 4th placed team, <b>Change Name</b> have been in resurgent form recently and they continue to keep apace with the top teams as they scored a very decent 79pts this week. <b>Wards Wanderers</b>, who were in last place as recent as GW20, continue their dogged climb up the table with a fantastic score of 80pts this week, seeing them move up another place into 18th.</p><p>The main story this week was that teams are finally getting frustrated with Haaland blanking, only 12 of the 20 teams still entrusting the armband to the big blonde Norwegian striker (still more than half but it feels less than usual - it was 14 teams last week). I think this frustration is well placed - Haaland could only manage an assist again this week whilst other popular choices such as Ekitiké, Semenyo, João Pedro and Fernandes all having better scoring weeks. We've even seen some teams drop Haaland altogether - with the high price tag of £15.0m now available to spend elsewhere, I wonder if this tactic will pay off?</p><p>The transfer window closed on Monday with a bit of a whimper if I'm honest. Striker Strand Larsen has joined Crystal Palace from Wolves and Sunderland have signed Ecuadorian Winger Nilson Angulo. Palace's Jean-Philippe Mateta saw his dream move to AC Milan fall through so will remain with the team until the summer.</p>",
+    totw: [
+      {
+        teamId: 1,
+        team: "Under my Cucurella",
+        manager: "Dave Perry"
+      }
+    ],
+    totwDescription: "<p><b>Under my Cucurella</b> pick up their second TOTW award of the season after scoring an impressive 83pts this week. There were a total of 4 goals, 5 assists and 2 clean sheets across the whole team. Liverpool pair Ekitiké and Wirtz contributed 25pts to the teams total after goals from both players in their 4-1 win against Newcastle. There was also a goal for captain João Pedro, adding another 20pts to the teams GW score. Well done to me ✌🏻</p>",
+    sacked: [
+      {
+        teamId: 12,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika"
+      },
+      {
+        teamId: 4,
+        team: "Norfolk N Chance",
+        manager: "James Swain"
+      }
+    ],
+    sackedDescription: "<p>There are 2 teams this week who achieved a joint lowest score of 38pts.</p><p>There were goals for <b>chicken caesar salah</b>, with both Cherki and Semenyo netting in Man City's 2-2 draw with Tottenham. However, no clean sheets and a red card and -2pts score for Forest's Neco Williams meant Dan's team couldn't be saved this week. Unlucky Dan 😣</p><p><b>Norfolk N Chance</b> also had a bad week - an assist for captain Haaland and a goal for defender Cucurella weren't enough to spare the team from disaster. With 6 of the team's players not playing this week, 4 of which were out injured, it was clear to see why they struggled this week. Better luck next week James 🙏🏻</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Noni Madueke</b> (ARS 🔴⚪ - £6.8m) is POTW after scoring a game week high of 14pts. Madueke achieved the trifecta of goal, assist and clean sheet in Arsenal's 4-0 drubbing of Leeds United. Considering his decent form for Chelsea last season - He hasn't had the best start to his Arsenal career. He has only started 8 games so far this season and this was his first goal and assist - his low TSB% of 0.7% reflects this. With Saka missing this week's game with a knock and Merino out injured, perhaps he'll get more game time now.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW25 is Friday 6th February at 6:30pm.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        teamId: 3,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 72,
+        total: 1391
+      },
+      {
+        rank: 2,
+        teamId: 1,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 83,
+        total: 1342
+      },
+      {
+        rank: 3,
+        teamId: 2,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 55,
+        total: 1325
+      },
+      {
+        rank: 4,
+        teamId: 7,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 79,
+        total: 1319
+      },
+      {
+        rank: 5,
+        teamId: 11,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 56,
+        total: 1287
+      },
+      {
+        rank: 6,
+        teamId: 9,
+        team: "Redder's Rejects",
+        manager: "David Redfern",
+        gw: 51,
+        total: 1277
+      },
+      {
+        rank: 7,
+        teamId: 5,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 43,
+        total: 1271
+      },
+      {
+        rank: 8,
+        teamId: 4,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 38,
+        total: 1236
+      },
+      {
+        rank: 9,
+        teamId: 8,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 52,
+        total: 1233
+      },
+      {
+        rank: 10,
+        teamId: 12,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 38,
+        total: 1224
+      },
+      {
+        rank: 11,
+        teamId: 16,
+        team: "What's for pud..",
+        manager: "Sharon Perry",
+        gw: 61,
+        total: 1207
+      },
+      {
+        rank: 12,
+        teamId: 10,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 64,
+        total: 1204
+      },
+      {
+        rank: 13,
+        teamId: 6,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 56,
+        total: 1202
+      },
+      {
+        rank: 14,
+        teamId: 13,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 42,
+        total: 1199
+      },
+      {
+        rank: 15,
+        teamId: 14,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 62,
+        total: 1177
+      },
+      {
+        rank: 16,
+        teamId: 17,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 60,
+        total: 1158
+      },
+      {
+        rank: 17,
+        teamId: 19,
+        team: "I don't know",
+        manager: "Charlie Swain",
+        gw: 57,
+        total: 1090
+      },
+      {
+        rank: 18,
+        teamId: 20,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 80,
+        total: 1057
+      },
+      {
+        rank: 19,
+        teamId: 15,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 45,
+        total: 1024
+      },
+      {
+        rank: 20,
+        teamId: 18,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 49,
+        total: 1018
+      }
+    ]
+  },
+  {
     gameweek: 3,
     overview: "<p>All change at the top again as we have a new top 3 of <b>Try hard FC</b>, <b>SmallTalkwithaSwede</b> and <b>Yorkshire Lass UTD</b>. <b>Try hard FC</b> had a particularly good week (see TOTW) and they currently have a 27pt lead over 2nd place. It's still close as we go into the International break however, as 2nd through to 12th place are only separated by 28pts.</p><p>It was a week of surprises and upsets where player points were concerned, as players who previously were doing well, or who were expected to do well this week just didn't show up (looking at you, Chris Wood and Brennan Johnson). It was a relatively low scoring week as a result, with only 8 of the 20 teams scoring over 50pts and only 2 scoring over 60.</p>",
     totw: [
