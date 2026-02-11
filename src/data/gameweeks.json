@@ -2925,6 +2925,177 @@
     ]
   },
   {
+    "gameweek": 25,
+    "overview": "<p>The top 2 teams remain unchanged from last week. A TOTW performance from leaders <b>Try hard FC</b> meant they were able to slightly increase their advantage, however a decent score for 2nd placed <b>Under my Cucurella</b> will keep the league leaders looking over their shoulder. In fact, the 2 highest scoring teams this week were the top 2 teams in the league.</p><p>Another good week for <b>Change Name</b> saw them pick up 70pts and move up one place into 3rd, displacing <b>Yorkshire Lass UTD</b> who slip down to 4th. <b>PurpleReina</b> remain in 5th place.</p><p>Captain choices proved important in GW25, with popular choices Haaland, João Pedro and Fernandes all scoring high this week. Those managers keeping faith with Haaland as captain were finally rewarded this week, as he notched a goal and an assist in their 2-1 win against Liverpool.</p><p>We're around the 2/3 mark of the season now and I think chips, injuries and general FPL fatigue are all going to play a big part in who succeeds and who fails as we enter the last part of the season. Remember to use your chips wisely over the coming game weeks 🃏</p>",
+    "totw": [
+      {
+        "team": "Try hard FC",
+        "manager": "Matthew Ashley"
+      }
+    ],
+    "totwDescription": "<p><b>Try hard FC</b> are this week's highest scoring team, with 82pts and pick up their 6th(!) TOTW award of the season. The biggest scores came from Captain Fernandes, Rogers and Mbeumo who all found the back of the net, as well as Crystal Palace defender Lacroix who kept a clean sheet and racked up 15 defensive contributions. Well done Matthew, you're really showing us all how it's done 👏🏻</p>",
+    "sacked": [
+      {
+        "team": "Doggers FC",
+        "manager": "Paul Harris"
+      }
+    ],
+    "sackedDescription": "<p><b>Doggers FC</b> are the lowest scoring team this week, with 40pts. Paul will be particularly disappointed with Spurs Defender Romero after he conceded 2 goals and received a red card against Manchester United, scoring -3pts for the team. Captain Haaland was the only player in the team with a significant score this week, chipping in with a goal and an assist - all other players were unable to score more than 4pts. Hoping for a better performance next time Paul 🙏🏻</p>",
+    "otherUpdates": [
+      {
+        "title": "👌🏻 Player of the Week",
+        "content": "<p><b>Cole Palmer</b> (CHE 🔵 - £10.5m) is POTW for GW25 with 20pts after scoring a hat-trick in 38 minutes, including 2 penalties, in Chelsea's 3-1 win over Wolves. Palmer hasn't been in sparkling form this season, particularly when you consider his hefty price tag - he has 67pts to his name and this is the first time this season he has scored more than 10pts in one game. Despite this, he has a TSB% of 13.5% and is selected by 2 of the league teams - <b>Pure Worship</b> and <b>Wards Wanderers</b>.</p>"
+      },
+      {
+        "title": "⏭️ Next Gameweek",
+        "content": "<p>The deadline for locking in teams, transfers and chips for GW26 is Tuesday 10th February at 6pm.</p>",
+        "currentOnly": true
+      }
+    ],
+    "league": [
+      {
+        "rank": 1,
+        "team": "Try hard FC",
+        "manager": "Matthew Ashley",
+        "gw": 82,
+        "total": 1469
+      },
+      {
+        "rank": 2,
+        "team": "Under my Cucurella",
+        "manager": "Dave Perry",
+        "gw": 76,
+        "total": 1418
+      },
+      {
+        "rank": 3,
+        "team": "Change Name",
+        "manager": "Alex Burney",
+        "gw": 70,
+        "total": 1389
+      },
+      {
+        "rank": 4,
+        "team": "Yorkshire Lass UTD",
+        "manager": "Claire Perry",
+        "gw": 59,
+        "total": 1384
+      },
+      {
+        "rank": 5,
+        "team": "PurpleReina",
+        "manager": "Liam Duncan",
+        "gw": 64,
+        "total": 1351
+      },
+      {
+        "rank": 6,
+        "team": "Redder's Rejects",
+        "manager": "David Redfern",
+        "gw": 66,
+        "total": 1343
+      },
+      {
+        "rank": 7,
+        "team": "Shadechester FC",
+        "manager": "Jade Dixon Bowers",
+        "gw": 65,
+        "total": 1336
+      },
+      {
+        "rank": 8,
+        "team": "Livesdownthelaine",
+        "manager": "Elaine Redfern",
+        "gw": 70,
+        "total": 1303
+      },
+      {
+        "rank": 9,
+        "team": "Norfolk N Chance",
+        "manager": "James Swain",
+        "gw": 59,
+        "total": 1295
+      },
+      {
+        "rank": 10,
+        "team": "chicken caesar salah",
+        "manager": "Dan Zreika",
+        "gw": 63,
+        "total": 1287
+      },
+      {
+        "rank": 11,
+        "team": "What's for pud..",
+        "manager": "Sharon Perry",
+        "gw": 72,
+        "total": 1279
+      },
+      {
+        "rank": 12,
+        "team": "stranger Mings",
+        "manager": "Gareth Taylor",
+        "gw": 70,
+        "total": 1272
+      },
+      {
+        "rank": 13,
+        "team": "Johnmcginnsthegoat",
+        "manager": "Josh Swain",
+        "gw": 55,
+        "total": 1254
+      },
+      {
+        "rank": 14,
+        "team": "SmallTalkwithaSwede",
+        "manager": "Stuart Jackson",
+        "gw": 43,
+        "total": 1247
+      },
+      {
+        "rank": 15,
+        "team": "Brian Munich",
+        "manager": "Brian Perry",
+        "gw": 63,
+        "total": 1240
+      },
+      {
+        "rank": 16,
+        "team": "Kpnuts",
+        "manager": "Katie Perry",
+        "gw": 44,
+        "total": 1202
+      },
+      {
+        "rank": 17,
+        "team": "I don't know",
+        "manager": "Charlie Swain",
+        "gw": 62,
+        "total": 1152
+      },
+      {
+        "rank": 18,
+        "team": "Wards Wanderers",
+        "manager": "Scott Ward",
+        "gw": 71,
+        "total": 1128
+      },
+      {
+        "rank": 19,
+        "team": "Pure Worship",
+        "manager": "Matthew Doyle",
+        "gw": 49,
+        "total": 1067
+      },
+      {
+        "rank": 20,
+        "team": "Doggers FC",
+        "manager": "Paul Harris",
+        "gw": 40,
+        "total": 1064
+      }
+    ]
+  },
+  {
     "gameweek": 3,
     "overview": "<p>All change at the top again as we have a new top 3 of <b>Try hard FC</b>, <b>SmallTalkwithaSwede</b> and <b>Yorkshire Lass UTD</b>. <b>Try hard FC</b> had a particularly good week (see TOTW) and they currently have a 27pt lead over 2nd place. It's still close as we go into the International break however, as 2nd through to 12th place are only separated by 28pts.</p><p>It was a week of surprises and upsets where player points were concerned, as players who previously were doing well, or who were expected to do well this week just didn't show up (looking at you, Chris Wood and Brennan Johnson). It was a relatively low scoring week as a result, with only 8 of the 20 teams scoring over 50pts and only 2 scoring over 60.</p>",
     "totw": [
