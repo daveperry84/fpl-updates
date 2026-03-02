@@ -1,0 +1,46 @@
+
+{
+    "gameweek": 27,
+    "overview": "<p>Another week down and the pressure at the top is definitely cranking up. <b>Try hard FC</b> is still leading the way, but none of the top three teams did anything outrageous this week, which just keeps everything nicely on edge. that cushion isn’t exactly comfy anymore. It’s basically one big captain haul away from a proper title shake-up.</p><p>A solid 45pts from fourth placed <b>Yorkshire Lass UTD</b> keeps them within touching distance, while <b>Redder’s Rejects</b> and <b>Shadechester FC</b> are still lurking if the teams above slip up. The real mover in the upper half though is <b>What's for pud..</b>, climbing into seventh with a tidy 55pts this week. That mid-table pack is so tight that a single good week can launch you up a couple of places without even trying.</p><p>Further down, there were some big efforts worth shouting about. <b>Brian Munich</b> put up 58pts, <b>Johnmcginnsthegoat</b> matched 55pts, and <b>I don’t know</b> smashed in 69pts - a TOTW performance - even if it hasn’t translated into a massive jump yet. Meanwhile, it was a tougher round for a few sides, with some 30-something scores slowing momentum at exactly the wrong time of the season.</p><p>The big talking point this week was Chelsea’s nightmare at home to Burnley. Seven of the top 10 teams had gone all-in with the full triple-up, and plenty doubled down by handing the captain’s armband to either Palmer or João Pedro after their recent hot streaks. On paper, it looked a no-brainer. In reality… not so much. Just the single goal for João Pedro, no clean sheet, and a whole lot of 2- and 3-point returns elsewhere. What was meant to be a rank-boosting masterstroke ended up being a bit of a damp squib.</p>",
+    "totw": [
+        { "team": "I don't know", "manager": "Charlie Swain" }
+    ],
+    "totwDescription": "<p><b>I don't know</b> smashed it this week with a 69-point haul - comfortably the highest score of the round and it earns Charlie's team their second TOTW. Goalkeeper Dean Henderson was the biggest scorer in the team - scoring 16pts after shutting out Wolves. There was also a clean sheet for van Dijk, a goal for João Pedro and assists for Haaland and Neto. Nice work Charlie 🎉</p>",
+    "sacked": [
+        { "team": "Doggers FC", "manager": "Paul Harris" }
+    ],
+    "sackedDescription": "<p>It was a tough week for <b>Doggers FC</b>, who could only manage 31pts in GW27. No single player covered themselves in glory this week - the highest scoring player was Haaland with an assist and 6pts. No other player managed to score more than 3pts. With the season winding down, it’s probably time for Paul to make a bold move or two to try and spark a late surge up the standings.</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "<p><b>Nico O'Reilly</b> (MCI 🩵 - £5.0m) is POTW for GW27 with 17pts after scoring both goals in City's 2-1 win over Newcastle. Nico is in some seriously good form right now, he has scored 3 in the last 2 games and has overtaken last week's POTW van Dijk as the most in-form PL defender. He also has both a relatively low price tag and TSB% of 8.1% and with some easy games coming up he seems like a sensible choice.</p>" 
+        },
+        { 
+            "title": "⏭️ Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW28 is Friday 27th February at 6:30pm.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        { "rank": 1, "team": "Try hard FC", "manager": "Matthew Ashley", "gw": 42, "total": 1567 },
+        { "rank": 2, "team": "Under my Cucurella", "manager": "Dave Perry", "gw": 34, "total": 1520 },
+        { "rank": 3, "team": "Change Name", "manager": "Alex Burney", "gw": 41, "total": 1503 },
+        { "rank": 4, "team": "Yorkshire Lass UTD", "manager": "Claire Perry", "gw": 45, "total": 1499 },
+        { "rank": 5, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 40, "total": 1459 },
+        { "rank": 6, "team": "Shadechester FC", "manager": "Jade Dixon Bowers", "gw": 41, "total": 1440 },
+        { "rank": 7, "team": "What's for pud..", "manager": "Sharon Perry", "gw": 55, "total": 1425 },
+        { "rank": 8, "team": "PurpleReina", "manager": "Liam Duncan", "gw": 33, "total": 1419 },
+        { "rank": 9, "team": "chicken caesar salah", "manager": "Dan Zreika", "gw": 53, "total": 1411 },
+        { "rank": 10, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 41, "total": 1408 },
+        { "rank": 11, "team": "Norfolk N Chance", "manager": "James Swain", "gw": 37, "total": 1378 },
+        { "rank": 12, "team": "Johnmcginnsthegoat", "manager": "Josh Swain", "gw": 55, "total": 1378 },
+        { "rank": 13, "team": "stranger Mings", "manager": "Gareth Taylor", "gw": 35, "total": 1362 },
+        { "rank": 14, "team": "Brian Munich", "manager": "Brian Perry", "gw": 58, "total": 1359 },
+        { "rank": 15, "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson", "gw": 33, "total": 1348 },
+        { "rank": 16, "team": "Kpnuts", "manager": "Katie Perry", "gw": 52, "total": 1312 },
+        { "rank": 17, "team": "I don't know", "manager": "Charlie Swain", "gw": 69, "total": 1294 },
+        { "rank": 18, "team": "Wards Wanderers", "manager": "Scott Ward", "gw": 57, "total": 1246 },
+        { "rank": 19, "team": "Pure Worship", "manager": "Matthew Doyle", "gw": 50, "total": 1158 },
+        { "rank": 20, "team": "Doggers FC", "manager": "Paul Harris", "gw": 31, "total": 1136 }
+    ]
+}
