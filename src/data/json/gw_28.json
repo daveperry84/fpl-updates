@@ -1,0 +1,46 @@
+
+{
+    "gameweek": 28,
+    "overview": "<p>Another gameweek in the books and the title race is still very much alive. <b>Try hard FC</b> continues to lead the way, but the chasing pack aren’t letting things get comfortable. <b>Under my Cucurella</b> and <b>Change Name</b> both had strong weeks and are keeping the pressure firmly on at the top. With only a handful of weeks left, the margin for error is getting smaller and every good captain call feels that little bit more important.</p><p>The standout performance of the week came from <b>Redder’s Rejects</b>, who produced a massive score to jump up the table and put themselves right into the mix near the top four. <b>PurpleReina</b> also had a huge week and made a big move upward, showing that a single strong gameweek can still shake up the standings.</p><p>Elsewhere, it was a quieter round for a few teams who had been sitting comfortably in the upper spots. <b>Yorkshire Lass UTD</b> had a slower week and slipped slightly as others around them surged. Meanwhile <b>chicken caesar salah</b> will be hoping to bounce back quickly after a tough round that saw them lose a bit of ground in the top half.</p><p>A number of teams struggled to post big numbers this week and the absence of Haaland likely played a part in that — usually one of the most popular captain picks, his injury meant a lot of managers were missing their usual reliable points boost. It's fair to say that Haaland has failed to find his early season form since the new year and with this new injury, how much longer will teams keep faith in the Norwegian striker?</p>",
+    "totw": [
+        { "team": "Redder's Rejects", "manager": "David Redfern" }
+    ],
+    "totwDescription": "<p><b>Redder's Rejects</b> had an excellent week - scoring a game week high of 87pts and securing their second TOTW award of the season. A goal and an assist for captain Fernandes meant the Manchester United captain secured 26pts for Dave's team. There were also goals for Semenyo, Ekitiké, Thiago, Timber and van Dijk. Loving your work Dave 👏🏻</p>",
+    "sacked": [
+        { "team": "Wards Wanderers", "manager": "Scott Ward" }
+    ],
+    "sackedDescription": "<p><b>Wards Wanderers</b> are the lowest scoring team of the week, with a miserable 18pts. There were no points for captain Haaland after pulling out of the game injured - and no one available on the bench to replace him. A clean sheet and 6pts for Man City's O'Reilly was the only highlight - no other player managed to score more than 3pts.</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "<p><b>Mikkel Damsgaard</b> (BRE 🔴⚪ - £5.6m) is this week's POTW, with 18pts after scoring 2 goals and providing an assist in Brentford's incredible 4-3 win over Burnley. Damsgaard is only on 85pts currently and hasn't been in the best form prior to this week's game, but with a low TSB% of 0.8%, he has potential for differential points if he can build on this week's performance going forward.</p>" 
+        },
+        { 
+            "title": "⏭️ Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW29 is Tuesday 3rd March at 6pm.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        { "rank": 1, "team": "Try hard FC", "manager": "Matthew Ashley", "gw": 67, "total": 1634 },
+        { "rank": 2, "team": "Under my Cucurella", "manager": "Dave Perry", "gw": 76, "total": 1596 },
+        { "rank": 3, "team": "Change Name", "manager": "Alex Burney", "gw": 73, "total": 1576 },
+        { "rank": 4, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 87, "total": 1546 },
+        { "rank": 5, "team": "Yorkshire Lass UTD", "manager": "Claire Perry", "gw": 42, "total": 1541 },
+        { "rank": 6, "team": "PurpleReina", "manager": "Liam Duncan", "gw": 85, "total": 1504 },
+        { "rank": 7, "team": "Shadechester FC", "manager": "Jade Dixon Bowers", "gw": 60, "total": 1500 },
+        { "rank": 8, "team": "What's for pud..", "manager": "Sharon Perry", "gw": 45, "total": 1470 },
+        { "rank": 9, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 52, "total": 1460 },
+        { "rank": 10, "team": "chicken caesar salah", "manager": "Dan Zreika", "gw": 35, "total": 1446 },
+        { "rank": 11, "team": "Johnmcginnsthegoat", "manager": "Josh Swain", "gw": 43, "total": 1421 },
+        { "rank": 12, "team": "Norfolk N Chance", "manager": "James Swain", "gw": 39, "total": 1417 },
+        { "rank": 13, "team": "stranger Mings", "manager": "Gareth Taylor", "gw": 55, "total": 1417 },
+        { "rank": 14, "team": "Brian Munich", "manager": "Brian Perry", "gw": 45, "total": 1404 },
+        { "rank": 15, "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson", "gw": 56, "total": 1404 },
+        { "rank": 16, "team": "Kpnuts", "manager": "Katie Perry", "gw": 34, "total": 1346 },
+        { "rank": 17, "team": "I don't know", "manager": "Charlie Swain", "gw": 69, "total": 1294 },
+        { "rank": 18, "team": "Wards Wanderers", "manager": "Scott Ward", "gw": 18, "total": 1264 },
+        { "rank": 19, "team": "Pure Worship", "manager": "Matthew Doyle", "gw": 23, "total": 1181 },
+        { "rank": 20, "team": "Doggers FC", "manager": "Paul Harris", "gw": 29, "total": 1165 }
+    ]
+}
