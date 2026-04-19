@@ -4651,6 +4651,204 @@ export const allGWData: GameWeek[] = [
     ]
   },
   {
+    gameweek: 31,
+    overview: "<p>There was minimal movement at the summit this week as <b>Try hard FC</b> and <b>Under my Cucurella</b> both underwhelmed with scores of 45 and 48 points respectively. With only 7 gameweeks remaining, the gap between 1st and 2nd stands at 81 points — a commanding lead that appears insurmountable barring a dramatic shift in form.</p>",
+    totw: [
+      {
+        teamId: 2,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry"
+      },
+      {
+        teamId: 10,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson"
+      }
+    ],
+    totwDescription: "<p>Claire Perry's <b>Yorkshire Lass UTD</b> and Stuart Jackson's <b>SmallTalkwithaSwede</b> are joint TOTW's, both scoring 60pts.</p>",
+    sacked: [
+      {
+        teamId: 19,
+        team: "I don't know",
+        manager: "Charlie Swain"
+      }
+    ],
+    sackedDescription: "<p>Charlie Swain's <b>I don't know</b> had a tough week, scoring the lowest score of the round with 16pts.</p>",
+    otherUpdates: [
+      {
+        title: "👌🏻 Player of the Week",
+        content: "<p><b>Beto</b> (EVE 🔵 - £5.0m) is this week's POTW with 16pts after scoring 2 goals and providing an assist against Chelsea.</p>"
+      },
+      {
+        title: "⏭️ Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW32 is Friday 10th April at 6:30pm.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        teamId: 3,
+        team: "Try hard FC",
+        manager: "Matthew Ashley",
+        gw: 45,
+        total: 1840
+      },
+      {
+        rank: 2,
+        teamId: 1,
+        team: "Under my Cucurella",
+        manager: "Dave Perry",
+        gw: 48,
+        total: 1759
+      },
+      {
+        rank: 3,
+        teamId: 7,
+        team: "Change Name",
+        manager: "Alex Burney",
+        gw: 55,
+        total: 1756
+      },
+      {
+        rank: 4,
+        teamId: 9,
+        team: "Redder's Rejects",
+        manager: "David Redfern",
+        gw: 57,
+        total: 1741
+      },
+      {
+        rank: 5,
+        teamId: 2,
+        team: "Yorkshire Lass UTD",
+        manager: "Claire Perry",
+        gw: 60,
+        total: 1722
+      },
+      {
+        rank: 6,
+        teamId: 11,
+        team: "PurpleReina",
+        manager: "Liam Duncan",
+        gw: 50,
+        total: 1648
+      },
+      {
+        rank: 7,
+        teamId: 16,
+        team: "What's for pud..",
+        manager: "Sharon Perry",
+        gw: 53,
+        total: 1634
+      },
+      {
+        rank: 8,
+        teamId: 12,
+        team: "chicken caesar salah",
+        manager: "Dan Zreika",
+        gw: 40,
+        total: 1625
+      },
+      {
+        rank: 9,
+        teamId: 8,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 34,
+        total: 1617
+      },
+      {
+        rank: 10,
+        teamId: 5,
+        team: "Shadechester FC",
+        manager: "Jade Dixon Bowers",
+        gw: 33,
+        total: 1608
+      },
+      {
+        rank: 11,
+        teamId: 14,
+        team: "Brian Munich",
+        manager: "Brian Perry",
+        gw: 55,
+        total: 1579
+      },
+      {
+        rank: 12,
+        teamId: 6,
+        team: "stranger Mings",
+        manager: "Gareth Taylor",
+        gw: 54,
+        total: 1567
+      },
+      {
+        rank: 13,
+        teamId: 10,
+        team: "SmallTalkwithaSwede",
+        manager: "Stuart Jackson",
+        gw: 60,
+        total: 1547
+      },
+      {
+        rank: 14,
+        teamId: 13,
+        team: "Johnmcginnsthegoat",
+        manager: "Josh Swain",
+        gw: 29,
+        total: 1526
+      },
+      {
+        rank: 15,
+        teamId: 4,
+        team: "Norfolk N Chance",
+        manager: "James Swain",
+        gw: 30,
+        total: 1513
+      },
+      {
+        rank: 16,
+        teamId: 19,
+        team: "I don't know",
+        manager: "Charlie Swain",
+        gw: 16,
+        total: 1450
+      },
+      {
+        rank: 17,
+        teamId: 17,
+        team: "Kpnuts",
+        manager: "Katie Perry",
+        gw: 19,
+        total: 1408
+      },
+      {
+        rank: 18,
+        teamId: 20,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 32,
+        total: 1389
+      },
+      {
+        rank: 19,
+        teamId: 18,
+        team: "Pure Worship",
+        manager: "Matthew Doyle",
+        gw: 56,
+        total: 1325
+      },
+      {
+        rank: 20,
+        teamId: 15,
+        team: "Doggers FC",
+        manager: "Paul Harris",
+        gw: 41,
+        total: 1308
+      }
+    ]
+  },
+  {
     gameweek: 4,
     overview: "<p><b>Try hard FC</b> have had another good gameweek and have increased their lead at the top to 34pts. <b>Shadechester FC</b> and <b>Stranger Mings</b> have moved up into 2nd and 3rd places respectively in a week where the top 3 teams in the league were also the top 3 scoring teams for the week.</p><p>There was movement at the bottom of the table too as <b>Doggers FC</b>, who have been pretty much rooted to the bottom of the table since GW1 have since been displaced by <b>Johnmcginnsthegoat</b> who had a poor scoring week (see below).</p><p>After winning PL Player of the Month for August and scoring 22pts in the first 3 game weeks, 5 teams opted to transfer in Jack Grealish who, of course, ended up blanking in GW4.</p>",
     totw: [
