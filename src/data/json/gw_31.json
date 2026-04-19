@@ -1,0 +1,47 @@
+
+{
+    "gameweek": 31,
+    "overview": "<p>There was minimal movement at the summit this week as <b>Try hard FC</b> and <b>Under my Cucurella</b> both underwhelmed with scores of 45 and 48 points respectively. With only 7 gameweeks remaining, the gap between 1st and 2nd stands at 81 points — a commanding lead that appears insurmountable barring a dramatic shift in form.</p>",
+    "totw": [
+        { "team": "Yorkshire Lass UTD", "manager": "Claire Perry" },
+        { "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson" }
+    ],
+    "totwDescription": "<p>Claire Perry's <b>Yorkshire Lass UTD</b> and Stuart Jackson's <b>SmallTalkwithaSwede</b> are joint TOTW's, both scoring 60pts.</p>",
+    "sacked": [
+        { "team": "I don't know", "manager": "Charlie Swain" }
+    ],
+    "sackedDescription": "<p>Charlie Swain's <b>I don't know</b> had a tough week, scoring the lowest score of the round with 16pts.</p>",
+    "otherUpdates": [
+        { 
+            "title": "👌🏻 Player of the Week", 
+            "content": "<p><b>Beto</b> (EVE 🔵 - £5.0m) is this week's POTW with 16pts after scoring 2 goals and providing an assist against Chelsea.</p>" 
+        },
+        { 
+            "title": "⏭️ Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW32 is Friday 10th April at 6:30pm.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        { "rank": 1, "team": "Try hard FC", "manager": "Matthew Ashley", "gw": 45, "total": 1840 },
+        { "rank": 2, "team": "Under my Cucurella", "manager": "Dave Perry", "gw": 48, "total": 1759 },
+        { "rank": 3, "team": "Change Name", "manager": "Alex Burney", "gw": 55, "total": 1756 },
+        { "rank": 4, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 57, "total": 1741 },
+        { "rank": 5, "team": "Yorkshire Lass UTD", "manager": "Claire Perry", "gw": 60, "total": 1722 },
+        { "rank": 6, "team": "PurpleReina", "manager": "Liam Duncan", "gw": 50, "total": 1648 },
+        { "rank": 7, "team": "What's for pud..", "manager": "Sharon Perry", "gw": 53, "total": 1634 },
+        { "rank": 8, "team": "chicken caesar salah", "manager": "Dan Zreika", "gw": 40, "total": 1625 },
+        { "rank": 9, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 34, "total": 1617 },
+        { "rank": 10, "team": "Shadechester FC", "manager": "Jade Dixon Bowers", "gw": 33, "total": 1608 },
+        { "rank": 11, "team": "Brian Munich", "manager": "Brian Perry", "gw": 55, "total": 1579 },
+        { "rank": 12, "team": "stranger Mings", "manager": "Gareth Taylor", "gw": 54, "total": 1567 },
+        { "rank": 13, "team": "SmallTalkwithaSwede", "manager": "Stuart Jackson", "gw": 60, "total": 1547 },
+        { "rank": 14, "team": "Johnmcginnsthegoat", "manager": "Josh Swain", "gw": 29, "total": 1526 },
+        { "rank": 15, "team": "Norfolk N Chance", "manager": "James Swain", "gw": 30, "total": 1513 },
+        { "rank": 16, "team": "I don't know", "manager": "Charlie Swain", "gw": 16, "total": 1450 },
+        { "rank": 17, "team": "Kpnuts", "manager": "Katie Perry", "gw": 19, "total": 1408 },
+        { "rank": 18, "team": "Wards Wanderers", "manager": "Scott Ward", "gw": 32, "total": 1389 },
+        { "rank": 19, "team": "Pure Worship", "manager": "Matthew Doyle", "gw": 56, "total": 1325 },
+        { "rank": 20, "team": "Doggers FC", "manager": "Paul Harris", "gw": 41, "total": 1308 }
+    ]
+}
