@@ -6,16 +6,28 @@
         <div class="updates__content">
             <app-league #league [data]="_data.league" [previousData]="previousData()?.league" [enableExpandCollapse]="true" [expanded]="false" />
             
-            <div [innerHTML]="_data.overview"></div>
-        
+            @if (_data.overview) {
+                <div [innerHTML]="_data.overview"></div>
+            }
+
             <div class="updates__totw">
                 <h2>⭐ Team of the Week</h2>
-                <div [innerHTML]="_data.totwDescription"></div>
+                @for (team of _data.totw; track team) {
+                    <div class="updates__totw-item">
+                        <h3>{{team.team}}</h3>
+                        <div>Managed by <b>{{team.manager}}</b></div>
+                    </div>
+                }
             </div>
         
             <div class="updates__sacked">
                 <h2>😱 Sacked in the morning</h2>
-                <div [innerHTML]="_data.sackedDescription"></div>
+                @for (team of _data.sacked; track team) {
+                    <div class="updates__sacked-item">
+                        <h3>{{team.team}}</h3>
+                        <div>Managed by <b>{{team.manager}}</b></div>
+                    </div>
+                }
             </div>
         
             <div class="updates__other">

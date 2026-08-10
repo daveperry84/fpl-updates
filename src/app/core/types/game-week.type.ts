@@ -2,9 +2,7 @@ export interface GameWeek {
   gameweek: number;
   overview: string;
   totw: TeamData[];
-  totwDescription: string;
   sacked: TeamData[];
-  sackedDescription: string;
   otherUpdates: Update[];
   league: TeamEntry[];
 };
