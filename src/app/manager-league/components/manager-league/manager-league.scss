@@ -56,21 +56,13 @@
         opacity: 0.75;
     }
 
-    &__totw-first,
-    &__sacked-first {
+    &__totw-first {
         font-size: 1.4rem;
+        color: #d4a017;
 
         @media (max-width: 768px) {
             font-size: 1.15rem;
         }
-    }
-
-    &__totw-first {
-        color: #d4a017;
-    }
-
-    &__sacked-first {
-        color: #868e96;
     }
 
     &__rank-change {
@@ -161,7 +153,6 @@
             .man-league__rank,
             .man-league__rank span,
             .man-league__totw-first,
-            .man-league__sacked-first,
             .man-league__shared-rank {
                 color: #fff !important;
             }

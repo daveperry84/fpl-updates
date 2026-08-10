@@ -17,8 +17,6 @@
                     <td class="man-league__rank">
                         @if (entry.rank === 1 && type() === 'totw') {
                             <ng-icon class="man-league__totw-first" name="ionTrophySharp" />
-                        } @else if (entry.rank === 1 && type() === 'sacked') {
-                            <ng-icon class="man-league__sacked-first" name="hugeSpoon" />
                         } @else {
                             <span>{{entry.rank}}</span>
                             @if (hasSharedRank(entry.rank)) {
