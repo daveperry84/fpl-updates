@@ -1,6 +1,6 @@
 import { Component, computed, input, viewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { GameWeek } from '../../../core/types/game-week.type';
+import { GameWeek, TeamData } from '../../../core/types/game-week.type';
 import { League } from '../../../league/components/league/league';
 import { allGWData } from '../../../../data/gameweeks';
 
@@ -23,6 +23,30 @@ export class Updates {
     const previousGWNumber = this.gameweek() - 1;
     return allGWData.find(gw => gw.gameweek === previousGWNumber) || null;
   });
+
+  public getTeamGameweekPoints(teamId: number | null | undefined): number | null {
+    if (!teamId) {
+      return null;
+    }
+
+    const leagueEntry = this.data().league.find(entry => entry.teamId === teamId);
+    return leagueEntry?.gw ?? null;
+  }
+
+  public getSectionPointsLabel(teams: TeamData[]): string {
+    const points = teams
+      .map(team => this.getTeamGameweekPoints(team.teamId))
+      .filter((points): points is number => points !== null);
+
+    if (points.length === 0) {
+      return 'GW pts —';
+    }
+
+    const firstPoint = points[0];
+    const allSame = points.every(point => point === firstPoint);
+
+    return allSame ? `GW pts ${firstPoint}` : 'GW pts —';
+  }
 
   public setLeagueExpanded(state: boolean) {
     if (this.leagueCompRef()) {

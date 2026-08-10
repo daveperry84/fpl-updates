@@ -32,6 +32,7 @@
                             <p class="updates__section-label">Spotlight</p>
                             <h2>Team of the Week</h2>
                         </div>
+                        <span class="updates__section-summary">{{ getSectionPointsLabel(_data.totw) }}</span>
                     </div>
                     <div class="updates__cards">
                         @for (team of _data.totw; track team) {
@@ -49,6 +50,7 @@
                             <p class="updates__section-label">Watch</p>
                             <h2>Sacked in the morning</h2>
                         </div>
+                        <span class="updates__section-summary">{{ getSectionPointsLabel(_data.sacked) }}</span>
                     </div>
                     <div class="updates__cards">
                         @for (team of _data.sacked; track team) {
