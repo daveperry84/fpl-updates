@@ -1,41 +1,81 @@
+.man-league-table-shell {
+    border: 1px solid #ece7f2;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
 .man-league {
     width: 100%;
-    border-collapse: collapse;
-    border: 1px solid #ddd;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #fff;
 
     th {
-        background-color: #502054;
-        color: white;
-        font-weight: 600;
-        border-bottom: 1px solid #ddd;
-        height: 30px;
+        background: #f2ebf8;
+        color: #43394a;
+        font-weight: 700;
+        border-bottom: 1px solid #e7dff0;
+        height: 34px;
+        font-size: 0.75rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
     }
 
     th, td {
-        padding: 6px;
+        padding: 0.6rem 0.6rem;
         text-align: center;
 
         @media (max-width: 768px) {
             padding: 4px;
+        }
+    }
+
+    td {
+        @media (max-width: 768px) {
             font-size: 0.75rem;
         }
     }
 
-    &__rank {
-        font-weight: 600;
-    }
-
-    &__rank-first {
-        font-size: 1.5rem;
-
+    th {
         @media (max-width: 768px) {
-            font-size: 1.2rem;
+            font-size: 0.65rem;
         }
     }
 
+    tr:last-child td {
+        border-bottom: 0;
+    }
+
+    &__rank {
+        font-weight: 700;
+        color: #2b1b3a;
+    }
+
+    &__shared-rank {
+        margin-left: 0.18rem;
+        opacity: 0.75;
+    }
+
+    &__totw-first,
+    &__sacked-first {
+        font-size: 1.4rem;
+
+        @media (max-width: 768px) {
+            font-size: 1.15rem;
+        }
+    }
+
+    &__totw-first {
+        color: #d4a017;
+    }
+
+    &__sacked-first {
+        color: #868e96;
+    }
+
     &__rank-change {
-        width: 26px;
-        height: 26px;
+        width: 22px;
+        height: 22px;
         color: #fff;
         display: flex;
         justify-content: center;
@@ -44,17 +84,17 @@
         margin: auto;
 
         ng-icon {
-            font-size: 1.2rem;
+            font-size: 0.95rem;
         }
 
         &--up {
-            background-color: #4CAF50;
+            background: #2f9e44;
         }
         &--down {
-            background-color: #F44336;
+            background: #e03131;
         }
         &--same {
-            background-color: #9E9E9E;
+            background: #868e96;
         }
 
         @media (max-width: 768px) {
@@ -62,62 +102,68 @@
             height: 20px;
 
             ng-icon {
-                font-size: 1rem;
+                font-size: 0.9rem;
             }
         }
     }
 
     &__row-gold {
-        background-color: #FFD70060 !important;
+        background-color: rgba(255, 215, 0, 0.22) !important;
     }
 
     tr:nth-child(odd) {
-        background-color: #943DFF20;
+        background-color: rgba(148, 61, 255, 0.08);
     }
 
     &__team-manager {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
     }
 
     &__manager {
-        font-weight: 600;
-        text-align: left;
+        font-weight: 700;
+        color: #2b1b3a;
     }
 
     &__team {
-        font-size: 0.85rem;
-        opacity: 0.6;
-        text-align: left;
+        font-size: 0.82rem;
+        color: #6f6478;
+        margin-top: 0.12rem;
 
         @media (max-width: 768px) {
-            font-size: 0.65rem;
+            font-size: 0.68rem;
         }
     }
 
-    &__collapse {
-        position: relative;
-        height: 30px;
-        margin-top: 10px;
-    }
+     &__wins {
+        font-weight: 600;
+        color: #4c4458;
 
-    &__collapse-button {
-        position: absolute;
-        bottom: 0;
-        right: 0;
+        &--strong {
+            color: #2b1b3a;
+            font-weight: 700;
+        }
     }
 
     &__team-row {
         cursor: pointer;
+        transition: background-color 160ms ease, color 160ms ease;
 
         &:hover {
-            background-color: #752F7A !important;
-            color: #FFF !important;
-            transition: background-color 0.3s, color 0.3s;
+            background-color: rgba(80, 32, 84, 0.9) !important;
+            color: #fff !important;
 
-            td span {
-                color: #FFF !important;
-                transition: color 0.3s;
+            .man-league__team,
+            .man-league__manager,
+            .man-league__wins,
+            .man-league__rank,
+            .man-league__rank span,
+            .man-league__totw-first,
+            .man-league__sacked-first,
+            .man-league__shared-rank {
+                color: #fff !important;
             }
         }
     }
