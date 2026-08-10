@@ -12,29 +12,31 @@
         background: none;
         font-size: 1rem;
         padding: 8px 12px;
-        border-radius: 6px;
+        border-radius: 999px;
+        color: #502054;
+        font-weight: 600;
 
         &:hover {
-            background-color: #943DFF20;
-            transition: background-color 0.3s;
+            background-color: rgba(148, 61, 255, 0.12);
+            transition: background-color 0.2s ease;
         }
     }
 }
 
 .league-overlay {
-    content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 275px;
-    background: linear-gradient(rgba(255, 255, 255, 0) 50%, #FFF 80%);
+    inset: 0 0 0 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 45%, rgba(255, 255, 255, 0.92) 100%);
     z-index: 10;
+    pointer-events: none;
 
     &__button {
         position: absolute;
-        bottom: 10px;
-        right: 0;
+        bottom: 12px;
+        right: 12px;
+        pointer-events: auto;
+        background: #fff;
+        box-shadow: 0 10px 24px rgba(41, 25, 58, 0.12);
     }
 }
 
@@ -44,44 +46,76 @@
     gap: 6px;
 }
 
+.league-table-shell {
+    border: 1px solid #ece7f2;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
 .league {
     width: 100%;
-    border-collapse: collapse;
-    border: 1px solid #ddd;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #fff;
 
     th {
-        background-color: #502054;
-        color: white;
-        font-weight: 600;
-        border-bottom: 1px solid #ddd;
-        height: 30px;
+        background: #f2ebf8;
+        color: #43394a;
+        font-weight: 700;
+        border-bottom: 1px solid #e7dff0;
+        height: 34px;
+        font-size: 0.75rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
     }
 
     th, td {
-        padding: 6px;
+        padding: 0.6rem 0.6rem;
         text-align: center;
 
         @media (max-width: 768px) {
             padding: 4px;
+        }
+    }
+
+    td {
+        @media (max-width: 768px) {
             font-size: 0.75rem;
         }
     }
 
+    th {
+        @media (max-width: 768px) {
+            font-size: 0.65rem;
+        }
+    }
+
+    tr:last-child td {
+        border-bottom: 0;
+    }
+
     &__rank {
-        font-weight: 600;
+        font-weight: 700;
+        color: #2b1b3a;
+    }
+
+    &__shared-rank {
+        margin-left: 0.18rem;
+        opacity: 0.75;
     }
 
     &__rank-first {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        color: #d4a017;
 
         @media (max-width: 768px) {
-            font-size: 1.2rem;
+            font-size: 1.15rem;
         }
     }
 
     &__rank-change {
-        width: 26px;
-        height: 26px;
+        width: 22px;
+        height: 22px;
         color: #fff;
         display: flex;
         justify-content: center;
@@ -90,17 +124,17 @@
         margin: auto;
 
         ng-icon {
-            font-size: 1.2rem;
+            font-size: 0.95rem;
         }
 
         &--up {
-            background-color: #4CAF50;
+            background: #2f9e44;
         }
         &--down {
-            background-color: #F44336;
+            background: #e03131;
         }
         &--same {
-            background-color: #9E9E9E;
+            background: #868e96;
         }
 
         @media (max-width: 768px) {
@@ -108,42 +142,54 @@
             height: 20px;
 
             ng-icon {
-                font-size: 1rem;
+                font-size: 0.9rem;
             }
         }
     }
 
     &__row-gold {
-        background-color: #FFD70060 !important;
+        background-color: rgba(255, 215, 0, 0.22) !important;
     }
     &__row-silver {
-        background-color: #C0C0C060 !important;
+        background-color: rgba(192, 192, 192, 0.2) !important;
     }
     &__row-bronze {
-        background-color: #CD7F3260 !important;
+        background-color: rgba(205, 127, 50, 0.16) !important;
     }
 
     tr:nth-child(odd) {
-        background-color: #943DFF20;
+        background-color: rgba(148, 61, 255, 0.08);
     }
 
     &__team-manager {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
     }
 
     &__team {
-        font-weight: 600;
-        text-align: left;
+        font-weight: 700;
+        color: #2b1b3a;
     }
 
     &__manager {
-        font-size: 0.85rem;
-        opacity: 0.6;
-        text-align: left;
+        font-size: 0.82rem;
+        color: #6f6478;
+        margin-top: 0.12rem;
 
         @media (max-width: 768px) {
-            font-size: 0.65rem;
+            font-size: 0.68rem;
+        }
+    }
+
+    &__stat {
+        font-weight: 600;
+        color: #4c4458;
+
+        &--strong {
+            color: #2b1b3a;
+            font-weight: 700;
         }
     }
 
@@ -161,15 +207,43 @@
 
     &__team-row {
         cursor: pointer;
+        transition: background-color 160ms ease, color 160ms ease;
+    }
+}
+
+.league-container:not(.league-container--collapsed) {
+    .league__team-row:hover {
+        background-color: rgba(80, 32, 84, 0.9) !important;
+        color: #fff !important;
+
+        .league__team,
+        .league__manager,
+        .league__stat,
+        .league__rank,
+        .league__rank span,
+        .league__rank-first,
+        .league__shared-rank {
+            color: #fff !important;
+        }
+    }
+}
+
+.league-container--collapsed {
+    .league__team-row {
+        pointer-events: none;
 
         &:hover {
-            background-color: #752F7A !important;
-            color: #FFF !important;
-            transition: background-color 0.3s, color 0.3s;
+            background-color: inherit !important;
+            color: inherit !important;
 
-            td span {
-                color: #FFF !important;
-                transition: color 0.3s;
+            .league__team,
+            .league__manager,
+            .league__stat,
+            .league__rank,
+            .league__rank span,
+            .league__rank-first,
+            .league__shared-rank {
+                color: inherit !important;
             }
         }
     }

@@ -10,6 +10,12 @@
 
         <div class="updates__content">
             <section class="updates__section updates__section--league">
+                <div class="updates__section-heading">
+                    <div>
+                        <p class="updates__section-label">Standings</p>
+                        <h2>League table</h2>
+                    </div>
+                </div>
                 <app-league #league [data]="_data.league" [previousData]="previousData()?.league" [enableExpandCollapse]="true" [expanded]="false" />
             </section>
 
