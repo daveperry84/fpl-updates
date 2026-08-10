@@ -1,7 +1,9 @@
-<div class="panel {{horizontal() ? 'panel--horizontal' : ''}}">
+<div class="panel panel--{{tone()}} {{horizontal() ? 'panel--horizontal' : ''}}">
     @if (title()) {
         <p class="panel__title">{{title()}}</p>
     }
 
-    <ng-content></ng-content>
+    <div class="panel__content">
+        <ng-content></ng-content>
+    </div>
 </div>

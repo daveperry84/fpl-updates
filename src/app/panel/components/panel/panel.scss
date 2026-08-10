@@ -1,14 +1,71 @@
 .panel {
-    background-color: #502054;
+    position: relative;
+    overflow: hidden;
     color: white;
-    padding: 15px 20px;
-    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    border-radius: 24px;
     margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 18px 34px rgba(31, 19, 48, 0.22);
+
+    &--primary {
+        background:
+            radial-gradient(circle at top right, rgba(6, 238, 255, 0.22), transparent 32%),
+            linear-gradient(125deg, #210f2f 0%, #502054 45%, #6e2b8d 100%);
+
+        .panel__title {
+            background: rgba(255, 255, 255, 0.16);
+            color: #fff;
+        }
+    }
+
+    &--secondary {
+        background: linear-gradient(180deg, #ffffff 0%, #fcfbff 100%);
+        color: #2b1b3a;
+        border: 1px solid #e9dff3;
+        box-shadow: 0 16px 32px rgba(41, 25, 58, 0.06);
+
+        .panel__title {
+            background: rgba(110, 43, 141, 0.08);
+            color: #6e2b8d;
+        }
+
+        &::after {
+            background: rgba(110, 43, 141, 0.06);
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset: auto -40px -50px auto;
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.08);
+        filter: blur(2px);
+        pointer-events: none;
+    }
 
     &__title {
+        position: relative;
+        z-index: 1;
+        display: inline-flex;
+        align-items: center;
+        padding: 0.34rem 0.72rem;
+        border-radius: 999px;
         color: #FFF;
-        margin: 0 0 20px;
-        font-size: 1.2rem;
+        margin: 0 0 0.9rem;
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        backdrop-filter: blur(8px);
+    }
+
+    &__content {
+        position: relative;
+        z-index: 1;
     }
 
     &--horizontal {
@@ -16,10 +73,34 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        gap: 20px;
+        gap: 1rem;
+
+        & .panel__content {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+        }
 
         & .panel__title {
             margin: 0;
+            white-space: nowrap;
+        }
+    }
+
+    @media (max-width: 768px) {
+        border-radius: 20px;
+
+        &--horizontal {
+            flex-direction: column;
+            align-items: stretch;
+
+            .panel__content {
+                justify-content: flex-start;
+            }
+
+            .panel__title {
+                margin: 0 0 0.75rem;
+            }
         }
     }
 }

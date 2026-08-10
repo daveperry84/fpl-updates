@@ -9,4 +9,5 @@ import { Component, input } from '@angular/core';
 export class Panel {
   public title = input<string>('');
   public horizontal = input<boolean>(false);
+  public tone = input<'primary' | 'secondary'>('primary');
 }
