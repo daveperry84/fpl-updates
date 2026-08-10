@@ -35,10 +35,10 @@
                     </div>
                     <div class="updates__cards">
                         @for (team of _data.totw; track team) {
-                            <article class="updates__card updates__card--primary">
+                            <a class="updates__card updates__card--primary" [routerLink]="['/team', team.teamId]" [attr.aria-label]="'View team ' + team.team">
                                 <h3>{{team.team}}</h3>
                                 <div>Managed by <b>{{team.manager}}</b></div>
-                            </article>
+                            </a>
                         }
                     </div>
                 </section>
@@ -52,10 +52,10 @@
                     </div>
                     <div class="updates__cards">
                         @for (team of _data.sacked; track team) {
-                            <article class="updates__card updates__card--secondary">
+                            <a class="updates__card updates__card--secondary" [routerLink]="['/team', team.teamId]" [attr.aria-label]="'View team ' + team.team">
                                 <h3>{{team.team}}</h3>
                                 <div>Managed by <b>{{team.manager}}</b></div>
-                            </article>
+                            </a>
                         }
                     </div>
                 </section>

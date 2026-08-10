@@ -42,8 +42,8 @@
     }
 
     &__title {
-        margin: 0 0 1rem;
-        font-size: clamp(1.5rem, 3.2vw, 2.9rem);
+        margin: 0 0 0.4rem;
+        font-size: clamp(2rem, 3.2vw, 2.9rem);
         color: #fff;
         line-height: 1.05;
         letter-spacing: -0.02em;
@@ -111,15 +111,26 @@
     }
 
     &__card {
+        display: block;
         position: relative;
         border-radius: 16px;
         padding: 0.85rem 0.95rem;
         border: 1px solid rgba(110, 43, 141, 0.12);
+        text-decoration: none;
+        cursor: pointer;
+        transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+
+        &:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 10px 20px rgba(41, 25, 58, 0.08);
+            border-color: rgba(110, 43, 141, 0.24);
+        }
 
         h3 {
             margin: 0 0 0.2rem;
             font-size: 1rem;
             font-weight: 700;
+            color: #2b1b3a;
         }
 
         div {

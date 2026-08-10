@@ -1,11 +1,12 @@
-import { Component, computed, effect, input, signal, viewChild, WritableSignal } from '@angular/core';
+import { Component, computed, input, viewChild } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { GameWeek } from '../../../core/types/game-week.type';
 import { League } from '../../../league/components/league/league';
 import { allGWData } from '../../../../data/gameweeks';
 
 @Component({
   selector: 'app-updates',
-  imports: [League],
+  imports: [League, RouterLink],
   templateUrl: './updates.html',
   styleUrl: './updates.scss'
 })
