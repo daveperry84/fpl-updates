@@ -1,45 +1,82 @@
 @let _data = data();
 
-<div class="updates">    
+<div class="updates">
     @if (_data) {
-        <h1 class="updates__title">Update for GW{{_data.gameweek}}</h1>
+        <header class="updates__hero">
+            <div class="updates__hero-badge">Gameweek update</div>
+            <h1 class="updates__title">The story of Gameweek {{ _data.gameweek }}</h1>
+            <p class="updates__subtitle">A sharper take on the decisive moments, standout performances and the names everyone is talking about.</p>
+        </header>
+
         <div class="updates__content">
-            <app-league #league [data]="_data.league" [previousData]="previousData()?.league" [enableExpandCollapse]="true" [expanded]="false" />
-            
+            <section class="updates__section updates__section--league">
+                <app-league #league [data]="_data.league" [previousData]="previousData()?.league" [enableExpandCollapse]="true" [expanded]="false" />
+            </section>
+
             @if (_data.overview) {
-                <div [innerHTML]="_data.overview"></div>
+                <section class="updates__section updates__section--overview">
+                    <div class="updates__section-heading">
+                        <div>
+                            <p class="updates__section-label">Lead story</p>
+                            <h2>Overview</h2>
+                        </div>
+                    </div>
+                    <div class="updates__rich-text" [innerHTML]="_data.overview"></div>
+                </section>
             }
 
-            <div class="updates__totw">
-                <h2>⭐ Team of the Week</h2>
-                @for (team of _data.totw; track team) {
-                    <div class="updates__totw-item">
-                        <h3>{{team.team}}</h3>
-                        <div>Managed by <b>{{team.manager}}</b></div>
+            <div class="updates__grid">
+                <section class="updates__section updates__section--totw">
+                    <div class="updates__section-heading">
+                        <div>
+                            <p class="updates__section-label">Spotlight</p>
+                            <h2>Team of the Week</h2>
+                        </div>
                     </div>
-                }
-            </div>
-        
-            <div class="updates__sacked">
-                <h2>😱 Sacked in the morning</h2>
-                @for (team of _data.sacked; track team) {
-                    <div class="updates__sacked-item">
-                        <h3>{{team.team}}</h3>
-                        <div>Managed by <b>{{team.manager}}</b></div>
+                    <div class="updates__cards">
+                        @for (team of _data.totw; track team) {
+                            <article class="updates__card updates__card--primary">
+                                <h3>{{team.team}}</h3>
+                                <div>Managed by <b>{{team.manager}}</b></div>
+                            </article>
+                        }
                     </div>
-                }
+                </section>
+
+                <section class="updates__section updates__section--sacked">
+                    <div class="updates__section-heading">
+                        <div>
+                            <p class="updates__section-label">Watch</p>
+                            <h2>Sacked in the morning</h2>
+                        </div>
+                    </div>
+                    <div class="updates__cards">
+                        @for (team of _data.sacked; track team) {
+                            <article class="updates__card updates__card--secondary">
+                                <h3>{{team.team}}</h3>
+                                <div>Managed by <b>{{team.manager}}</b></div>
+                            </article>
+                        }
+                    </div>
+                </section>
             </div>
-        
-            <div class="updates__other">
+
+            <section class="updates__section updates__section--other">
+                <div class="updates__section-heading updates__section-heading--tight">
+                    <div>
+                        <p class="updates__section-label">Read on</p>
+                        <h2>Additional notes</h2>
+                    </div>
+                </div>
                 @for (update of _data.otherUpdates; track update) {
                     @if (!update.currentOnly || (update.currentOnly && isCurrent())) {
-                        <div class="updates__other-item">
+                        <article class="updates__other-item">
                             <h2>{{update.title}}</h2>
                             <div [innerHTML]="update.content"></div>
-                        </div>
+                        </article>
                     }
                 }
-            </div>
+            </section>
         </div>
     }
 </div>
