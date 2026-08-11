@@ -15,9 +15,15 @@ export class Team {
     return this._route.snapshot.paramMap.get('id') ? Number(this._route.snapshot.paramMap.get('id')) : null;
   });
 
+  public latestGameweek = computed(() => Math.max(...allGWData.map(gw => gw.gameweek)));
+
+  private latestGameweekData = computed(() => {
+    const latestGW = this.latestGameweek();
+    return allGWData.find(gw => gw.gameweek === latestGW) || null;
+  });
+
   public teamData = computed(() => {
     const id = this.teamId();
-    // Fetch and return team data based on the teamId
     return TEAMS.find(team => team.id === id) || null;
   });
 
@@ -34,19 +40,14 @@ export class Team {
   public getTeamPosition(teamId: number | null): string | null {
     if (teamId === null) return null;
 
-    const latestGW = Math.max(...allGWData.map(gw => gw.gameweek));
-    const latestGWData = allGWData.find(gw => gw.gameweek === latestGW);
-    const rank = latestGWData?.league.find(entry => entry.teamId === teamId)?.rank || null;
-    const suffix = rank === 1 ? 'st' : rank === 2 ? 'nd' : rank === 3 ? 'rd' : 'th';
-    return rank !== null ? `${rank}${suffix}` : null;
+    const rank = this.latestGameweekData()?.league.find(entry => entry.teamId === teamId)?.rank || null;
+    return rank !== null ? this.formatRank(rank) : null;
   }
 
   public getPointsBehindLeader(teamId: number | null): number | null {
     if (teamId === null) return null;
-    const latestGW = Math.max(...allGWData.map(gw => gw.gameweek));
-    const latestGWData = allGWData.find(gw => gw.gameweek === latestGW);
-    const leaderPoints = latestGWData?.league.find(entry => entry.rank === 1)?.total || null;
-    const teamPoints = latestGWData?.league.find(entry => entry.teamId === teamId)?.total || null;
+    const leaderPoints = this.latestGameweekData()?.league.find(entry => entry.rank === 1)?.total || null;
+    const teamPoints = this.latestGameweekData()?.league.find(entry => entry.teamId === teamId)?.total || null;
     if (leaderPoints === null || teamPoints === null) return null;
     return leaderPoints - teamPoints;
   }
@@ -54,9 +55,7 @@ export class Team {
   public getTeamPoints(teamId: number | null): number | null {
     if (teamId === null) return null;
 
-    const latestGW = Math.max(...allGWData.map(gw => gw.gameweek));
-    const latestGWData = allGWData.find(gw => gw.gameweek === latestGW);
-    const points = latestGWData?.league.find(entry => entry.teamId === teamId)?.total || null;
+    const points = this.latestGameweekData()?.league.find(entry => entry.teamId === teamId)?.total || null;
     return points;
   }
 
@@ -103,8 +102,7 @@ export class Team {
 
     if (highestRank === null) return null;
 
-    const suffix = highestRank === 1 ? 'st' : highestRank === 2 ? 'nd' : highestRank === 3 ? 'rd' : 'th';
-    return `${highestRank}${suffix} (GW${gameweek})`;
+    return `${this.formatRank(highestRank)} (GW${gameweek})`;
   }
 
   public getLowestRank(teamId: number | null): string | null {
@@ -121,7 +119,11 @@ export class Team {
     });
     if (lowestRank === null) return null;
 
-    const suffix = lowestRank === 1 ? 'st' : lowestRank === 2 ? 'nd' : lowestRank === 3 ? 'rd' : 'th';
-    return `${lowestRank}${suffix} (GW${gameweek})`;
+    return `${this.formatRank(lowestRank)} (GW${gameweek})`;
+  }
+
+  private formatRank(rank: number): string {
+    const suffix = rank === 1 ? 'st' : rank === 2 ? 'nd' : rank === 3 ? 'rd' : 'th';
+    return `${rank}${suffix}`;
   }
 }

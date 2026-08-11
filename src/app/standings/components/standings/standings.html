@@ -10,22 +10,24 @@
         </div>
     </div>
 
-    <app-panel title="Select a table to view" [tone]="'secondary'">
-        <div class="standings__view-list" role="tablist" aria-label="Standings views">
-            <button class="standings__view-btn {{selectedView() === standingsView.LEAGUE ? 'selected' : ''}}" 
-                (click)="selectStandingsView(standingsView.LEAGUE)" role="tab" aria-pressed="{{selectedView() === standingsView.LEAGUE}}">
-                League
-            </button>
-            <button class="standings__view-btn {{selectedView() === standingsView.TOTW ? 'selected' : ''}}" 
-                (click)="selectStandingsView(standingsView.TOTW)" role="tab" aria-pressed="{{selectedView() === standingsView.TOTW}}">
-                TOTW<span class="sm-hide">Awards</span>
-            </button>
-            <button class="standings__view-btn {{selectedView() === standingsView.SACKED ? 'selected' : ''}}" 
-                (click)="selectStandingsView(standingsView.SACKED)" role="tab" aria-pressed="{{selectedView() === standingsView.SACKED}}">
-                Sacked<span class="sm-hide">Awards</span>
-            </button>
-        </div>
-    </app-panel>
+    <div class="standings__tables">
+        <app-panel title="Select a table to view" [tone]="'secondary'">
+            <div class="standings__view-list" role="tablist" aria-label="Standings views">
+                <button class="standings__view-btn {{selectedView() === standingsView.LEAGUE ? 'selected' : ''}}" 
+                    (click)="selectStandingsView(standingsView.LEAGUE)" role="tab" aria-pressed="{{selectedView() === standingsView.LEAGUE}}">
+                    League
+                </button>
+                <button class="standings__view-btn {{selectedView() === standingsView.TOTW ? 'selected' : ''}}" 
+                    (click)="selectStandingsView(standingsView.TOTW)" role="tab" aria-pressed="{{selectedView() === standingsView.TOTW}}">
+                    TOTW<span class="sm-hide">Awards</span>
+                </button>
+                <button class="standings__view-btn {{selectedView() === standingsView.SACKED ? 'selected' : ''}}" 
+                    (click)="selectStandingsView(standingsView.SACKED)" role="tab" aria-pressed="{{selectedView() === standingsView.SACKED}}">
+                    Sacked<span class="sm-hide">Awards</span>
+                </button>
+            </div>
+        </app-panel>
+    </div>
 
     <div class="standings__content"> 
         <div class="standings__card">

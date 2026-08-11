@@ -1,45 +1,240 @@
 .team {
-    h1 {
-        @media (max-width: 768px) {
-            font-size: 28px;
-        }
+    display: grid;
+    gap: 1rem;
+    color: #2b1b3a;
 
-        margin-bottom: 0;
+    &__hero {
+        position: relative;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: minmax(0, 1.45fr) minmax(260px, 0.95fr);
+        gap: 1rem;
+        align-items: stretch;
+        border-radius: 30px;
+        padding: 1.4rem;
+        background:
+            radial-gradient(circle at top right, rgba(6, 238, 255, 0.24), transparent 30%),
+            linear-gradient(125deg, #210f2f 0%, #502054 45%, #6e2b8d 100%);
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        box-shadow: 0 24px 40px rgba(31, 19, 48, 0.24);
+
+        &::after {
+            content: "";
+            position: absolute;
+            inset: auto -36px -46px auto;
+            width: 190px;
+            height: 190px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            filter: blur(2px);
+        }
     }
 
-    h2 {
-        margin: 0 0 30px;
-        font-size: 24px;
-        font-weight: 400;
-        opacity: 0.6;
-
-        @media (max-width: 768px) {
-            font-size: 16px;
-        }
+    &__hero-copy,
+    &__hero-stats {
+        position: relative;
+        z-index: 1;
     }
 
-    &__details {
+    &__hero-badges {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 0.5rem;
+        margin-bottom: 0.95rem;
+    }
 
-        &:not(:last-child) {
-            margin-bottom: 1rem;
+    &__hero-badge,
+    &__hero-chip {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.34rem 0.72rem;
+        border-radius: 999px;
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        backdrop-filter: blur(8px);
+    }
+
+    &__hero-badge {
+        background: rgba(255, 255, 255, 0.16);
+        color: #fff;
+    }
+
+    &__hero-chip {
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+
+        &--status {
+            &.is-paid {
+                background: rgba(255, 211, 102, 0.22);
+                color: #fff4c7;
+                border-color: rgba(255, 220, 130, 0.38);
+            }
+
+            &.is-free {
+                background: rgba(120, 214, 255, 0.2);
+                color: #def6ff;
+                border-color: rgba(148, 224, 255, 0.36);
+            }
         }
     }
 
-    &__detail {
+    h1 {
+        margin: 0 0 0.35rem;
+        font-size: clamp(1.6rem, 3.2vw, 2.8rem);
+        line-height: 1.05;
+        letter-spacing: -0.02em;
+        color: #fff;
+    }
+
+    &__hero-subtitle {
+        margin: 0 0 0.65rem;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1.02rem;
+        line-height: 1.5;
+    }
+
+    &__hero-summary {
+        margin: 0;
+        max-width: 680px;
+        color: rgba(255, 255, 255, 0.78);
+        line-height: 1.65;
+    }
+
+    &__hero-stats {
+        display: grid;
+        gap: 0.75rem;
+        align-content: center;
+    }
+
+    &__hero-stat {
+        display: grid;
+        gap: 0.28rem;
+        padding: 0.95rem 1rem;
+        border-radius: 18px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.08) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+        strong {
+            font-size: 1.5rem;
+            line-height: 1.05;
+            color: #fff;
+        }
+    }
+
+    &__hero-stat-label {
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.72);
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+        align-items: start;
+    }
+
+    &__list {
+        display: grid;
+        gap: 0.7rem;
+    }
+
+    &__list-item {
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.8rem 0.85rem;
+        border-radius: 16px;
+        background: linear-gradient(180deg, #ffffff 0%, #faf6ff 100%);
+        border: 1px solid #efe5f7;
+
+        span {
+            color: #6c6478;
+            line-height: 1.45;
+        }
 
         b {
-            margin-left: 0.5rem;
+            color: #2b1b3a;
+            text-align: right;
         }
     }
 
-    h3 {
-        color: #FFF;
-        font-weight: 400;
+    &__awards {
+        display: grid;
+        gap: 0.8rem;
+    }
+
+    &__award {
+        display: grid;
+        gap: 0.3rem;
+        padding: 1rem;
+        border-radius: 18px;
+        border: 1px solid rgba(110, 43, 141, 0.12);
+
+        strong {
+            font-size: 1.65rem;
+            line-height: 1;
+            color: #2b1b3a;
+        }
+
+        p {
+            margin: 0;
+            color: #5f5a6b;
+            line-height: 1.55;
+        }
+
+        &--primary {
+            background: linear-gradient(135deg, #fffefc 0%, #f4ecff 85%);
+        }
+
+        &--secondary {
+            background: linear-gradient(135deg, #fff9fb 0%, #fceef5 85%);
+        }
+    }
+
+    &__award-label {
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: #6e2b8d;
+    }
+
+    @media (max-width: 980px) {
+        &__hero {
+            grid-template-columns: 1fr;
+        }
+
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__hero {
+            padding: 1.1rem 1rem 1rem;
+            border-radius: 24px;
+        }
+
+        &__hero-stats {
+            grid-template-columns: 1fr;
+        }
+
+        &__list-item {
+            align-items: flex-start;
+            flex-direction: column;
+
+            b {
+                text-align: left;
+            }
+        }
     }
 }

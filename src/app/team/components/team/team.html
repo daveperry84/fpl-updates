@@ -1,23 +1,85 @@
+@let _team = teamData();
+@let _teamId = teamId();
+
 <div class="team page-content">
-    <h1>{{ teamData()?.name }}</h1>
-    <h2>Managed by <b>{{ teamData()?.manager }}</b></h2>
-    <app-panel title="Team Details">
-        <div class="team__details">
-            <div class="team__detail">Current Position <b>{{ getTeamPosition(teamId()) }}</b></div>
-            <div class="team__detail">Current Points <b>{{ getTeamPoints(teamId()) }}</b></div>
-            <div class="team__detail">Points Behind Leader <b>{{ getPointsBehindLeader(teamId()) || 'N/A' }}</b></div>
+    @if (_team) {
+        <header class="team__hero">
+            <div class="team__hero-copy">
+                <div class="team__hero-badges">
+                    <span class="team__hero-badge">Team profile</span>
+                    <span class="team__hero-chip team__hero-chip--status {{ _team.isPaid ? 'is-paid' : 'is-free' }}">
+                        Status: {{ _team.isPaid ? 'Paid' : 'Free' }}
+                    </span>
+                </div>
+
+                <h1>{{ _team.name }}</h1>
+                <p class="team__hero-subtitle">Managed by <b>{{ _team.manager }}</b></p>
+                <p class="team__hero-summary">
+                    A season snapshot covering status, position, total points, awards earned and rank highs and lows so far.
+                </p>
+            </div>
+
+            <div class="team__hero-stats">
+                <article class="team__hero-stat">
+                    <span class="team__hero-stat-label">Current position</span>
+                    <strong>{{ getTeamPosition(_teamId) || 'N/A' }}</strong>
+                </article>
+                <article class="team__hero-stat">
+                    <span class="team__hero-stat-label">Current points</span>
+                    <strong>{{ getTeamPoints(_teamId) ?? 'N/A' }}</strong>
+                </article>
+                <article class="team__hero-stat">
+                    <span class="team__hero-stat-label">Behind leader</span>
+                    <strong>{{ getPointsBehindLeader(_teamId) ?? 'N/A' }}</strong>
+                </article>
+            </div>
+        </header>
+
+        <div class="team__grid">
+            <app-panel title="Overview" [tone]="'secondary'">
+                <div class="team__list">
+                    <div class="team__list-item">
+                        <span>Manager</span>
+                        <b>{{ _team.manager }}</b>
+                    </div>
+                    <div class="team__list-item">
+                        <span>Latest standings update</span>
+                        <b>End of GW{{ latestGameweek() }}</b>
+                    </div>
+                    <div class="team__list-item">
+                        <span>Status</span>
+                        <b>{{ _team.isPaid ? 'Paid' : 'Free' }}</b>
+                    </div>
+                </div>
+            </app-panel>
+
+            <app-panel title="Awards" [tone]="'secondary'">
+                <div class="team__awards">
+                    <article class="team__award team__award--primary">
+                        <span class="team__award-label">Team of the Week</span>
+                        <strong>{{ getTOTWWins(_teamId) }}</strong>
+                        <p>TOTW awards collected across the season.</p>
+                    </article>
+                    <article class="team__award team__award--secondary">
+                        <span class="team__award-label">Sacked in the morning</span>
+                        <strong>{{ getSackedWins(_teamId) }}</strong>
+                        <p>Weeks the team scored the lowest points.</p>
+                    </article>
+                </div>
+            </app-panel>
+
+            <app-panel title="Records" [tone]="'secondary'">
+                <div class="team__list">
+                    <div class="team__list-item">
+                        <span>Highest rank</span>
+                        <b>{{ getHighestRank(_teamId) || 'N/A' }}</b>
+                    </div>
+                    <div class="team__list-item">
+                        <span>Lowest rank</span>
+                        <b>{{ getLowestRank(_teamId) || 'N/A' }}</b>
+                    </div>
+                </div>
+            </app-panel>
         </div>
-        <hr />
-        <h3>Awards</h3>
-        <div class="team__details">
-            <div class="team__detail">TOTW Awards <b>{{ getTOTWWins(teamId()) }}</b></div>
-            <div class="team__detail">Sacked Awards <b>{{ getSackedWins(teamId()) }}</b></div>
-        </div>
-        <hr />
-        <h3>Records</h3>
-        <div class="team__details">
-            <div class="team__detail">Highest Rank <b>{{ getHighestRank(teamId()) }}</b></div>
-            <div class="team__detail">Lowest Rank <b>{{ getLowestRank(teamId()) }}</b></div>
-        </div>
-    </app-panel>
+    }
 </div>
