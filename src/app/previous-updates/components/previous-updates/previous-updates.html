@@ -1,25 +1,47 @@
 <div class="previous-updates page-content">
-    <app-panel title="Previous Gameweeks" [horizontal]="true">
-        <div class="previous-updates__gw-select">
-            <div class="previous-updates__gw-btn" (click)="isListOpen.set(!isListOpen())">
-                <span>GW {{selectedGameweek()}}</span>
-                <ng-icon name="ionChevronDown" />
-            </div>
-            @if (isListOpen()) {
-                <div class="previous-updates__gw-list">
-                    @for (gw of gameweekButtons(); track gw) {
-                        <div class="
-                            previous-updates__gw-list-item 
-                            {{gw === selectedGameweek() ? 'selected' : ''}}
-                            " 
-                            (click)="selectGameweek(gw)">
-                            GW {{gw}}
-                        </div>
-                    }
-                </div>
-            }
+    <header class="previous-updates__hero">
+        <div class="previous-updates__hero-copy">
+            <div class="previous-updates__hero-badge">Archive</div>
+            <h1>Previous Gameweek Updates</h1>
+            <p>
+                Revisit the season story with snapshots from earlier rounds, including league swings, awards and standout performances.
+            </p>
         </div>
-    </app-panel>
-    
-    <app-updates #updates [gameweek]="selectedGameweek()" [isCurrent]="false" />
+        <div class="previous-updates__hero-stat">
+            <span class="previous-updates__hero-stat-label">Viewing</span>
+            <strong>GW {{selectedGameweek()}}</strong>
+        </div>
+    </header>
+
+    <div class="previous-updates__card">
+        <p class="previous-updates__card-label">Choose gameweek</p>
+        <div class="previous-updates__controls">
+            <p class="previous-updates__controls-label">Select which update to view</p>
+
+            <div class="previous-updates__gw-select">
+                <button type="button" class="previous-updates__gw-btn" (click)="isListOpen.set(!isListOpen())" aria-haspopup="listbox" aria-expanded="{{isListOpen()}}" aria-label="Open gameweek list">
+                    <span>GW {{selectedGameweek()}}</span>
+                    <ng-icon name="ionChevronDown" class="{{isListOpen() ? 'open' : ''}}" />
+                </button>
+
+                @if (isListOpen()) {
+                    <div class="previous-updates__gw-list" role="listbox" aria-label="Previous gameweeks">
+                        @for (gw of gameweekButtons(); track gw) {
+                            <button
+                                type="button"
+                                class="previous-updates__gw-list-item {{gw === selectedGameweek() ? 'selected' : ''}}"
+                                (click)="selectGameweek(gw)"
+                                aria-selected="{{gw === selectedGameweek()}}">
+                                GW {{gw}}
+                            </button>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="previous-updates__content">
+        <app-updates #updates [gameweek]="selectedGameweek()" [isCurrent]="false" />
+    </div>
 </div>

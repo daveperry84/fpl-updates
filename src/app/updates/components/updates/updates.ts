@@ -24,6 +24,13 @@ export class Updates {
     return allGWData.find(gw => gw.gameweek === previousGWNumber) || null;
   });
 
+  public showOtherUpdates = computed<boolean>(() => {
+    const isCurrent = this.isCurrent();
+    const otherUpdates = this.data().otherUpdates;
+
+    return (isCurrent && otherUpdates.length > 0) || (!isCurrent && otherUpdates.some(u => !u.currentOnly));
+  });
+
   public getTeamGameweekPoints(teamId: number | null | undefined): number | null {
     if (!teamId) {
       return null;

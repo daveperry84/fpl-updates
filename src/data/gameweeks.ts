@@ -84,5 +84,171 @@ export const allGWData: GameWeek[] = [
         total: 0
       }
     ]
+  },
+  {
+    gameweek: 1,
+    overview: "Welcome to the 2026/27 season of the FPL League of Leg End's! This is a new season and all teams start with 0 points. Good luck to all managers!",
+    totw: [
+      {
+        teamId: 2,
+        team: "Yorkshire Lass FC",
+        manager: "Claire Perry"
+      }
+    ],
+    sacked: [
+      {
+        teamId: 7,
+        team: "Gayfield of Dreams",
+        manager: "Simon Lavery"
+      }
+    ],
+    otherUpdates: [
+      {
+        title: "⏭️ Next Gameweek",
+        content: "The deadline for locking in teams, transfers and chips for GW1 is Friday 21st August at 6:30pm.",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        teamId: 2,
+        team: "Yorkshire Lass FC",
+        manager: "Claire Perry",
+        gw: 10,
+        total: 10
+      },
+      {
+        rank: 2,
+        teamId: 5,
+        team: "Brian the lion",
+        manager: "Brian Perry",
+        gw: 9,
+        total: 9
+      },
+      {
+        rank: 3,
+        teamId: 1,
+        team: "MattyCashInTheAttic",
+        manager: "Dave Perry",
+        gw: 8,
+        total: 8
+      },
+      {
+        rank: 4,
+        teamId: 3,
+        team: "Mcginning to believe",
+        manager: "Gareth Taylor",
+        gw: 7,
+        total: 7
+      },
+      {
+        rank: 5,
+        teamId: 4,
+        team: "Ctrl Alt Defeat",
+        manager: "Stuart Jackson",
+        gw: 6,
+        total: 6
+      },
+      {
+        rank: 6,
+        teamId: 6,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 5,
+        total: 5
+      },
+      {
+        rank: 7,
+        teamId: 7,
+        team: "Gayfield of Dreams",
+        manager: "Simon Lavery",
+        gw: 4,
+        total: 4
+      }
+    ]
+  },
+  {
+    gameweek: 2,
+    overview: "Welcome to the 2026/27 season of the FPL League of Leg End's! This is a new season and all teams start with 0 points. Good luck to all managers!",
+    totw: [
+      {
+        teamId: 5,
+        team: "Brian the lion",
+        manager: "Brian Perry"
+      }
+    ],
+    sacked: [
+      {
+        teamId: 3,
+        team: "Mcginning to believe",
+        manager: "Gareth Taylor"
+      }
+    ],
+    otherUpdates: [
+      {
+        title: "⏭️ Next Gameweek",
+        content: "The deadline for locking in teams, transfers and chips for GW2 is Friday 28th August at 6:30pm.",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        teamId: 5,
+        team: "Brian the lion",
+        manager: "Brian Perry",
+        gw: 10,
+        total: 19
+      },
+      {
+        rank: 2,
+        teamId: 2,
+        team: "Yorkshire Lass FC",
+        manager: "Claire Perry",
+        gw: 6,
+        total: 16
+      },
+      {
+        rank: 3,
+        teamId: 1,
+        team: "MattyCashInTheAttic",
+        manager: "Dave Perry",
+        gw: 7,
+        total: 15
+      },
+      {
+        rank: 4,
+        teamId: 4,
+        team: "Ctrl Alt Defeat",
+        manager: "Stuart Jackson",
+        gw: 8,
+        total: 14
+      },
+      {
+        rank: 5,
+        teamId: 7,
+        team: "Gayfield of Dreams",
+        manager: "Simon Lavery",
+        gw: 9,
+        total: 13
+      },
+      {
+        rank: 6,
+        teamId: 3,
+        team: "Mcginning to believe",
+        manager: "Gareth Taylor",
+        gw: 4,
+        total: 11
+      },
+      {
+        rank: 7,
+        teamId: 6,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 5,
+        total: 10
+      }
+    ]
   }
 ];

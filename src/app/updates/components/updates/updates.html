@@ -2,11 +2,13 @@
 
 <div class="updates">
     @if (_data) {
-        <header class="updates__hero">
-            <div class="updates__hero-badge">Gameweek update</div>
-            <h1 class="updates__title">The story of Gameweek {{ _data.gameweek }}</h1>
-            <p class="updates__subtitle">A sharper take on the decisive moments, standout performances and the names everyone is talking about.</p>
-        </header>
+        @if (isCurrent()) {
+            <header class="updates__hero">
+                <div class="updates__hero-badge">Gameweek update</div>
+                <h1 class="updates__title">The story of Gameweek {{ _data.gameweek }}</h1>
+                <p class="updates__subtitle">A sharper take on the decisive moments, standout performances and the names everyone is talking about.</p>
+            </header>
+        }
 
         <div class="updates__content">
             <section class="updates__section updates__section--league">
@@ -69,22 +71,24 @@
                 </section>
             </div>
 
-            <section class="updates__section updates__section--other">
-                <div class="updates__section-heading updates__section-heading--tight">
-                    <div>
-                        <p class="updates__section-label">Read on</p>
-                        <h2>Additional notes</h2>
+            @if (showOtherUpdates()) {
+                <section class="updates__section updates__section--other">
+                    <div class="updates__section-heading updates__section-heading--tight">
+                        <div>
+                            <p class="updates__section-label">Read on</p>
+                            <h2>Additional notes</h2>
+                        </div>
                     </div>
-                </div>
-                @for (update of _data.otherUpdates; track update) {
-                    @if (!update.currentOnly || (update.currentOnly && isCurrent())) {
-                        <article class="updates__other-item">
-                            <h2>{{update.title}}</h2>
-                            <div [innerHTML]="update.content"></div>
-                        </article>
+                    @for (update of _data.otherUpdates; track update) {
+                        @if (!update.currentOnly || (update.currentOnly && isCurrent())) {
+                            <article class="updates__other-item">
+                                <h2>{{update.title}}</h2>
+                                <div [innerHTML]="update.content"></div>
+                            </article>
+                        }
                     }
-                }
-            </section>
+                </section>
+            }
         </div>
     }
 </div>

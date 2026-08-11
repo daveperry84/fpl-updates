@@ -2,13 +2,12 @@ import { Component, computed, signal, viewChild } from '@angular/core';
 import { allGWData } from '../../../../data/gameweeks';
 import { Updates } from "../../../updates/components/updates/updates";
 import { GameWeek } from '../../../core/types/game-week.type';
-import { Panel } from "../../../panel/components/panel/panel";
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { ionChevronDown } from '@ng-icons/ionicons';
 
 @Component({
   selector: 'app-previous-updates',
-  imports: [Updates, Panel, NgIcon],
+  imports: [Updates, NgIcon],
   templateUrl: './previous-updates.html',
   styleUrl: './previous-updates.scss',
   viewProviders: [provideIcons({ ionChevronDown })]
