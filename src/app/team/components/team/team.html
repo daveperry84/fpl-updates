@@ -8,7 +8,7 @@
                 <div class="team__hero-badges">
                     <span class="team__hero-badge">Team profile</span>
                     <span class="team__hero-chip team__hero-chip--status {{ _team.isPaid ? 'is-paid' : 'is-free' }}">
-                        Status: {{ _team.isPaid ? 'Paid' : 'Free' }}
+                        Status: {{ _team.isPaid ? 'Banker' : 'Banter' }}
                     </span>
                 </div>
 
@@ -36,23 +36,6 @@
         </header>
 
         <div class="team__grid">
-            <app-panel title="Overview" [tone]="'secondary'">
-                <div class="team__list">
-                    <div class="team__list-item">
-                        <span>Manager</span>
-                        <b>{{ _team.manager }}</b>
-                    </div>
-                    <div class="team__list-item">
-                        <span>Latest standings update</span>
-                        <b>End of GW{{ latestGameweek() }}</b>
-                    </div>
-                    <div class="team__list-item">
-                        <span>Status</span>
-                        <b>{{ _team.isPaid ? 'Paid' : 'Free' }}</b>
-                    </div>
-                </div>
-            </app-panel>
-
             <app-panel title="Awards" [tone]="'secondary'">
                 <div class="team__awards">
                     <article class="team__award team__award--primary">
