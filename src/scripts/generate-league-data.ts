@@ -11,6 +11,8 @@ const TEAMS = [
     { id: 5, name: "Brian the lion", manager: "Brian Perry", isPaid: true },
     { id: 6, name: "Livesdownthelaine", manager: "Elaine Redfern" },
     { id: 7, name: "Gayfield of Dreams", manager: "Simon Lavery" },
+    { id: 8, name: "Delap of the Gods", manager: "Sandeep Dhillon" },
+    { id: 9, name: "Redder's Rejects", manager: "David Redfern" },
 ];
 
 const tsLiteral = toTsLiteral(data, 2);

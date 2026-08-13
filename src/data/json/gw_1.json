@@ -22,6 +22,8 @@
         { "rank": 4, "team": "Mcginning to believe", "manager": "Gareth Taylor", "gw": 7, "total": 7 },
         { "rank": 5, "team": "Ctrl Alt Defeat", "manager": "Stuart Jackson", "gw": 6, "total": 6 },
         { "rank": 6, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 5, "total": 5 },
-        { "rank": 7, "team": "Gayfield of Dreams", "manager": "Simon Lavery", "gw": 4, "total": 4 }
+        { "rank": 7, "team": "Gayfield of Dreams", "manager": "Simon Lavery", "gw": 4, "total": 4 },
+        { "rank": 8, "team": "Delap of the Gods", "manager": "Sandeep Dhillon", "gw": 3, "total": 3 },
+        { "rank": 9, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 2, "total": 2 }
     ]
 }

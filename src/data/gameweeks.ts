@@ -82,6 +82,22 @@ export const allGWData: GameWeek[] = [
         manager: "Simon Lavery",
         gw: 0,
         total: 0
+      },
+      {
+        rank: 8,
+        teamId: 8,
+        team: "Delap of the Gods",
+        manager: "Sandeep Dhillon",
+        gw: 0,
+        total: 0
+      },
+      {
+        rank: 9,
+        teamId: 9,
+        team: "Redder's Rejects",
+        manager: "David Redfern",
+        gw: 0,
+        total: 0
       }
     ]
   },
@@ -165,6 +181,22 @@ export const allGWData: GameWeek[] = [
         manager: "Simon Lavery",
         gw: 4,
         total: 4
+      },
+      {
+        rank: 8,
+        teamId: 8,
+        team: "Delap of the Gods",
+        manager: "Sandeep Dhillon",
+        gw: 3,
+        total: 3
+      },
+      {
+        rank: 9,
+        teamId: 9,
+        team: "Redder's Rejects",
+        manager: "David Redfern",
+        gw: 2,
+        total: 2
       }
     ]
   },
@@ -248,6 +280,22 @@ export const allGWData: GameWeek[] = [
         manager: "Elaine Redfern",
         gw: 5,
         total: 10
+      },
+      {
+        rank: 8,
+        teamId: 8,
+        team: "Delap of the Gods",
+        manager: "Sandeep Dhillon",
+        gw: 5,
+        total: 8
+      },
+      {
+        rank: 9,
+        teamId: 9,
+        team: "Redder's Rejects",
+        manager: "David Redfern",
+        gw: 5,
+        total: 7
       }
     ]
   }
