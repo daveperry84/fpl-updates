@@ -87,15 +87,36 @@
                     </div>
                 </div>
 
-                <div class="team__list">
-                    <div class="team__list-item">
-                        <span>Highest rank</span>
-                        <b>{{ getHighestRank(_teamId) || 'N/A' }}</b>
+                <div class="team__records">
+                    <div class="team__records-group">
+                        @if (_team.isPaid) {
+                            <p class="team__records-group-label">Banter League</p>
+                        }
+                        <article class="team__record-card">
+                            <p class="team__record-card-label">Highest rank</p>
+                            <strong>{{ getHighestRank(_teamId) || 'N/A' }}</strong>
+                        </article>
+
+                        <article class="team__record-card">
+                            <p class="team__record-card-label">Lowest rank</p>
+                            <strong>{{ getLowestRank(_teamId) || 'N/A' }}</strong>
+                        </article>
                     </div>
-                    <div class="team__list-item">
-                        <span>Lowest rank</span>
-                        <b>{{ getLowestRank(_teamId) || 'N/A' }}</b>
-                    </div>
+
+                    @if (_team.isPaid) {
+                        <div class="team__records-group team__records-group--banker">
+                            <p class="team__records-group-label">Banker League</p>
+                            <article class="team__record-card team__record-card--banker">
+                                <p class="team__record-card-label">Highest rank</p>
+                                <strong>{{ getHighestRankBanker(_teamId) || 'N/A' }}</strong>
+                            </article>
+
+                            <article class="team__record-card team__record-card--banker">
+                                <p class="team__record-card-label">Lowest rank</p>
+                                <strong>{{ getLowestRankBanker(_teamId) || 'N/A' }}</strong>
+                            </article>
+                        </div>
+                    }
                 </div>
             </section>
         </div>

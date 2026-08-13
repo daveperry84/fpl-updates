@@ -1,12 +1,11 @@
 import { Component, computed, effect } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TEAMS } from '../../../core/data/teams.data';
-import { Panel } from '../../../panel/components/panel/panel';
 import { allGWData } from '../../../../data/gameweeks';
 
 @Component({
   selector: 'app-team',
-  imports: [Panel],
+  imports: [],
   templateUrl: './team.html',
   styleUrl: './team.scss'
 })
@@ -61,27 +60,54 @@ export class Team {
 
   public getTeamPositionBanker(teamId: number | null): string | null {
     if (teamId === null) return null;
-    const paidTeamIds = new Set(TEAMS.filter(t => t.isPaid).map(t => t.id));
-    const filtered = this.latestGameweekData()?.league.filter(e => paidTeamIds.has(e.teamId)) || [];
-    const sorted = [...filtered].sort((a, b) => b.total - a.total || b.gw - a.gw);
-    let rank = 1;
-    const reranked = sorted.map((entry, idx) => {
-      if (idx > 0 && entry.total === sorted[idx - 1].total) return { ...entry, rank };
-      rank = idx + 1;
-      return { ...entry, rank };
-    });
+    const reranked = this.getBankerLeagueEntries(this.latestGameweekData()?.league || []);
     const bankerEntry = reranked.find(e => e.teamId === teamId);
     return bankerEntry?.rank ? this.formatRank(bankerEntry.rank) : null;
   }
 
   public getPointsBehindLeaderBanker(teamId: number | null): number | null {
     if (teamId === null) return null;
-    const paidTeamIds = new Set(TEAMS.filter(t => t.isPaid).map(t => t.id));
-    const filtered = this.latestGameweekData()?.league.filter(e => paidTeamIds.has(e.teamId)) || [];
+    const filtered = this.getBankerLeagueEntries(this.latestGameweekData()?.league || []);
     const leaderPoints = filtered.length > 0 ? Math.max(...filtered.map(e => e.total)) : null;
     const teamPoints = this.latestGameweekData()?.league.find(entry => entry.teamId === teamId)?.total || null;
     if (leaderPoints === null || teamPoints === null) return null;
     return leaderPoints - teamPoints;
+  }
+
+  public getHighestRankBanker(teamId: number | null): string | null {
+    if (teamId === null) return null;
+
+    let highestRank: number | null = null;
+    let gameweek = 0;
+    allGWData.forEach(gw => {
+      const entry = this.getBankerLeagueEntries(gw.league).find(entry => entry.teamId === teamId);
+      if (entry && (highestRank === null || entry.rank < highestRank)) {
+        highestRank = entry.rank;
+        gameweek = gw.gameweek;
+      }
+    });
+
+    if (highestRank === null) return null;
+
+    return `${this.formatRank(highestRank)} (GW${gameweek})`;
+  }
+
+  public getLowestRankBanker(teamId: number | null): string | null {
+    if (teamId === null) return null;
+
+    let lowestRank: number | null = null;
+    let gameweek = 0;
+    allGWData.forEach(gw => {
+      const entry = this.getBankerLeagueEntries(gw.league).find(entry => entry.teamId === teamId);
+      if (entry && (lowestRank === null || entry.rank > lowestRank)) {
+        lowestRank = entry.rank;
+        gameweek = gw.gameweek;
+      }
+    });
+
+    if (lowestRank === null) return null;
+
+    return `${this.formatRank(lowestRank)} (GW${gameweek})`;
   }
 
   public getTOTWWins(teamId: number | null): number {
@@ -150,5 +176,21 @@ export class Team {
   private formatRank(rank: number): string {
     const suffix = rank === 1 ? 'st' : rank === 2 ? 'nd' : rank === 3 ? 'rd' : 'th';
     return `${rank}${suffix}`;
+  }
+
+  private getBankerLeagueEntries(leagueEntries: Array<{ teamId: number; total: number; rank: number; gw: number }>) {
+    const paidTeamIds = new Set(TEAMS.filter(team => team.isPaid).map(team => team.id));
+    const filtered = leagueEntries.filter(entry => paidTeamIds.has(entry.teamId));
+    const sorted = [...filtered].sort((a, b) => b.total - a.total || b.gw - a.gw);
+    let rank = 1;
+
+    return sorted.map((entry, idx) => {
+      if (idx > 0 && entry.total === sorted[idx - 1].total) {
+        return { ...entry, rank };
+      }
+
+      rank = idx + 1;
+      return { ...entry, rank };
+    });
   }
 }
