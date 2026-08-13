@@ -113,6 +113,40 @@
         white-space: nowrap;
     }
 
+    &__league-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        padding: 0.25rem;
+        border-radius: 999px;
+        border: 1px solid #ddcfee;
+        background: linear-gradient(180deg, #ffffff 0%, #f9f5fe 100%);
+    }
+
+    &__league-toggle-btn {
+        appearance: none;
+        border: 0;
+        background: transparent;
+        color: #4b2558;
+        padding: 0.38rem 0.68rem;
+        border-radius: 999px;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        cursor: pointer;
+        transition: all 0.16s ease;
+
+        &:hover {
+            background: rgba(110, 43, 141, 0.1);
+        }
+
+        &.selected {
+            background: linear-gradient(135deg, #5a236a 0%, #7b3098 100%);
+            color: #fff;
+            box-shadow: 0 8px 18px rgba(90, 35, 106, 0.26);
+        }
+    }
+
     &__grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -197,6 +231,11 @@
     @media (max-width: 768px) {
         &__hero {
             padding: 1.1rem 1rem 1rem;
+        }
+
+        &__section-heading {
+            flex-direction: column;
+            align-items: flex-start;
         }
 
         &__grid {

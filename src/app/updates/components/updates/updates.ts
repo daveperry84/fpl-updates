@@ -1,4 +1,4 @@
-import { Component, computed, input, viewChild } from '@angular/core';
+import { Component, computed, input, signal, viewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { GameWeek, TeamData } from '../../../core/types/game-week.type';
 import { League } from '../../../league/components/league/league';
@@ -13,6 +13,7 @@ import { allGWData } from '../../../../data/gameweeks';
 export class Updates {
   public gameweek = input<number>(1);
   public isCurrent = input<boolean>(false);
+  public selectedLeagueView = signal<'banter' | 'banker'>('banter');
   protected leagueCompRef = viewChild<League>('league');
 
   public data = computed<GameWeek>(() => {
@@ -59,5 +60,9 @@ export class Updates {
     if (this.leagueCompRef()) {
       this.leagueCompRef()?.setExpanded(state);
     }
+  }
+
+  public selectLeagueView(view: 'banter' | 'banker'): void {
+    this.selectedLeagueView.set(view);
   }
 }

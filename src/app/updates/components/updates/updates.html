@@ -15,10 +15,29 @@
                 <div class="updates__section-heading">
                     <div>
                         <p class="updates__section-label">Standings</p>
-                        <h2>League table</h2>
+                        <h2>{{ selectedLeagueView() === 'banker' ? 'Banker League table' : 'Banter League table' }}</h2>
+                    </div>
+
+                    <div class="updates__league-toggle" role="tablist" aria-label="League view">
+                        <button
+                            type="button"
+                            class="updates__league-toggle-btn {{selectedLeagueView() === 'banter' ? 'selected' : ''}}"
+                            role="tab"
+                            aria-pressed="{{selectedLeagueView() === 'banter'}}"
+                            (click)="selectLeagueView('banter')">
+                            Banter
+                        </button>
+                        <button
+                            type="button"
+                            class="updates__league-toggle-btn {{selectedLeagueView() === 'banker' ? 'selected' : ''}}"
+                            role="tab"
+                            aria-pressed="{{selectedLeagueView() === 'banker'}}"
+                            (click)="selectLeagueView('banker')">
+                            Banker
+                        </button>
                     </div>
                 </div>
-                <app-league #league [data]="_data.league" [previousData]="previousData()?.league" [enableExpandCollapse]="true" [expanded]="false" />
+                <app-league #league [data]="_data.league" [previousData]="previousData()?.league" [enableExpandCollapse]="true" [expanded]="false" [paidOnly]="selectedLeagueView() === 'banker'" />
             </section>
 
             @if (_data.overview) {
