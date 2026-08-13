@@ -106,32 +106,96 @@
 
     &__hero-stats {
         display: grid;
-        gap: 0.75rem;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
         align-content: center;
     }
 
-    &__hero-stat {
+    &__hero-kpi {
+        grid-column: 1 / -1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.8rem 1rem;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(131, 255, 245, 0.2) 0%, rgba(102, 224, 255, 0.14) 100%);
+        border: 1px solid rgba(142, 234, 255, 0.35);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+
+        strong {
+            font-size: 1.45rem;
+            line-height: 1;
+            color: #e8fcff;
+        }
+    }
+
+    &__hero-kpi-label {
+        font-size: 0.76rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(226, 250, 255, 0.9);
+    }
+
+    &__league-card {
         display: grid;
-        gap: 0.28rem;
-        padding: 0.95rem 1rem;
+        gap: 0.5rem;
+        padding: 0.9rem;
         border-radius: 18px;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.08) 100%);
         border: 1px solid rgba(255, 255, 255, 0.14);
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
 
-        strong {
-            font-size: 1.5rem;
-            line-height: 1.05;
-            color: #fff;
+        &--banker {
+            background: linear-gradient(180deg, rgba(255, 211, 102, 0.24) 0%, rgba(255, 192, 61, 0.14) 100%);
+            border-color: rgba(255, 220, 130, 0.32);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+
+            .team__league-card-title {
+                color: rgba(255, 234, 173, 0.95);
+            }
+
+            .team__league-card-stat span {
+                color: rgba(255, 242, 206, 0.86);
+            }
+
+            .team__league-card-stat strong {
+                color: #fff4c7;
+            }
         }
     }
 
-    &__hero-stat-label {
-        font-size: 0.78rem;
+    &__league-card-title {
+        margin: 0 0 0.1rem;
+        font-size: 0.76rem;
         font-weight: 700;
         letter-spacing: 0.12em;
         text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.72);
+        color: rgba(221, 246, 255, 0.92);
+    }
+
+    &__league-card-stat {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 0.9rem;
+        padding: 0.38rem 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+
+        span {
+            font-size: 0.76rem;
+            font-weight: 700;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        strong {
+            font-size: 1.25rem;
+            line-height: 1.05;
+            color: #fff;
+        }
     }
 
     &__grid {
@@ -226,6 +290,18 @@
 
         &__hero-stats {
             grid-template-columns: 1fr;
+        }
+
+        &__hero-kpi {
+            strong {
+                font-size: 1.25rem;
+            }
+        }
+
+        &__league-card-stat {
+            strong {
+                font-size: 1.1rem;
+            }
         }
 
         &__list-item {

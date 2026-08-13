@@ -59,6 +59,31 @@ export class Team {
     return points;
   }
 
+  public getTeamPositionBanker(teamId: number | null): string | null {
+    if (teamId === null) return null;
+    const paidTeamIds = new Set(TEAMS.filter(t => t.isPaid).map(t => t.id));
+    const filtered = this.latestGameweekData()?.league.filter(e => paidTeamIds.has(e.teamId)) || [];
+    const sorted = [...filtered].sort((a, b) => b.total - a.total || b.gw - a.gw);
+    let rank = 1;
+    const reranked = sorted.map((entry, idx) => {
+      if (idx > 0 && entry.total === sorted[idx - 1].total) return { ...entry, rank };
+      rank = idx + 1;
+      return { ...entry, rank };
+    });
+    const bankerEntry = reranked.find(e => e.teamId === teamId);
+    return bankerEntry?.rank ? this.formatRank(bankerEntry.rank) : null;
+  }
+
+  public getPointsBehindLeaderBanker(teamId: number | null): number | null {
+    if (teamId === null) return null;
+    const paidTeamIds = new Set(TEAMS.filter(t => t.isPaid).map(t => t.id));
+    const filtered = this.latestGameweekData()?.league.filter(e => paidTeamIds.has(e.teamId)) || [];
+    const leaderPoints = filtered.length > 0 ? Math.max(...filtered.map(e => e.total)) : null;
+    const teamPoints = this.latestGameweekData()?.league.find(entry => entry.teamId === teamId)?.total || null;
+    if (leaderPoints === null || teamPoints === null) return null;
+    return leaderPoints - teamPoints;
+  }
+
   public getTOTWWins(teamId: number | null): number {
     if (teamId === null) return 0;
 

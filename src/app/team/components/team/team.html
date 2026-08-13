@@ -20,18 +20,36 @@
             </div>
 
             <div class="team__hero-stats">
-                <article class="team__hero-stat">
-                    <span class="team__hero-stat-label">Current position</span>
-                    <strong>{{ getTeamPosition(_teamId) || 'N/A' }}</strong>
-                </article>
-                <article class="team__hero-stat">
-                    <span class="team__hero-stat-label">Current points</span>
+                <article class="team__hero-kpi">
+                    <span class="team__hero-kpi-label">Current points</span>
                     <strong>{{ getTeamPoints(_teamId) ?? 'N/A' }}</strong>
                 </article>
-                <article class="team__hero-stat">
-                    <span class="team__hero-stat-label">Behind leader</span>
-                    <strong>{{ getPointsBehindLeader(_teamId) ?? 'N/A' }}</strong>
+
+                <article class="team__league-card">
+                    <p class="team__league-card-title">Banter League</p>
+                    <div class="team__league-card-stat">
+                        <span>Current position</span>
+                        <strong>{{ getTeamPosition(_teamId) || 'N/A' }}</strong>
+                    </div>
+                    <div class="team__league-card-stat">
+                        <span>Behind leader</span>
+                        <strong>{{ getPointsBehindLeader(_teamId) ?? 'N/A' }}</strong>
+                    </div>
                 </article>
+
+                @if (_team.isPaid) {
+                    <article class="team__league-card team__league-card--banker">
+                        <p class="team__league-card-title">Banker League</p>
+                        <div class="team__league-card-stat">
+                            <span>Current position</span>
+                            <strong>{{ getTeamPositionBanker(_teamId) || 'N/A' }}</strong>
+                        </div>
+                        <div class="team__league-card-stat">
+                            <span>Behind leader</span>
+                            <strong>{{ getPointsBehindLeaderBanker(_teamId) ?? 'N/A' }}</strong>
+                        </div>
+                    </article>
+                }
             </div>
         </header>
 
