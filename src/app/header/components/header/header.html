@@ -8,8 +8,8 @@
       </div>
     </div>
     <div class="header__status">
-      <span class="header__status-desktop">26/27 Season</span>
-      <span class="header__status-mobile">26/27</span>
+      <span class="header__status-desktop">2026/27 Season</span>
+      <span class="header__status-mobile">2026/27</span>
     </div>
   </div>
   <nav class="header__nav" aria-label="Primary">
@@ -21,9 +21,11 @@
       <a routerLink="/standings" routerLinkActive="active">Standings</a>
       <div class="nav-active"></div>
     </div>
-    <div class="header__nav-item">
-      <a routerLink="/previous-gameweeks" routerLinkActive="active">Previous GW</a>
-      <div class="nav-active"></div>
-    </div>
+    @if (showArchive()) {
+      <div class="header__nav-item">
+        <a routerLink="/previous-gameweeks" routerLinkActive="active">Archive</a>
+        <div class="nav-active"></div>
+      </div>
+    }
   </nav>
 </header>
