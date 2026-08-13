@@ -4,6 +4,11 @@ import { GameWeek, TeamData } from '../../../core/types/game-week.type';
 import { League } from '../../../league/components/league/league';
 import { allGWData } from '../../../../data/gameweeks';
 
+export enum LeagueView {
+  BANTER = 'banter',
+  BANKER = 'banker',
+}
+
 @Component({
   selector: 'app-updates',
   imports: [League, RouterLink],
@@ -13,7 +18,8 @@ import { allGWData } from '../../../../data/gameweeks';
 export class Updates {
   public gameweek = input<number>(1);
   public isCurrent = input<boolean>(false);
-  public selectedLeagueView = signal<'banter' | 'banker'>('banter');
+  public selectedLeagueView = signal<LeagueView>(LeagueView.BANTER);
+  public leagueView = LeagueView;
   protected leagueCompRef = viewChild<League>('league');
 
   public data = computed<GameWeek>(() => {
@@ -62,7 +68,7 @@ export class Updates {
     }
   }
 
-  public selectLeagueView(view: 'banter' | 'banker'): void {
+  public selectLeagueView(view: LeagueView): void {
     this.selectedLeagueView.set(view);
   }
 }

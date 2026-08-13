@@ -24,7 +24,7 @@
                             class="updates__league-toggle-btn {{selectedLeagueView() === 'banter' ? 'selected' : ''}}"
                             role="tab"
                             aria-pressed="{{selectedLeagueView() === 'banter'}}"
-                            (click)="selectLeagueView('banter')">
+                            (click)="selectLeagueView(leagueView.BANTER)">
                             Banter
                         </button>
                         <button
@@ -32,7 +32,7 @@
                             class="updates__league-toggle-btn {{selectedLeagueView() === 'banker' ? 'selected' : ''}}"
                             role="tab"
                             aria-pressed="{{selectedLeagueView() === 'banker'}}"
-                            (click)="selectLeagueView('banker')">
+                            (click)="selectLeagueView(leagueView.BANKER)">
                             Banker
                         </button>
                     </div>
