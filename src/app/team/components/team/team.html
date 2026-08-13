@@ -54,7 +54,17 @@
         </header>
 
         <div class="team__grid">
-            <app-panel title="Awards" [tone]="'secondary'">
+            <section class="team__card team__card--awards">
+                <div class="team__card-header">
+                    <div>
+                        <p class="team__section-label">Spotlight</p>
+                        <h2>Awards</h2>
+                    </div>
+                    @if (_team.isPaid) {
+                        <span class="team__awards-chip">Banter League Only</span>
+                    }
+                </div>
+
                 <div class="team__awards">
                     <article class="team__award team__award--primary">
                         <span class="team__award-label">Team of the Week</span>
@@ -67,9 +77,16 @@
                         <p>Weeks the team scored the lowest points.</p>
                     </article>
                 </div>
-            </app-panel>
+            </section>
 
-            <app-panel title="Records" [tone]="'secondary'">
+            <section class="team__card">
+                <div class="team__card-header">
+                    <div>
+                        <p class="team__section-label">League data</p>
+                        <h2>Records</h2>
+                    </div>
+                </div>
+
                 <div class="team__list">
                     <div class="team__list-item">
                         <span>Highest rank</span>
@@ -80,7 +97,7 @@
                         <b>{{ getLowestRank(_teamId) || 'N/A' }}</b>
                     </div>
                 </div>
-            </app-panel>
+            </section>
         </div>
     }
 </div>
