@@ -8,6 +8,7 @@ import { ManagerEntry } from '../../../manager-league/types/manager-entry.type';
 
 export enum StandingsView {
   LEAGUE = 'league',
+  BANKER_LEAGUE = 'banker_league',
   TOTW = 'totw',
   SACKED = 'sacked',
 }

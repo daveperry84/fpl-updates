@@ -15,7 +15,11 @@
             <div class="standings__view-list" role="tablist" aria-label="Standings views">
                 <button class="standings__view-btn {{selectedView() === standingsView.LEAGUE ? 'selected' : ''}}" 
                     (click)="selectStandingsView(standingsView.LEAGUE)" role="tab" aria-pressed="{{selectedView() === standingsView.LEAGUE}}">
-                    League
+                    Banter League
+                </button>
+                <button class="standings__view-btn {{selectedView() === standingsView.BANKER_LEAGUE ? 'selected' : ''}}" 
+                    (click)="selectStandingsView(standingsView.BANKER_LEAGUE)" role="tab" aria-pressed="{{selectedView() === standingsView.BANKER_LEAGUE}}">
+                    Banker League
                 </button>
                 <button class="standings__view-btn {{selectedView() === standingsView.TOTW ? 'selected' : ''}}" 
                     (click)="selectStandingsView(standingsView.TOTW)" role="tab" aria-pressed="{{selectedView() === standingsView.TOTW}}">
@@ -36,7 +40,10 @@
                     <p class="standings__section-label">Standings</p>
                     @switch (selectedView()) {
                         @case (standingsView.LEAGUE) {
-                            <h2>Current league standings</h2>
+                            <h2>Banter League standings</h2>
+                        }
+                        @case (standingsView.BANKER_LEAGUE) {
+                            <h2>Banker League standings</h2>
                         }
                         @case (standingsView.TOTW) {
                             <h2>Team of the Week Awards</h2>
@@ -52,6 +59,9 @@
             @switch (selectedView()) {
                 @case (standingsView.LEAGUE) {
                     <app-league [data]="data().league" [previousData]="previousData()?.league"></app-league>
+                }
+                @case (standingsView.BANKER_LEAGUE) {
+                    <app-league [data]="data().league" [previousData]="previousData()?.league" [paidOnly]="true"></app-league>
                 }
                 @case (standingsView.TOTW) {
                     <app-manager-league [data]="totwData()" type="totw"></app-manager-league>

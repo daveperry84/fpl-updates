@@ -1,9 +1,10 @@
-import { Component, effect, input, signal, WritableSignal } from '@angular/core';
+import { Component, computed, effect, input, signal, WritableSignal } from '@angular/core';
 import { TeamEntry } from '../../../core/types/game-week.type';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { ionChevronDown, ionChevronUp, ionTrophySharp } from '@ng-icons/ionicons';
 import { heroEquals } from '@ng-icons/heroicons/outline';
 import { Router } from '@angular/router';
+import { TEAMS } from '../../../core/data/teams.data';
 
 @Component({
   selector: 'app-league',
@@ -17,6 +18,35 @@ export class League {
   public previousData = input<TeamEntry[] | undefined>([]);
   public enableExpandCollapse = input<boolean>(false);
   public expanded = input<boolean>(true);
+  public paidOnly = input<boolean>(false);
+
+  private readonly _paidTeamIds = new Set(TEAMS.filter(t => t.isPaid).map(t => t.id));
+
+  public filteredData = computed<TeamEntry[]>(() => {
+    if (!this.paidOnly()) return this.data();
+    const filtered = this.data().filter(e => this._paidTeamIds.has(e.teamId));
+    const sorted = [...filtered].sort((a, b) => b.total - a.total || b.gw - a.gw);
+    let rank = 1;
+    return sorted.map((entry, idx) => {
+      if (idx > 0 && entry.total === sorted[idx - 1].total) return { ...entry, rank };
+      rank = idx + 1;
+      return { ...entry, rank };
+    });
+  });
+
+  public filteredPreviousData = computed<TeamEntry[] | undefined>(() => {
+    const prev = this.previousData();
+    if (!prev) return prev;
+    if (!this.paidOnly()) return prev;
+    const filtered = prev.filter(e => this._paidTeamIds.has(e.teamId));
+    const sorted = [...filtered].sort((a, b) => b.total - a.total || b.gw - a.gw);
+    let rank = 1;
+    return sorted.map((entry, idx) => {
+      if (idx > 0 && entry.total === sorted[idx - 1].total) return { ...entry, rank };
+      rank = idx + 1;
+      return { ...entry, rank };
+    });
+  });
 
   protected displayExpanded: WritableSignal<boolean> = signal<boolean>(false);
 
@@ -34,17 +64,14 @@ export class League {
   }
 
   public getPreviousRank(team: TeamEntry): number | null {
-    if (!this.previousData() || this.previousData()!.length === 0) {
-      return null;
-    }
-
-    const previousEntry = this.previousData()!.find(entry => entry.team === team.team || entry.manager === team.manager);
+    const prev = this.filteredPreviousData();
+    if (!prev || prev.length === 0) return null;
+    const previousEntry = prev.find(entry => entry.team === team.team || entry.manager === team.manager);
     return previousEntry ? previousEntry.rank : null;
   }
 
   public hasSharedRank(rank: number): boolean {
-    const count = this.data().filter(team => team.rank === rank).length;
-    return count > 1;
+    return this.filteredData().filter(team => team.rank === rank).length > 1;
   }
 
   public onTeamClick(team: TeamEntry): void {
