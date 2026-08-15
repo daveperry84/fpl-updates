@@ -6,7 +6,7 @@
         { "team": "Yorkshire Lass FC", "manager": "Claire Perry" }
     ],
     "sacked": [
-        { "team": "Gayfield of Dreams", "manager": "Simon Lavery" }
+        { "team": "Kinder Mbeumo", "manager": "Alex Burney" }
     ],
     "otherUpdates": [
         { 
@@ -16,14 +16,20 @@
         }
     ],
     "league": [
-        { "rank": 1, "team": "Yorkshire Lass FC", "manager": "Claire Perry", "gw": 10, "total": 10 },
-        { "rank": 2, "team": "Brian the lion", "manager": "Brian Perry", "gw": 9, "total": 9 },
-        { "rank": 3, "team": "MattyCashInTheAttic", "manager": "Dave Perry", "gw": 8, "total": 8 },
-        { "rank": 4, "team": "Mcginning to believe", "manager": "Gareth Taylor", "gw": 7, "total": 7 },
-        { "rank": 5, "team": "Ctrl Alt Defeat", "manager": "Stuart Jackson", "gw": 6, "total": 6 },
-        { "rank": 6, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 5, "total": 5 },
-        { "rank": 7, "team": "Gayfield of Dreams", "manager": "Simon Lavery", "gw": 4, "total": 4 },
-        { "rank": 8, "team": "Delap of the Gods", "manager": "Sandeep Dhillon", "gw": 3, "total": 3 },
-        { "rank": 9, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 2, "total": 2 }
+        { "rank": 1, "team": "Yorkshire Lass FC", "manager": "Claire Perry", "gw": 66, "total": 66 },
+        { "rank": 2, "team": "Brian the lion", "manager": "Brian Perry", "gw": 64, "total": 64 },
+        { "rank": 3, "team": "MattyCashInTheAttic", "manager": "Dave Perry", "gw": 61, "total": 61 },
+        { "rank": 4, "team": "Mcginning to believe", "manager": "Gareth Taylor", "gw": 59, "total": 59 },
+        { "rank": 5, "team": "Ctrl Alt Defeat", "manager": "Stuart Jackson", "gw": 57, "total": 57 },
+        { "rank": 6, "team": "Livesdownthelaine", "manager": "Elaine Redfern", "gw": 55, "total": 55 },
+        { "rank": 7, "team": "Gayfield of Dreams", "manager": "Simon Lavery", "gw": 53, "total": 53 },
+        { "rank": 8, "team": "Delap of the Gods", "manager": "Sandeep Dhillon", "gw": 50, "total": 50 },
+        { "rank": 9, "team": "Redder's Rejects", "manager": "David Redfern", "gw": 48, "total": 48 },
+        { "rank": 10, "team": "Dragospear's XI", "manager": "Areeb Dar", "gw": 46, "total": 46 },
+        { "rank": 11, "team": "Richmond FC", "manager": "Matthew Doyle", "gw": 44, "total": 44 },
+        { "rank": 12, "team": "DuncanDisorder", "manager": "Liam Duncan", "gw": 42, "total": 42 },
+        { "rank": 13, "team": "Not too shabbyAlonso", "manager": "Tom Wyer", "gw": 39, "total": 39 },
+        { "rank": 14, "team": "Sharonaldo", "manager": "Sharon Perry", "gw": 37, "total": 37 },
+        { "rank": 15, "team": "Kinder Mbeumo", "manager": "Alex Burney", "gw": 35, "total": 35 }
     ]
 }
