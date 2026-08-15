@@ -1,4 +1,4 @@
-import { Component, computed, signal, viewChild } from '@angular/core';
+import { Component, ElementRef, computed, signal, viewChild } from '@angular/core';
 import { allGWData } from '../../../../data/gameweeks';
 import { Updates } from "../../../updates/components/updates/updates";
 import { GameWeek } from '../../../core/types/game-week.type';
@@ -10,7 +10,10 @@ import { ionChevronDown } from '@ng-icons/ionicons';
   imports: [Updates, NgIcon],
   templateUrl: './previous-updates.html',
   styleUrl: './previous-updates.scss',
-  viewProviders: [provideIcons({ ionChevronDown })]
+  viewProviders: [provideIcons({ ionChevronDown })],
+  host: {
+    '(document:click)': 'handleDocumentClick($event)'
+  }
 })
 export class PreviousUpdates {
   public allData = computed(() => {
@@ -20,6 +23,7 @@ export class PreviousUpdates {
   public selectedGameweek = signal<number>(1);
   public isListOpen = signal<boolean>(false);
   protected updatesCompRef = viewChild<Updates>('updates');
+  protected gameweekSelectRef = viewChild<ElementRef<HTMLElement>>('gameweekSelect');
 
   public data = computed<GameWeek | undefined>(() => {
     return this.allData().find(gw => gw.gameweek === this.selectedGameweek());
@@ -32,6 +36,24 @@ export class PreviousUpdates {
 
   protected selectGameweek(gw: number) {
     this.selectedGameweek.set(gw);
+    this.isListOpen.set(false);
+  }
+
+  protected handleDocumentClick(event: MouseEvent) {
+    if (!this.isListOpen()) {
+      return;
+    }
+
+    const target = event.target;
+    if (!(target instanceof Node)) {
+      return;
+    }
+
+    const gameweekSelect = this.gameweekSelectRef()?.nativeElement;
+    if (gameweekSelect?.contains(target)) {
+      return;
+    }
+
     this.isListOpen.set(false);
   }
 }

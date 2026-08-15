@@ -18,7 +18,7 @@
         <div class="previous-updates__controls">
             <p class="previous-updates__controls-label">Select which update to view</p>
 
-            <div class="previous-updates__gw-select">
+            <div #gameweekSelect class="previous-updates__gw-select">
                 <button type="button" class="previous-updates__gw-btn" (click)="isListOpen.set(!isListOpen())" aria-haspopup="listbox" aria-expanded="{{isListOpen()}}" aria-label="Open gameweek list">
                     <span>GW {{selectedGameweek()}}</span>
                     <ng-icon name="ionChevronDown" class="{{isListOpen() ? 'open' : ''}}" />
