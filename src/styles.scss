@@ -17,12 +17,13 @@ body, button { margin: 0; font-family: "Be Vietnam Pro", sans-serif; color: #222
     max-width: 65dvw;
     padding: 24px 12px 50px;
     margin: auto;
-    min-height: calc(100dvh - 364px);
+    min-height: calc(100dvh - 325px);
 
     @media (max-width: 768px) {
         width: calc(100dvw - 48px);
         max-width: calc(100dvw - 48px);
         padding: 24px 24px 50px;
+        min-height: calc(100dvh - 367px);
     }
 }
 

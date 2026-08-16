@@ -25,5 +25,9 @@ export const routes: Routes = [
     {
         path: 'team/:id',
         loadComponent: () => import('./team/components/team/team').then(m => m.Team)
+    },
+    {
+        path: '**',
+        loadComponent: () => import('./not-found/components/not-found/not-found').then(m => m.NotFound)
     }
 ];
