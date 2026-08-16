@@ -97,6 +97,24 @@
         line-height: 1.5;
     }
 
+    &__manager {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.55rem;
+        flex-wrap: wrap;
+        line-height: 1.35;
+    }
+
+    &__manager-badge {
+        width: auto;
+        max-width: 32px;
+        height: 32px;
+        object-fit: contain;
+        flex-shrink: 0;
+        transform: translateY(1px);
+        box-shadow: 0 2px 8px rgba(4, 3, 20, 0.26);
+    }
+
     &__hero-summary {
         margin: 0;
         max-width: 680px;

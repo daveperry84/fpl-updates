@@ -13,7 +13,19 @@
                 </div>
 
                 <h1>{{ _team.name }}</h1>
-                <p class="team__hero-subtitle">Managed by <b>{{ _team.manager }}</b></p>
+                <p class="team__hero-subtitle team__manager">
+                    Managed by
+                    <b>{{ _team.manager }}</b>
+                    @if (_team.plTeam) {
+                        <img
+                            class="team__manager-badge"
+                            [ngSrc]="getPLTeamBadgeSrc(_team.plTeam)"
+                            [alt]="getPLTeamBadgeAlt(_team.plTeam)"
+                            width="3200"
+                            height="3200"
+                        />
+                    }
+                </p>
                 <p class="team__hero-summary">
                     A season snapshot covering status, position, total points, awards earned and rank highs and lows so far.
                 </p>

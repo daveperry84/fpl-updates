@@ -1,11 +1,13 @@
 import { Component, computed, effect } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { NgOptimizedImage } from '@angular/common';
 import { TEAMS } from '../../../core/data/teams.data';
+import { PLTeams } from '../../../core/enums/pl-teams.enum';
 import { allGWData } from '../../../../data/gameweeks';
 
 @Component({
   selector: 'app-team',
-  imports: [],
+  imports: [NgOptimizedImage],
   templateUrl: './team.html',
   styleUrl: './team.scss'
 })
@@ -171,6 +173,16 @@ export class Team {
     if (lowestRank === null) return null;
 
     return `${this.formatRank(lowestRank)} (GW${gameweek})`;
+  }
+
+  public getPLTeamBadgeSrc(plTeam: PLTeams): string {
+    return `https://resources.premierleague.com/premierleague25/badges-alt/${plTeam}.svg`;
+  }
+
+  public getPLTeamBadgeAlt(plTeam?: PLTeams): string {
+    if (!plTeam) return 'Premier League club badge';
+    const teamName = PLTeams[plTeam].replaceAll('_', ' ').toLowerCase();
+    return `${teamName} badge`;
   }
 
   private formatRank(rank: number): string {
