@@ -1,48 +1,75 @@
 <div class="standings page-content">
-    <h1>League of Leg Ends</h1>
-    <app-panel title="Select a table to view">
-        <div class="standings__view-list">
-            <div class="standings__view-btn {{selectedView() === standingsView.LEAGUE ? 'selected' : ''}}" 
-                (click)="selectStandingsView(standingsView.LEAGUE)">
-                League
-            </div>
-            <div class="standings__view-btn {{selectedView() === standingsView.TOTW ? 'selected' : ''}}" 
-                (click)="selectStandingsView(standingsView.TOTW)">
-                TOTW<span class="sm-hide"> Awards</span>
-            </div>
-            <div class="standings__view-btn {{selectedView() === standingsView.SACKED ? 'selected' : ''}}" 
-                (click)="selectStandingsView(standingsView.SACKED)">
-                Sacked<span class="sm-hide"> Awards</span>
-            </div>
+    <div class="standings__hero">
+        <div class="standings__hero-left">
+            <div class="standings__hero-badge">League dashboard</div>
+            <h1>League of Leg Ends</h1>
+            <p class="standings__tag">Competition standings and awards</p>
         </div>
-    </app-panel>
+        <div class="standings__hero-right">
+            <span class="standings__updated">Last updated: <b>End of GW{{latestGameweek()}}</b></span>
+        </div>
+    </div>
+
+    <div class="standings__tables">
+        <app-panel title="Select a table to view" [tone]="'secondary'">
+            <div class="standings__view-list" role="tablist" aria-label="Standings views">
+                <button class="standings__view-btn {{selectedView() === standingsView.LEAGUE ? 'selected' : ''}}" 
+                    (click)="selectStandingsView(standingsView.LEAGUE)" role="tab" aria-pressed="{{selectedView() === standingsView.LEAGUE}}">
+                    Banter League
+                </button>
+                <button class="standings__view-btn {{selectedView() === standingsView.BANKER_LEAGUE ? 'selected' : ''}}" 
+                    (click)="selectStandingsView(standingsView.BANKER_LEAGUE)" role="tab" aria-pressed="{{selectedView() === standingsView.BANKER_LEAGUE}}">
+                    Banker League
+                </button>
+                <button class="standings__view-btn {{selectedView() === standingsView.TOTW ? 'selected' : ''}}" 
+                    (click)="selectStandingsView(standingsView.TOTW)" role="tab" aria-pressed="{{selectedView() === standingsView.TOTW}}">
+                    TOTW<span class="sm-hide">Awards</span>
+                </button>
+                <button class="standings__view-btn {{selectedView() === standingsView.SACKED ? 'selected' : ''}}" 
+                    (click)="selectStandingsView(standingsView.SACKED)" role="tab" aria-pressed="{{selectedView() === standingsView.SACKED}}">
+                    Sacked<span class="sm-hide">Awards</span>
+                </button>
+            </div>
+        </app-panel>
+    </div>
 
     <div class="standings__content"> 
-        <div class="standings__header">
+        <div class="standings__card">
+            <div class="standings__header">
+                <div>
+                    <p class="standings__section-label">Standings</p>
+                    @switch (selectedView()) {
+                        @case (standingsView.LEAGUE) {
+                            <h2>Banter League standings</h2>
+                        }
+                        @case (standingsView.BANKER_LEAGUE) {
+                            <h2>Banker League standings</h2>
+                        }
+                        @case (standingsView.TOTW) {
+                            <h2>Team of the Week Awards</h2>
+                        }
+                        @case (standingsView.SACKED) {
+                            <h2>"Sacked in the morning" Awards</h2>
+                        }
+                    }
+                </div>
+                <span class="standings__updated standings__updated--inline">End of GW{{latestGameweek()}}</span>
+            </div>
+
             @switch (selectedView()) {
                 @case (standingsView.LEAGUE) {
-                    <h2>Current league standings</h2>
+                    <app-league [data]="data().league" [previousData]="previousData()?.league"></app-league>
+                }
+                @case (standingsView.BANKER_LEAGUE) {
+                    <app-league [data]="data().league" [previousData]="previousData()?.league" [paidOnly]="true"></app-league>
                 }
                 @case (standingsView.TOTW) {
-                    <h2>Team of the Week Awards</h2>
+                    <app-manager-league [data]="totwData()" type="totw"></app-manager-league>
                 }
                 @case (standingsView.SACKED) {
-                    <h2>"Sacked in the morning" Awards</h2>
+                    <app-manager-league [data]="sackedData()" type="sacked"></app-manager-league>
                 }
             }
-            <span>Last updated: <b>End of GW{{latestGameweek()}}</b></span>
-        </div>      
-        
-        @switch (selectedView()) {
-            @case (standingsView.LEAGUE) {
-                <app-league [data]="data().league" [previousData]="previousData()?.league"></app-league>
-            }
-            @case (standingsView.TOTW) {
-                <app-manager-league [data]="totwData()" type="totw"></app-manager-league>
-            }
-            @case (standingsView.SACKED) {
-                <app-manager-league [data]="sackedData()" type="sacked"></app-manager-league>
-            }
-        }
+        </div>
     </div>
 </div>

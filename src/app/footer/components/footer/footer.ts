@@ -1,13 +1,13 @@
 import { Component, inject } from '@angular/core';
 import { NgIcon, provideIcons } from "@ng-icons/core";
-import { ionLogoGithub, ionLogoInstagram } from '@ng-icons/ionicons';
+import { ionLogoGithub, ionLogoInstagram, ionLogoDiscord } from '@ng-icons/ionicons';
 
 @Component({
   selector: 'app-footer',
   imports: [NgIcon],
   templateUrl: './footer.html',
   styleUrl: './footer.scss',
-  viewProviders: [provideIcons({ ionLogoGithub, ionLogoInstagram })]
+  viewProviders: [provideIcons({ ionLogoGithub, ionLogoInstagram, ionLogoDiscord })]
 })
 export class Footer {
   protected navigateToInsta() {
@@ -15,5 +15,8 @@ export class Footer {
   }
   protected navigateToGithub() {
     window.open('https://github.com/daveperry84/fpl-updates', '_blank', 'noopener,noreferrer');
+  }
+  protected navigateToDiscord() {
+    window.open('https://discord.gg/kHRrBH5US', '_blank', 'noopener,noreferrer');
   }
 }

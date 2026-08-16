@@ -1,13 +1,20 @@
 <header class="header">
   <div class="header__content">
-    <div class="header__logo">
-      <img src="https://fantasy.premierleague.com/assets/headline-logo-DgE6C_gE.svg"/>
-      <span>League of Leg Ends</span>
+    <div class="header__logo" routerLink="/home">
+      <img src="https://fantasy.premierleague.com/assets/headline-logo-DgE6C_gE.svg" alt="Fantasy Premier League"/>
+      <div class="header__brand">
+        <small>Fantasy mini league</small>
+        <span>League of Leg Ends</span>
+      </div>
+    </div>
+    <div class="header__status">
+      <span class="header__status-desktop">2026/27 Season</span>
+      <span class="header__status-mobile">2026/27</span>
     </div>
   </div>
-  <div class="header__nav">
+  <nav class="header__nav" aria-label="Primary">
     <div class="header__nav-item">
-      <a routerLink="/home" routerLinkActive="active">Latest</a>
+      <a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Latest</a>
       <div class="nav-active"></div>
     </div>
     <div class="header__nav-item">
@@ -15,8 +22,14 @@
       <div class="nav-active"></div>
     </div>
     <div class="header__nav-item">
-      <a routerLink="/previous-gameweeks" routerLinkActive="active">Previous GW</a>
+      <a routerLink="/teams" routerLinkActive="active">Teams</a>
       <div class="nav-active"></div>
     </div>
-  </div>
+    @if (showArchive()) {
+      <div class="header__nav-item">
+        <a routerLink="/previous-gameweeks" routerLinkActive="active">Archive</a>
+        <div class="nav-active"></div>
+      </div>
+    }
+  </nav>
 </header>

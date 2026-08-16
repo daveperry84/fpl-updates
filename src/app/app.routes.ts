@@ -19,7 +19,15 @@ export const routes: Routes = [
         loadComponent: () => import('./standings/components/standings/standings').then(m => m.Standings)
     },
     {
+        path: 'teams',
+        loadComponent: () => import('./teams/components/teams/teams').then(m => m.Teams)
+    },
+    {
         path: 'team/:id',
         loadComponent: () => import('./team/components/team/team').then(m => m.Team)
+    },
+    {
+        path: '**',
+        loadComponent: () => import('./not-found/components/not-found/not-found').then(m => m.NotFound)
     }
 ];

@@ -1,0 +1,67 @@
+<div class="teams page-content">
+    <header class="teams__hero">
+        <div class="teams__hero-copy">
+            <div class="teams__hero-badge">Teams directory</div>
+            <h1>Browse Every Team</h1>
+            <p>Find any team quickly and jump straight to its full profile page.</p>
+        </div>
+
+        <div class="teams__hero-stats">
+            <article class="teams__hero-stat">
+                <span>Total teams</span>
+                <strong>{{ teams().length }}</strong>
+            </article>
+            <article class="teams__hero-stat teams__hero-stat--banker">
+                <span>Banker teams</span>
+                <strong>{{ paidTeamsCount() }}</strong>
+            </article>
+        </div>
+    </header>
+
+    <section class="teams__card" aria-labelledby="teams-search-title">
+        <div class="teams__card-header">
+            <div>
+                <p class="teams__section-label">Quick find</p>
+                <h2 id="teams-search-title">Search teams</h2>
+            </div>
+            <span class="teams__updated">End of GW{{ latestGameweek() }}</span>
+        </div>
+
+        <label class="teams__search" for="team-search">
+            <span class="teams__search-label">Team or manager</span>
+            <input
+                id="team-search"
+                type="text"
+                placeholder="Start typing a team or manager name"
+                [value]="search()"
+                (input)="updateSearch(($any($event.target).value || '').toString())" />
+        </label>
+    </section>
+
+    <section class="teams__grid" aria-label="All teams">
+        @if (teams().length === 0) {
+            <div class="teams__empty">No teams found for your search.</div>
+        } @else {
+            @for (team of teams(); track team.id) {
+                <a class="teams__item" [routerLink]="['/team', team.id]">
+                    <div class="teams__item-main">
+                        <p class="teams__item-name">{{ team.name }}</p>
+                        <p class="teams__item-manager">Managed by {{ team.manager }}</p>
+                    </div>
+
+                    <div class="teams__item-stats">
+                        <span class="teams__chip {{ team.isPaid ? 'is-paid' : 'is-free' }}">
+                            {{ team.isPaid ? 'Banker' : 'Banter' }}
+                        </span>
+
+                        <div class="teams__mini-stats">
+                            <span>Rank: <b>{{ team.rank ?? 'N/A' }}</b></span>
+                            <span>Pts: <b>{{ team.total ?? 'N/A' }}</b></span>
+                            <span>GW: <b>{{ team.gw ?? 'N/A' }}</b></span>
+                        </div>
+                    </div>
+                </a>
+            }
+        }
+    </section>
+</div>

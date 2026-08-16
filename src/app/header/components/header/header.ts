@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, computed } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { allGWData } from '../../../../data/gameweeks';
 
 @Component({
   selector: 'app-header',
@@ -8,5 +9,7 @@ import { RouterModule } from '@angular/router';
   styleUrl: './header.scss'
 })
 export class Header {
-
+  public showArchive = computed<boolean>(() => {
+    return allGWData.length > 1;
+  });
 }

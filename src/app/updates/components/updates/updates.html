@@ -1,33 +1,113 @@
 @let _data = data();
 
-<div class="updates">    
+<div class="updates">
     @if (_data) {
-        <h1 class="updates__title">Update for GW{{_data.gameweek}}</h1>
+        @if (isCurrent()) {
+            <header class="updates__hero">
+                <div class="updates__hero-badge">Gameweek update</div>
+                <h1 class="updates__title">The story of Gameweek {{ _data.gameweek }}</h1>
+                <p class="updates__subtitle">A sharper take on the decisive moments, standout performances and the names everyone is talking about.</p>
+            </header>
+        }
+
         <div class="updates__content">
-            <app-league #league [data]="_data.league" [previousData]="previousData()?.league" [enableExpandCollapse]="true" [expanded]="false" />
-            
-            <div [innerHTML]="_data.overview"></div>
-        
-            <div class="updates__totw">
-                <h2>⭐ Team of the Week</h2>
-                <div [innerHTML]="_data.totwDescription"></div>
-            </div>
-        
-            <div class="updates__sacked">
-                <h2>😱 Sacked in the morning</h2>
-                <div [innerHTML]="_data.sackedDescription"></div>
-            </div>
-        
-            <div class="updates__other">
-                @for (update of _data.otherUpdates; track update) {
-                    @if (!update.currentOnly || (update.currentOnly && isCurrent())) {
-                        <div class="updates__other-item">
-                            <h2>{{update.title}}</h2>
-                            <div [innerHTML]="update.content"></div>
+            <section class="updates__section updates__section--league">
+                <div class="updates__section-heading">
+                    <div>
+                        <p class="updates__section-label">Standings</p>
+                        <h2>{{ selectedLeagueView() === 'banker' ? 'Banker League table' : 'Banter League table' }}</h2>
+                    </div>
+
+                    <div class="updates__league-toggle" role="tablist" aria-label="League view">
+                        <button
+                            type="button"
+                            class="updates__league-toggle-btn {{selectedLeagueView() === 'banter' ? 'selected' : ''}}"
+                            role="tab"
+                            aria-pressed="{{selectedLeagueView() === 'banter'}}"
+                            (click)="selectLeagueView(leagueView.BANTER)">
+                            Banter
+                        </button>
+                        <button
+                            type="button"
+                            class="updates__league-toggle-btn {{selectedLeagueView() === 'banker' ? 'selected' : ''}}"
+                            role="tab"
+                            aria-pressed="{{selectedLeagueView() === 'banker'}}"
+                            (click)="selectLeagueView(leagueView.BANKER)">
+                            Banker
+                        </button>
+                    </div>
+                </div>
+                <app-league #league [data]="_data.league" [previousData]="previousData()?.league" [enableExpandCollapse]="true" [expanded]="false" [paidOnly]="selectedLeagueView() === 'banker'" />
+            </section>
+
+            @if (_data.overview) {
+                <section class="updates__section updates__section--overview">
+                    <div class="updates__section-heading">
+                        <div>
+                            <p class="updates__section-label">Lead story</p>
+                            <h2>Overview</h2>
                         </div>
-                    }
-                }
+                    </div>
+                    <div class="updates__rich-text" [innerHTML]="_data.overview"></div>
+                </section>
+            }
+
+            <div class="updates__grid">
+                <section class="updates__section updates__section--totw">
+                    <div class="updates__section-heading">
+                        <div>
+                            <p class="updates__section-label">Spotlight</p>
+                            <h2>Team of the Week</h2>
+                        </div>
+                        <span class="updates__section-summary">{{ getSectionPointsLabel(_data.totw) }}</span>
+                    </div>
+                    <div class="updates__cards">
+                        @for (team of _data.totw; track team) {
+                            <a class="updates__card updates__card--primary" [routerLink]="['/team', team.teamId]" [attr.aria-label]="'View team ' + team.team">
+                                <h3>{{team.team}}</h3>
+                                <div>Managed by <b>{{team.manager}}</b></div>
+                            </a>
+                        }
+                    </div>
+                </section>
+
+                <section class="updates__section updates__section--sacked">
+                    <div class="updates__section-heading">
+                        <div>
+                            <p class="updates__section-label">Watch</p>
+                            <h2>Sacked in the morning</h2>
+                        </div>
+                        <span class="updates__section-summary">{{ getSectionPointsLabel(_data.sacked) }}</span>
+                    </div>
+                    <div class="updates__cards">
+                        @for (team of _data.sacked; track team) {
+                            <a class="updates__card updates__card--secondary" [routerLink]="['/team', team.teamId]" [attr.aria-label]="'View team ' + team.team">
+                                <h3>{{team.team}}</h3>
+                                <div>Managed by <b>{{team.manager}}</b></div>
+                            </a>
+                        }
+                    </div>
+                </section>
             </div>
+
+            @if (showOtherUpdates()) {
+                <section class="updates__section updates__section--other">
+                    <div class="updates__section-heading updates__section-heading--tight">
+                        <div>
+                            <p class="updates__section-label">Read on</p>
+                            <h2>Additional notes</h2>
+                        </div>
+                    </div>
+                    @for (update of _data.otherUpdates; track update) {
+                        @if (!update.currentOnly || (update.currentOnly && isCurrent())) {
+                            <article class="updates__other-item">
+                                <h2>{{update.title}}</h2>
+                                <div [innerHTML]="update.content"></div>
+                            </article>
+                        }
+                    }
+                </section>
+            }
         </div>
     }
 </div>

@@ -1,23 +1,136 @@
+@let _team = teamData();
+@let _teamId = teamId();
+
 <div class="team page-content">
-    <h1>{{ teamData()?.name }}</h1>
-    <h2>Managed by <b>{{ teamData()?.manager }}</b></h2>
-    <app-panel title="Team Details">
-        <div class="team__details">
-            <div class="team__detail">Current Position <b>{{ getTeamPosition(teamId()) }}</b></div>
-            <div class="team__detail">Current Points <b>{{ getTeamPoints(teamId()) }}</b></div>
-            <div class="team__detail">Points Behind Leader <b>{{ getPointsBehindLeader(teamId()) || 'N/A' }}</b></div>
+    @if (_team) {
+        <header class="team__hero">
+            <div class="team__hero-copy">
+                <div class="team__hero-badges">
+                    <span class="team__hero-badge">Team profile</span>
+                    <span class="team__hero-chip team__hero-chip--status {{ _team.isPaid ? 'is-paid' : 'is-free' }}">
+                        Status: {{ _team.isPaid ? 'Banker' : 'Banter' }}
+                    </span>
+                </div>
+
+                <h1>{{ _team.name }}</h1>
+                <p class="team__hero-subtitle team__manager">
+                    Managed by
+                    <b>{{ _team.manager }}</b>
+                    @if (_team.plTeam) {
+                        <img
+                            class="team__manager-badge"
+                            [ngSrc]="getPLTeamBadgeSrc(_team.plTeam)"
+                            [alt]="getPLTeamBadgeAlt(_team.plTeam)"
+                            width="32"
+                            height="32"
+                        />
+                    }
+                </p>
+                <p class="team__hero-summary">
+                    A season snapshot covering status, position, total points, awards earned and rank highs and lows so far.
+                </p>
+            </div>
+
+            <div class="team__hero-stats">
+                <article class="team__hero-kpi">
+                    <span class="team__hero-kpi-label">Current points</span>
+                    <strong>{{ getTeamPoints(_teamId) ?? 'N/A' }}</strong>
+                </article>
+
+                <article class="team__league-card">
+                    <p class="team__league-card-title">Banter League</p>
+                    <div class="team__league-card-stat">
+                        <span>Current position</span>
+                        <strong>{{ getTeamPosition(_teamId) || 'N/A' }}</strong>
+                    </div>
+                    <div class="team__league-card-stat">
+                        <span>Behind leader</span>
+                        <strong>{{ getPointsBehindLeader(_teamId) ?? 'N/A' }}</strong>
+                    </div>
+                </article>
+
+                @if (_team.isPaid) {
+                    <article class="team__league-card team__league-card--banker">
+                        <p class="team__league-card-title">Banker League</p>
+                        <div class="team__league-card-stat">
+                            <span>Current position</span>
+                            <strong>{{ getTeamPositionBanker(_teamId) || 'N/A' }}</strong>
+                        </div>
+                        <div class="team__league-card-stat">
+                            <span>Behind leader</span>
+                            <strong>{{ getPointsBehindLeaderBanker(_teamId) ?? 'N/A' }}</strong>
+                        </div>
+                    </article>
+                }
+            </div>
+        </header>
+
+        <div class="team__grid">
+            <section class="team__card team__card--awards">
+                <div class="team__card-header">
+                    <div>
+                        <p class="team__section-label">Spotlight</p>
+                        <h2>Awards</h2>
+                    </div>
+                    @if (_team.isPaid) {
+                        <span class="team__awards-chip">Banter League Only</span>
+                    }
+                </div>
+
+                <div class="team__awards">
+                    <article class="team__award team__award--primary">
+                        <span class="team__award-label">Team of the Week</span>
+                        <strong>{{ getTOTWWins(_teamId) }}</strong>
+                        <p>TOTW awards collected across the season.</p>
+                    </article>
+                    <article class="team__award team__award--secondary">
+                        <span class="team__award-label">Sacked in the morning</span>
+                        <strong>{{ getSackedWins(_teamId) }}</strong>
+                        <p>Weeks the team scored the lowest points.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="team__card">
+                <div class="team__card-header">
+                    <div>
+                        <p class="team__section-label">League data</p>
+                        <h2>Records</h2>
+                    </div>
+                </div>
+
+                <div class="team__records">
+                    <div class="team__records-group">
+                        @if (_team.isPaid) {
+                            <p class="team__records-group-label">Banter League</p>
+                        }
+                        <article class="team__record-card">
+                            <p class="team__record-card-label">Highest rank</p>
+                            <strong>{{ getHighestRank(_teamId) || 'N/A' }}</strong>
+                        </article>
+
+                        <article class="team__record-card">
+                            <p class="team__record-card-label">Lowest rank</p>
+                            <strong>{{ getLowestRank(_teamId) || 'N/A' }}</strong>
+                        </article>
+                    </div>
+
+                    @if (_team.isPaid) {
+                        <div class="team__records-group team__records-group--banker">
+                            <p class="team__records-group-label">Banker League</p>
+                            <article class="team__record-card team__record-card--banker">
+                                <p class="team__record-card-label">Highest rank</p>
+                                <strong>{{ getHighestRankBanker(_teamId) || 'N/A' }}</strong>
+                            </article>
+
+                            <article class="team__record-card team__record-card--banker">
+                                <p class="team__record-card-label">Lowest rank</p>
+                                <strong>{{ getLowestRankBanker(_teamId) || 'N/A' }}</strong>
+                            </article>
+                        </div>
+                    }
+                </div>
+            </section>
         </div>
-        <hr />
-        <h3>Awards</h3>
-        <div class="team__details">
-            <div class="team__detail">TOTW Awards <b>{{ getTOTWWins(teamId()) }}</b></div>
-            <div class="team__detail">Sacked Awards <b>{{ getSackedWins(teamId()) }}</b></div>
-        </div>
-        <hr />
-        <h3>Records</h3>
-        <div class="team__details">
-            <div class="team__detail">Highest Rank <b>{{ getHighestRank(teamId()) }}</b></div>
-            <div class="team__detail">Lowest Rank <b>{{ getLowestRank(teamId()) }}</b></div>
-        </div>
-    </app-panel>
+    }
 </div>

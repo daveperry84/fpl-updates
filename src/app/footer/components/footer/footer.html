@@ -1,16 +1,29 @@
 <footer class="footer">
-    <div class="footer__left">
-        <img src="https://fantasy.premierleague.com/assets/headline-logo-DgE6C_gE.svg"/>
-        <span>League of Leg Ends</span>
-    </div>
-    <div class="footer__right">
-        <div class="footer__right-content">
-            <span>Created by Dave Perry</span>
-            <span>Data provided by <a href="https://fantasy.premierleague.com/" target="_blank" class="footer__link">Fantasy Premier League</a></span>
-            <div class="footer__icons">
-                <ng-icon name="ionLogoGithub" (click)="navigateToGithub()"></ng-icon>
-                <ng-icon name="ionLogoInstagram" (click)="navigateToInsta()"></ng-icon>
+    <div class="footer__inner">
+        <div class="footer__brand">
+            <div class="footer__logo">
+                <img src="https://fantasy.premierleague.com/assets/headline-logo-DgE6C_gE.svg" alt="Fantasy Premier League"/>
+                <div class="footer__brand-text">
+                    <small>Fantasy mini league</small>
+                    <span>League of Leg Ends</span>
+                </div>
             </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__meta">
+            <p class="footer__credit">Created by Dave Perry</p>
+            <p class="footer__data">Data provided by <a href="https://fantasy.premierleague.com/" target="_blank">Fantasy Premier League</a></p>
+        </div>
+        <div class="footer__social">
+            <button class="footer__social-btn" aria-label="GitHub" (click)="navigateToGithub()">
+                <ng-icon name="ionLogoGithub"></ng-icon>
+            </button>
+            <button class="footer__social-btn" aria-label="Instagram" (click)="navigateToInsta()">
+                <ng-icon name="ionLogoInstagram"></ng-icon>
+            </button>
+            <button class="footer__social-btn" aria-label="Discord" (click)="navigateToDiscord()">
+                <ng-icon name="ionLogoDiscord"></ng-icon>
+            </button>
         </div>
     </div>
 </footer>

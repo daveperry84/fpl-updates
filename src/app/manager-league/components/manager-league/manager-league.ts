@@ -15,9 +15,6 @@ import { Router } from '@angular/router';
 export class ManagerLeague {
   public data = input<ManagerEntry[]>([]);
   public type = input<'totw' | 'sacked'>('totw');
-  public winsColumnTitle = computed<string>(() => {
-    return this.type() === 'totw' ? '⭐ Awards' : '😱 Awards';
-  });
 
   constructor(private _router: Router) {}
 
