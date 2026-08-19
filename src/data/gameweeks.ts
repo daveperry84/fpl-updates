@@ -14,9 +14,9 @@ export const allGWData: GameWeek[] = [
     ],
     sacked: [
       {
-        teamId: 15,
-        team: "Kinder Mbeumo",
-        manager: "Alex Burney"
+        teamId: 20,
+        team: "Krusty’s Blue Moon",
+        manager: "Kirsty Dixon Bowers"
       }
     ],
     otherUpdates: [
@@ -146,6 +146,46 @@ export const allGWData: GameWeek[] = [
         manager: "Alex Burney",
         gw: 35,
         total: 35
+      },
+      {
+        rank: 16,
+        teamId: 16,
+        team: "No T No Shade",
+        manager: "Jade Dixon Bowers",
+        gw: 33,
+        total: 33
+      },
+      {
+        rank: 17,
+        teamId: 17,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 31,
+        total: 31
+      },
+      {
+        rank: 18,
+        teamId: 18,
+        team: "Kp nuts",
+        manager: "Katie Perry",
+        gw: 29,
+        total: 29
+      },
+      {
+        rank: 19,
+        teamId: 19,
+        team: "79th time lucky",
+        manager: "Joseph Temple",
+        gw: 27,
+        total: 27
+      },
+      {
+        rank: 20,
+        teamId: 20,
+        team: "Krusty’s Blue Moon",
+        manager: "Kirsty Dixon Bowers",
+        gw: 25,
+        total: 25
       }
     ]
   },
@@ -161,9 +201,9 @@ export const allGWData: GameWeek[] = [
     ],
     sacked: [
       {
-        teamId: 14,
-        team: "Sharonaldo",
-        manager: "Sharon Perry"
+        teamId: 20,
+        team: "Krusty’s Blue Moon",
+        manager: "Kirsty Dixon Bowers"
       }
     ],
     otherUpdates: [
@@ -293,6 +333,46 @@ export const allGWData: GameWeek[] = [
         manager: "Alex Burney",
         gw: 46,
         total: 81
+      },
+      {
+        rank: 16,
+        teamId: 16,
+        team: "No T No Shade",
+        manager: "Jade Dixon Bowers",
+        gw: 44,
+        total: 77
+      },
+      {
+        rank: 17,
+        teamId: 17,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 43,
+        total: 74
+      },
+      {
+        rank: 18,
+        teamId: 18,
+        team: "Kp nuts",
+        manager: "Katie Perry",
+        gw: 42,
+        total: 71
+      },
+      {
+        rank: 19,
+        teamId: 19,
+        team: "79th time lucky",
+        manager: "Joseph Temple",
+        gw: 41,
+        total: 68
+      },
+      {
+        rank: 20,
+        teamId: 20,
+        team: "Krusty’s Blue Moon",
+        manager: "Kirsty Dixon Bowers",
+        gw: 40,
+        total: 65
       }
     ]
   }

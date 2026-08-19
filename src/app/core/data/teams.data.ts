@@ -24,4 +24,9 @@ export const TEAMS: ReadonlyArray<Team> = [
     { id: 13, name: "Not too shabbyAlonso", manager: "Tom Wyer", plTeam: PLTeams.CHELSEA },
     { id: 14, name: "Sharonaldo", manager: "Sharon Perry", plTeam: PLTeams.ASTON_VILLA, isPaid: true },
     { id: 15, name: "Kinder Mbeumo", manager: "Alex Burney", plTeam: PLTeams.MAN_UNITED },
+    { id: 16, name: "No T No Shade", manager: "Jade Dixon Bowers", plTeam: PLTeams.MAN_CITY },
+    { id: 17, name: "Wards Wanderers", manager: "Scott Ward", plTeam: PLTeams.WOLVES },
+    { id: 18, name: "Kp nuts", manager: "Katie Perry", plTeam: PLTeams.CHELSEA },
+    { id: 19, name: "79th time lucky", manager: "Joseph Temple", plTeam: PLTeams.NEWCASTLE },
+    { id: 20, name: "Krusty’s Blue Moon", manager: "Kirsty Dixon Bowers", plTeam: PLTeams.MAN_CITY },
 ];

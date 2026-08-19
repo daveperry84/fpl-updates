@@ -19,6 +19,11 @@ const TEAMS = [
     { id: 13, name: "Not too shabbyAlonso", manager: "Tom Wyer" },
     { id: 14, name: "Sharonaldo", manager: "Sharon Perry", isPaid: true },
     { id: 15, name: "Kinder Mbeumo", manager: "Alex Burney" },
+    { id: 16, name: "No T No Shade", manager: "Jade Dixon Bowers" },
+    { id: 17, name: "Wards Wanderers", manager: "Scott Ward" },
+    { id: 18, name: "Kp nuts", manager: "Katie Perry" },
+    { id: 19, name: "79th time lucky", manager: "Joseph Temple" },
+    { id: 20, name: "Krusty’s Blue Moon", manager: "Kirsty Dixon Bowers" },
 ];
 
 const tsLiteral = toTsLiteral(data, 2);
