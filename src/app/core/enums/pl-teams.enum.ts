@@ -12,6 +12,7 @@ export enum PLTeams {
     NOTTINGHAM_FOREST = 17,
     CRYSTAL_PALACE = 31,
     BRIGHTON = 36,
+    WOLVES = 39,
     IPSWICH = 40,
     MAN_CITY = 43,
     FULHAM = 54,
