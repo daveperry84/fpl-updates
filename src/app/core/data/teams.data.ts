@@ -20,7 +20,7 @@ export const TEAMS: ReadonlyArray<Team> = [
     { id: 9, name: "Redder's Rejects", manager: "David Redfern", plTeam: PLTeams.LIVERPOOL },
     { id: 10, name: "Dragospear's XI", manager: "Areeb Dar" },
     { id: 11, name: "Richmond FC", manager: "Matthew Doyle", plTeam: PLTeams.MAN_CITY, isPaid: true },
-    { id: 12, name: "DuncanDisorder", manager: "Liam Duncan", plTeam: PLTeams.LIVERPOOL },
+    { id: 12, name: "DuncanDisorder", manager: "Liam Duncan", plTeam: PLTeams.LIVERPOOL, isPaid: true },
     { id: 13, name: "Not too shabbyAlonso", manager: "Tom Wyer", plTeam: PLTeams.CHELSEA },
     { id: 14, name: "Sharonaldo", manager: "Sharon Perry", plTeam: PLTeams.ASTON_VILLA, isPaid: true },
     { id: 15, name: "Kinder Mbeumo", manager: "Alex Burney", plTeam: PLTeams.MAN_UNITED },
@@ -29,4 +29,6 @@ export const TEAMS: ReadonlyArray<Team> = [
     { id: 18, name: "Kp nuts", manager: "Katie Perry", plTeam: PLTeams.CHELSEA },
     { id: 19, name: "79th time lucky", manager: "Joseph Temple", plTeam: PLTeams.NEWCASTLE },
     { id: 20, name: "Krusty’s Blue Moon", manager: "Kirsty Dixon Bowers", plTeam: PLTeams.MAN_CITY },
+    { id: 21, name: "Mcginniesta", manager: "Josh Swain", plTeam: PLTeams.ASTON_VILLA },
+    { id: 22, name: "Try Hard FC", manager: "Matthew Ashley", plTeam: PLTeams.MAN_UNITED },
 ];

@@ -6,12 +6,12 @@
         { "team": "Yorkshire Lass FC", "manager": "Claire Perry" }
     ],
     "sacked": [
-        { "team": "Krusty’s Blue Moon", "manager": "Kirsty Dixon Bowers" }
+        { "team": "Try Hard FC", "manager": "Matthew Ashley" }
     ],
     "otherUpdates": [
         { 
-            "title": "⏭️ Next Gameweek", 
-            "content": "The deadline for locking in teams, transfers and chips for GW1 is Friday 21st August at 6:30pm.",
+            "title": "Next Gameweek", 
+            "content": "The deadline for locking in teams, transfers and chips for GW2 is Friday 28th August at 6:30pm.",
             "currentOnly": true
         }
     ],
@@ -35,6 +35,8 @@
         { "rank": 17, "team": "Wards Wanderers", "manager": "Scott Ward", "gw": 31, "total": 31 },
         { "rank": 18, "team": "Kp nuts", "manager": "Katie Perry", "gw": 29, "total": 29 },
         { "rank": 19, "team": "79th time lucky", "manager": "Joseph Temple", "gw": 27, "total": 27 },
-        { "rank": 20, "team": "Krusty’s Blue Moon", "manager": "Kirsty Dixon Bowers", "gw": 25, "total": 25 }
+        { "rank": 20, "team": "Krusty’s Blue Moon", "manager": "Kirsty Dixon Bowers", "gw": 25, "total": 25 },
+        { "rank": 21, "team": "Mcginniesta", "manager": "Josh Swain", "gw": 23, "total": 23 },
+        { "rank": 22, "team": "Try Hard FC", "manager": "Matthew Ashley", "gw": 21, "total": 21 }
     ]
 }

@@ -15,7 +15,7 @@ const TEAMS = [
     { id: 9, name: "Redder's Rejects", manager: "David Redfern" },
     { id: 10, name: "Dragospear's XI", manager: "Areeb Dar" },
     { id: 11, name: "Richmond FC", manager: "Matthew Doyle", isPaid: true },
-    { id: 12, name: "DuncanDisorder", manager: "Liam Duncan" },
+    { id: 12, name: "DuncanDisorder", manager: "Liam Duncan", isPaid: true },
     { id: 13, name: "Not too shabbyAlonso", manager: "Tom Wyer" },
     { id: 14, name: "Sharonaldo", manager: "Sharon Perry", isPaid: true },
     { id: 15, name: "Kinder Mbeumo", manager: "Alex Burney" },
@@ -24,6 +24,8 @@ const TEAMS = [
     { id: 18, name: "Kp nuts", manager: "Katie Perry" },
     { id: 19, name: "79th time lucky", manager: "Joseph Temple" },
     { id: 20, name: "Krusty’s Blue Moon", manager: "Kirsty Dixon Bowers" },
+    { id: 21, name: "Mcginniesta", manager: "Josh Swain" },
+    { id: 22, name: "Try Hard FC", manager: "Matthew Ashley" },
 ];
 
 const tsLiteral = toTsLiteral(data, 2);
