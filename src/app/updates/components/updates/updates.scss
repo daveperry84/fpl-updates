@@ -219,12 +219,11 @@
 
     &__rich-text {
         display: grid;
-        gap: 0.75rem;
         line-height: 1.7;
         color: #5f5a6b;
 
-        :deep(p) {
-            margin: 0;
+        ::ng-deep p {
+            margin: 0.5rem 0 !important;
         }
     }
 
