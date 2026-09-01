@@ -55,6 +55,7 @@
                             <div class="updates__overview-overlay">
                                 <button type="button" class="updates__overview-button" (click)="expandOverview()">
                                     <span>Show full overview</span>
+                                    <ng-icon name="ionChevronDown" />
                                 </button>
                             </div>
                         }
@@ -62,8 +63,9 @@
 
                     @if (overviewExpanded()) {
                         <div class="updates__overview-collapse">
-                            <button type="button" class="updates__overview-button" (click)="collapseOverview()">
+                            <button type="button" class="updates__overview-button updates__overview-button--link" (click)="collapseOverview()">
                                 <span>Collapse overview</span>
+                                <ng-icon name="ionChevronUp" />
                             </button>
                         </div>
                     }
