@@ -48,7 +48,25 @@
                             <h2>Overview</h2>
                         </div>
                     </div>
-                    <div class="updates__rich-text" [innerHTML]="_data.overview"></div>
+                    <div class="updates__overview-shell {{!overviewExpanded() ? 'updates__overview-shell--collapsed' : ''}}">
+                        <div class="updates__rich-text" [innerHTML]="_data.overview"></div>
+
+                        @if (!overviewExpanded()) {
+                            <div class="updates__overview-overlay">
+                                <button type="button" class="updates__overview-button" (click)="expandOverview()">
+                                    <span>Show full overview</span>
+                                </button>
+                            </div>
+                        }
+                    </div>
+
+                    @if (overviewExpanded()) {
+                        <div class="updates__overview-collapse">
+                            <button type="button" class="updates__overview-button" (click)="collapseOverview()">
+                                <span>Collapse overview</span>
+                            </button>
+                        </div>
+                    }
                 </section>
             }
 

@@ -1,4 +1,4 @@
-import { Component, computed, input, signal, viewChild } from '@angular/core';
+import { Component, computed, effect, input, signal, viewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { GameWeek, TeamData } from '../../../core/types/game-week.type';
 import { League } from '../../../league/components/league/league';
@@ -19,8 +19,16 @@ export class Updates {
   public gameweek = input<number>(1);
   public isCurrent = input<boolean>(false);
   public selectedLeagueView = signal<LeagueView>(LeagueView.BANTER);
+  public overviewExpanded = signal<boolean>(false);
   public leagueView = LeagueView;
   protected leagueCompRef = viewChild<League>('league');
+
+  constructor() {
+    effect(() => {
+      this.gameweek();
+      this.overviewExpanded.set(false);
+    });
+  }
 
   public data = computed<GameWeek>(() => {
     return allGWData.find(gw => gw.gameweek === this.gameweek())!;
@@ -70,5 +78,13 @@ export class Updates {
 
   public selectLeagueView(view: LeagueView): void {
     this.selectedLeagueView.set(view);
+  }
+
+  public expandOverview(): void {
+    this.overviewExpanded.set(true);
+  }
+
+  public collapseOverview(): void {
+    this.overviewExpanded.set(false);
   }
 }
