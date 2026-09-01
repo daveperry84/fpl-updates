@@ -264,18 +264,18 @@ export const allGWData: GameWeek[] = [
       },
       {
         rank: 5,
-        teamId: 17,
-        team: "Wards Wanderers",
-        manager: "Scott Ward",
-        gw: 93,
-        total: 159
-      },
-      {
-        rank: 5,
         teamId: 13,
         team: "Not too shabbyAlonso",
         manager: "Tom Wyer",
         gw: 112,
+        total: 159
+      },
+      {
+        rank: 5,
+        teamId: 17,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 93,
         total: 159
       },
       {
