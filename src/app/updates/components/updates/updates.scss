@@ -227,6 +227,41 @@
         }
     }
 
+    &__overview-shell {
+        position: relative;
+        overflow: visible;
+
+        &--collapsed {
+            max-height: none;
+            overflow: hidden;
+        }
+    }
+
+    &__overview-overlay {
+        display: none;
+    }
+
+    &__overview-button {
+        border: none;
+        cursor: pointer;
+        background: #fff;
+        font-size: 0.92rem;
+        padding: 8px 12px;
+        border-radius: 999px;
+        color: #502054;
+        font-weight: 700;
+        box-shadow: 0 10px 24px rgba(41, 25, 58, 0.12);
+
+        &:hover {
+            background-color: rgba(148, 61, 255, 0.1);
+            transition: background-color 0.2s ease;
+        }
+    }
+
+    &__overview-collapse {
+        display: none;
+    }
+
     @media (max-width: 768px) {
         &__hero {
             padding: 1.1rem 1rem 1rem;
@@ -243,6 +278,34 @@
 
         &__section {
             padding: 0.95rem;
+        }
+
+        &__overview-shell {
+            &--collapsed {
+                max-height: 210px;
+            }
+        }
+
+        &__overview-overlay {
+            position: absolute;
+            inset: 0;
+            display: block;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 48%, rgba(255, 255, 255, 0.95) 100%);
+            pointer-events: none;
+
+            .updates__overview-button {
+                position: absolute;
+                right: 0.2rem;
+                bottom: 0.45rem;
+                pointer-events: auto;
+            }
+        }
+
+        &__overview-collapse {
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 0.65rem;
         }
     }
 }
