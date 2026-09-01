@@ -1,5 +1,7 @@
 import { Component, computed, effect, input, signal, viewChild } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { NG_ICON_DIRECTIVES, provideIcons } from '@ng-icons/core';
+import { ionChevronDown, ionChevronUp } from '@ng-icons/ionicons';
 import { GameWeek, TeamData } from '../../../core/types/game-week.type';
 import { League } from '../../../league/components/league/league';
 import { allGWData } from '../../../../data/gameweeks';
@@ -11,9 +13,10 @@ export enum LeagueView {
 
 @Component({
   selector: 'app-updates',
-  imports: [League, RouterLink],
+  imports: [League, RouterLink, ...NG_ICON_DIRECTIVES],
   templateUrl: './updates.html',
-  styleUrl: './updates.scss'
+  styleUrl: './updates.scss',
+  viewProviders: [provideIcons({ ionChevronUp, ionChevronDown })]
 })
 export class Updates {
   public gameweek = input<number>(1);

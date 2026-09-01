@@ -55,6 +55,7 @@
                             <div class="updates__overview-overlay">
                                 <button type="button" class="updates__overview-button" (click)="expandOverview()">
                                     <span>Show full overview</span>
+                                    <ng-icon name="ionChevronDown" />
                                 </button>
                             </div>
                         }
@@ -62,8 +63,9 @@
 
                     @if (overviewExpanded()) {
                         <div class="updates__overview-collapse">
-                            <button type="button" class="updates__overview-button" (click)="collapseOverview()">
+                            <button type="button" class="updates__overview-button updates__overview-button--link" (click)="collapseOverview()">
                                 <span>Collapse overview</span>
+                                <ng-icon name="ionChevronUp" />
                             </button>
                         </div>
                     }
@@ -120,7 +122,7 @@
                         @if (!update.currentOnly || (update.currentOnly && isCurrent())) {
                             <article class="updates__other-item">
                                 <h2>{{update.title}}</h2>
-                                <div [innerHTML]="update.content"></div>
+                                <div class="updates__other-content" [innerHTML]="update.content"></div>
                             </article>
                         }
                     }

@@ -197,12 +197,16 @@
     }
 
     &__other-item {
-        padding: 0.95rem 0;
+        padding-top: 0.95rem;
         border-top: 1px solid #efe7f7;
 
         &:first-child {
             padding-top: 0;
             border-top: 0;
+        }
+
+        &:not(:last-child) {
+            padding-bottom: 0.95rem;
         }
 
         h2 {
@@ -214,6 +218,20 @@
         div {
             color: #5f5a6b;
             line-height: 1.65;
+        }
+    }
+
+    &__other-content {
+        ::ng-deep p {
+            margin: 0.5rem 0;
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 
@@ -242,6 +260,9 @@
     }
 
     &__overview-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
         border: none;
         cursor: pointer;
         background: #fff;
@@ -255,6 +276,21 @@
         &:hover {
             background-color: rgba(148, 61, 255, 0.1);
             transition: background-color 0.2s ease;
+        }
+
+        &--link {
+            background: transparent;
+            box-shadow: none;
+            padding: 0;
+            border-radius: 0;
+            color: #6e2b8d;
+            font-size: 0.88rem;
+
+            &:hover {
+                background: transparent;
+                color: #502054;
+                text-decoration: underline;
+            }
         }
     }
 
