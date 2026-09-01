@@ -224,7 +224,7 @@ export const allGWData: GameWeek[] = [
     ],
     otherUpdates: [
       {
-        title: "⏭️ Next Gameweek",
+        title: "Next Gameweek",
         content: "<p>The deadline for locking in teams, transfers and chips for GW3 is <b>Friday 4th September</b> at <b>6:30pm</b>.</p>",
         currentOnly: true
       }
