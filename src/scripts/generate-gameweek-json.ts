@@ -16,7 +16,7 @@ const output = `
     ],
     "otherUpdates": [
         { 
-            "title": "⏭️ Next Gameweek", 
+            "title": "Next Gameweek", 
             "content": "",
             "currentOnly": true
         }
