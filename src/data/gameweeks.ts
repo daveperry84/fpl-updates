@@ -610,5 +610,212 @@ export const allGWData: GameWeek[] = [
         total: 123
       }
     ]
+  },
+  {
+    gameweek: 4,
+    overview: "<p><b>Mcginning to believe</b> remains top of the pile after another solid 94 points, but <b>DuncanDisorder</b> is now just 7 points behind after edging them this week with 95. The big mover was <b>Dragospear's XI</b>, who rocketed from 13th to 5th after the highest score of the week - an impressive 101 points. <b>Livesdownthelaine</b> also climbed three places into 3rd, while <b>Gayfield of Dreams</b> jumped four places to 7th. It was a tougher week for <b>Wards Wanderers</b>, who dropped from 3rd to 11th, while <b>MattyCashInTheAttic</b> also slipped four places to 9th. With just 12 points separating 3rd to 7th, things are getting very tight behind the top two.</p><p>The Premier League served up plenty of drama too. <b>Arsenal maintained their perfect start</b> with a 2-0 win at Sunderland, while <b>Liverpool were held to a goalless draw</b> by Fulham and <b>Chelsea could only manage 2-2</b> against newly promoted Hull. <b>Brighton smashed Coventry 5-0</b>, while the Manchester derby saw <b>City beat United 1-0</b> despite playing with 10 men for more than an hour after Phil Foden’s early red card. <b>Haaland grabbed the winner</b>, although the goal was surrounded by controversy after a lengthy VAR check. <b>Leeds then rounded off the weekend</b> with an emphatic 4-1 win over Newcastle.</p><p>Four gameweeks down, <b>Mcginning to believe</b> still leads the way - but with the chasing pack bunching up, there's plenty of opportunity for someone to make a move.</p>",
+    totw: [
+      {
+        teamId: 10,
+        team: "Dragospear's XI",
+        manager: "Areeb Dar"
+      }
+    ],
+    sacked: [
+      {
+        teamId: 18,
+        team: "Kp nuts",
+        manager: "Katie Perry"
+      }
+    ],
+    otherUpdates: [
+      {
+        title: "We need Your Feedback!",
+        content: "<p>We would love your feedback on these updates - anything you like, dislike or would like to see more of? Maybe you've got a shout out, a grudge you want to air or something else you would like included in the update - just let me know via the WhatsApp group and I'll add it to the update for the following week.</p>"
+      },
+      {
+        title: "Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW5 is <b>Friday 18th September</b> at <b>6:30pm</b>.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        teamId: 3,
+        team: "Mcginning to believe",
+        manager: "Gareth Taylor",
+        gw: 94,
+        total: 329
+      },
+      {
+        rank: 2,
+        teamId: 12,
+        team: "DuncanDisorder",
+        manager: "Liam Duncan",
+        gw: 95,
+        total: 322
+      },
+      {
+        rank: 3,
+        teamId: 6,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 82,
+        total: 295
+      },
+      {
+        rank: 4,
+        teamId: 2,
+        team: "Yorkshire Lass FC",
+        manager: "Claire Perry",
+        gw: 80,
+        total: 293
+      },
+      {
+        rank: 5,
+        teamId: 10,
+        team: "Dragospear's XI",
+        manager: "Areeb Dar",
+        gw: 101,
+        total: 290
+      },
+      {
+        rank: 6,
+        teamId: 4,
+        team: "Ctrl Alt Defeat",
+        manager: "Stuart Jackson",
+        gw: 75,
+        total: 286
+      },
+      {
+        rank: 7,
+        teamId: 7,
+        team: "Gayfield of Dreams",
+        manager: "Simon Lavery",
+        gw: 90,
+        total: 285
+      },
+      {
+        rank: 8,
+        teamId: 13,
+        team: "Not too shabbyAlonso",
+        manager: "Tom Wyer",
+        gw: 79,
+        total: 279
+      },
+      {
+        rank: 9,
+        teamId: 1,
+        team: "MattyCashInTheAttic",
+        manager: "Dave Perry",
+        gw: 63,
+        total: 276
+      },
+      {
+        rank: 10,
+        teamId: 5,
+        team: "Brian the lion",
+        manager: "Brian Perry",
+        gw: 75,
+        total: 273
+      },
+      {
+        rank: 11,
+        teamId: 17,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 54,
+        total: 271
+      },
+      {
+        rank: 12,
+        teamId: 20,
+        team: "Krusty's Blue Moon",
+        manager: "Kirsty Dixon Bowers",
+        gw: 75,
+        total: 267
+      },
+      {
+        rank: 13,
+        teamId: 8,
+        team: "Delap of the Gods",
+        manager: "Sandeep Dhillon",
+        gw: 77,
+        total: 267
+      },
+      {
+        rank: 14,
+        teamId: 9,
+        team: "Redder's Rejects",
+        manager: "David Redfern",
+        gw: 72,
+        total: 248
+      },
+      {
+        rank: 15,
+        teamId: 16,
+        team: "No T No Shade",
+        manager: "Jade Dixon Bowers",
+        gw: 63,
+        total: 247
+      },
+      {
+        rank: 16,
+        teamId: 15,
+        team: "Kinder Mbeumo",
+        manager: "Alex Burney",
+        gw: 56,
+        total: 244
+      },
+      {
+        rank: 17,
+        teamId: 11,
+        team: "Richmond FC",
+        manager: "Matthew Doyle",
+        gw: 60,
+        total: 218
+      },
+      {
+        rank: 18,
+        teamId: 22,
+        team: "Try Hard FC",
+        manager: "Matthew Ashley",
+        gw: 50,
+        total: 217
+      },
+      {
+        rank: 19,
+        teamId: 14,
+        team: "Sharonaldo",
+        manager: "Sharon Perry",
+        gw: 49,
+        total: 210
+      },
+      {
+        rank: 20,
+        teamId: 18,
+        team: "Kp nuts",
+        manager: "Katie Perry",
+        gw: 48,
+        total: 206
+      },
+      {
+        rank: 21,
+        teamId: 21,
+        team: "Mcginniesta",
+        manager: "Josh Swain",
+        gw: 70,
+        total: 193
+      },
+      {
+        rank: 22,
+        teamId: 19,
+        team: "79th time lucky",
+        manager: "Joseph Temple",
+        gw: 50,
+        total: 191
+      }
+    ]
   }
 ];
