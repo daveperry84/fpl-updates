@@ -830,9 +830,9 @@ export const allGWData: GameWeek[] = [
     ],
     sacked: [
       {
-        teamId: 22,
-        team: "Try Hard FC",
-        manager: "Matthew Ashley"
+        teamId: 9,
+        team: "Redder's Rejects",
+        manager: "David Redfern"
       }
     ],
     otherUpdates: [
