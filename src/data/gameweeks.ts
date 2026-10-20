@@ -1223,5 +1223,208 @@ export const allGWData: GameWeek[] = [
         total: 267
       }
     ]
+  },
+  {
+    gameweek: 7,
+    overview: "<p><b>We have a new leader</b> - and it's getting nervy at the top! <b>Mcginning to believe</b> has finally toppled <b>DuncanDisorder</b>, moving into 1st place with 531 points, although the gap is a tiny <b>3 points</b> after scores of 75 and 64 respectively this week. The star performer was <b>MattyCashInTheAttic</b>, who bagged an impressive 96 points to climb from 5th to 3rd. <b>Yorkshire Lass FC</b> and <b>Ctrl Alt Defeat</b> also rose two places each, while <b>Kinder Mbeumo</b> made the biggest climb, jumping three places to 17th with 72 points. It was a tougher week for <b>Gayfield of Dreams</b>, who slipped from 3rd to 5th, and <b>Kp nuts</b>, who dropped three places to 20th after scoring just 20 points. Seven gameweeks down, and the top two are separated by practically nothing - one big haul could change everything!</p><p>The Premier League served up some huge scores and plenty of drama too. <b>Man City</b> kept their perfect start going with a thrilling 3-2 win over Ipswich, with Erling Haaland scoring twice, while <b>Brighton</b> demolished Crystal Palace 5-0. <b>Liverpool</b> came from behind to beat Brentford 2-1, helped by Brentford being reduced to nine men, and <b>Chelsea</b> beat Everton 2-0 thanks to a Pedro Neto brace. <b>Arsenal</b> edged Nottingham Forest 1-0, while <b>Spurs</b> finished the gameweek with a 3-1 win over Coventry. With City flying and Haaland continuing to deliver, FPL managers will be hoping their teams are keeping pace - especially with the battle for mini-league bragging rights now wide open!</p>",
+    totw: [
+      {
+        teamId: 1,
+        team: "MattyCashInTheAttic",
+        manager: "Dave Perry"
+      }
+    ],
+    sacked: [
+      {
+        teamId: 18,
+        team: "Kp nuts",
+        manager: "Katie Perry"
+      }
+    ],
+    otherUpdates: [
+      {
+        title: "Next Gameweek",
+        content: "<p>The deadline for locking in teams, transfers and chips for GW8 is <b>Friday 23rd October</b> at <b>6:30pm</b>.</p>",
+        currentOnly: true
+      }
+    ],
+    league: [
+      {
+        rank: 1,
+        teamId: 3,
+        team: "Mcginning to believe",
+        manager: "Gareth Taylor",
+        gw: 75,
+        total: 531
+      },
+      {
+        rank: 2,
+        teamId: 12,
+        team: "DuncanDisorder",
+        manager: "Liam Duncan",
+        gw: 64,
+        total: 528
+      },
+      {
+        rank: 3,
+        teamId: 1,
+        team: "MattyCashInTheAttic",
+        manager: "Dave Perry",
+        gw: 96,
+        total: 499
+      },
+      {
+        rank: 4,
+        teamId: 20,
+        team: "Krusty's Blue Moon",
+        manager: "Kirsty Dixon Bowers",
+        gw: 71,
+        total: 475
+      },
+      {
+        rank: 5,
+        teamId: 7,
+        team: "Gayfield of Dreams",
+        manager: "Simon Lavery",
+        gw: 50,
+        total: 473
+      },
+      {
+        rank: 6,
+        teamId: 2,
+        team: "Yorkshire Lass FC",
+        manager: "Claire Perry",
+        gw: 73,
+        total: 459
+      },
+      {
+        rank: 7,
+        teamId: 13,
+        team: "Not too shabbyAlonso",
+        manager: "Tom Wyer",
+        gw: 66,
+        total: 458
+      },
+      {
+        rank: 8,
+        teamId: 6,
+        team: "Livesdownthelaine",
+        manager: "Elaine Redfern",
+        gw: 66,
+        total: 456
+      },
+      {
+        rank: 9,
+        teamId: 10,
+        team: "Dragospear's XI",
+        manager: "Areeb Dar",
+        gw: 69,
+        total: 452
+      },
+      {
+        rank: 10,
+        teamId: 4,
+        team: "Ctrl Alt Defeat",
+        manager: "Stuart Jackson",
+        gw: 73,
+        total: 433
+      },
+      {
+        rank: 11,
+        teamId: 8,
+        team: "Delap of the Gods",
+        manager: "Sandeep Dhillon",
+        gw: 69,
+        total: 431
+      },
+      {
+        rank: 12,
+        teamId: 16,
+        team: "No T No Shade",
+        manager: "Jade Dixon Bowers",
+        gw: 79,
+        total: 421
+      },
+      {
+        rank: 13,
+        teamId: 5,
+        team: "Brian the lion",
+        manager: "Brian Perry",
+        gw: 50,
+        total: 403
+      },
+      {
+        rank: 14,
+        teamId: 11,
+        team: "Richmond FC",
+        manager: "Matthew Doyle",
+        gw: 63,
+        total: 394
+      },
+      {
+        rank: 15,
+        teamId: 17,
+        team: "Wards Wanderers",
+        manager: "Scott Ward",
+        gw: 45,
+        total: 393
+      },
+      {
+        rank: 16,
+        teamId: 9,
+        team: "Redder's Rejects",
+        manager: "David Redfern",
+        gw: 54,
+        total: 391
+      },
+      {
+        rank: 17,
+        teamId: 15,
+        team: "Kinder Mbeumo",
+        manager: "Alex Burney",
+        gw: 72,
+        total: 376
+      },
+      {
+        rank: 18,
+        teamId: 21,
+        team: "Mcginniesta",
+        manager: "Josh Swain",
+        gw: 48,
+        total: 363
+      },
+      {
+        rank: 19,
+        teamId: 14,
+        team: "Sharonaldo",
+        manager: "Sharon Perry",
+        gw: 34,
+        total: 346
+      },
+      {
+        rank: 20,
+        teamId: 18,
+        team: "Kp nuts",
+        manager: "Katie Perry",
+        gw: 20,
+        total: 337
+      },
+      {
+        rank: 21,
+        teamId: 22,
+        team: "Try Hard FC",
+        manager: "Matthew Ashley",
+        gw: 55,
+        total: 334
+      },
+      {
+        rank: 22,
+        teamId: 19,
+        team: "79th time lucky",
+        manager: "Joseph Temple",
+        gw: 38,
+        total: 305
+      }
+    ]
   }
 ];
