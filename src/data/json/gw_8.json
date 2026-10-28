@@ -1,0 +1,174 @@
+
+{
+    "gameweek": 8,
+    "overview": "<p><b>A week to forget for many FPL managers</b> - and nobody at the top could really pull away! <b>Mcginning to believe</b> remains top of the pile with 573 points, but managed just 42 this week, leaving <b>DuncanDisorder</b> breathing down their neck at only <b>2 points behind</b> after scoring 43. <b>MattyCashInTheAttic</b> holds on to 3rd with 55 points, while the biggest climber was <b>Dragospear's XI</b>, who jumped four places from 9th to 5th after a solid 59-point haul. <b>Wards Wanderers</b> and <b>Try Hard FC</b> also climbed two places each, while <b>Gayfield of Dreams</b> slipped from 3rd to 6th. It was a particularly low-scoring week, with even the top teams struggling to make big gains. With just 2 points between the top two, one decent week could completely flip the leaderboard!</p><p>The Premier League offered little relief for FPL managers either, with just <b>19 goals across the 10 matches</b>. The biggest headache came when <b>João Pedro</b> was unexpectedly ruled out of Chelsea's match against Spurs shortly before kick-off, leaving managers scrambling after the late injury news. Chelsea then lost 2-0 to Spurs, while <b>Man City</b> suffered their first league defeat of the season, losing 2-1 to Aston Villa. <b>Man United</b> had an afternoon to forget as Bournemouth won 3-0 at Old Trafford, while Arsenal beat Everton 2-0 and Liverpool saw off Brighton by the same scoreline. There were also two goalless draws, as Sunderland and Leeds shared the points and the goals stayed firmly away. With popular picks blanking and points hard to come by, GW8 was a reminder that sometimes simply getting through the week without too much damage is a result in itself!</p>",
+    "totw": [
+        { "team": "Try Hard FC", "manager": "Matthew Ashley" }
+    ],
+    "sacked": [
+        { "team": "Kp nuts", "manager": "Katie Perry" }
+    ],
+    "otherUpdates": [
+        { 
+            "title": "Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW9 is <b>Saturday 31st October</b> at <b>11am</b>.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        {
+            "rank": 1,
+            "team": "Mcginning to believe",
+            "manager": "Gareth Taylor",
+            "gw": 42,
+            "total": 573
+        },
+        {
+            "rank": 2,
+            "team": "DuncanDisorder",
+            "manager": "Liam Duncan",
+            "gw": 43,
+            "total": 571
+        },
+        {
+            "rank": 3,
+            "team": "MattyCashInTheAttic",
+            "manager": "Dave Perry",
+            "gw": 55,
+            "total": 554
+        },
+        {
+            "rank": 4,
+            "team": "Krusty's Blue Moon",
+            "manager": "Kirsty Dixon Bowers",
+            "gw": 42,
+            "total": 517
+        },
+        {
+            "rank": 5,
+            "team": "Dragospear's XI",
+            "manager": "Areeb Dar",
+            "gw": 59,
+            "total": 511
+        },
+        {
+            "rank": 6,
+            "team": "Gayfield of Dreams",
+            "manager": "Simon Lavery",
+            "gw": 34,
+            "total": 507
+        },
+        {
+            "rank": 7,
+            "team": "Yorkshire Lass FC",
+            "manager": "Claire Perry",
+            "gw": 47,
+            "total": 506
+        },
+        {
+            "rank": 8,
+            "team": "Livesdownthelaine",
+            "manager": "Elaine Redfern",
+            "gw": 41,
+            "total": 497
+        },
+        {
+            "rank": 9,
+            "team": "Not too shabbyAlonso",
+            "manager": "Tom Wyer",
+            "gw": 39,
+            "total": 497
+        },
+        {
+            "rank": 10,
+            "team": "Ctrl Alt Defeat",
+            "manager": "Stuart Jackson",
+            "gw": 52,
+            "total": 485
+        },
+        {
+            "rank": 11,
+            "team": "No T No Shade",
+            "manager": "Jade Dixon Bowers",
+            "gw": 40,
+            "total": 461
+        },
+        {
+            "rank": 12,
+            "team": "Delap of the Gods",
+            "manager": "Sandeep Dhillon",
+            "gw": 31,
+            "total": 454
+        },
+        {
+            "rank": 13,
+            "team": "Wards Wanderers",
+            "manager": "Scott Ward",
+            "gw": 59,
+            "total": 452
+        },
+        {
+            "rank": 14,
+            "team": "Richmond FC",
+            "manager": "Matthew Doyle",
+            "gw": 57,
+            "total": 451
+        },
+        {
+            "rank": 15,
+            "team": "Redder's Rejects",
+            "manager": "David Redfern",
+            "gw": 50,
+            "total": 441
+        },
+        {
+            "rank": 16,
+            "team": "Brian the lion",
+            "manager": "Brian Perry",
+            "gw": 35,
+            "total": 438
+        },
+        {
+            "rank": 17,
+            "team": "Kinder Mbeumo",
+            "manager": "Alex Burney",
+            "gw": 55,
+            "total": 431
+        },
+        {
+            "rank": 18,
+            "team": "Mcginniesta",
+            "manager": "Josh Swain",
+            "gw": 41,
+            "total": 404
+        },
+        {
+            "rank": 19,
+            "team": "Try Hard FC",
+            "manager": "Matthew Ashley",
+            "gw": 63,
+            "total": 397
+        },
+        {
+            "rank": 20,
+            "team": "Sharonaldo",
+            "manager": "Sharon Perry",
+            "gw": 45,
+            "total": 383
+        },
+        {
+            "rank": 21,
+            "team": "Kp nuts",
+            "manager": "Katie Perry",
+            "gw": 30,
+            "total": 367
+        },
+        {
+            "rank": 22,
+            "team": "79th time lucky",
+            "manager": "Joseph Temple",
+            "gw": 42,
+            "total": 347
+        }
+    ]
+}
