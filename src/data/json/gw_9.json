@@ -1,0 +1,174 @@
+
+{
+    "gameweek": 9,
+    "overview": "<p><b>GW9 brought a big shake-up in the chasing pack</b>, with one manager making a serious move! <b>Mcginning to believe</b> stays top with a superb 80 points this week, taking the overall total to 653. But <b>MattyCashInTheAttic</b> was right on their heels with an excellent 76-point haul, climbing from 3rd to 2nd and moving ahead of <b>DuncanDisorder</b>, who drops to 3rd after scoring 43. The gap at the summit is now 23 points, with plenty of time for that to change. <b>Brian the lion</b> was the biggest climber, jumping three places from 16th to 13th after a strong 65 points, while <b>Gayfield of Dreams</b> also made good progress, moving up two spots to 4th. At the other end of the top ten, <b>Krusty's Blue Moon</b> had a week to forget, slipping three places from 4th to 7th. There were also solid returns from <b>Delap of the Gods</b> with 67 and <b>Mcginniesta</b> with 66, although neither moved up the table. The battle for the top spots is certainly heating up!</p><p>In the Premier League, GW9 was a week of clean sheets, surprise results and some painful captaincy returns. There were <b>21 goals across the ten matches</b>, with seven teams keeping a clean sheet. The biggest FPL talking point was Erling Haaland, who was the most-captained player but managed just <b>2 points</b> as Manchester City lost 1-0 at home to Brighton. <b>Arsenal</b> also claimed a huge 1-0 win at Liverpool, while <b>Chelsea</b> beat Manchester United 2-0, with United reduced to ten men. <b>Spurs</b> continued their good run with a 2-0 victory over Crystal Palace, and <b>Everton</b> nicked a 1-0 win away at Newcastle. Elsewhere, Bournemouth and Brentford both recorded 2-0 wins, while Hull and Ipswich shared four goals in a 2-2 draw. With Haaland blanking and defenders doing plenty of the damage, it was a week when a well-picked back line could make all the difference!</p>",
+    "totw": [
+        { "team": "Mcginning to believe", "manager": "Gareth Taylor" }
+    ],
+    "sacked": [
+        { "team": "79th time lucky", "manager": "Joseph Temple" }
+    ],
+    "otherUpdates": [
+        { 
+            "title": "Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW10 is <b>Friday 6th November</b> at <b>6:30pm</b>.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        {
+            "rank": 1,
+            "team": "Mcginning to believe",
+            "manager": "Gareth Taylor",
+            "gw": 80,
+            "total": 653
+        },
+        {
+            "rank": 2,
+            "team": "MattyCashInTheAttic",
+            "manager": "Dave Perry",
+            "gw": 76,
+            "total": 630
+        },
+        {
+            "rank": 3,
+            "team": "DuncanDisorder",
+            "manager": "Liam Duncan",
+            "gw": 43,
+            "total": 614
+        },
+        {
+            "rank": 4,
+            "team": "Gayfield of Dreams",
+            "manager": "Simon Lavery",
+            "gw": 59,
+            "total": 566
+        },
+        {
+            "rank": 5,
+            "team": "Dragospear's XI",
+            "manager": "Areeb Dar",
+            "gw": 48,
+            "total": 559
+        },
+        {
+            "rank": 6,
+            "team": "Yorkshire Lass FC",
+            "manager": "Claire Perry",
+            "gw": 57,
+            "total": 559
+        },
+        {
+            "rank": 7,
+            "team": "Krusty's Blue Moon",
+            "manager": "Kirsty Dixon Bowers",
+            "gw": 39,
+            "total": 556
+        },
+        {
+            "rank": 8,
+            "team": "Not too shabbyAlonso",
+            "manager": "Tom Wyer",
+            "gw": 50,
+            "total": 547
+        },
+        {
+            "rank": 9,
+            "team": "Livesdownthelaine",
+            "manager": "Elaine Redfern",
+            "gw": 38,
+            "total": 535
+        },
+        {
+            "rank": 10,
+            "team": "Ctrl Alt Defeat",
+            "manager": "Stuart Jackson",
+            "gw": 44,
+            "total": 529
+        },
+        {
+            "rank": 11,
+            "team": "No T No Shade",
+            "manager": "Jade Dixon Bowers",
+            "gw": 57,
+            "total": 518
+        },
+        {
+            "rank": 12,
+            "team": "Delap of the Gods",
+            "manager": "Sandeep Dhillon",
+            "gw": 67,
+            "total": 517
+        },
+        {
+            "rank": 13,
+            "team": "Brian the lion",
+            "manager": "Brian Perry",
+            "gw": 65,
+            "total": 503
+        },
+        {
+            "rank": 14,
+            "team": "Redder's Rejects",
+            "manager": "David Redfern",
+            "gw": 50,
+            "total": 491
+        },
+        {
+            "rank": 15,
+            "team": "Wards Wanderers",
+            "manager": "Scott Ward",
+            "gw": 38,
+            "total": 490
+        },
+        {
+            "rank": 16,
+            "team": "Richmond FC",
+            "manager": "Matthew Doyle",
+            "gw": 35,
+            "total": 486
+        },
+        {
+            "rank": 17,
+            "team": "Kinder Mbeumo",
+            "manager": "Alex Burney",
+            "gw": 49,
+            "total": 480
+        },
+        {
+            "rank": 18,
+            "team": "Mcginniesta",
+            "manager": "Josh Swain",
+            "gw": 66,
+            "total": 470
+        },
+        {
+            "rank": 19,
+            "team": "Try Hard FC",
+            "manager": "Matthew Ashley",
+            "gw": 45,
+            "total": 442
+        },
+        {
+            "rank": 20,
+            "team": "Sharonaldo",
+            "manager": "Sharon Perry",
+            "gw": 57,
+            "total": 440
+        },
+        {
+            "rank": 21,
+            "team": "Kp nuts",
+            "manager": "Katie Perry",
+            "gw": 38,
+            "total": 405
+        },
+        {
+            "rank": 22,
+            "team": "79th time lucky",
+            "manager": "Joseph Temple",
+            "gw": 32,
+            "total": 379
+        }
+    ]
+}
