@@ -1,0 +1,174 @@
+
+{
+    "gameweek": 11,
+    "overview": "<p><b>It’s getting seriously close at the summit</b>, with just four points separating the top two! <b>Mcginning to believe</b> holds on to first place with 728 points, despite a relatively quiet 27-point week. <b>DuncanDisorder</b> also stays put in second, picking up 39 points to close the gap to just <b>four points</b>. <b>MattyCashInTheAttic</b> remains third on 711, keeping the pressure on the leaders. The biggest movers were <b>Krusty's Blue Moon</b>, climbing two places into 4th, and <b>Richmond FC</b>, also rising two spots to 13th after a useful 46-point return. <b>Livesdownthelaine</b> moved up one place into 9th with the week's best score of <b>51 points</b>. Meanwhile, <b>Dragospear's XI</b> and <b>Gayfield of Dreams</b> each slipped one place, while <b>Not too shabbyAlonso</b> dropped out of the top ten. At the bottom, <b>79th time lucky</b> climbed above <b>Kp nuts</b>, who now occupy 22nd. It was a fairly modest scoring week for most, but with only four points at the top, the title race is well and truly on!</p><p>The Premier League delivered some big results and a few serious FPL talking points, with <b>30 goals across the ten matches</b>. The headline result was Liverpool's emphatic <b>4-0 win over Manchester United</b>, with Florian Wirtz among the goals and collecting 14 FPL points. Leeds also stunned Chelsea with a <b>4-1 victory</b> at Stamford Bridge, while Brentford matched Liverpool's four-goal margin by thrashing Everton 4-0. Arsenal were held to a 2-2 draw at Newcastle, and Manchester City could only manage a 1-1 draw with Fulham. There were further surprises as Hull beat Brighton 2-0 and Bournemouth defeated Nottingham Forest by the same scoreline. Tottenham got the job done with a 2-0 win over Ipswich, while Aston Villa and Sunderland played out a goalless draw. With Liverpool and Brentford defenders enjoying big returns and some popular teams taking a beating, GW11 certainly gave FPL managers plenty to think about!</p>",
+    "totw": [
+        { "team": "Livesdownthelaine", "manager": "Elaine Redfern" }
+    ],
+    "sacked": [
+        { "team": "Kp nuts", "manager": "Katie Perry" }
+    ],
+    "otherUpdates": [
+        { 
+            "title": "Next Gameweek", 
+            "content": "<p>The deadline for locking in teams, transfers and chips for GW12 is <b>Friday 27th November</b> at <b>6:30pm</b>.</p>",
+            "currentOnly": true
+        }
+    ],
+    "league": [
+        {
+            "rank": 1,
+            "team": "Mcginning to believe",
+            "manager": "Gareth Taylor",
+            "gw": 27,
+            "total": 728
+        },
+        {
+            "rank": 2,
+            "team": "DuncanDisorder",
+            "manager": "Liam Duncan",
+            "gw": 39,
+            "total": 724
+        },
+        {
+            "rank": 3,
+            "team": "MattyCashInTheAttic",
+            "manager": "Dave Perry",
+            "gw": 27,
+            "total": 711
+        },
+        {
+            "rank": 4,
+            "team": "Krusty's Blue Moon",
+            "manager": "Kirsty Dixon Bowers",
+            "gw": 40,
+            "total": 660
+        },
+        {
+            "rank": 5,
+            "team": "Dragospear's XI",
+            "manager": "Areeb Dar",
+            "gw": 30,
+            "total": 658
+        },
+        {
+            "rank": 6,
+            "team": "Gayfield of Dreams",
+            "manager": "Simon Lavery",
+            "gw": 33,
+            "total": 655
+        },
+        {
+            "rank": 7,
+            "team": "Ctrl Alt Defeat",
+            "manager": "Stuart Jackson",
+            "gw": 38,
+            "total": 649
+        },
+        {
+            "rank": 8,
+            "team": "Yorkshire Lass FC",
+            "manager": "Claire Perry",
+            "gw": 31,
+            "total": 637
+        },
+        {
+            "rank": 9,
+            "team": "Livesdownthelaine",
+            "manager": "Elaine Redfern",
+            "gw": 51,
+            "total": 632
+        },
+        {
+            "rank": 10,
+            "team": "Not too shabbyAlonso",
+            "manager": "Tom Wyer",
+            "gw": 27,
+            "total": 627
+        },
+        {
+            "rank": 11,
+            "team": "Brian the lion",
+            "manager": "Brian Perry",
+            "gw": 38,
+            "total": 618
+        },
+        {
+            "rank": 12,
+            "team": "No T No Shade",
+            "manager": "Jade Dixon Bowers",
+            "gw": 35,
+            "total": 613
+        },
+        {
+            "rank": 13,
+            "team": "Richmond FC",
+            "manager": "Matthew Doyle",
+            "gw": 46,
+            "total": 595
+        },
+        {
+            "rank": 14,
+            "team": "Delap of the Gods",
+            "manager": "Sandeep Dhillon",
+            "gw": 31,
+            "total": 595
+        },
+        {
+            "rank": 15,
+            "team": "Redder's Rejects",
+            "manager": "David Redfern",
+            "gw": 35,
+            "total": 588
+        },
+        {
+            "rank": 16,
+            "team": "Wards Wanderers",
+            "manager": "Scott Ward",
+            "gw": 34,
+            "total": 577
+        },
+        {
+            "rank": 17,
+            "team": "Kinder Mbeumo",
+            "manager": "Alex Burney",
+            "gw": 33,
+            "total": 567
+        },
+        {
+            "rank": 18,
+            "team": "Mcginniesta",
+            "manager": "Josh Swain",
+            "gw": 37,
+            "total": 565
+        },
+        {
+            "rank": 19,
+            "team": "Sharonaldo",
+            "manager": "Sharon Perry",
+            "gw": 40,
+            "total": 550
+        },
+        {
+            "rank": 20,
+            "team": "Try Hard FC",
+            "manager": "Matthew Ashley",
+            "gw": 25,
+            "total": 509
+        },
+        {
+            "rank": 21,
+            "team": "79th time lucky",
+            "manager": "Joseph Temple",
+            "gw": 35,
+            "total": 460
+        },
+        {
+            "rank": 22,
+            "team": "Kp nuts",
+            "manager": "Katie Perry",
+            "gw": 22,
+            "total": 458
+        }
+    ]
+}
